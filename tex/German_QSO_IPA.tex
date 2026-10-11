@@ -1,0 +1,244 @@
+% !TeX program = xelatex
+% UTF-8; compile twice with XeLaTeX. No external images or data files needed.
+\documentclass[a4paper,landscape,10pt]{article}
+\usepackage[margin=14mm,headheight=14pt,headsep=5mm,footskip=7mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\newfontfamily\ipafont{DejaVu Sans}
+\usepackage[table]{xcolor}
+\usepackage{array,longtable,booktabs,fancyhdr}
+\definecolor{ink}{HTML}{18384D}
+\definecolor{band}{HTML}{E7EFF4}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{ink}Parlez Vous QSO?! · Deutsch / German}
+\fancyhead[R]{\small Englische Phrase · Deutsche Übersetzung · IPA}
+\fancyfoot[L]{\scriptsize Vorlage: German v 1.0 · Credits: Michael -- DL1GBM}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{3mm}
+\renewcommand{\arraystretch}{1.25}
+\newcommand{\ipa}[1]{{\ipafont[#1]}}
+\begin{document}
+{\LARGE\bfseries\color{ink}Parlez Vous QSO?!}\hfill{\large Deutsch / German}
+
+\vspace{2mm}
+{\small QSO-Sprachführer mit standarddeutscher IPA-Lautschrift. Die Lautschrift bezieht sich auf die deutsche Spalte.}
+
+\vspace{2mm}
+{\footnotesize \textbf{Leseschlüssel:} \ipa{ˈ} Hauptbetonung, \ipa{ˌ} Nebenbetonung, \ipa{ː} langer Vokal,
+\ipa{ç} wie in „ich“, \ipa{x} wie in „Bach“, \ipa{ʁ} deutsches r, \ipa{ɐ̯} vokalisiertes r.
+Schrägstriche trennen Alternativen; \ipa{…} steht für einen einzusetzenden Ausdruck.}
+
+\vspace{1mm}
+\fontsize{9}{11.8}\selectfont
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{13mm}>{\raggedright\arraybackslash}p{73mm}>{\raggedright\arraybackslash}p{75mm}>{\raggedright\arraybackslash}p{90mm}@{}}
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Deutsch} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Deutsch} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\scriptsize Fortsetzung auf der nächsten Seite}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\rowcolor{band} 1.0 & \textbf{Opening Greetings} & \multicolumn{2}{l}{\textbf{Begrüßung}} \\*
+1.1 & I am very pleased to meet you. & Es freut mich sehr, Sie zu treffen.\newline Es freut mich sehr, Dich zu treffen. & \ipa{ɛs fʁɔʏt mɪç zeːɐ̯ ziː tsuː ˈtʁɛfən / ɛs fʁɔʏt mɪç zeːɐ̯ dɪç tsuː ˈtʁɛfən} \\
+1.2 & Thank you for your call & Danke für Ihren Anruf. & \ipa{ˈdaŋkə fyːɐ̯ ˈiːʁən ˈanʁuːf} \\
+1.3 & Good morning & Guten Morgen. & \ipa{ˈɡuːtən ˈmɔʁɡən} \\
+1.31 & Good day & Guten Tag. & \ipa{ˈɡuːtən taːk} \\
+1.32 & Good afternoon & Guten Tag. & \ipa{ˈɡuːtən taːk} \\
+1.33 & Good evening & Guten Abend. & \ipa{ˈɡuːtən ˈaːbənt} \\
+1.4 & I know only a little German but I enjoy QSOs in German. & Ich spreche nur wenig Deutsch, aber ich führe gerne QSOs in Deutsch. & \ipa{ɪç ˈʃpʁɛçə nuːɐ̯ ˈveːnɪç dɔʏtʃ abɐ ɪç ˈfyːʁə ˈɡɛʁnə kuː ɛs oːs ɪn dɔʏtʃ} \\
+\rowcolor{band} 2.0 & \textbf{Operator} & \multicolumn{2}{l}{\textbf{Operator}} \\*
+2.1 & My name is Peter. & Ich heiße Peter. & \ipa{ɪç ˈhaɪsə ˈpeːtɐ} \\
+2.2 & I have been licensed since 1960. & Ich habe seit 1960 eine Amateurfunklizenz. & \ipa{ɪç ˈhaːbə zaɪt ˈnɔʏntseːnhʊndɐtˈzɛçtsɪç ˈaɪnə amaˈtøːɐ̯fʊŋkliˌtsɛnts} \\
+2.3 & I have been licensed for 43 years. & Ich bin seit 43 Jahren Funkamateur. & \ipa{ɪç bɪn zaɪt ˈdʁaɪʊntˌfɪʁtsɪç ˈjaːʁən ˈfʊŋkʔamatøːɐ̯} \\
+2.4 & I live in Sittingbourne. & Ich wohne in Sittingbourne. & \ipa{ɪç ˈvoːnə ɪn ˈsɪtɪŋbɔːn} \\
+2.5 & Sittingbourne is a village. & Sittingbourne ist ein Dorf. & \ipa{ˈsɪtɪŋbɔːn ɪst aɪn dɔʁf} \\
+2.51 & Sittingbourne is a town. & Sittingbourne ist ein Ort. & \ipa{ˈsɪtɪŋbɔːn ɪst aɪn ɔʁt} \\
+2.52 & Sittingbourne is a city. & Sittingbourne ist eine Stadt. & \ipa{ˈsɪtɪŋbɔːn ɪst ˈaɪnə ʃtat} \\
+2.6 & Sittingbourne is between London and Dover. & Sittingbourne liegt zwischen London und Dover. & \ipa{ˈsɪtɪŋbɔːn liːkt ˈtsvɪʃən ˈlɔndɔn ʊnt ˈdəʊvə} \\
+2.7 & I live in the South of England. & Ich lebe im Süden Englands. & \ipa{ɪç ˈleːbə ɪm ˈzyːdən ˈɛŋlants} \\
+2.71 & I live in the North of England. & Ich lebe im Norden Englands. & \ipa{ɪç ˈleːbə ɪm ˈnɔʁdən ˈɛŋlants} \\
+2.72 & I live in the East of England. & Ich lebe im Osten Englands. & \ipa{ɪç ˈleːbə ɪm ˈɔstən ˈɛŋlants} \\
+2.73 & I live in West of England. & Ich lebe im Westen Englands. & \ipa{ɪç ˈleːbə ɪm ˈvɛstən ˈɛŋlants} \\
+2.74 & I live in South East England. & Ich lebe im Südosten Englands. & \ipa{ɪç ˈleːbə ɪm ˈzyːtˌɔstən ˈɛŋlants} \\
+2.75 & I live in South West England. & Ich lebe im Südwesten Englands. & \ipa{ɪç ˈleːbə ɪm ˈzyːtˌvɛstən ˈɛŋlants} \\
+2.76 & I live in North East England. & Ich lebe im Nordosten Englands. & \ipa{ɪç ˈleːbə ɪm ˈnɔʁtˌɔstən ˈɛŋlants} \\
+2.77 & I live in North West England. & Ich lebe im Nordwesten Englands. & \ipa{ɪç ˈleːbə ɪm ˈnɔʁtˌvɛstən ˈɛŋlants} \\
+2.78 & I live in central England. & Ich lebe in Zentralengland. & \ipa{ɪç ˈleːbə ɪn tsɛnˈtʁaːlˌɛŋlant} \\
+2.8 & I live in the country. & Ich lebe auf dem Land. & \ipa{ɪç ˈleːbə aʊf deːm lant} \\
+2.81 & I live by the sea. & Ich lebe in Küstennähe. & \ipa{ɪç ˈleːbə ɪn ˈkʏstənˌnɛːə} \\
+2.82 & I live near mountains. & Ich lebe in der Nähe der Berge. & \ipa{ɪç ˈleːbə ɪn deːɐ̯ ˈnɛːə deːɐ̯ ˈbɛʁɡə} \\
+2.9 & Sittingbourne is 50Km from London. & Sittingbourne liegt 50km von London. & \ipa{ˈsɪtɪŋbɔːn liːkt ˈfʏnftsɪç kiloˈmeːtɐ fɔn ˈlɔndɔn} \\
+2.11 & I am retired. & Ich bin im Ruhestand. & \ipa{ɪç bɪn ɪm ˈʁuːəˌʃtant} \\
+2.12 & My home call sign is M0ECS. & Mein Heimatrufzeichen ist M0ECS. & \ipa{maɪn ˈhaɪmaːtˌʁuːfˌtsaɪçən ɪst ɛm nʊl eː tseː ɛs} \\
+\rowcolor{band} 3.0 & \textbf{Station} & \multicolumn{2}{l}{\textbf{Station}} \\*
+3.1 & My radio is an Icom 706. & Mein (Funk-)Gerät ist ein Icom siebenhundertsechs. & \ipa{maɪn fʊŋkɡəˈʁɛːt ɪst aɪn ˈaɪkɔm ˈziːbənhʊndɐtˈzɛks} \\
+3.2 & My station is all homebrew (homemade). & Meine Station ist komplett selbst gebaut. & \ipa{ˈmaɪnə ʃtaˈtsi̯oːn ɪst kɔmˈplɛt zɛlpst ɡəˈbaʊt} \\
+3.3 & I am running 5 Watts. & Ich sende mit 5 Watt. & \ipa{ɪç ˈzɛndə mɪt fʏnf vat} \\
+3.4 & My antenna is a long wire. & Meine Antenne ist ein Langdraht. & \ipa{ˈmaɪnə anˈtɛnə ɪst aɪn ˈlaŋˌdʁaːt} \\
+3.41 & My antenna is a dipole. & Meine Antenne ist ein Dipol. & \ipa{ˈmaɪnə anˈtɛnə ɪst aɪn diˈpoːl} \\
+3.42 & My antenna is a G5RV. & Meine Antenne ist eine G5RV. & \ipa{ˈmaɪnə anˈtɛnə ɪst ˈaɪnə ɡeː fʏnf ɛʁ faʊ} \\
+3.43 & My antenna is a doublet. & Meine Antenne ist ein Doublet. & \ipa{ˈmaɪnə anˈtɛnə ɪst aɪn ˈdʌblət} \\
+3.44 & My antenna is a delta loop. & Meine Antenne ist eine Delta-Loop. & \ipa{ˈmaɪnə anˈtɛnə ɪst ˈaɪnə ˈdɛlta luːp} \\
+3.45 & My antenna is a vertical. & Meine Antenne ist eine Vertikal. & \ipa{ˈmaɪnə anˈtɛnə ɪst ˈaɪnə vɛʁtiˈkaːl} \\
+3.46 & My antenna is a log periodic. & Meine Antenne ist eine Log-Periodic. & \ipa{ˈmaɪnə anˈtɛnə ɪst ˈaɪnə lɒɡ pɪəɹiˈɒdɪk} \\
+3.47 & My antenna is a Yagi beam. & Meine Antenne ist eine Yagi. & \ipa{ˈmaɪnə anˈtɛnə ɪst ˈaɪnə ˈjaːɡi} \\
+3.48 & My antenna is a 5 element beam. & Meine Antenne ist ein 5 Element Beam. & \ipa{ˈmaɪnə anˈtɛnə ɪst aɪn fʏnf eleˈmɛnt biːm} \\
+\rowcolor{band} 4.0 & \textbf{Conditions} & \multicolumn{2}{l}{\textbf{Die Bedingungen}} \\*
+4.1 & Thank you for my 599 report. & Danke für meinen guten Rapport. & \ipa{ˈdaŋkə fyːɐ̯ ˈmaɪnən ˈɡuːtən ʁaˈpɔʁt} \\
+4.2 & The band conditions are good. & Die Bedingungen sind gut. & \ipa{diː bəˈdɪŋʊŋən zɪnt ɡuːt} \\
+4.3 & The band conditions are bad. & Die Bedingungen sind schlecht. & \ipa{diː bəˈdɪŋʊŋən zɪnt ʃlɛçt} \\
+4.4 & There is strong interference here. & Ich habe starke Störungen. & \ipa{ɪç ˈhaːbə ˈʃtaʁkə ˈʃtøːʁʊŋən} \\
+4.5 & Can you change to the 80m band? & Können Sie auf das 80 Meter Band wechseln? & \ipa{ˈkœnən ziː aʊf das ˈaxtsɪç ˈmeːtɐ bant ˈvɛksəln} \\
+4.6 & Please change frequency to 3.558 MHz. & Bitte wechseln Sie auf 3,558 MHz. & \ipa{ˈbɪtə ˈvɛksəln ziː aʊf dʁaɪ ˈkɔma fʏnf fʏnf axt ˈmeːɡaˌhɛʁts} \\
+\rowcolor{band} 5.0 & \textbf{General Queries and Comments} & \multicolumn{2}{l}{\textbf{Allgemeine Fragen und Kommentare}} \\*
+5.1 & What does <\#\#\#\#\#> mean please? & Was bitte bedeutet <\#\#\#\#\#>? & \ipa{vas ˈbɪtə bəˈdɔʏtət …} \\
+5.2 & Please wait a moment, I need to check my German dictionary. & Warten Sie einen Moment, ich schaue in meinem Deutsch-Wörterbuch nach. & \ipa{ˈvaʁtən ziː ˈaɪnən moˈmɛnt ɪç ˈʃaʊə ɪn ˈmaɪnəm ˈdɔʏtʃˌvœʁtɐbuːx naːx} \\
+5.3 & How do you say, <\#\#\#\#\#> in German ? & Wie sagt man <\#\#\#\#\#> auf Deutsch? & \ipa{viː zaːkt man … aʊf dɔʏtʃ} \\
+5.5 & My favourite modes of operation are CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / Digital Modes / and SSB & Meine Lieblingsbetriebsart ist Telegrafie / Fernschreiben / PSK / MT63 / Olivia / Hell / digitale Betriebsarten / und Fonie. & \ipa{ˈmaɪnə ˈliːplɪŋsˌbətʁiːpsʔaːɐ̯t ɪst teleɡʁaˈfiː / ˈfɛʁnˌʃʁaɪbən / peː ɛs kaː / ɛm teː ˈdʁaɪʊntˌzɛçtsɪç / oˈliːvi̯a / hɛl / diɡiˈtaːlə bəˈtʁiːpsˌʔaːɐ̯tən / ʊnt foˈniː} \\
+5.6 & My best DX is Australia. & Meine weiteste Verbindung war nach Australien. & \ipa{ˈmaɪnə ˈvaɪtəstə fɛɐ̯ˈbɪndʊŋ vaːɐ̯ naːx aʊsˈtʁaːli̯ən} \\
+5.7 & I enjoy working contests. & Ich mache gerne Conteste. & \ipa{ɪç ˈmaxə ˈɡɛʁnə ˈkɔntɛstə} \\
+5.8 & I like working QRP. & Ich arbeite gerne mit kleinen Leistungen / mit QRP. & \ipa{ɪç ˈaʁbaɪtə ˈɡɛʁnə mɪt ˈklaɪnən ˈlaɪstʊŋən / mɪt kuː ɛʁ peː} \\
+\rowcolor{band} 6.0 & \textbf{The Weather} & \multicolumn{2}{l}{\textbf{Das Wetter}} \\*
+6.1 & It is sunny. & Es ist sonnig. & \ipa{ɛs ɪst ˈzɔnɪç} \\
+6.2 & It is windy. & Es ist windig. & \ipa{ɛs ɪst ˈvɪndɪç} \\
+6.3 & It is raining. & Es regnet. & \ipa{ɛs ˈʁeːɡnət} \\
+6.4 & It is snowing. & Es schneit. & \ipa{ɛs ʃnaɪt} \\
+6.5 & It is very hot. & Es ist sehr warm. & \ipa{ɛs ɪst zeːɐ̯ vaʁm} \\
+6.6 & It is very cold. & Es ist sehr kalt. & \ipa{ɛs ɪst zeːɐ̯ kalt} \\
+6.7 & The temperature is 8C. & Die Temperatur beträgt acht Grad. & \ipa{diː tɛmpəʁaˈtuːɐ̯ bəˈtʁɛːkt axt ɡʁaːt} \\
+6.8 & It is overcast. & Es ist bewölkt. & \ipa{ɛs ɪst bəˈvœlkt} \\
+6.9 & It is foggy. & Es ist neblig. & \ipa{ɛs ɪst ˈneːblɪç} \\
+6.11 & It has been raining all day. & Es hat den ganzen Tag geregnet. & \ipa{ɛs hat deːn ˈɡantsən taːk ɡəˈʁeːɡnət} \\
+6.12 & There is 20cm of snow here. & Es liegen 20cm Schnee. & \ipa{ɛs ˈliːɡən ˈtsvantsɪç tsɛntiˈmeːtɐ ʃneː} \\
+\rowcolor{band} 8.0 & \textbf{QSL} & \multicolumn{2}{l}{\textbf{QSL / QSL-Karte}} \\*
+8.1 & My QSL card is sure via the bureau & Meine QSL Karte kommt über das Büro. & \ipa{ˈmaɪnə kuː ɛs ɛl ˈkaʁtə kɔmt ˈyːbɐ das byˈʁoː} \\
+8.2 & QSL via eQSL & Ich sende eine eQSL. & \ipa{ɪç ˈzɛndə ˈaɪnə iː kuː ɛs ɛl} \\
+8.3 & No eQSL please & Bitte keine eQSL. & \ipa{ˈbɪtə ˈkaɪnə iː kuː ɛs ɛl} \\
+8.4 & I will send you my card direct. & Ich sende meine QSL-Karte direkt. & \ipa{ɪç ˈzɛndə ˈmaɪnə kuː ɛs ɛl ˈkaʁtə diˈʁɛkt} \\
+8.5 & What is your address? & Wie lautet Ihre Adresse? & \ipa{viː ˈlaʊtət ˈiːʁə aˈdʁɛsə} \\
+8.6 & Please send your QSL card direct. & Bitte senden Sie Ihre QSL Karte direkt. & \ipa{ˈbɪtə ˈzɛndən ziː ˈiːʁə kuː ɛs ɛl ˈkaʁtə diˈʁɛkt} \\
+8.7 & My address is... & Meine Adresse lautet… & \ipa{ˈmaɪnə aˈdʁɛsə ˈlaʊtət …} \\
+8.8 & My address is shown on QSL.com / EHam.net & Meine Adresse steht in QSL.com / eHam.net. & \ipa{ˈmaɪnə aˈdʁɛsə ʃteːt ɪn kuː ɛs ɛl pʊŋkt kɔm / iː hæm pʊŋkt nɛt} \\
+8.9 & Sorry I do not send QSL cards. & Ich bitte um Entschuldigung, da ich keine QSL-Karten versende. & \ipa{ɪç ˈbɪtə ʊm ɛntˈʃʊldɪɡʊŋ daː ɪç ˈkaɪnə kuː ɛs ɛl ˈkaʁtən fɛɐ̯ˈzɛndə} \\
+8.11 & Please send QSL card via G1JQH. & Bitte senden Sie die QSL Karte über G1JQH. & \ipa{ˈbɪtə ˈzɛndən ziː diː kuː ɛs ɛl ˈkaʁtə ˈyːbɐ ɡeː aɪns jɔt kuː haː} \\
+8.12 & My WACRAL / GQRP / DXCC / FISTS number is 1234. & Meine WACRAL / GQRP / DXCC / FISTS Nummer ist 1234. & \ipa{ˈmaɪnə veː aː tseː ɛʁ ɛl / ɡeː kuː ɛʁ peː / deː ɪks tseː tseː / fɪsts ˈnʊmɐ ɪst ˈaɪntaʊzəntˌtsvaɪhʊndɐtˈfɪʁʊntˌdʁaɪsɪç} \\
+\rowcolor{band} 9.0 & \textbf{Final Greetings} & \multicolumn{2}{l}{\textbf{Grüße zum Schluß / Verabschiedungen}} \\*
+9.1 & Thank you. & Danke. & \ipa{ˈdaŋkə} \\
+9.2 & Thank you for a very enjoyable contact. & Danke für die sehr nette Verbindung. & \ipa{ˈdaŋkə fyːɐ̯ diː zeːɐ̯ ˈnɛtə fɛɐ̯ˈbɪndʊŋ} \\
+9.3 & I enjoyed our chat. & Ich habe mich gefreut, mit Ihnen gesprochen zu haben. & \ipa{ɪç ˈhaːbə mɪç ɡəˈfʁɔʏt mɪt ˈiːnən ɡəˈʃpʁɔxən tsuː ˈhaːbən} \\
+9.4 & I enjoyed our QSO in German. & Ich habe mich über unser QSO in Deutsch gefreut. & \ipa{ɪç ˈhaːbə mɪç ˈyːbɐ ˈʊnzɐ kuː ɛs oː ɪn dɔʏtʃ ɡəˈfʁɔʏt} \\
+9.5 & It has been great fun. & Es hat mich gefreut.\newline Es hat mir Spaß gemacht. & \ipa{ɛs hat mɪç ɡəˈfʁɔʏt / ɛs hat miːɐ̯ ʃpaːs ɡəˈmaxt} \\
+9.6 & If you would like a regular contact with me, you can contact me via email. & Wenn Sie mich regelmäßig treffen wollen, senden Sie mir bitte eine Email. & \ipa{vɛn ziː mɪç ˈʁeːɡəlˌmɛːsɪç ˈtʁɛfən ˈvɔlən ˈzɛndən ziː miːɐ̯ ˈbɪtə ˈaɪnə ˈiːmeɪl} \\
+9.7 & My email address is... & Meine Email Adresse ist... & \ipa{ˈmaɪnə ˈiːmeɪl aˈdʁɛsə ɪst …} \\
+9.8 & My email address is shown on QSL.com / EHam.net & Meine Email Adresse steht in QSL.com / EHam.net & \ipa{ˈmaɪnə ˈiːmeɪl aˈdʁɛsə ʃteːt ɪn kuː ɛs ɛl pʊŋkt kɔm / iː hæm pʊŋkt nɛt} \\
+9.9 & I look forward to meeting you again. & Es würde mich freuen, Sie wieder zu treffen. & \ipa{ɛs ˈvʏʁdə mɪç ˈfʁɔʏən ziː ˈviːdɐ tsuː ˈtʁɛfən} \\
+9.11 & My best wishes to you and your family. & Meine besten Wünsche für Sie und Ihre Familie. & \ipa{ˈmaɪnə ˈbɛstən ˈvʏnʃə fyːɐ̯ ziː ʊnt ˈiːʁə faˈmiːli̯ə} \\
+9.12 & Best wishes to your wife. & Meine besten Wünsche für Ihre Frau. & \ipa{ˈmaɪnə ˈbɛstən ˈvʏnʃə fyːɐ̯ ˈiːʁə fʁaʊ} \\
+9.121 & Best wishes to your husband. & Meine besten Wünsche für Ihren Mann. & \ipa{ˈmaɪnə ˈbɛstən ˈvʏnʃə fyːɐ̯ ˈiːʁən man} \\
+9.13 & Good luck. & Viel Glück. & \ipa{fiːl ɡlʏk} \\
+9.14 & Good health. & Gute Gesundheit. & \ipa{ˈɡuːtə ɡəˈzʊnthaɪt} \\
+9.15 & Goodbye & Auf Wiederhören. & \ipa{aʊf ˈviːdɐˌhøːʁən} \\
+9.16 & I wish you an enjoyable afternoon. & Ich wünsche Ihnen einen schönen Tag. & \ipa{ɪç ˈvʏnʃə ˈiːnən ˈaɪnən ˈʃøːnən taːk} \\
+9.161 & I wish you an enjoyable evening. & Ich wünsche Ihnen einen schönen Abend. & \ipa{ɪç ˈvʏnʃə ˈiːnən ˈaɪnən ˈʃøːnən ˈaːbənt} \\
+9.162 & I wish you an enjoyable weekend. & Ich wünsche Ihnen ein schönes Wochenende. & \ipa{ɪç ˈvʏnʃə ˈiːnən aɪn ˈʃøːnəs ˈvɔxənˌʔɛndə} \\
+9.17 & Enjoy your holiday. & Einen schönen Urlaub. & \ipa{ˈaɪnən ˈʃøːnən ˈuːɐ̯laʊp} \\
+9.18 & Happy New Year. & Ein gutes neues Jahr. & \ipa{aɪn ˈɡuːtəs ˈnɔʏəs jaːɐ̯} \\
+\rowcolor{band} 10.0 & \textbf{Country} & \multicolumn{2}{l}{\textbf{Land}} \\*
+10.1 & Albania & Albanien & \ipa{alˈbaːni̯ən} \\
+10.2 & Austria & Österreich & \ipa{ˈøːstəʁaɪç} \\
+10.3 & Belgium & Belgien & \ipa{ˈbɛlɡi̯ən} \\
+10.4 & Belorussia & Weissrussland & \ipa{ˈvaɪsˌʁʊslant} \\
+10.5 & Bosnia \& Herzegovina & Bosnien-Herzegovina & \ipa{ˈbɔsni̯ən hɛʁtseˈɡoːviːna} \\
+10.6 & Bulgaria & Bulgarien & \ipa{bʊlˈɡaːʁi̯ən} \\
+10.7 & Croatia & Kroatien & \ipa{kʁoˈaːtsi̯ən} \\
+10.8 & Czech Republic & Tschechei & \ipa{tʃɛˈçaɪ} \\
+10.9 & Denmark & Dänemark & \ipa{ˈdɛːnəmaʁk} \\
+10.11 & Eire & Irland & \ipa{ˈɪʁlant} \\
+10.12 & England & England & \ipa{ˈɛŋlant} \\
+10.13 & Estonia & Estland & \ipa{ˈɛstlant} \\
+10.14 & Finland & Finnland & \ipa{ˈfɪnlant} \\
+10.15 & France & Frankreich & \ipa{ˈfʁaŋkʁaɪç} \\
+10.16 & Germany & Deutschland & \ipa{ˈdɔʏtʃlant} \\
+10.17 & Gibraltar & Gibraltar & \ipa{ɡiˈbʁaltaʁ} \\
+10.18 & Greece & Griechenland & \ipa{ˈɡʁiːçənlant} \\
+10.19 & Holland & Holland & \ipa{ˈhɔlant} \\
+10.21 & Hungary & Ungarn & \ipa{ˈʊŋɐn} \\
+10.22 & Iceland & Island & \ipa{ˈiːslant} \\
+10.23 & Northern Ireland & Nord-Irland & \ipa{ˈnɔʁtˌʔɪʁlant} \\
+10.24 & Isle of Man & Isle-of-Man & \ipa{ˌaɪl əv ˈmæn} \\
+10.25 & Italy & Italien & \ipa{iˈtaːli̯ən} \\
+10.26 & Latvia & Lettland & \ipa{ˈlɛtlant} \\
+10.27 & Liechtenstein & Liechtenstein & \ipa{ˈlɪçtənʃtaɪn} \\
+10.28 & Lithuania & Litauen & \ipa{ˈliːtaʊən} \\
+10.29 & Luxembourg & Luxemburg & \ipa{ˈlʊksəmˌbʊʁk} \\
+10.31 & Macedonia & Mazedonien & \ipa{matseˈdoːni̯ən} \\
+10.32 & Moldavia & Moldawien & \ipa{mɔlˈdaːvi̯ən} \\
+10.33 & Netherlands & Niederlande & \ipa{ˈniːdɐˌlandə} \\
+10.34 & Norway & Norwegen & \ipa{ˈnɔʁveːɡən} \\
+10.35 & Poland & Polen & \ipa{ˈpoːlən} \\
+10.36 & Portugal & Portugal & \ipa{ˈpɔʁtuɡal} \\
+10.37 & Romania & Rumänien & \ipa{ʁuˈmɛːni̯ən} \\
+10.38 & Russian Federation & Russland & \ipa{ˈʁʊslant} \\
+10.39 & Scotland & Schottland & \ipa{ˈʃɔtlant} \\
+10.41 & Slovakia & Slowakei & \ipa{sloˈvaːkaɪ} \\
+10.42 & Slovenia & Slowenien & \ipa{sloˈveːni̯ən} \\
+10.43 & Spain & Spanien & \ipa{ˈʃpaːni̯ən} \\
+10.44 & Svalbard & Svalbard & \ipa{ˈsvaːlbaʁt} \\
+10.45 & Sweden & Schweden & \ipa{ˈʃveːdən} \\
+10.46 & Switzerland & Schweiz & \ipa{ʃvaɪts} \\
+10.47 & Turkey & Türkei & \ipa{tʏʁˈkaɪ} \\
+10.48 & Ukraine & Ukraine & \ipa{ukʁaˈiːnə} \\
+10.49 & Wales & Wales & \ipa{veɪlz} \\
+\end{longtable}
+\normalsize
+\section*{Hinweise zur Übertragung und Aussprache}
+\small
+\textbf{Vorlage und Umfang.} Die englischen Phrasen und deutschen Übersetzungen wurden aus
+„German v 1.0.doc“ übernommen. Credits der Vorlage: Michael -- DL1GBM.
+Die ursprüngliche Gliederung und ihre Nummernsprünge bleiben erhalten, einschließlich des fehlenden
+Abschnitts 7. Insgesamt enthält die Tabelle 142 Phrasen und Ländernamen.
+
+\medskip
+\textbf{Dokumentierte Korrekturen.} Referenz „132“ wurde zu „1.32“;
+„Funkamatuer“ zu „Funkamateur“ (2.3); „G5GV“ zu „G5RV“ (3.42, entsprechend der englischen Spalte);
+„Finland“ zu „Finnland“ (10.14); „Littauen“ zu „Litauen“ (10.28).
+Außerdem wurde „deutsch“ in 1.4 großgeschrieben, der doppelte Punkt in 9.13 entfernt
+und das kaufmännische Und zwischen den zwei Anredevarianten in 1.1 durch einen Zeilenumbruch ersetzt.
+
+\medskip
+\textbf{Inhaltliche Eigenheiten der Quelle.} Historische Ländernamen wie „Tschechei“, „Weissrussland“
+und „Mazedonien“ bleiben erhalten. Die Bedeutungsunterschiede in 4.1 (599 / guter Rapport),
+5.5 (mehrere Betriebsarten / Lieblingsbetriebsart), 6.7 (8 °C / acht Grad) und
+9.16 (afternoon / Tag) wurden nicht inhaltlich angeglichen. Auch die Webadressen QSL.com und
+EHam.net sowie die ungewöhnliche Formulierung „liegt 50km von London“ entsprechen der Vorlage.
+
+\medskip
+\textbf{Transkriptionskonvention.} Die IPA-Spalte ist eine breite, manuell erstellte Aussprachehilfe für
+Standarddeutsch, keine enge phonetische Transkription einer Aufnahme. Verwendet wird ein uvulares r
+\ipa{ʁ} mit üblicher Vokalisierung. Unbetonte Endungen sind überwiegend in voller Form dargestellt;
+im natürlichen Gespräch sind Reduktionen möglich. Regionale Aussprachevarianten sind nicht aufgeführt.
+Englische Ortsnamen und Fachwörter wie Sittingbourne, Dover, Doublet, Log-Periodic und Isle of Man
+werden mit einer gebräuchlichen englischen Aussprache wiedergegeben. Bei Namen, Markennamen und
+Vereinskürzeln sind andere gebräuchliche Aussprachen möglich; die angegebenen Formen sind Beispiele.
+
+\medskip
+\textbf{Zahlen, Kürzel und Platzhalter.} Zahlen wurden in der Lautschrift ausgeschrieben;
+3,558 MHz wird als „drei Komma fünf fünf acht Megahertz“ gelesen. QSO, QSL, QRP, PSK, MT und
+Rufzeichen werden hier mit deutschen Buchstabennamen gesprochen; eQSL mit englischem „e“.
+Dies ist keine Wiedergabe im internationalen Buchstabieralphabet. FISTS wird als Wort, die übrigen Vereinskürzel werden als Buchstabenfolgen gelesen. Platzhalter \texttt{<\#\#\#\#\#>} werden
+nicht mitgesprochen; ihre Lautschrift ist als Auslassung markiert. Bei 3.1 gibt die Lautschrift die
+vollständig ausgesprochene Variante „Funkgerät“ wieder.
+
+\medskip
+\textbf{LaTeX.} Diese Datei ist UTF-8-kodiert und mit XeLaTeX zu kompilieren, für die korrekte
+Tabellenpaginierung zweimal. Benötigt werden die Schrift DejaVu Sans und die in der Präambel genannten
+üblichen LaTeX-Pakete. Die IPA-Zeichen sind direkt als Unicode eingegeben; das Dokument benötigt
+keine externen Dateien.
+\end{document}

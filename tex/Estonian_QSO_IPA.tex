@@ -1,0 +1,278 @@
+% !TeX program = xelatex
+% UTF-8; compile twice with XeLaTeX. No external images or data files needed.
+\documentclass[a4paper,landscape,10pt]{article}
+\usepackage[margin=14mm,headheight=14pt,headsep=5mm,footskip=7mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\newfontfamily\ipafont{DejaVu Sans}
+\usepackage[table]{xcolor}
+\usepackage{array,longtable,booktabs,fancyhdr}
+\definecolor{ink}{HTML}{18384D}
+\definecolor{band}{HTML}{E7EFF4}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{ink}Parlez Vous QSO?! · Eesti / Estonian}
+\fancyhead[R]{\small Englische Phrase · Estnische Übersetzung · IPA}
+\fancyfoot[L]{\scriptsize Vorlage: Estonian v 1.0 · Credits: Jüri -- ES5JR}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{3mm}
+\renewcommand{\arraystretch}{1.25}
+\newcommand{\ipa}[1]{{\ipafont[#1]}}
+\begin{document}
+{\LARGE\bfseries\color{ink}Parlez Vous QSO?!}\hfill{\large Eesti / Estonian}
+
+\vspace{2mm}
+{\small QSO-Sprachführer mit estnischer IPA-Lautschrift. Die Lautschrift bezieht sich auf die estnische Spalte.}
+
+\vspace{2mm}
+{\footnotesize \textbf{Leseschlüssel:} \ipa{ˈ} Hauptbetonung, \ipa{ˌ} Nebenbetonung, \ipa{ː} langer Laut;
+\ipa{ɑ} = a, \ipa{ɤ} = õ, \ipa{æ} = ä, \ipa{ø} = ö, \ipa{y} = ü, \ipa{ŋ} wie ng; \ipa{ʲ} bezeichnet Palatalisierung.
+Grundlage: Standardestnisch. Lang und überlang sind hier zusammengefasst; Schrägstriche trennen Alternativen.}
+
+\vspace{1mm}
+\fontsize{9}{11.8}\selectfont
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{13mm}>{\raggedright\arraybackslash}p{73mm}>{\raggedright\arraybackslash}p{75mm}>{\raggedright\arraybackslash}p{90mm}@{}}
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Eesti} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Eesti} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\scriptsize Fortsetzung auf der nächsten Seite}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\rowcolor{band} 1.0 & \textbf{Opening Greetings} & \multicolumn{2}{l}{\textbf{Tervitused}} \\*
+1.1 & I am very pleased to meet you. & Mul on suur rõõm sind kohata & \ipa{mul on suːr rɤːm sint ˈkohɑtɑ} \\
+1.2 & Thank you for your call & Tänan kutsumast & \ipa{ˈtænɑn ˈkutsumɑst} \\
+1.3 & Good morning & Tere hommikust & \ipa{ˈtere ˈhomːikust} \\
+1.31 & Good day & Tere päevast & \ipa{ˈtere ˈpæevɑst} \\
+1.32 & Good afternoon & Tere pärastlõunat & \ipa{ˈtere ˈpærɑstˌlɤunɑt} \\
+1.33 & Good evening & Tere õhtust & \ipa{ˈtere ˈɤhtust} \\
+1.4 & I know only a little Estonian but I enjoy QSOs in Estonian. & Ma räägin ainult õige pisut eesti keelt, kuid mulle meeldib eesti keeles sidet pidada & \ipa{mɑ ˈræːkin ˈɑinult ˈɤike ˈpisut ˈeːsti keːlt kuit ˈmulːe ˈmeːltip ˈeːsti ˈkeːles ˈsitet ˈpitɑtɑ} \\
+\rowcolor{band} 2.0 & \textbf{Operator} & \multicolumn{2}{l}{\textbf{Operaator}} \\*
+2.1 & My name is Peter. & Minu nimi on Peter & \ipa{ˈminu ˈnimi on ˈpiːtə} \\
+2.2 & I have been licensed since 1960. & Ma olen raadioamatöör olnud alates 1960.-st (tuhande üheksasaja kuuekümnendast) aastast & \ipa{mɑ ˈolen ˈrɑːtioɑmɑˌtøːr ˈolnut ˈɑlɑtes ˈtuhɑnte ˈyheksɑˌsɑjɑ ˈkuːeˌkymːnentɑst ˈɑːstɑst} \\
+2.3 & I have been licensed for 43 years. & Ma olen raadioamatöör olnud 43 (nelikümmend kolm) aastat. & \ipa{mɑ ˈolen ˈrɑːtioɑmɑˌtøːr ˈolnut ˈneliˌkymːent kolm ˈɑːstɑt} \\
+2.4 & I live in Sittingbourne. & Ma elan Sittingbourne’is. & \ipa{mɑ ˈelɑn ˈsɪtɪŋbɔːnis} \\
+2.5 & Sittingbourne is a village. & Sittingbourne on küla. & \ipa{ˈsɪtɪŋbɔːn on ˈkylɑ} \\
+2.51 & Sittingbourne is a town. & Sittingbourne on linn. & \ipa{ˈsɪtɪŋbɔːn on linʲː} \\
+2.52 & Sittingbourne is a city. & Sittingbourne on (suur)linn. & \ipa{ˈsɪtɪŋbɔːn on linʲː / ˈsuːrˌlinʲː} \\
+2.6 & Sittingbourne is between London and Dover. & Sittingbourne asub Londoni ja Doveri vahel. & \ipa{ˈsɪtɪŋbɔːn ˈɑsup ˈlontoni jɑ ˈdəʊvəri ˈvɑhel} \\
+2.7 & I live in the South of England. & Ma elan Lõuna-Inglismaal. & \ipa{mɑ ˈelɑn ˈlɤunɑ ˈiŋlisˌmɑːl} \\
+2.71 & I live in the North of England. & Ma elan Põhja-Inglismaal. & \ipa{mɑ ˈelɑn ˈpɤhjɑ ˈiŋlisˌmɑːl} \\
+2.72 & I live in the East of England. & Ma elan Ida-Inglismaal. & \ipa{mɑ ˈelɑn ˈitɑ ˈiŋlisˌmɑːl} \\
+2.73 & I live in West of England. & Ma elan Lääne-Inglismaal. & \ipa{mɑ ˈelɑn ˈlæːne ˈiŋlisˌmɑːl} \\
+2.74 & I live in South East England. & Ma elan Kagu-Inglismaal. & \ipa{mɑ ˈelɑn ˈkɑku ˈiŋlisˌmɑːl} \\
+2.75 & I live in South West England. & Ma elan Edela-Inglismaal. & \ipa{mɑ ˈelɑn ˈetelɑ ˈiŋlisˌmɑːl} \\
+2.76 & I live in North East England. & Ma elan Kirde-Inglismaal. & \ipa{mɑ ˈelɑn ˈkirte ˈiŋlisˌmɑːl} \\
+2.77 & I live in North West England. & Ma elan Loode-Inglismaal. & \ipa{mɑ ˈelɑn ˈloːte ˈiŋlisˌmɑːl} \\
+2.78 & I live in central England. & Ma elan Kesk-Inglismaal. & \ipa{mɑ ˈelɑn ˈkesk ˈiŋlisˌmɑːl} \\
+2.8 & I live in the country. & Ma elan maal. & \ipa{mɑ ˈelɑn mɑːl} \\
+2.81 & I live by the sea. & Ma elan mere ääres. & \ipa{mɑ ˈelɑn ˈmere ˈæːres} \\
+2.82 & I live near mountains. & Ma elan mägede lähedal. & \ipa{mɑ ˈelɑn ˈmækete ˈlæhetɑl} \\
+2.9 & Sittingbourne is 50 km from London. & Sittingbourne on 50 (viiekümne) kilomeetri kaugusel Londonist. & \ipa{ˈsɪtɪŋbɔːn on ˈviːeˌkymːne ˈkiloˌmeːtri ˈkɑukusel ˈlontonist} \\
+2.11 & I am retired. & Ma olen pensionil. & \ipa{mɑ ˈolen ˈpensʲionil} \\
+2.12 & My home call sign is M0ECS. & Mu kodukutsung on M0ECS. & \ipa{mu ˈkotuˌkutsuŋ on em nulː eː tseː es} \\
+\rowcolor{band} 3.0 & \textbf{Station} & \multicolumn{2}{l}{\textbf{Jaam}} \\*
+3.1 & My radio is an Icom 706. & Mu (raadio)jaam (transiiver) on Icom 706. & \ipa{mu jɑːm on ˈaɪkɒm ˈseitsesɑtɑ kuːs / mu ˈrɑːtioˌjɑːm on ˈaɪkɒm ˈseitsesɑtɑ kuːs / mu trɑnˈsiːver on ˈaɪkɒm ˈseitsesɑtɑ kuːs} \\
+3.2 & My station is all homebrew (homemade). & Ma olen kogu jaama ise ehitanud. & \ipa{mɑ ˈolen ˈkoku ˈjɑːmɑ ˈise ˈehitɑnut} \\
+3.3 & I am running 5 Watts. & Jaama võimsus on 5 vatti. & \ipa{ˈjɑːmɑ ˈvɤimsus on viːs ˈvɑtːi} \\
+3.4 & My antenna is a long wire. & Mu antenniks on pikk traat. & \ipa{mu ɑnˈtenːiks on pikː trɑːt} \\
+3.41 & My antenna is a dipole. & Mul on dipoolantenn. & \ipa{mul on tiˈpoːlˌɑntenː} \\
+3.42 & My antenna is a G5RV. & Mu antenniks on G5RV. & \ipa{mu ɑnˈtenːiks on keː viːs er veː} \\
+3.43 & My antenna is a doublet. & Mul on dublettantenn. & \ipa{mul on tupˈletːˌɑntenː} \\
+3.44 & My antenna is a delta loop. & Mu antenniks on Delta-Loop. & \ipa{mu ɑnˈtenːiks on ˈteltɑ luːp} \\
+3.45 & My antenna is a vertical. & Mul on vertikaalantenn. & \ipa{mul on vertiˈkɑːlˌɑntenː} \\
+3.46 & My antenna is a log periodic. & Mul on logoperioodiline antenn. & \ipa{mul on ˈlokoˌperioːtiline ɑnˈtenː} \\
+3.47 & My antenna is a Yagi beam. & Mul on yagiantenn. & \ipa{mul on ˈjɑkiˌɑntenː} \\
+3.48 & My antenna is a 5 element beam. & Mul on viie-elemendiline yagi. & \ipa{mul on ˈviːe ˌelemenˈtiline ˈjɑki} \\
+\rowcolor{band} 4.0 & \textbf{Conditions} & \multicolumn{2}{l}{\textbf{Olud}} \\*
+4.1 & Thank you for my 599 report. & Tänan 599 raporti eest. & \ipa{ˈtænɑn viːs ˈyheksɑ ˈyheksɑ ˈrɑporti eːst} \\
+4.2 & The band conditions are good. & Levitingimused on head. & \ipa{ˈleviˌtiŋkimuset on heɑt} \\
+4.3 & The band conditions are bad. & Levitingimused on halvad. & \ipa{ˈleviˌtiŋkimuset on ˈhɑlvɑt} \\
+4.4 & There is strong interference here. & Siin on tugevad häired. & \ipa{siːn on ˈtukevɑt ˈhæiret} \\
+4.5 & Can you change to the 80m band? & Kas sa saaksid minna 80 (kaheksakümnele) meetrile? & \ipa{kɑs sɑ ˈsɑːksit ˈminːɑ ˈkɑheksɑˌkymːnele ˈmeːtrile} \\
+4.6 & Please change frequency to 3.558 MHz. & Palun mine sagedusele 3,558 MHz. & \ipa{ˈpɑlun ˈmine ˈsɑketusele kolm ˈkomɑ viːs viːs ˈkɑheksɑ ˈmekɑˌhertsi} \\
+\rowcolor{band} 5.0 & \textbf{General Queries and Comments} & \multicolumn{2}{l}{\textbf{Üldised küsimused ja kommentaarid}} \\*
+5.1 & What does <\#\#\#\#\#> mean please? & Palun ütle, mida tähendab <\#\#\#\#\#>? & \ipa{ˈpɑlun ˈytle ˈmitɑ ˈtæhentɑp …} \\
+5.2 & Please wait a moment, I need to check my Estonian dictionary. & Oota üks hetk palun, ma vaatan eesti keele sõnastikust järele. & \ipa{ˈoːtɑ yks hetk ˈpɑlun mɑ ˈvɑːtɑn ˈeːsti ˈkeːle ˈsɤnɑstikust ˈjærele} \\
+5.3 & How do you say, <\#\#\#\#\#> in Estonian ? & Kuidas on <\#\#\#\#\#> eesti keeles? & \ipa{ˈkuitɑs on … ˈeːsti ˈkeːles} \\
+5.5 & My favourite modes of operation are CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / Digital Modes / and SSB & Minu lemmiktööliigid on telegraaf / raadioteletaip / PSK / MT63 / Olivia / Hell / digitaalsed tööliigid / ja SSB. & \ipa{ˈminu ˈlemːikˌtøːˌliːkit on teleˈkrɑːf / ˈrɑːtioˌteleˌtɑip / peː es kɑː / em teː ˈkuːsˌkymːent kolm / oˈliviɑ / hɛl / tikiˈtɑːlset ˈtøːˌliːkit / jɑ es es peː} \\
+5.6 & My best DX is Australia. & Mu kõige kaugem side on olnud Austraaliaga. & \ipa{mu ˈkɤike ˈkɑukem ˈsite on ˈolnut ɑusˈtrɑːliɑkɑ} \\
+5.7 & I enjoy working contests. & Mulle meeldib töötada võistlustel. & \ipa{ˈmulːe ˈmeːltip ˈtøːtɑtɑ ˈvɤistlustel} \\
+5.8 & I like working QRP. & Mulle meeldib väikese võimsusega töötamine. & \ipa{ˈmulːe ˈmeːltip ˈvæikese ˈvɤimsusekɑ ˈtøːtɑmine} \\
+\rowcolor{band} 6.0 & \textbf{The Weather} & \multicolumn{2}{l}{\textbf{Ilm}} \\*
+6.1 & It is sunny. & Ilm on päikeseline. & \ipa{ilm on ˈpæikeseˌline} \\
+6.2 & It is windy. & Ilm on tuuline. & \ipa{ilm on ˈtuːline} \\
+6.3 & It is raining. & Sajab. & \ipa{ˈsɑjɑp} \\
+6.4 & It is snowing. & Sajab lund. & \ipa{ˈsɑjɑp lunt} \\
+6.5 & It is very hot. & Ilm on väga kuum. & \ipa{ilm on ˈvækɑ kuːm} \\
+6.6 & It is very cold. & Ilm on väga külm. & \ipa{ilm on ˈvækɑ kylm} \\
+6.7 & The temperature is 8C. & Temperatuur on 8 (kaheksa) kraadi. & \ipa{ˌtemperɑˈtuːr on ˈkɑheksɑ ˈkrɑːti} \\
+6.8 & It is overcast. & Ilm on pilvine. & \ipa{ilm on ˈpilvine} \\
+6.9 & It is foggy. & Ilm on udune. & \ipa{ilm on ˈutune} \\
+6.11 & It has been raining all day. & Kogu päeva on sadanud. & \ipa{ˈkoku ˈpæevɑ on ˈsɑtɑnut} \\
+6.12 & There is 20cm of snow here. & Lume paksus on 20 (kakskümmend) sentimeetrit. & \ipa{ˈlume ˈpɑksus on ˈkɑksˌkymːent ˌsentiˈmeːtrit} \\
+\rowcolor{band} 8.0 & \textbf{QSL} & \multicolumn{2}{l}{\textbf{QSL-kaardid}} \\*
+8.1 & My QSL card is sure via the bureau & Saadan kaardi büroo kaudu. & \ipa{ˈsɑːtɑn ˈkɑːrti pyˈroː ˈkɑutu} \\
+8.2 & QSL via eQSL & Saadan eQSL-i. & \ipa{ˈsɑːtɑn iː kuː es eli} \\
+8.3 & No eQSL please & Palun ära saada eQSL-i. & \ipa{ˈpɑlun ˈærɑ ˈsɑːtɑ iː kuː es eli} \\
+8.4 & I will send you my card direct. & Saadan sulle oma kaardi otse. & \ipa{ˈsɑːtɑn ˈsulːe ˈomɑ ˈkɑːrti ˈotse} \\
+8.5 & What is your address? & Milline on sinu aadress? & \ipa{ˈmilːine on ˈsinu ˈɑːtresː} \\
+8.6 & Please send your QSL card direct. & Palun saada oma QSL-kaart otse. & \ipa{ˈpɑlun ˈsɑːtɑ ˈomɑ kuː es el kɑːrt ˈotse} \\
+8.7 & My address is... & Minu aadress on… & \ipa{ˈminu ˈɑːtresː on …} \\
+8.8 & My address is shown on QSL.com / EHam.net & Minu aadressi saab QSL.com-ist / eHam.net-ist. & \ipa{ˈminu ˈɑːtresːi sɑːp kuː es el puŋkt komist / iː hæm puŋkt netist} \\
+8.9 & Sorry I do not send QSL cards. & Palun vabandust, ma ei saada QSL-kaarte. & \ipa{ˈpɑlun ˈvɑpɑntust mɑ ei ˈsɑːtɑ kuː es el ˈkɑːrte} \\
+8.11 & Please send QSL card via G1JQH. & Palun saada QSL-kaart G1JQH kaudu. & \ipa{ˈpɑlun ˈsɑːtɑ kuː es el kɑːrt keː yks jotː kuː hɑː ˈkɑutu} \\
+8.12 & My WACRAL / GQRP / DXCC / FISTS number is 1234. & Minu WACRAL / GQRP / DXCC / FISTS number on 1234 (tuhat kakssada kolmkümmend neli). & \ipa{ˈminu ˈwakral / keː kuː er peː / teː iks tseː tseː / fɪsts ˈnumper on ˈtuhɑt ˈkɑksˌsɑtɑ ˈkolmˌkymːent ˈneli} \\
+\rowcolor{band} 9.0 & \textbf{Final Greetings} & \multicolumn{2}{l}{\textbf{Lõputervitused}} \\*
+9.1 & Thank you. & Tänan sind. & \ipa{ˈtænɑn sint} \\
+9.2 & Thank you for a very enjoyable contact. & Tänan sind meeldiva side eest. & \ipa{ˈtænɑn sint ˈmeːltivɑ ˈsite eːst} \\
+9.3 & I enjoyed our chat. & Oli tore vestlus (jutuajamine). & \ipa{ˈoli ˈtore ˈvestlus / ˈoli ˈtore ˈjutuˌɑjɑmine} \\
+9.4 & I enjoyed our QSO in Estonian. & Mulle meeldis väga meie eestikeelne side. & \ipa{ˈmulːe ˈmeːltis ˈvækɑ ˈmeie ˈeːstiˌkeːlne ˈsite} \\
+9.5 & It has been great fun. & Oli väga lõbus (tore). & \ipa{ˈoli ˈvækɑ ˈlɤpus / ˈoli ˈvækɑ ˈtore} \\
+9.6 & If you would like a regular contact with me, you can contact me via email. & Kui tahad minuga pidevalt suhelda, siis saad saata e-kirja. & \ipa{kui ˈtɑhɑt ˈminukɑ ˈpitevɑlt suˈheltɑ siːs sɑːt ˈsɑːtɑ ˈeːˌkirjɑ} \\
+9.7 & My email address is... & Mu e-posti aadress on… & \ipa{mu ˈeːˌposti ˈɑːtresː on …} \\
+9.8 & My email address is shown on QSL.com / EHam.net & Mu e-posti aadress on kirjas QSL.com-is / EHam.net-is & \ipa{mu ˈeːˌposti ˈɑːtresː on ˈkirjɑs kuː es el puŋkt komis / iː hæm puŋkt netis} \\
+9.9 & I look forward to meeting you again. & Loodan sind jälle kohata. & \ipa{ˈloːtɑn sint ˈjælːe ˈkohɑtɑ} \\
+9.11 & My best wishes to you and your family. & Minu parimad soovid sulle ja perele. & \ipa{ˈminu ˈpɑrimɑt ˈsoːvit ˈsulːe jɑ ˈperele} \\
+9.12 & Best wishes to your wife. & Minu parimad soovid sinu abikaasale (naisele). & \ipa{ˈminu ˈpɑrimɑt ˈsoːvit ˈsinu ˈɑpiˌkɑːsɑle / ˈminu ˈpɑrimɑt ˈsoːvit ˈsinu ˈnɑisele} \\
+9.121 & Best wishes to your husband. & Minu parimad soovid sinu abikaasale (mehele) & \ipa{ˈminu ˈpɑrimɑt ˈsoːvit ˈsinu ˈɑpiˌkɑːsɑle / ˈminu ˈpɑrimɑt ˈsoːvit ˈsinu ˈmehele} \\
+9.13 & Good luck. & Õnne edasiseks. & \ipa{ˈɤnːe ˈetɑsiseks} \\
+9.14 & Good health. & Head tervist. & \ipa{heɑt ˈtervist} \\
+9.15 & Goodbye & Head aega. & \ipa{heɑt ˈɑekɑ} \\
+9.16 & I wish you an enjoyable afternoon. & Soovin sulle kena pärastlõunat. & \ipa{ˈsoːvin ˈsulːe ˈkenɑ ˈpærɑstˌlɤunɑt} \\
+9.161 & I wish you an enjoyable evening. & Soovin sulle kena õhtut. & \ipa{ˈsoːvin ˈsulːe ˈkenɑ ˈɤhtut} \\
+9.162 & I wish you an enjoyable weekend. & Soovin sulle kena nädalalõppu. & \ipa{ˈsoːvin ˈsulːe ˈkenɑ ˈnætɑlɑˌlɤpːu} \\
+9.17 & Enjoy your holiday. & Ilusat puhkust. & \ipa{ˈilusɑt ˈpuhkust} \\
+9.18 & Happy New Year. & Head vana aasta lõppu! (zwischen Weihnachten und 31. Dezember)\newline Head uut aastat! (31. Dezember bis 6. Januar) & \ipa{heɑt ˈvɑnɑ ˈɑːstɑ ˈlɤpːu / heɑt uːt ˈɑːstɑt} \\
+\rowcolor{band} 10.0 & \textbf{Country} & \multicolumn{2}{l}{\textbf{Riik}} \\*
+10.1 & Albania & Albaania & \ipa{ɑlˈpɑːniɑ} \\
+10.2 & Austria & Austria & \ipa{ˈɑustriɑ} \\
+10.3 & Belgium & Belgia & \ipa{ˈpelkiɑ} \\
+10.4 & Belorussia & Valgevene & \ipa{ˈvɑlkeˌvene} \\
+10.5 & Bosnia \& Herzegovina & Bosnia-Hertsegoviina & \ipa{ˈposniɑ hertsekoˈviːnɑ} \\
+10.6 & Bulgaria & Bulgaaria & \ipa{pulˈkɑːriɑ} \\
+10.7 & Croatia & Horvaatia & \ipa{horˈvɑːtiɑ} \\
+10.8 & Czech Republic & Tšehhi (Vabariik) & \ipa{ˈtʃehːi / ˈtʃehːi ˈvɑpɑˌriːk} \\
+10.9 & Denmark & Taani & \ipa{ˈtɑːni} \\
+10.11 & Eire & Iirimaa & \ipa{ˈiːriˌmɑː} \\
+10.12 & England & Inglismaa & \ipa{ˈiŋlisˌmɑː} \\
+10.13 & Estonia & Eesti & \ipa{ˈeːsti} \\
+10.14 & Finland & Soome & \ipa{ˈsoːme} \\
+10.15 & France & Prantsusmaa & \ipa{ˈprɑntsusˌmɑː} \\
+10.16 & Germany & Saksamaa & \ipa{ˈsɑksɑˌmɑː} \\
+10.17 & Gibraltar & Gibraltar & \ipa{tʃipˈrɑltɑr} \\
+10.18 & Greece & Kreeka & \ipa{ˈkreːkɑ} \\
+10.19 & Holland & Holland & \ipa{ˈholːɑnt} \\
+10.21 & Hungary & Ungari & \ipa{ˈuŋkɑri} \\
+10.22 & Iceland & Island & \ipa{ˈislɑnt} \\
+10.23 & Northern Ireland & Põhja-Iirimaa & \ipa{ˈpɤhjɑ ˈiːriˌmɑː} \\
+10.24 & Isle of Man & Mani saar & \ipa{ˈmɑni sɑːr} \\
+10.25 & Italy & Itaalia & \ipa{iˈtɑːliɑ} \\
+10.26 & Latvia & Läti & \ipa{ˈlæti} \\
+10.27 & Liechtenstein & Liechtenstein & \ipa{ˈlɪçtn̩ʃtaɪn} \\
+10.28 & Lithuania & Leedu & \ipa{ˈleːtu} \\
+10.29 & Luxembourg & Luksemburg & \ipa{ˈluksemˌpurk} \\
+10.31 & Macedonia & Makedoonia & \ipa{mɑkeˈtoːniɑ} \\
+10.32 & Moldavia & Moldaavia & \ipa{molˈtɑːviɑ} \\
+10.33 & Netherlands & Holland (=Madalmaad) & \ipa{ˈholːɑnt / ˈmɑtɑlˌmɑːt} \\
+10.34 & Norway & Norra & \ipa{ˈnorːɑ} \\
+10.35 & Poland & Poola & \ipa{ˈpoːlɑ} \\
+10.36 & Portugal & Portugal & \ipa{ˈportukɑl} \\
+10.37 & Romania & Rumeenia & \ipa{ruˈmeːniɑ} \\
+10.38 & Russian Federation & Venemaa (Vene Föderatsioon) & \ipa{ˈveneˌmɑː / ˈvene ˌfɤterɑˈtsioːn} \\
+10.39 & Scotland & Šotimaa & \ipa{ˈʃotiˌmɑː} \\
+10.41 & Slovakia & Slovakkia & \ipa{sloˈvɑkːiɑ} \\
+10.42 & Slovenia & Sloveenia & \ipa{sloˈveːniɑ} \\
+10.43 & Spain & Hispaania & \ipa{hisˈpɑːniɑ} \\
+10.44 & Svalbard & Svalbard & \ipa{ˈsvɑːlbɑr} \\
+10.45 & Sweden & Rootsi & \ipa{ˈroːtsi} \\
+10.46 & Switzerland & Šveits & \ipa{ʃveits} \\
+10.47 & Turkey & Türgi & \ipa{ˈtyrki} \\
+10.48 & Ukraine & Ukraina & \ipa{ukˈrɑinɑ} \\
+10.49 & Wales & Wales & \ipa{weɪlz} \\
+\end{longtable}
+\normalsize
+\clearpage
+\section*{Hinweise zur Übertragung und Aussprache}
+\fontsize{8.5}{10}\selectfont\raggedright
+\textbf{Vorlage und Umfang.} Grundlage ist „Estonian v 1.0.doc“, Credit: Jüri, ES5JR.
+Alle 142 Phrasen und Ländernamen sind enthalten. Die ursprünglichen Nummernsprünge bleiben erhalten,
+einschließlich des fehlenden Abschnitts 7. Referenz „132“ wurde zu „1.32“ berichtigt.
+
+\smallskip
+\textbf{Korrekturen.} G5GV wurde gemäß der englischen Spalte zu G5RV (3.42).
+Die beiden stehen gebliebenen Verweise auf German in der englischen Spalte wurden zu Estonian (5.3/9.4).
+Doppelte Punkte und Leerzeichen vor Satzzeichen wurden bereinigt; offene Angaben stehen als Auslassung.
+Die englischen Datumserläuterungen bei den Neujahrsgrüßen in 9.18 wurden ins Deutsche übertragen;
+die estnischen Wünsche bleiben unverändert.
+
+\smallskip
+\textbf{Quellenbesonderheiten.} Die Vorlage erklärt mehrere Zahlen bereits in Klammern;
+in der IPA-Spalte wird die Zahl jeweils nur einmal gesprochen, in der zum Satz passenden Form.
+„(suur)linn“ in 2.52 erscheint als linn beziehungsweise suurlinn.
+Die Varianten raadiojaam, jaam und transiiver in 3.1 sind als vollständige Alternativen wiedergegeben.
+Die Beispiele Peter, Sittingbourne, 1960 und 43 Jahre sowie historische Ländernamen und Webadressen bleiben erhalten.
+
+\smallskip
+\textbf{Bedeutungsunterschiede.} 2.2/2.3 beschreiben die Tätigkeit als Funkamateur statt ausdrücklich eine Lizenz.
+5.5 verwendet telegraaf, raadioteletaip und Hell statt wörtlich CW, RTTY und Hellschreiber;
+5.8 beschreibt das Arbeiten mit geringer Leistung ohne das Kürzel QRP.
+6.7 nennt acht Grad ohne Celsius. 8.1 sagt, dass eine Karte über das Büro geschickt wird,
+ohne das englische „sure“ ausdrücklich wiederzugeben.
+Die IPA-Spalte folgt jeweils der estnischen Formulierung.
+
+\smallskip
+\textbf{Aussprachebasis.} Die manuelle IPA-Spalte ist eine breite Lesehilfe für Standardestnisch.
+\ipa{ɑ} steht für a, \ipa{ɤ} für das ungerundete õ, \ipa{æ} für ä, \ipa{ø} für ö und \ipa{y} für ü.
+Diphthonge stehen hier als Vokalfolgen; j und gelegentliche Übergangslaute werden vereinfacht dargestellt.
+\ipa{ˈ} bezeichnet die Hauptbetonung, \ipa{ˌ} ausgewählte Nebenbetonungen, besonders in Zusammensetzungen.
+Viele einheimische Wörter tragen die Betonung am Anfang; Fremdwörter können davon abweichen.
+
+\smallskip
+\textbf{Längen und Quantität.} Estnisch unterscheidet kurze, lange und überlange Quantität,
+die sich aus Lautdauer, Silbenverhältnissen und Tonverlauf ergibt.
+Hier werden lange und überlange Laute gemeinsam mit \ipa{ː} dargestellt.
+Die zweite und dritte Quantitätsstufe sind somit nicht vollständig unterschieden;
+halblange unbetonte Vokale und genaue Tonverläufe sind ebenfalls nicht kodiert.
+Das ist eine bewusste Vereinfachung dieser Aussprachehilfe, keine Behauptung, dass die beiden Stufen gleich wären.
+
+\smallskip
+\textbf{Konsonanten.} Geschriebenes b, d und g werden hier überwiegend als stimmlose \ipa{p, t, k}
+wiedergegeben; im flüssigen Gespräch können sie teilweise stimmhaft werden.
+Lange Konsonanten stehen etwa als \ipa{nː, lː, tː}; \ipa{ŋ} ist die Nasalvariante vor k/g.
+\ipa{ʲ} markiert ausgewählte Palatalisierung, besonders in linn und pensionil.
+Nicht jede feine Palatalisierung oder Assimilation ist eingetragen.
+H wird für deutliches Vorlesen dargestellt; im Gespräch kann es am Wortanfang entfallen.
+R steht vereinfacht als \ipa{r}.
+
+\smallskip
+\textbf{Namen, Kürzel und Adressen.} Peter, Sittingbourne, Dover und Icom verwenden englische Lesarten,
+mit estnischen Endungen, wo die Vorlage sie verlangt.
+Delta-Loop wird mit estnischem delta und englischem Loop gelesen; yagi steht als jagi.
+Hell und Liechtenstein sind deutsch, Svalbard norwegisch, Wales englisch gelesen.
+Andere Ländernamen folgen der estnischen Form. Rufzeichen und Kürzel verwenden estnische Buchstabennamen:
+Q „kuu“, S „ess“, L „ell“, G „gee“, R „err“, C „tsee“, J „jott“, H „haa“.
+WACRAL und FISTS werden als Wörter gesprochen; das e in eQSL/eHam als englisches \ipa{iː}.
+Webpunkte sind „punkt“; die angehängten estnischen Endungen -ist/-is werden mitgesprochen.
+
+\smallskip
+\textbf{Zahlen und Klammern.} 1960.-st wird als „tuhande üheksasaja kuuekümnendast“ gelesen,
+43 als „nelikümmend kolm“, 50 als „viiekümne“, 706 als „seitsesada kuus“;
+599 ziffernweise „viis üheksa üheksa“, MT63 mit „kuuskümmend kolm“.
+3,558 MHz = „kolm koma viis viis kaheksa megahertsi“;
+1234 = „tuhat kakssada kolmkümmend neli“. Einheiten werden ausgesprochen.
+Klammeralternativen in 9.3, 9.5, 9.12, 9.121 und bei Ländern sind als Alternativen enthalten.
+Die Datumshinweise in 9.18 werden nicht mitgesprochen. \ipa{…} kennzeichnet offene Angaben und Platzhalter.
+
+\smallskip
+\textbf{Fachhinweise.} Eva Liina Asu und Pire Teras: „Estonian“, Journal of the International
+Phonetic Association 39(3), 2009, S. 367--372, DOI 10.1017/S002510030999017X.
+Eesti Keele Instituut: „Eesti keel IPA transkriptsioonis“, teatmik.eki.ee, 23. April 2023.
+Die Konventionen wurden für diese breite, vereinfachte Lesehilfe angepasst.
+\end{document}

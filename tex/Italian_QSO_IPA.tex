@@ -1,0 +1,255 @@
+% !TeX program = xelatex
+% UTF-8; compile twice with XeLaTeX. No external images or data files needed.
+\documentclass[a4paper,landscape,10pt]{article}
+\usepackage[margin=14mm,headheight=14pt,headsep=5mm,footskip=7mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\newfontfamily\ipafont{DejaVu Sans}
+\usepackage[table]{xcolor}
+\usepackage{array,longtable,booktabs,fancyhdr}
+\definecolor{ink}{HTML}{18384D}
+\definecolor{band}{HTML}{E7EFF4}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{ink}Parlez Vous QSO?! · Italiano / Italian}
+\fancyhead[R]{\small Englische Phrase · Traduzione italiana · IPA}
+\fancyfoot[L]{\scriptsize Vorlage: Italian v 1.0 · Credits: Giancarlo -- I7SWX}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{3mm}
+\renewcommand{\arraystretch}{1.25}
+\newcommand{\ipa}[1]{{\ipafont[#1]}}
+\begin{document}
+{\LARGE\bfseries\color{ink}Parlez Vous QSO?!}\hfill{\large Italiano / Italian}
+
+\vspace{2mm}
+{\small QSO-Sprachführer mit italienischer IPA-Lautschrift. Die Lautschrift bezieht sich auf die italienische Spalte.}
+
+\vspace{2mm}
+{\footnotesize \textbf{Leseschlüssel:} \ipa{ˈ} Hauptbetonung, \ipa{ˌ} Nebenbetonung;
+\ipa{ɛ, ɔ} offene e-/o-Laute; \ipa{ɲ} wie „gn“ in „campagna“, \ipa{ʎ} wie „gli“ in „famiglia“.
+Doppelte Konsonanten werden länger gesprochen. Schrägstriche trennen Alternativen; \ipa{…} markiert Platzhalter.}
+
+\vspace{1mm}
+\fontsize{9}{11.8}\selectfont
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{13mm}>{\raggedright\arraybackslash}p{73mm}>{\raggedright\arraybackslash}p{75mm}>{\raggedright\arraybackslash}p{90mm}@{}}
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Italiano} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Italiano} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\scriptsize Fortsetzung auf der nächsten Seite}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\rowcolor{band} 1.0 & \textbf{Opening Greetings} & \multicolumn{2}{l}{\textbf{Saluti Iniziali}} \\*
+1.1 & I am very pleased to meet you. & Sono molto lieto di conoscerti. & \ipa{ˈsono ˈmolto ˈljɛto di koˈnoʃʃerti} \\
+1.2 & Thank you for your call & Grazie per la tua chiamata & \ipa{ˈɡrattsje per la ˈtua kjaˈmata} \\
+1.3 & Good morning & Buongiorno. & \ipa{bwɔnˈdʒorno} \\
+1.31 & Good day & Buongiorno. & \ipa{bwɔnˈdʒorno} \\
+1.32 & Good afternoon & Buon pomeriggio. & \ipa{bwɔn pomeˈriddʒo} \\
+1.33 & Good evening & Buona sera. & \ipa{ˈbwɔna ˈsera} \\
+1.4 & I know only a little Italian but I enjoy QSOs in Italian. & Parlo poco italiano ma mi piace fare i QSO in italiano. & \ipa{ˈparlo ˈpɔko itaˈljano ma mi ˈpjatʃe ˈfare i ku ɛsse ɔ in itaˈljano} \\
+\rowcolor{band} 2.0 & \textbf{Operator} & \multicolumn{2}{l}{\textbf{Operatore}} \\*
+2.1 & My name is Peter. & Il mio nome è Peter. & \ipa{il ˈmio ˈnome ɛ ˈpiːtə} \\
+2.2 & I have been licensed since 1960 & Ho la licenza dal 1960. & \ipa{ɔ la liˈtʃɛntsa dal milleˌnɔveˈtʃɛnto sesˈsanta} \\
+2.3 & I have been licensed for 43 years. & Sono 43 anni che ho la licenza. & \ipa{ˈsono kwaˌrantaˈtre ˈanni ke ɔ la liˈtʃɛntsa} \\
+2.4 & I live in Sittingbourne. & Abito in Sittingbourne.\newline Il mio QTH è Sittingbourne. & \ipa{ˈabito in ˈsɪtɪŋbɔːn / il ˈmio ku ti akka ɛ ˈsɪtɪŋbɔːn} \\
+2.5 & Sittingbourne is a village. & Sittingbourne è un paese. & \ipa{ˈsɪtɪŋbɔːn ɛ un paˈeze} \\
+2.51 & Sittingbourne is a town. & Sittingbourne è una cittadina. & \ipa{ˈsɪtɪŋbɔːn ɛ ˈuna tʃittaˈdina} \\
+2.52 & Sittingbourne is a city. & Sittingbourne è una città. & \ipa{ˈsɪtɪŋbɔːn ɛ ˈuna tʃitˈta} \\
+2.6 & Sittingbourne is between London and Dover. & Sittingbourne si trova tra Londra e Dover. & \ipa{ˈsɪtɪŋbɔːn si ˈtrɔva tra ˈlondra e ˈdəʊvə} \\
+2.7 & I live in the South of England. & Abito nel Sud dell’Inghilterra. & \ipa{ˈabito nel sud dellinɡilˈtɛrra} \\
+2.71 & I live in the North of England. & Abito nel nord dell’Inghilterra. & \ipa{ˈabito nel nɔrd dellinɡilˈtɛrra} \\
+2.72 & I live in the East of England. & Abito nell’est dell’Inghilterra. & \ipa{ˈabito nell ɛst dellinɡilˈtɛrra} \\
+2.73 & I live in West of England. & Abito nell’ovest dell’Inghilterra. & \ipa{ˈabito nell ˈɔvest dellinɡilˈtɛrra} \\
+2.74 & I live in South East England. & Abito nel sud est dell’Inghilterra. & \ipa{ˈabito nel sud ɛst dellinɡilˈtɛrra} \\
+2.75 & I live in South West England. & Abito nel sud ovest dell’Inghilterra. & \ipa{ˈabito nel sud ˈɔvest dellinɡilˈtɛrra} \\
+2.76 & I live in North East England. & Abito nel nord est dell’Inghilterra. & \ipa{ˈabito nel nɔrd ɛst dellinɡilˈtɛrra} \\
+2.77 & I live in North West England. & Abito nel nord ovest dell’Inghilterra. & \ipa{ˈabito nel nɔrd ˈɔvest dellinɡilˈtɛrra} \\
+2.78 & I live in central England. & Abito nel centro dell’Inghilterra. & \ipa{ˈabito nel ˈtʃɛntro dellinɡilˈtɛrra} \\
+2.8 & I live in the country. & Abito in campagna. & \ipa{ˈabito in kamˈpaɲɲa} \\
+2.81 & I live by the sea. & Abito vicino al mare. & \ipa{ˈabito viˈtʃino al ˈmare} \\
+2.82 & I live near mountains. & Abito in montagna. & \ipa{ˈabito in monˈtaɲɲa} \\
+2.9 & Sittingbourne is 50Km from London. & Sittingbourne è a 50Km da Londra. & \ipa{ˈsɪtɪŋbɔːn ɛ a tʃinˈkwanta kiˈlɔmetri da ˈlondra} \\
+2.11 & I am retired. & Sono un pensionato. & \ipa{ˈsono un pensjoˈnato} \\
+2.12 & My home call sign is M0ECS. & Il mio nominativo originario è M0ECS. & \ipa{il ˈmio nominaˈtivo oridʒiˈnarjo ɛ ɛmme ˈdzɛro e tʃi ɛsse} \\
+\rowcolor{band} 3.0 & \textbf{Station} & \multicolumn{2}{l}{\textbf{Stazione}} \\*
+3.1 & My radio is an Icom 706. & Il mio apparato è un Icom 706.\newline La mia stazione è un Icom 706. & \ipa{il ˈmio appaˈrato ɛ un ˈaɪkɒm ˌsɛtteˌtʃɛntoˈsɛi / la ˈmia statˈtsjone ɛ un ˈaɪkɒm ˌsɛtteˌtʃɛntoˈsɛi} \\
+3.2 & My station is all homebrew (homemade). & La mia stazione è tutta autocostruita. & \ipa{la ˈmia statˈtsjone ɛ ˈtutta autokoˈstruita} \\
+3.3 & I am running 5 Watts. & La mia potenza è di 5 Watt. & \ipa{la ˈmia poˈtɛntsa ɛ di ˈtʃiŋkwe vat} \\
+3.4 & My antenna is a long wire. & La mia antenna è una longwire. & \ipa{la ˈmia anˈtɛnna ɛ ˈuna ˈlɒŋwaɪə} \\
+3.41 & My antenna is a dipole. & La mia antenna è un dipolo. & \ipa{la ˈmia anˈtɛnna ɛ un diˈpɔlo} \\
+3.42 & My antenna is a G5RV. & La mia antenna è una G5RV. & \ipa{la ˈmia anˈtɛnna ɛ ˈuna dʒi ˈtʃiŋkwe ɛrre vi} \\
+3.43 & My antenna is a doublet. & La mia antenna è una doublet. & \ipa{la ˈmia anˈtɛnna ɛ ˈuna ˈdʌblət} \\
+3.44 & My antenna is a delta loop. & La mia antenna è una delta loop. & \ipa{la ˈmia anˈtɛnna ɛ ˈuna ˈdɛlta luːp} \\
+3.45 & My antenna is a vertical. & La mia antenna è una verticale. & \ipa{la ˈmia anˈtɛnna ɛ ˈuna vertiˈkale} \\
+3.46 & My antenna is a log periodic. & La mia antenna è una log periodica. & \ipa{la ˈmia anˈtɛnna ɛ ˈuna lɔɡ peˈrjɔdika} \\
+3.47 & My antenna is a Yagi beam. & La mia antenna è una yagi. & \ipa{la ˈmia anˈtɛnna ɛ ˈuna ˈjaɡi} \\
+3.48 & My antenna is a 5 element beam. & La mia antenna è una 5 elementi. & \ipa{la ˈmia anˈtɛnna ɛ ˈuna ˈtʃiŋkwe eleˈmenti} \\
+\rowcolor{band} 4.0 & \textbf{Conditions} & \multicolumn{2}{l}{\textbf{Condizioni}} \\*
+4.1 & Thank you for my 599 report. & Grazie per il mio rapporto di 599. & \ipa{ˈɡrattsje per il ˈmio rapˈpɔrto di ˈtʃiŋkwe ˈnɔve ˈnɔve} \\
+4.2 & The band conditions are good. & Le condizioni di banda sono buone. & \ipa{le konditˈtsjoni di ˈbanda ˈsono ˈbwɔne} \\
+4.3 & The band conditions are bad. & Le condizioni di banda sono pessime. & \ipa{le konditˈtsjoni di ˈbanda ˈsono ˈpɛssime} \\
+4.4 & There is strong interference here. & Ci sono delle forti interferenze. & \ipa{tʃi ˈsono ˈdelle ˈfɔrti interferˈɛntse} \\
+4.5 & Can you change to the 80m band? & Puoi cambiare banda e passare su 80 metri? & \ipa{pwɔi kamˈbjare ˈbanda e pasˈsare su otˈtanta ˈmɛtri} \\
+4.6 & Please change frequency to 3.558 MHz. & Puoi cambiare la frequenza su 3,558 MHz? & \ipa{pwɔi kamˈbjare la freˈkwɛntsa su tre ˈvirɡola ˈtʃiŋkwe ˈtʃiŋkwe ˈɔtto ˈmɛɡaɛrts} \\
+\rowcolor{band} 5.0 & \textbf{General Queries and Comments} & \multicolumn{2}{l}{\textbf{Informazioni e Commenti Generici}} \\*
+5.1 & What does <\#\#\#\#\#> mean please? & Per cortesia che cosa vuole dire <\#\#\#\#>? & \ipa{per korteˈzia ke ˈkɔza ˈvwɔle ˈdire …} \\
+5.2 & Please wait a moment, I need to check my Italian dictionary. & Puoi attendere un momento che controllo il mio vocabolario d’italiano. & \ipa{pwɔi atˈtɛndere un moˈmento ke konˈtrɔllo il ˈmio vokaboˈlarjo ditaˈljano} \\
+5.3 & How do you say, <\#\#\#\#\#> in Italian ? & Come si dice <\#\#\#\#\#> in italiano? & \ipa{ˈkome si ˈditʃe … in itaˈljano} \\
+5.5 & My favourite modes of operation are CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / Digital Modes / and SSB & I miei modi operativi preferiti sono CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / Modi Digitali ed SSB. & \ipa{i ˈmjɛi ˈmɔdi operaˈtivi prefeˈriti ˈsono tʃi ˈdɔppja vu / ɛrre ti ti ˈipsilon / pi ɛsse kappa / ɛmme ti sesˌsantaˈtre / oˈlivja / ˈhɛlˌʃʁaɪbɐ / ˈmɔdi didʒiˈtali ed ɛsse ɛsse bi} \\
+5.6 & My best DX is Australia. & Il mio migliore DX è l’Australia. & \ipa{il ˈmio miʎˈʎore di iks ɛ lauˈstralja} \\
+5.7 & I enjoy working contests. & Mi piace partecipare ai contest. & \ipa{mi ˈpjatʃe partetʃiˈpare ai ˈkɒntɛst} \\
+5.8 & I like working QRP. & Mi piace operare in QRP. & \ipa{mi ˈpjatʃe opeˈrare in ku ɛrre pi} \\
+\rowcolor{band} 6.0 & \textbf{The Weather} & \multicolumn{2}{l}{\textbf{Il Tempo / il WX}} \\*
+6.1 & It is sunny. & C’è il sole. & \ipa{tʃɛ il ˈsole} \\
+6.2 & It is windy. & C’è vento. & \ipa{tʃɛ ˈvɛnto} \\
+6.3 & It is raining. & Sta piovendo. & \ipa{sta pjoˈvɛndo} \\
+6.4 & It is snowing. & Sta nevicando. & \ipa{sta neviˈkando} \\
+6.5 & It is very hot. & Fa molto caldo. & \ipa{fa ˈmolto ˈkaldo} \\
+6.6 & It is very cold. & Fa molto freddo. & \ipa{fa ˈmolto ˈfreddo} \\
+6.7 & The temperature is 8C. & La temperatura è di 8 gradi. & \ipa{la temperaˈtura ɛ di ˈɔtto ˈɡradi} \\
+6.8 & It is overcast. & È coperto.\newline È nuvoloso. & \ipa{ɛ koˈpɛrto / ɛ nuvoˈlozo} \\
+6.9 & It is foggy. & C’è la nebbia. & \ipa{tʃɛ la ˈnɛbbja} \\
+6.11 & It has been raining all day. & Ha piovuto tutto il giorno. & \ipa{a pjoˈvuto ˈtutto il ˈdʒorno} \\
+6.12 & There is 20cm of snow here. & Ci sono 20cm di neve. & \ipa{tʃi ˈsono ˈventi tʃenˈtimetri di ˈneve} \\
+\rowcolor{band} 8.0 & \textbf{QSL} & \multicolumn{2}{l}{\textbf{QSL}} \\*
+8.1 & My QSL card is sure via the bureau. & Ti invierò la mia QSL via bureau (associazione). & \ipa{ti invjeˈrɔ la ˈmia ku ɛsse ɛlle ˈvia byˈʁo (assotʃatˈtsjone)} \\
+8.2 & QSL via eQSL & QSL via e-QSL. & \ipa{ku ɛsse ɛlle ˈvia i ku ɛsse ɛlle} \\
+8.3 & No eQSL please & No e-QSL, mi dispiace. & \ipa{nɔ i ku ɛsse ɛlle mi diˈspjatʃe} \\
+8.4 & I will send you my card direct. & Ti invierò la QSL via diretta. & \ipa{ti invjeˈrɔ la ku ɛsse ɛlle ˈvia diˈrɛtta} \\
+8.5 & What is your address? & Quale è il tuo indirizzo? & \ipa{ˈkwale ɛ il ˈtuo indiˈrittso} \\
+8.6 & Please send your QSL card direct. & Per cortesia inviami la tua QSL via diretta. & \ipa{per korteˈzia ˈinvjami la ˈtua ku ɛsse ɛlle ˈvia diˈrɛtta} \\
+8.7 & My address is... & Il mio indirizzo è …. & \ipa{il ˈmio indiˈrittso ɛ …} \\
+8.8 & My address is shown on QSL.com / EHam.net / ….. & Il mio indirizzo è OK su qsl.com / EHam.net / ..... & \ipa{il ˈmio indiˈrittso ɛ ˌoˈkɛi su ku ɛsse ɛlle ˈpunto kɔm / i hæm ˈpunto nɛt / …} \\
+8.9 & Sorry I do not send QSL cards. & Mi dispiace ma non spedisco QSL. & \ipa{mi diˈspjatʃe ma non speˈdisko ku ɛsse ɛlle} \\
+8.11 & Please send QSL card via G1JQH. & Ti prego di inviarmi la QSL via G1JQH. & \ipa{ti ˈprɛɡo di inˈvjarmi la ku ɛsse ɛlle ˈvia dʒi ˈuno ˈi ˈluŋɡa ku akka} \\
+8.12 & My WACRAL / GQRP / DXCC / FISTS number is 1234. & Il mio numero WACRAL / GQRP / DXCC / FISTS è 1234. & \ipa{il ˈmio ˈnumero ˈdɔppja vu a tʃi ɛrre ɛlle / dʒi ku ɛrre pi / di iks tʃi tʃi / fɪsts ɛ ˌmilledueˌtʃentoˌtrentaˈkwattro} \\
+\rowcolor{band} 9.0 & \textbf{Final Greetings} & \multicolumn{2}{l}{\textbf{Saluti Finali}} \\*
+9.1 & Thank you. & Grazie. & \ipa{ˈɡrattsje} \\
+9.2 & Thank you for a very enjoyable contact. & Grazie per un piacevole contatto.\newline Grazie per un piacevole QSO. & \ipa{ˈɡrattsje per un pjaˈtʃevole konˈtatto / ˈɡrattsje per un pjaˈtʃevole ku ɛsse ɔ} \\
+9.3 & I enjoyed our chat. & Mi ha fatto piacere chiacchierare con te. & \ipa{mi a ˈfatto pjaˈtʃere kjakkjeˈrare kon te} \\
+9.4 & I enjoyed our QSO in Italian. & Mi è piaciuto il nostro QSO in italiano. & \ipa{mi ɛ pjaˈtʃuto il ˈnɔstro ku ɛsse ɔ in itaˈljano} \\
+9.5 & It has been great fun. & Mi sono divertito molto. & \ipa{mi ˈsono diverˈtito ˈmolto} \\
+9.6 & If you would like a regular contact with me, you can contact me via email. & Se vuoi avere dei collegamenti regolari con me mi puoi contattare via e-mail. & \ipa{se vwɔi aˈvere dei kolleɡaˈmenti reɡoˈlari kon me mi pwɔi kontatˈtare ˈvia ˈiːmeɪl} \\
+9.7 & My email address is... & Il mio indirizzo e-mail è... & \ipa{il ˈmio indiˈrittso ˈiːmeɪl ɛ …} \\
+9.8 & My email address is shown on QSL.com / EHam.net & Il mio indirizzo e-mail è riportato su qsl.com / EHam.net. & \ipa{il ˈmio indiˈrittso ˈiːmeɪl ɛ riporˈtato su ku ɛsse ɛlle ˈpunto kɔm / i hæm ˈpunto nɛt} \\
+9.9 & I look forward to meeting you again. & Spero di incontrarti di nuovo. & \ipa{ˈspɛro di iŋkonˈtrarti di ˈnwɔvo} \\
+9.11 & My best wishes to you and your family. & I miei migliori auguri a te ed alla tua famiglia. & \ipa{i ˈmjɛi miʎˈʎori auˈɡuri a te ed ˈalla ˈtua faˈmiʎʎa} \\
+9.12 & Best wishes to your wife. & I migliori auguri a tua moglie. & \ipa{i miʎˈʎori auˈɡuri a ˈtua ˈmoʎʎe} \\
+9.121 & Best wishes to your husband. & I migliori auguri a tuo marito. & \ipa{i miʎˈʎori auˈɡuri a ˈtuo maˈrito} \\
+9.13 & Good luck. & Buona fortuna. & \ipa{ˈbwɔna forˈtuna} \\
+9.14 & Good health. & Buona Salute. & \ipa{ˈbwɔna saˈlute} \\
+9.15 & Goodbye & Arrivederci.\newline Ciao. & \ipa{arriveˈdertʃi / ˈtʃao} \\
+9.16 & I wish you an enjoyable afternoon. & Ti auguro un buon pomeriggio.\newline Ti auguro una buona giornata. & \ipa{ti auˈɡuro un bwɔn pomeˈriddʒo / ti auˈɡuro ˈuna ˈbwɔna dʒorˈnata} \\
+9.161 & I wish you an enjoyable evening. & Ti auguro una buona sera. & \ipa{ti auˈɡuro ˈuna ˈbwɔna ˈsera} \\
+9.162 & I wish you an enjoyable weekend. & Ti auguro un buon fine settimana. & \ipa{ti auˈɡuro un bwɔn ˈfine settiˈmana} \\
+9.17 & Enjoy your holiday. & Buone vacanze. & \ipa{ˈbwɔne vaˈkantse} \\
+9.18 & Happy New Year. & Buon Anno. & \ipa{bwɔn ˈanno} \\
+\rowcolor{band} 10.0 & \textbf{Country} & \multicolumn{2}{l}{\textbf{Nazione}} \\*
+10.1 & Albania & Albania & \ipa{alˈbanja} \\
+10.2 & Austria & Austria & \ipa{ˈaustrja} \\
+10.3 & Belgium & Belgio & \ipa{ˈbɛldʒo} \\
+10.4 & Belorussia & Bielorussia & \ipa{bjeloˈrussja} \\
+10.5 & Bosnia \& Herzegovina & Bosnia - Herzegovina & \ipa{ˈbɔznja ertseˈɡɔvina} \\
+10.6 & Bulgaria & Bulgaria & \ipa{bulˈɡarja} \\
+10.7 & Croatia & Croazia & \ipa{kroˈattsja} \\
+10.8 & Czech Republic & Repubblica Ceca & \ipa{reˈpubblika ˈtʃɛka} \\
+10.9 & Denmark & Danimarca & \ipa{daniˈmarka} \\
+10.11 & Eire & Irlanda & \ipa{irˈlanda} \\
+10.12 & England & Inghilterra & \ipa{inɡilˈtɛrra} \\
+10.13 & Estonia & Estonia & \ipa{eˈstɔnja} \\
+10.14 & Finland & Finlandia & \ipa{finˈlandja} \\
+10.15 & France & Francia & \ipa{ˈfrantʃa} \\
+10.16 & Germany & Germania & \ipa{dʒerˈmanja} \\
+10.17 & Gibraltar & Gibilterra & \ipa{dʒibilˈtɛrra} \\
+10.18 & Greece & Grecia & \ipa{ˈɡrɛtʃa} \\
+10.19 & Holland & Olanda & \ipa{oˈlanda} \\
+10.21 & Hungary & Ungheria & \ipa{uŋɡeˈria} \\
+10.22 & Iceland & Islanda & \ipa{iˈzlanda} \\
+10.23 & Northern Ireland & Irlanda del Nord & \ipa{irˈlanda del nɔrd} \\
+10.24 & Isle of Man & Isola di Man & \ipa{ˈizola di man} \\
+10.25 & Italy & Italia & \ipa{iˈtalja} \\
+10.26 & Latvia & Lettonia & \ipa{letˈtɔnja} \\
+10.27 & Liechtenstein & Liechtenstein & \ipa{ˈliçtn̩ʃtaɪn} \\
+10.28 & Lithuania & Lituania & \ipa{liˈtwanja} \\
+10.29 & Luxembourg & Lussemburgo & \ipa{lussemˈburɡo} \\
+10.31 & Macedonia & Macedonia & \ipa{matʃeˈdɔnja} \\
+10.32 & Moldavia & Moldavia & \ipa{molˈdavja} \\
+10.33 & Netherlands & Paesi Bassi & \ipa{paˈezi ˈbassi} \\
+10.34 & Norway & Norvegia & \ipa{norˈvɛdʒa} \\
+10.35 & Poland & Polonia & \ipa{poˈlɔnja} \\
+10.36 & Portugal & Portogallo & \ipa{portoˈɡallo} \\
+10.37 & Romania & Romania & \ipa{romaˈnia} \\
+10.38 & Russian Federation & Russia & \ipa{ˈrussja} \\
+10.39 & Scotland & Scozia & \ipa{ˈskɔttsja} \\
+10.41 & Slovakia & Slovacchia & \ipa{zloˈvakkja} \\
+10.42 & Slovenia & Slovenia & \ipa{zloˈvɛnja} \\
+10.43 & Spain & Spagna & \ipa{ˈspaɲɲa} \\
+10.44 & Svalbard & Isole Svalbard & \ipa{ˈizole ˈsvalbard} \\
+10.45 & Sweden & Svezia & \ipa{ˈzvɛttsja} \\
+10.46 & Switzerland & Svizzera & \ipa{ˈzvittsera} \\
+10.47 & Turkey & Turchia & \ipa{turˈkia} \\
+10.48 & Ukraine & Ucraina & \ipa{uˈkraina} \\
+10.49 & Wales & Galles & \ipa{ˈɡalles} \\
+\end{longtable}
+\normalsize
+\section*{Hinweise zur Übertragung und Aussprache}
+\small\raggedright
+\textbf{Vorlage und Umfang.} Grundlage ist „Italian v 1.0.doc“, mit dem Credit Giancarlo -- I7SWX.
+Der Titel innerhalb der Quelle nennt abweichend „Italian v 21.0“; diese Versionsabweichung wird hier
+festgehalten. Alle 142 Phrasen und Ländernamen einschließlich aller alternativen Formulierungen sind enthalten.
+Die ursprüngliche Gliederung mit ihren Nummernsprüngen und dem fehlenden Abschnitt 7 bleibt erhalten.
+
+\medskip
+\textbf{Dokumentierte Korrekturen.} Apostrophe als Ersatz für Akzente wurden in der italienischen Spalte
+berichtigt: „e’ / E’“ zu „è / È“, „citta’“ zu „città“ und „inviero’“ zu „invierò“.
+„Sta’“ wurde in 6.3 und 6.4 als „Sta“ geschrieben. „modi operative“ wurde zu „modi operativi“ (5.5),
+„temepratura“ zu „temperatura“ (6.7). Leerzeichen nach „nell’“ in 2.72 und 2.73 wurden entfernt;
+mehrfache Leerzeichen vereinheitlicht. Das kaufmännische Und vor alternativen Formulierungen wurde
+jeweils durch einen Zeilenumbruch ersetzt.
+
+\medskip
+\textbf{Inhaltliche Eigenheiten.} Die Übersetzungen bleiben ansonsten wie in der Quelle. So stehen in 2.82
+„near mountains“ und „in montagna“, in 6.7 „8C“ und „8 gradi“ sowie in 8.3 „please“ und „mi dispiace“.
+Die italienische Spalte verwendet überwiegend die vertraute Anrede „tu“. Die männlichen Formen
+„lieto“, „pensionato“ und „divertito“ bleiben erhalten; für eine Sprecherin wären „lieta“, „pensionata“ und
+„divertita“ zu verwenden. Historische Ländernamen und Webadressen wurden nicht modernisiert.
+„Bosnia - Herzegovina“ bleibt als Schreibweise der Quelle erhalten; die Lautschrift verwendet die
+italienische Aussprache von „Bosnia-Erzegovina“.
+
+\medskip
+\textbf{Transkriptionskonvention.} Die IPA-Spalte ist eine breite, manuell erstellte Aussprachehilfe für
+Standarditalienisch, keine enge Transkription einer Aufnahme. \ipa{ˈ} steht vor der betonten Silbe;
+bei Zahlwörtern und Zusammensetzungen kann \ipa{ˌ} eine Nebenbetonung markieren. Lange Konsonanten
+werden durch Verdoppelung dargestellt, auch bei \ipa{ɲɲ} und \ipa{ʎʎ}; die Affrikaten \ipa{ts} und
+\ipa{tʃ} sind ohne zusätzliche Bindebögen geschrieben. Die vorhersagbare Vokallänge des Italienischen
+ist nicht eigens markiert. Wortübergreifende Konsonantenverdoppelung (raddoppiamento fonosintattico)
+und regionale Varianten werden nicht systematisch angegeben.
+
+\medskip
+\textbf{Namen und Fachwörter.} Peter, Sittingbourne und Dover sowie Longwire, Doublet, Contest und
+E-Mail sind mit englischen Ausspracheformen wiedergegeben; Hellschreiber und Liechtenstein mit deutschen.
+Für Icom ist eine englische Aussprachevariante gewählt. Sonst werden italienische beziehungsweise
+italienisch angepasste Formen verwendet; für „bureau“ steht eine französische Aussprache.
+Bei Marken, Orten und Fachwörtern sind weitere gebräuchliche Aussprachen möglich.
+
+\medskip
+\textbf{Zahlen, Kürzel und Varianten.} Zahlen werden ausgeschrieben; 706 wird als „settecentosei“ gelesen,
+599 als „cinque nove nove“ und 3,558 MHz als „tre virgola cinque cinque otto megahertz“.
+Die Lautschrift folgt der italienischen Spalte. Rufzeichen und die meisten Kürzel werden mit italienischen
+Buchstabennamen gelesen, nicht im internationalen Buchstabieralphabet: J als „i lunga“, W als „doppia vu“,
+Y als „ipsilon“, V als „vi“. FISTS wird als Wort gesprochen, das e in e-QSL und EHam als englisches \ipa{i}.
+Schrägstriche trennen alternative Formulierungen oder Listenelemente. Klammern geben den Zusatz der Quelle
+wieder. Platzhalter \texttt{<\#\#\#\#\#>} beziehungsweise \texttt{<\#\#\#\#>} sind nicht mitzusprechen
+und erscheinen in der Lautschrift als Auslassung.
+
+\medskip
+\textbf{LaTeX.} UTF-8-Datei; zweimal mit XeLaTeX kompilieren. Benötigt werden DejaVu Sans sowie die
+üblichen LaTeX-Pakete der Präambel. Die IPA-Zeichen stehen direkt als Unicode im Quelltext;
+es sind keine externen Bilder oder Datendateien erforderlich.
+\end{document}

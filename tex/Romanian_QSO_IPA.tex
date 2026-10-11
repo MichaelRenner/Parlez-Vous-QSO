@@ -1,0 +1,267 @@
+% !TeX program = xelatex
+% UTF-8; compile twice with XeLaTeX. No external images or data files needed.
+\documentclass[a4paper,landscape,10pt]{article}
+\usepackage[margin=14mm,headheight=14pt,headsep=5mm,footskip=7mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\newfontfamily\ipafont{DejaVu Sans}
+\usepackage[table]{xcolor}
+\usepackage{array,longtable,booktabs,fancyhdr}
+\definecolor{ink}{HTML}{18384D}
+\definecolor{band}{HTML}{E7EFF4}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{ink}Parlez Vous QSO?! · Română / Romanian}
+\fancyhead[R]{\small Englische Phrase · Traducere română · IPA}
+\fancyfoot[L]{\scriptsize Vorlage: Romanian v 1.1 · Credits: Maria Szarvaczki}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{3mm}
+\renewcommand{\arraystretch}{1.25}
+\newcommand{\ipa}[1]{{\ipafont[#1]}}
+\begin{document}
+{\LARGE\bfseries\color{ink}Parlez Vous QSO?!}\hfill{\large Română / Romanian}
+
+\vspace{2mm}
+{\small QSO-Sprachführer mit rumänischer IPA-Lautschrift. Die Lautschrift bezieht sich auf die rumänische Spalte.}
+
+\vspace{2mm}
+{\footnotesize \textbf{Leseschlüssel:} \ipa{ˈ} Hauptbetonung, \ipa{ˌ} Nebenbetonung;
+\ipa{ə} = ă, \ipa{ɨ} = â/î, \ipa{ʃ} = ș, \ipa{ts} = ț, \ipa{tʃ} = ce/ci, \ipa{dʒ} = ge/gi;
+\ipa{ʲ} bezeichnet Palatalisierung, \ipa{e̯a, o̯a} Diphthonge. Grundlage: rumänische Standardsprache.
+Schrägstriche trennen Alternativen; \ipa{…} steht für einen Platzhalter.}
+
+\vspace{1mm}
+\fontsize{9}{11.8}\selectfont
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{13mm}>{\raggedright\arraybackslash}p{73mm}>{\raggedright\arraybackslash}p{75mm}>{\raggedright\arraybackslash}p{90mm}@{}}
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Română} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Română} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\scriptsize Fortsetzung auf der nächsten Seite}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\rowcolor{band} 1.0 & \textbf{Opening Greetings} & \multicolumn{2}{l}{\textbf{Salutări}} \\*
+1.1 & I am very pleased to meet you. & Mă bucur să vă întâlnesc.\newline Mă bucur să te întâlnesc. & \ipa{mə ˈbukur sə və ɨntɨlˈnesk / mə ˈbukur sə te ɨntɨlˈnesk} \\
+1.2 & Thank you for your call & Mulțumesc pentru apel. & \ipa{multsuˈmesk ˈpentru aˈpel} \\
+1.3 & Good morning & Bună dimineața. & \ipa{ˈbunə dimiˈne̯atsa} \\
+1.31 & Good day & Bună ziua. & \ipa{ˈbunə ˈziwa} \\
+1.32 & Good afternoon & Bună ziua. & \ipa{ˈbunə ˈziwa} \\
+1.33 & Good evening & Bună seara. & \ipa{ˈbunə ˈse̯ara} \\
+1.4 & I know only a little Romanian but I enjoy QSOs in Romanian. & Eu vorbesc doar puțin română,\newline dar îmi plac QSO-urile în română. & \ipa{jew vorˈbesk do̯ar puˈtsin roˈmɨnə dar ɨmʲ plak kju es o.urile ɨn roˈmɨnə} \\
+\rowcolor{band} 2.0 & \textbf{Operator} & \multicolumn{2}{l}{\textbf{Operator}} \\*
+2.1 & My name is Peter. & Mă numesc Peter. & \ipa{mə nuˈmesk ˈpiːtə} \\
+2.2 & I have been licensed since 1960. & Am din 1960 licența pentru radioamatorism. & \ipa{am din o ˈmi.e ˈno.wə ˈsute ʃajˈzetʃʲ liˈtʃentsa ˈpentru radio.amatoˈrism} \\
+2.3 & I have been licensed for 43 years. & Sunt de 43 ani radioamator. & \ipa{sunt de ˈpatruzetʃʲ ʃi trej anʲ radio.amaˈtor} \\
+2.4 & I live in Sittingbourne. & Locuiesc în Sittingbourne. & \ipa{lokuˈjesk ɨn ˈsɪtɪŋbɔːn} \\
+2.5 & Sittingbourne is a village. & Sittingbourne este un sat. & \ipa{ˈsɪtɪŋbɔːn ˈjeste un sat} \\
+2.51 & Sittingbourne is a town. & Sittingbourne este o localitate. & \ipa{ˈsɪtɪŋbɔːn ˈjeste o lokaliˈtate} \\
+2.52 & Sittingbourne is a city. & Sittingbourne este un oraș. & \ipa{ˈsɪtɪŋbɔːn ˈjeste un oˈraʃ} \\
+2.6 & Sittingbourne is between London and Dover. & Sittingbourne este situat între Londra și Dover. & \ipa{ˈsɪtɪŋbɔːn ˈjeste situˈat ˈɨntre ˈlondra ʃi ˈdəʊvə} \\
+2.7 & I live in the South of England. & Eu trăiesc în Anglia de Sud. & \ipa{jew trəˈjesk ɨn ˈaŋɡli.a de sud} \\
+2.71 & I live in the North of England. & Eu trăiesc în Anglia de Nord. & \ipa{jew trəˈjesk ɨn ˈaŋɡli.a de nord} \\
+2.72 & I live in the East of England. & Eu trăiesc în Anglia de Est. & \ipa{jew trəˈjesk ɨn ˈaŋɡli.a de est} \\
+2.73 & I live in West of England. & Eu trăiesc în Anglia de Vest. & \ipa{jew trəˈjesk ɨn ˈaŋɡli.a de vest} \\
+2.74 & I live in South East England. & Eu trăiesc în sud-estul Angliei. & \ipa{jew trəˈjesk ɨn ˌsudˈestul ˈaŋɡli.ej} \\
+2.75 & I live in South West England. & Eu trăiesc în sud-vestul Angliei. & \ipa{jew trəˈjesk ɨn ˌsudˈvestul ˈaŋɡli.ej} \\
+2.76 & I live in North East England. & Eu trăiesc în nord-estul Angliei. & \ipa{jew trəˈjesk ɨn ˌnordˈestul ˈaŋɡli.ej} \\
+2.77 & I live in North West England. & Eu trăiesc în nord-vestul Angliei. & \ipa{jew trəˈjesk ɨn ˌnordˈvestul ˈaŋɡli.ej} \\
+2.78 & I live in central England. & Eu trăiesc în Anglia centrală. & \ipa{jew trəˈjesk ɨn ˈaŋɡli.a tʃenˈtralə} \\
+2.8 & I live in the country. & Eu locuiesc la țară. & \ipa{jew lokuˈjesk la ˈtsarə} \\
+2.81 & I live by the sea. & Eu locuiesc în apropierea litoralului. & \ipa{jew lokuˈjesk ɨn apropiˈere̯a litoˈraluluj} \\
+2.82 & I live near mountains. & Eu locuiesc în apropierea munților. & \ipa{jew lokuˈjesk ɨn apropiˈere̯a ˈmuntsilor} \\
+2.9 & Sittingbourne is 50Km from London. & Sittingbourne este la 50 km de Londra. & \ipa{ˈsɪtɪŋbɔːn ˈjeste la tʃinˈzetʃʲ de kiloˈmetri de ˈlondra} \\
+2.11 & I am retired. & Eu sunt pensionar. & \ipa{jew sunt pensi.oˈnar} \\
+2.12 & My home call sign is M0ECS. & Indicativul meu de bază este M0ECS. & \ipa{indikaˈtivul mew de ˈbazə ˈjeste em ˈzero e tʃe es} \\
+\rowcolor{band} 3.0 & \textbf{Station} & \multicolumn{2}{l}{\textbf{Stația}} \\*
+3.1 & My radio is an Icom 706. & Aparatul meu de radioamatorism este Icom 706. & \ipa{apaˈratul mew de radio.amatoˈrism ˈjeste ˈaɪkɒm ˈʃapte ˈsute ˈʃase} \\
+3.2 & My station is all homebrew (homemade). & Stația mea este completă și de mine construită. & \ipa{ˈstatsi.a me̯a ˈjeste komˈpletə ʃi de ˈmine konstruˈitə} \\
+3.3 & I am running 5 Watts. & Eu transmit cu 5 wați. & \ipa{jew transˈmit ku tʃintʃʲ vatsʲ} \\
+3.4 & My antenna is a long wire. & Antena mea este o sârmă lungă. & \ipa{anˈtena me̯a ˈjeste o ˈsɨrmə ˈluŋɡə} \\
+3.41 & My antenna is a dipole. & Antena mea este un dipol. & \ipa{anˈtena me̯a ˈjeste un diˈpol} \\
+3.42 & My antenna is a G5RV. & Antena mea este un G5RV. & \ipa{anˈtena me̯a ˈjeste un ɡe tʃintʃʲ er ve} \\
+3.43 & My antenna is a doublet. & Antena mea este un Doublet. & \ipa{anˈtena me̯a ˈjeste un ˈdʌblɪt} \\
+3.44 & My antenna is a delta loop. & Antena mea este un Delta-Loop. & \ipa{anˈtena me̯a ˈjeste un ˈdelta luːp} \\
+3.45 & My antenna is a vertical. & Antena mea este verticală. & \ipa{anˈtena me̯a ˈjeste vertiˈkalə} \\
+3.46 & My antenna is a log periodic. & Antena mea este un Log-Periodic. & \ipa{anˈtena me̯a ˈjeste un ˌlɒɡ pɪəriˈɒdɪk} \\
+3.47 & My antenna is a Yagi beam. & Antena mea este un Yagi. & \ipa{anˈtena me̯a ˈjeste un ˈjaɡi} \\
+3.48 & My antenna is a 5 element beam. & Antena mea este din 5 elemente. & \ipa{anˈtena me̯a ˈjeste din tʃintʃʲ eleˈmente} \\
+\rowcolor{band} 4.0 & \textbf{Conditions} & \multicolumn{2}{l}{\textbf{Legăturile}} \\*
+4.1 & Thank you for my 599 report. & Mulțumesc pentru raportul meu bun. & \ipa{multsuˈmesk ˈpentru raˈportul mew bun} \\
+4.2 & The band conditions are good. & Legăturile sunt bune. & \ipa{leɡəˈturile sunt ˈbune} \\
+4.3 & The band conditions are bad. & Legăturile sunt proaste. & \ipa{leɡəˈturile sunt ˈpro̯aste} \\
+4.4 & There is strong interference here. & Am bruiaje puternice. & \ipa{am bruˈjaʒe puˈternitʃe} \\
+4.5 & Can you change to the 80m band? & Puteți schimba pe banda de 80 metri? & \ipa{puˈtetsʲ skimˈba pe ˈbanda de ˈoptzetʃʲ ˈmetri} \\
+4.6 & Please change frequency to 3.558 MHz. & Vă rog schimbați pe 3,558 MHz. & \ipa{və roɡ skimˈbatsʲ pe trej ˈvirɡulə tʃintʃʲ tʃintʃʲ opt ˈmeɡaˌherts} \\
+\rowcolor{band} 5.0 & \textbf{General Queries and Comments} & \multicolumn{2}{l}{\textbf{Întrebări generale și comentarii}} \\*
+5.1 & What does <\#\#\#\#\#> mean please? & Ce înseamnă, vă rog, <\#\#\#\#\#>? & \ipa{tʃe ɨnˈse̯amnə və roɡ …} \\
+5.2 & Please wait a moment, I need to check my Romanian dictionary. & Așteptați un moment, mă uit în dicționarul român. & \ipa{aʃtepˈtatsʲ un moˈment mə ujt ɨn diktsi.oˈnarul roˈmɨn} \\
+5.3 & How do you say, <\#\#\#\#\#> in Romanian? & Cum se spune <\#\#\#\#\#> în română? & \ipa{kum se ˈspune … ɨn roˈmɨnə} \\
+5.5 & My favourite modes of operation are CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / Digital Modes / and SSB & Forma mea de comunicare cea mai plăcută este: telegrafia / RTTY / PSK / MT63 / Olivia / Hell / forme digitale / și fonie. & \ipa{ˈforma me̯a de komuniˈkare tʃe̯a maj pləˈkutə ˈjeste teleɡraˈfi.a / er te te i ɡrek / pe es ka / em te ʃajˈzetʃʲ ʃi trej / oˈlivi.a / hɛl / ˈforme didʒiˈtale / ʃi foˈni.e} \\
+5.6 & My best DX is Australia. & Legătura mea cea mai îndepărtată a fost în Australia. & \ipa{leɡəˈtura me̯a tʃe̯a maj ɨndepərˈtatə a fost ɨn a.usˈtrali.a} \\
+5.7 & I enjoy working contests. & Particip cu plăcere la concursuri. & \ipa{partiˈtʃip ku pləˈtʃere la konˈkursurʲ} \\
+5.8 & I like working QRP. & Lucrez cu drag cu parametrii mici / cu QRP. & \ipa{luˈkrez ku draɡ ku paraˈmetri mitʃʲ / ku kju er pe} \\
+\rowcolor{band} 6.0 & \textbf{The Weather} & \multicolumn{2}{l}{\textbf{Vremea}} \\*
+6.1 & It is sunny. & Este însorit. & \ipa{ˈjeste ɨnsoˈrit} \\
+6.2 & It is windy. & Este vântos. & \ipa{ˈjeste vɨnˈtos} \\
+6.3 & It is raining. & Plouă. & \ipa{ˈplo.wə} \\
+6.4 & It is snowing. & Ninge. & \ipa{ˈnindʒe} \\
+6.5 & It is very hot. & Este foarte cald. & \ipa{ˈjeste ˈfo̯arte kald} \\
+6.6 & It is very cold. & Este foarte frig. & \ipa{ˈjeste ˈfo̯arte friɡ} \\
+6.7 & The temperature is 8C. & Temperatura este de opt grade. & \ipa{temperaˈtura ˈjeste de opt ˈɡrade} \\
+6.8 & It is overcast. & Este înnorat. & \ipa{ˈjeste ɨnoˈrat} \\
+6.9 & It is foggy. & Este ceață. & \ipa{ˈjeste ˈtʃe̯atsə} \\
+6.11 & It has been raining all day. & A plouat toată ziua. & \ipa{a ploˈwat ˈto̯atə ˈziwa} \\
+6.12 & There is 20cm of snow here. & Sunt 20 cm zăpadă. & \ipa{sunt ˈdo.wəzetʃʲ de tʃentiˈmetri zəˈpadə} \\
+\rowcolor{band} 8.0 & \textbf{QSL} & \multicolumn{2}{l}{\textbf{QSL / Cartela QSL}} \\*
+8.1 & My QSL card is sure via the bureau & Cartela mea QSL vine prin birou. & \ipa{karˈtela me̯a kju es el ˈvine prin biˈrow} \\
+8.2 & QSL via eQSL & Eu transmit un eQSL. & \ipa{jew transˈmit un i kju es el} \\
+8.3 & No eQSL please & Nu doresc eQSL. & \ipa{nu doˈresk i kju es el} \\
+8.4 & I will send you my card direct. & Eu transmit QSL-ul meu direct. & \ipa{jew transˈmit kju es elul mew diˈrekt} \\
+8.5 & What is your address? & Care este adresa dumneavoastră? & \ipa{ˈkare ˈjeste aˈdresa dumne̯aˈvo̯astrə} \\
+8.6 & Please send your QSL card direct. & Vă rog transmiteți QSL-ul direct. & \ipa{və roɡ transˈmitetsʲ kju es elul diˈrekt} \\
+8.7 & My address is... & Adresa mea este… & \ipa{aˈdresa me̯a ˈjeste …} \\
+8.8 & My address is shown on QSL.com / EHam.net & Adresa mea este trecută în QSL.com / eHam.net. & \ipa{aˈdresa me̯a ˈjeste treˈkutə ɨn kju es el punkt kom / i hæm punkt net} \\
+8.9 & Sorry I do not send QSL cards. & Scuzați, nu transmit cartela QSL. & \ipa{skuˈzatsʲ nu transˈmit karˈtela kju es el} \\
+8.11 & Please send QSL card via G1JQH. & Transmiteți, vă rog, QSL-ul prin G1JQH. & \ipa{transˈmitetsʲ və roɡ kju es elul prin ɡe unu ʒe kju haʃ} \\
+8.12 & My WACRAL / GQRP / DXCC / FISTS number is 1234. & Numărul meu WACRAL / GQRP / DXCC / FISTS este 1234. & \ipa{ˈnumərul mew ˈwakral / ɡe kju er pe / de iks tʃe tʃe / fɪsts ˈjeste o ˈmi.e ˈdo.wə ˈsute ˈtrejzetʃʲ ʃi ˈpatru} \\
+\rowcolor{band} 9.0 & \textbf{Final Greetings} & \multicolumn{2}{l}{\textbf{Salutări de final / Rămas-bun}} \\*
+9.1 & Thank you. & Mulțumesc. & \ipa{multsuˈmesk} \\
+9.2 & Thank you for a very enjoyable contact. & Mulțumesc de legătura frumoasă. & \ipa{multsuˈmesk de leɡəˈtura fruˈmo̯asə} \\
+9.3 & I enjoyed our chat. & M-a bucurat a putea vorbi cu dv. & \ipa{ma bukuˈrat a puˈte̯a vorˈbi ku dumne̯aˈvo̯astrə} \\
+9.4 & I enjoyed our QSO in Romanian. & M-am bucurat de QSO-ul în limba română. & \ipa{mam bukuˈrat de kju es oul ɨn ˈlimba roˈmɨnə} \\
+9.5 & It has been great fun. & M-am bucurat.\newline Mi-a făcut plăcere. & \ipa{mam bukuˈrat / mja fəˈkut pləˈtʃere} \\
+9.6 & If you would like a regular contact with me, you can contact me via email. & Dacă vreți să mă întâlniți regulat, trimiteți-mi un e-mail. & \ipa{ˈdakə vretsʲ sə mə ɨntɨlˈnitsʲ reɡuˈlat triˈmitetsʲmi un ˈiːmeɪl} \\
+9.7 & My email address is... & Adresa mea de e-mail este… & \ipa{aˈdresa me̯a de ˈiːmeɪl ˈjeste …} \\
+9.8 & My email address is shown on QSL.com / EHam.net & Adresa mea de e-mail este trecută în QSL.com / EHam.net. & \ipa{aˈdresa me̯a de ˈiːmeɪl ˈjeste treˈkutə ɨn kju es el punkt kom / i hæm punkt net} \\
+9.9 & I look forward to meeting you again. & M-aș bucura să vă reîntâlnesc. & \ipa{maʃ bukuˈra sə və reɨntɨlˈnesk} \\
+9.11 & My best wishes to you and your family. & Cele mai frumoase urări dv. și familiei. & \ipa{ˈtʃele maj fruˈmo̯ase uˈrərʲ dumne̯aˈvo̯astrə ʃi faˈmili.ej} \\
+9.12 & Best wishes to your wife. & Cele mai frumoase urări soției. & \ipa{ˈtʃele maj fruˈmo̯ase uˈrərʲ soˈtsi.ej} \\
+9.121 & Best wishes to your husband. & Cele mai frumoase urări soțului. & \ipa{ˈtʃele maj fruˈmo̯ase uˈrərʲ ˈsotsului} \\
+9.13 & Good luck. & Noroc mult. & \ipa{noˈrok mult} \\
+9.14 & Good health. & Sănătate bună. & \ipa{sənəˈtate ˈbunə} \\
+9.15 & Goodbye & La reauzire. & \ipa{la re.a.uˈzire} \\
+9.16 & I wish you an enjoyable afternoon. & Vă doresc o zi frumoasă. & \ipa{və doˈresk o zi fruˈmo̯asə} \\
+9.161 & I wish you an enjoyable evening. & Vă doresc o seară plăcută. & \ipa{və doˈresk o ˈse̯arə pləˈkutə} \\
+9.162 & I wish you an enjoyable weekend. & Vă doresc un sfârșit de săptămână frumos. & \ipa{və doˈresk un sfɨrˈʃit de səptəˈmɨnə fruˈmos} \\
+9.17 & Enjoy your holiday. & Un concediu frumos. & \ipa{un konˈtʃedju fruˈmos} \\
+9.18 & Happy New Year. & Un an bun. & \ipa{un an bun} \\
+\rowcolor{band} 10.0 & \textbf{Country} & \multicolumn{2}{l}{\textbf{Țara}} \\*
+10.1 & Albania & Albania & \ipa{alˈbani.a} \\
+10.2 & Austria & Austria & \ipa{ˈa.ustri.a} \\
+10.3 & Belgium & Belgia & \ipa{ˈbeldʒi.a} \\
+10.4 & Belorussia & Belarus & \ipa{belaˈrus} \\
+10.5 & Bosnia \& Herzegovina & Bosnia-Herțegovina & \ipa{ˈbosni.a hertseɡoˈvina} \\
+10.6 & Bulgaria & Bulgaria & \ipa{bulˈɡari.a} \\
+10.7 & Croatia & Croația & \ipa{kroˈatsi.a} \\
+10.8 & Czech Republic & Cehia & \ipa{ˈtʃehi.a} \\
+10.9 & Denmark & Danemarca & \ipa{daneˈmarka} \\
+10.11 & Eire & Irlanda & \ipa{irˈlanda} \\
+10.12 & England & Anglia & \ipa{ˈaŋɡli.a} \\
+10.13 & Estonia & Estonia & \ipa{esˈtoni.a} \\
+10.14 & Finland & Finlanda & \ipa{finˈlanda} \\
+10.15 & France & Franța & \ipa{ˈfrantsa} \\
+10.16 & Germany & Germania & \ipa{dʒerˈmani.a} \\
+10.17 & Gibraltar & Gibraltar & \ipa{dʒibralˈtar} \\
+10.18 & Greece & Grecia & \ipa{ˈɡretʃi.a} \\
+10.19 & Holland & Olanda & \ipa{oˈlanda} \\
+10.21 & Hungary & Ungaria & \ipa{uŋˈɡari.a} \\
+10.22 & Iceland & Islanda & \ipa{isˈlanda} \\
+10.23 & Northern Ireland & Irlanda de Nord & \ipa{irˈlanda de nord} \\
+10.24 & Isle of Man & Insula Man & \ipa{ˈinsula man} \\
+10.25 & Italy & Italia & \ipa{iˈtali.a} \\
+10.26 & Latvia & Letonia & \ipa{leˈtoni.a} \\
+10.27 & Liechtenstein & Liechtenstein & \ipa{ˈlɪçtn̩ʃtaɪn} \\
+10.28 & Lithuania & Lituania & \ipa{lituˈani.a} \\
+10.29 & Luxembourg & Luxemburg & \ipa{ˈluksemburɡ} \\
+10.31 & Macedonia & Macedonia & \ipa{matʃeˈdoni.a} \\
+10.32 & Moldavia & Moldova & \ipa{molˈdova} \\
+10.33 & Netherlands & Olanda & \ipa{oˈlanda} \\
+10.34 & Norway & Norvegia & \ipa{norˈvedʒi.a} \\
+10.35 & Poland & Polonia & \ipa{poˈloni.a} \\
+10.36 & Portugal & Portugalia & \ipa{portuˈɡali.a} \\
+10.37 & Romania & România & \ipa{romɨˈni.a} \\
+10.38 & Russian Federation & Rusia & \ipa{ˈrusi.a} \\
+10.39 & Scotland & Scoția & \ipa{ˈskotsi.a} \\
+10.41 & Slovakia & Slovacia & \ipa{sloˈvatʃi.a} \\
+10.42 & Slovenia & Slovenia & \ipa{sloˈveni.a} \\
+10.43 & Spain & Spania & \ipa{ˈspani.a} \\
+10.44 & Svalbard & Svalbard & \ipa{ˈsvɑːlbɑr} \\
+10.45 & Sweden & Suedia & \ipa{suˈedi.a} \\
+10.46 & Switzerland & Elveția & \ipa{elˈvetsi.a} \\
+10.47 & Turkey & Turcia & \ipa{ˈturtʃi.a} \\
+10.48 & Ukraine & Ucraina & \ipa{uˈkrajna} \\
+10.49 & Wales & Țara Galilor & \ipa{ˈtsara ˈɡalilor} \\
+\end{longtable}
+\normalsize
+\section*{Hinweise zur Übertragung und Aussprache}
+\fontsize{8.5}{10}\selectfont\raggedright
+\textbf{Vorlage und Umfang.} Grundlage ist „Romanian v 1.1.doc“, Credit: Maria Szarvaczki.
+Der innere Titel nennt abweichend v 1.0; hier gilt die Versionsangabe des Dateinamens.
+Alle 142 Phrasen und Ländernamen sind enthalten. Die Gliederung und Nummernsprünge bleiben erhalten,
+auch der fehlende Abschnitt 7. Referenz „132“ ist zu „1.32“ berichtigt.
+
+\smallskip
+\textbf{Schreibweise.} Rumänische Diakritika wurden wiederhergestellt: ă, â, î, ș und ț,
+mit Komma unter ș/ț. Ältere î-Schreibungen im Wortinneren wurden auf die heutige â-Schreibung umgestellt,
+wo erforderlich; reîntâlnesc behält î an der Wortgrenze. Offensichtliche Tippfehler wurden korrigiert,
+etwa dimimeata, und oras, apropiereea, nea, inourat, Saluari und reantalnesc.
+Abstände, Satzzeichen, Bindestriche und Zeilenumbrüche wurden vereinheitlicht.
+
+\smallskip
+\textbf{Inhaltliche Korrekturen.} „telefon“ wurde im Funkkontext zu „apel“ (1.2).
+Die auf Englisch bezogenen Passagen 1.4, 5.2 und 9.4 wurden in beiden Sprachspalten auf Rumänisch umgestellt.
+1.4 ist entsprechend dem englischen Sinn neu formuliert.
+„Codul localității mele este MOECS“ wurde zu „Indicativul meu de bază este M0ECS“ (2.12);
+„G5GV“ zu „G5RV“ (3.42), jeweils gemäß der englischen Spalte.
+„Vați“ steht als „wați“ (3.3), „pe român“ als „în română“ (5.3),
+„contestații“ als „concursuri“ (5.7, Wettbewerbe) und „La reauzite“ als „La reauzire“ (9.15).
+
+\smallskip
+\textbf{Ländernamen.} Die vier fehlenden Übersetzungen wurden ergänzt:
+Belarus (10.4), Insula Man (10.24), Svalbard (10.44), Țara Galilor (10.49).
+Bosnia-Herțegovina, Liechtenstein und Lituania ersetzen die fehlerhaften Schreibweisen der Vorlage.
+Macedonia, Rusia und die doppelte Angabe Olanda für Holland/Netherlands bleiben erhalten.
+
+\smallskip
+\textbf{Besonderheiten der Vorlage.} 4.1 enthält im Rumänischen keinen 599-Rapport;
+4.2/4.3 sprechen von Verbindungen statt Bandbedingungen. 5.5 verwendet telegrafia, Hell und fonie
+statt wortwörtlich CW, Hellschreiber und SSB. 6.7 nennt acht Grad ohne Celsius;
+6.11 steht in der Vergangenheit. 9.16 wünscht einen schönen Tag statt ausdrücklich einen Nachmittag.
+Diese Unterschiede bleiben erhalten, ebenso einige ältere oder knappe Formulierungen.
+Die IPA-Spalte folgt der rumänischen Spalte; „dv.“ wird als „dumneavoastră“ gelesen.
+
+\smallskip
+\textbf{Aussprachebasis.} Die manuelle, breite IPA-Umschrift orientiert sich an der rumänischen
+Standardsprache. \ipa{ə} steht für ă, \ipa{ɨ} für â/î; \ipa{j, w} sind Gleitlaute.
+\ipa{ʲ} bezeichnet ein kurzes palatalisiertes Ende, etwa bei ani und vielen Formen auf -ți;
+bei metri und centimetri bleibt ein voller i-Vokal. Eu und este werden mit anlautendem \ipa{j} gelesen.
+R ist vereinfacht als \ipa{r} dargestellt. Satzmelodie, alle Assimilationen und regionale Varianten
+sind nicht vollständig kodiert. Cincizeci steht mit der gebräuchlichen Variante „cinzeci“.
+
+\smallskip
+\textbf{Namen und Kürzel.} Sittingbourne, Dover, Peter, Icom, Doublet, Loop und Log-Periodic
+verwenden englische Aussprache; Hell und Liechtenstein deutsche, Svalbard norwegische.
+Andere Namen sind überwiegend rumänisch gelesen. Rufzeichen und Kürzel verwenden hier Q „chiu“,
+S „es“, L „el“, M „em“, R „er“, G „ghe“, C „ce“, J „je“, H „haș“, Y „i grec“.
+Andere Buchstabennamen sind ebenfalls gebräuchlich. WACRAL und FISTS werden als Wörter gelesen.
+Das e in eQSL/eHam ist \ipa{i}; Ham und e-mail stehen englisch, Webpunkte als „punct“, com/net als Wörter.
+
+\smallskip
+\textbf{Zahlen und Platzhalter.} 1960 = „o mie nouă sute șaizeci“, 43 = „patruzeci și trei“,
+706 = „șapte sute șase“, MT63 mit „șaizeci și trei“, 1234 = „o mie două sute treizeci și patru“.
+3,558 MHz wird als „trei virgulă cinci cinci opt megahertz“ gelesen; Maßeinheiten werden ausgeschrieben.
+Zeitklammern bei Tagesgrüßen werden nicht mitgesprochen. Offene Angaben und \texttt{<\#\#\#\#\#>}
+stehen als Auslassung.
+
+\smallskip
+\textbf{Fachhinweise.} Ioana Chitoran, Ioana Vasilescu, Bianca Vieru und Lori Lamel:
+„Connected speech in Romanian: Exploring sound change through an ASR system“,
+öffentliches Manuskript auf vocapia.com, besonders Tabellen 1/2 zum Lautsystem.
+DEX/DOOM-Einträge auf dexonline.ro wurden für Schreibungen, Betonungen und Buchstabennamen herangezogen.
+\end{document}

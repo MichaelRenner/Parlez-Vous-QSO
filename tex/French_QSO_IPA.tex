@@ -1,0 +1,248 @@
+% !TeX program = xelatex
+% UTF-8; compile twice with XeLaTeX. No external images or data files needed.
+\documentclass[a4paper,landscape,10pt]{article}
+\usepackage[margin=14mm,headheight=14pt,headsep=5mm,footskip=7mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\newfontfamily\ipafont{DejaVu Sans}
+\usepackage[table]{xcolor}
+\usepackage{array,longtable,booktabs,fancyhdr}
+\definecolor{ink}{HTML}{18384D}
+\definecolor{band}{HTML}{E7EFF4}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{ink}Parlez Vous QSO?! · Français / French}
+\fancyhead[R]{\small Englische Phrase · Traduction française · IPA}
+\fancyfoot[L]{\scriptsize Vorlage: French v 1.0 · Credits: Jean-Michael -- F5OQO; Pierre-Louis -- F5BTT}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{3mm}
+\renewcommand{\arraystretch}{1.25}
+\newcommand{\ipa}[1]{{\ipafont[#1]}}
+\begin{document}
+{\LARGE\bfseries\color{ink}Parlez Vous QSO?!}\hfill{\large Français / French}
+
+\vspace{2mm}
+{\small QSO-Sprachführer mit französischer IPA-Lautschrift. Die Lautschrift bezieht sich auf die französische Spalte.}
+
+\vspace{2mm}
+{\footnotesize \textbf{Leseschlüssel:} \ipa{ɑ̃, ɛ̃, ɔ̃, œ̃} Nasalvokale; \ipa{y} wie deutsches ü,
+\ipa{ɥ} kurzer ü-Gleitlaut, \ipa{ʁ} französisches r. \ipa{‿} verbindet Wörter in der Aussprache.
+Schrägstriche trennen Alternativen; \ipa{…} steht für einen einzusetzenden Ausdruck.}
+
+\vspace{1mm}
+\fontsize{9}{11.8}\selectfont
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{13mm}>{\raggedright\arraybackslash}p{73mm}>{\raggedright\arraybackslash}p{75mm}>{\raggedright\arraybackslash}p{90mm}@{}}
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Français} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Français} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\scriptsize Fortsetzung auf der nächsten Seite}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\rowcolor{band} 1.0 & \textbf{Opening Greetings} & \multicolumn{2}{l}{\textbf{Début de QSO}} \\*
+1.1 & I am very pleased to meet you. & Je suis très heureux de vous contacter. & \ipa{ʒə sɥi tʁɛ.z‿øʁø də vu kɔ̃takte} \\
+1.2 & Thank you for your call & Merci de votre appel. & \ipa{mɛʁsi də vɔtʁ apɛl} \\
+1.3 & Good morning & Bonjour. & \ipa{bɔ̃ʒuʁ} \\
+1.31 & Good day & Bonjour. & \ipa{bɔ̃ʒuʁ} \\
+1.32 & Good afternoon & Bonjour. & \ipa{bɔ̃ʒuʁ} \\
+1.33 & Good evening & Bonsoir. & \ipa{bɔ̃swaʁ} \\
+1.4 & I know only a little French but I enjoy QSOs in French. & Je connais peu de mots en français mais j'aime les QSO en français. & \ipa{ʒə kɔnɛ pø də mo.z‿ɑ̃ fʁɑ̃sɛ mɛ ʒɛm le ky ɛs o ɑ̃ fʁɑ̃sɛ} \\
+\rowcolor{band} 2.0 & \textbf{Operator} & \multicolumn{2}{l}{\textbf{Opérateur}} \\*
+2.1 & My name is Peter. & Mon nom est Pierre. & \ipa{mɔ̃ nɔ̃ ɛ pjɛʁ} \\
+2.2 & I have been licensed since 1960. & J’ai ma licence depuis 1930. & \ipa{ʒe ma lisɑ̃s dəpɥi mil nœf sɑ̃ tʁɑ̃t} \\
+2.3 & I have been licensed for 43 years. & J’ai mon indicatif depuis 43 ans. & \ipa{ʒe mɔ̃.n‿ɛ̃dikatif dəpɥi kaʁɑ̃t tʁwa.z‿ɑ̃} \\
+2.4 & I live in Sittingbourne. & J'habite Sittingbourne. & \ipa{ʒabit ˈsɪtɪŋbɔːn} \\
+2.5 & Sittingbourne is a village. & Sittingbourne est un village. & \ipa{ˈsɪtɪŋbɔːn ɛ.t‿œ̃ vilaʒ} \\
+2.51 & Sittingbourne is a town. & Sittingbourne est une petite ville. & \ipa{ˈsɪtɪŋbɔːn ɛ.t‿yn pətit vil} \\
+2.52 & Sittingbourne is a city. & Sittingbourne est une grande ville. & \ipa{ˈsɪtɪŋbɔːn ɛ.t‿yn ɡʁɑ̃d vil} \\
+2.6 & Sittingbourne is between London and Dover. & Sittingbourne est située entre Londres et Douvres. & \ipa{ˈsɪtɪŋbɔːn ɛ sitɥe ɑ̃tʁ lɔ̃dʁ e duvʁ} \\
+2.7 & I live in the South of England. & J'habite au sud de l’Angleterre. & \ipa{ʒabit o syd də lɑ̃ɡlətɛʁ} \\
+2.71 & I live in the North of England. & J'habite au nord de l’Angleterre. & \ipa{ʒabit o nɔʁ də lɑ̃ɡlətɛʁ} \\
+2.72 & I live in the East of England. & J'habite à l’est de l’Angleterre. & \ipa{ʒabit a lɛst də lɑ̃ɡlətɛʁ} \\
+2.73 & I live in West of England. & J'habite à l’ouest de l’Angleterre. & \ipa{ʒabit a lwɛst də lɑ̃ɡlətɛʁ} \\
+2.74 & I live in South East England. & J'habite au sud est de l’Angleterre. & \ipa{ʒabit o syd ɛst də lɑ̃ɡlətɛʁ} \\
+2.75 & I live in South West England. & J'habite au sud ouest de l’Angleterre. & \ipa{ʒabit o syd wɛst də lɑ̃ɡlətɛʁ} \\
+2.76 & I live in North East England. & J'habite au nord est de l’Angleterre & \ipa{ʒabit o nɔʁ ɛst də lɑ̃ɡlətɛʁ} \\
+2.77 & I live in North West England. & J'habite au nord ouest de l’Angleterre. & \ipa{ʒabit o nɔʁ wɛst də lɑ̃ɡlətɛʁ} \\
+2.78 & I live in central England. & J'habite au centre de l’Angleterre. & \ipa{ʒabit o sɑ̃tʁ də lɑ̃ɡlətɛʁ} \\
+2.8 & I live in the country. & J'habite à la campagne. & \ipa{ʒabit a la kɑ̃paɲ} \\
+2.81 & I live by the sea. & J'habite près de la mer. & \ipa{ʒabit pʁɛ də la mɛʁ} \\
+2.82 & I live near mountains. & J'habite à la montagne. & \ipa{ʒabit a la mɔ̃taɲ} \\
+2.9 & Sittingbourne is 50Km from London. & Sittingbourne est à 50 Km de Londres. & \ipa{ˈsɪtɪŋbɔːn ɛ.t‿a sɛ̃kɑ̃t kilɔmɛtʁ də lɔ̃dʁ} \\
+2.11 & I am retired. & Je suis à la retraite.\newline Je suis retraité. & \ipa{ʒə sɥi.z‿a la ʁətʁɛt / ʒə sɥi ʁətʁɛte} \\
+2.12 & My home call sign is M0ECS. & Mon indicatif est M0ECS. & \ipa{mɔ̃.n‿ɛ̃dikatif ɛ ɛm zeʁo ø se ɛs} \\
+\rowcolor{band} 3.0 & \textbf{Station} & \multicolumn{2}{l}{\textbf{Station}} \\*
+3.1 & My radio is an Icom 706. & Mon transceiver est un Icom 706. & \ipa{mɔ̃ tʁɑ̃sivœʁ ɛ.t‿œ̃ ikɔm sɛt sɑ̃ sis} \\
+3.2 & My station is all homebrew (homemade). & Ma station est entièrement de fabrication personnelle. & \ipa{ma stasjɔ̃ ɛ.t‿ɑ̃tjɛʁmɑ̃ də fabʁikasjɔ̃ pɛʁsɔnɛl} \\
+3.3 & I am running 5 Watts. & Ma puissance est de 5 watts. & \ipa{ma pɥisɑ̃s ɛ də sɛ̃k wat} \\
+3.4 & My antenna is a long wire. & Mon antenne est un long fil. & \ipa{mɔ̃.n‿ɑ̃tɛn ɛ.t‿œ̃ lɔ̃ fil} \\
+3.41 & My antenna is a dipole. & Mon antenne est un dipôle. & \ipa{mɔ̃.n‿ɑ̃tɛn ɛ.t‿œ̃ dipol} \\
+3.42 & My antenna is a G5RV. & Mon antenne est une G5RV. & \ipa{mɔ̃.n‿ɑ̃tɛn ɛ.t‿yn ʒe sɛ̃k ɛʁ ve} \\
+3.43 & My antenna is a doublet. & Mon antenne est un doublet. & \ipa{mɔ̃.n‿ɑ̃tɛn ɛ.t‿œ̃ dublɛ} \\
+3.44 & My antenna is a delta loop. & Mon antenne est une delta loop. & \ipa{mɔ̃.n‿ɑ̃tɛn ɛ.t‿yn dɛlta lup} \\
+3.45 & My antenna is a vertical. & Mon antenne est une verticale. & \ipa{mɔ̃.n‿ɑ̃tɛn ɛ.t‿yn vɛʁtikal} \\
+3.46 & My antenna is a log periodic. & Mon antenne est une log périodique. & \ipa{mɔ̃.n‿ɑ̃tɛn ɛ.t‿yn lɔɡ peʁjɔdik} \\
+3.47 & My antenna is a Yagi beam. & Mon antenne est une Yagi & \ipa{mɔ̃.n‿ɑ̃tɛn ɛ.t‿yn jaɡi} \\
+3.48 & My antenna is a 5 element beam. & Mon antenne est une Yagi (de) 5 éléments. & \ipa{mɔ̃.n‿ɑ̃tɛn ɛ.t‿yn jaɡi (də) sɛ̃k e.le.mɑ̃} \\
+\rowcolor{band} 4.0 & \textbf{Conditions} & \multicolumn{2}{l}{\textbf{Conditions}} \\*
+4.1 & Thank you for my 599 report. & Merci pour mon RST de 599. & \ipa{mɛʁsi puʁ mɔ̃.n‿ɛʁ ɛs te də sɛ̃k nœf nœf} \\
+4.2 & The band conditions are good. & Les conditions sur la bande sont bonnes & \ipa{le kɔ̃disjɔ̃ syʁ la bɑ̃d sɔ̃ bɔn} \\
+4.3 & The band conditions are bad. & Les conditions sur la bande sont mauvaises. & \ipa{le kɔ̃disjɔ̃ syʁ la bɑ̃d sɔ̃ movɛz} \\
+4.4 & There is strong interference here. & Il y a de fortes interférences ici. & \ipa{il j a də fɔʁt.z‿ɛ̃tɛʁfeʁɑ̃s isi} \\
+4.5 & Can you change to the 80m band? & Pouvez vous venir sur la bande des 80 mètres. & \ipa{puve vu vəniʁ syʁ la bɑ̃d de katʁə.vɛ̃ mɛtʁ} \\
+4.6 & Please change frequency to 3.558 MHz. & Réglez vous sur 3,556 MHz s'il vous plaît. & \ipa{ʁeɡle vu syʁ tʁwa viʁɡyl sɛ̃k sɛ̃k sis meɡaɛʁts sil vu plɛ} \\
+\rowcolor{band} 5.0 & \textbf{General Queries and Comments} & \multicolumn{2}{l}{\textbf{Questions Générales et Commentaires}} \\*
+5.1 & What does <\#\#\#\#\#> mean please? & Que signifie <\#\#\#\#\#> s'il vous plaît ? & \ipa{kə siɲifi … sil vu plɛ} \\
+5.2 & Please wait a moment, I need to check my French dictionary. & Un instant s'il vous plaît, je vérifie dans mon dictionnaire français. & \ipa{œ̃.n‿ɛ̃stɑ̃ sil vu plɛ ʒə veʁifi dɑ̃ mɔ̃ diksjɔnɛʁ fʁɑ̃sɛ} \\
+5.3 & How do you say, <\#\#\#\#\#> in French ? & Comment dit-on <\#\#\#\#\#> en français? & \ipa{kɔmɑ̃ di t‿ɔ̃ … ɑ̃ fʁɑ̃sɛ} \\
+5.5 & My favourite modes of operation are CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / Digital Modes / and SSB & Mes modes préférés sont CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / modes digitaux / et SSB. & \ipa{me mɔd pʁefeʁe sɔ̃ se dublə ve / ɛʁ te te i ɡʁɛk / pe ɛs ka / ɛm te swasɑ̃t tʁwa / ɔlivja / ˈhɛlˌʃʁaɪbɐ / mɔd diʒito / e ɛs ɛs be} \\
+5.6 & My best DX is Australia. & Mon meilleur DX est l'Australie. & \ipa{mɔ̃ mɛjœʁ de iks ɛ lostʁali} \\
+5.7 & I enjoy working contests. & J'aime les concours. & \ipa{ʒɛm le kɔ̃kuʁ} \\
+5.8 & I like working QRP. & J’aime trafiquer en QRP. & \ipa{ʒɛm tʁafike ɑ̃ ky ɛʁ pe} \\
+\rowcolor{band} 6.0 & \textbf{The Weather} & \multicolumn{2}{l}{\textbf{Le Temps}} \\*
+6.1 & It is sunny. & Il y a du soleil. & \ipa{il j a dy sɔlɛj} \\
+6.2 & It is windy. & Il y a du vent. & \ipa{il j a dy vɑ̃} \\
+6.3 & It is raining. & Il pleut. & \ipa{il plø} \\
+6.4 & It is snowing. & Il neige. & \ipa{il nɛʒ} \\
+6.5 & It is very hot. & Il fait très chaud. & \ipa{il fɛ tʁɛ ʃo} \\
+6.6 & It is very cold. & Il fait très froid. & \ipa{il fɛ tʁɛ fʁwa} \\
+6.7 & The temperature is 8C. & La température est de 8°C. & \ipa{la tɑ̃peʁatyʁ ɛ də ɥit dəɡʁe sɛlsjys} \\
+6.8 & It is overcast. & Le temps est couvert. & \ipa{lə tɑ̃.z‿ɛ kuvɛʁ} \\
+6.9 & It is foggy. & Le temps est brumeux. & \ipa{lə tɑ̃.z‿ɛ bʁymø} \\
+6.11 & It has been raining all day. & Il a plu toute la journée. & \ipa{il a ply tut la ʒuʁne} \\
+6.12 & There is 20cm of snow here. & Il y a 20 cm de neige ici. & \ipa{il j a vɛ̃ sɑ̃timɛtʁ də nɛʒ isi} \\
+\rowcolor{band} 8.0 & \textbf{QSL} & \multicolumn{2}{l}{\textbf{QSL}} \\*
+8.1 & My QSL card is sure via the bureau & Ma carte QSL est sûre via bureau. & \ipa{ma kaʁt ky ɛs ɛl ɛ syʁ vja byʁo} \\
+8.2 & QSL via eQSL & QSL via eQSL. & \ipa{ky ɛs ɛl vja i ky ɛs ɛl} \\
+8.3 & No eQSL please & Pas de eQSL s'il vous plaît. & \ipa{pa də i ky ɛs ɛl sil vu plɛ} \\
+8.4 & I will send you my card direct. & Je vous envoie ma carte QSL en direct. & \ipa{ʒə vu.z‿ɑ̃vwa ma kaʁt ky ɛs ɛl ɑ̃ diʁɛkt} \\
+8.5 & What is your address? & Quelle est votre adresse ? & \ipa{kɛl ɛ vɔtʁ adʁɛs} \\
+8.6 & Please send your QSL card direct. & Envoyez (moi) votre carte QSL en direct s'il vous plaît. & \ipa{ɑ̃vwaje (mwa) vɔtʁ kaʁt ky ɛs ɛl ɑ̃ diʁɛkt sil vu plɛ} \\
+8.7 & My address is... & Mon adresse est ... & \ipa{mɔ̃.n‿adʁɛs ɛ …} \\
+8.8 & My address is shown on QSL.com / EHam.net & Mon adresse est indiquée sur QSL.com / EHam.net. & \ipa{mɔ̃.n‿adʁɛs ɛ.t‿ɛ̃dike syʁ ky ɛs ɛl pwɛ̃ kɔm / i hæm pwɛ̃ nɛt} \\
+8.9 & Sorry I do not send QSL cards. & Désolé je n'envoie pas de carte QSL. & \ipa{dezɔle ʒə nɑ̃vwa pa də kaʁt ky ɛs ɛl} \\
+8.11 & Please send QSL card via G1JQH. & Envoyez les cartes QSL via G1JQH s'il vous plaît. & \ipa{ɑ̃vwaje le kaʁt ky ɛs ɛl vja ʒe œ̃ ʒi ky aʃ sil vu plɛ} \\
+8.12 & My WACRAL / GQRP / DXCC / FISTS number is 1234. & Mon numéro WACRAL / GQRP / DXCC / FISTS est 1234. & \ipa{mɔ̃ nymeʁo dublə ve a se ɛʁ ɛl / ʒe ky ɛʁ pe / de iks se se / fɪsts ɛ mil dø sɑ̃ tʁɑ̃t katʁ} \\
+\rowcolor{band} 9.0 & \textbf{Final Greetings} & \multicolumn{2}{l}{\textbf{Fin de QSO}} \\*
+9.1 & Thank you. & Merci. & \ipa{mɛʁsi} \\
+9.2 & Thank you for a very enjoyable contact. & Merci pour ce contact très sympathique. & \ipa{mɛʁsi puʁ sə kɔ̃takt tʁɛ sɛ̃patik} \\
+9.3 & I enjoyed our chat. & J'ai apprécié notre discussion. & \ipa{ʒe apʁesje nɔtʁ diskysjɔ̃} \\
+9.4 & I enjoyed our QSO in French. & J'ai apprécié notre QSO en français. & \ipa{ʒe apʁesje nɔtʁ ky ɛs o ɑ̃ fʁɑ̃sɛ} \\
+9.5 & It has been great fun. & Cela a été très intéressant. & \ipa{səla a ete tʁɛ.z‿ɛ̃teʁesɑ̃} \\
+9.6 & If you would like a regular contact with me, you can contact me via email. & Si vous voulez me contacter régulièrement, vous pouvez le faire par email. & \ipa{si vu vule mə kɔ̃takte ʁeɡyljɛʁmɑ̃ vu puve lə fɛʁ paʁ imɛl} \\
+9.7 & My email address is... & Mon adresse email est ... & \ipa{mɔ̃.n‿adʁɛs imɛl ɛ …} \\
+9.8 & My email address is shown on QSL.com / EHam.net & Mon adresse email est sur QSL.com / EHam.net. & \ipa{mɔ̃.n‿adʁɛs imɛl ɛ syʁ ky ɛs ɛl pwɛ̃ kɔm / i hæm pwɛ̃ nɛt} \\
+9.9 & I look forward to meeting you again. & J'espère vous retrouver bientôt & \ipa{ʒɛspɛʁ vu ʁətʁuve bjɛ̃to} \\
+9.11 & My best wishes to you and your family. & Meilleurs souhaits ( / vœux) pour vous et votre famille. & \ipa{mɛjœʁ suɛ / mɛjœʁ vø puʁ vu e vɔtʁ famij} \\
+9.12 & Best wishes to your wife. & Meilleurs souvenirs à votre épouse. & \ipa{mɛjœʁ suvəniʁ a vɔtʁ epuz} \\
+9.121 & Best wishes to your husband. & Meilleurs souhaits à votre époux. & \ipa{mɛjœʁ suɛ.z‿a vɔtʁ epu} \\
+9.13 & Good luck. & Bonne chance. & \ipa{bɔn ʃɑ̃s} \\
+9.14 & Good health. & Bonne santé. & \ipa{bɔn sɑ̃te} \\
+9.15 & Goodbye & Au revoir. & \ipa{o ʁəvwaʁ} \\
+9.16 & I wish you an enjoyable afternoon. & Je vous souhaite un bon après midi. & \ipa{ʒə vu suɛt œ̃ bɔ̃.n‿apʁɛ midi} \\
+9.161 & I wish you an enjoyable evening. & Je vous souhaite une bonne soirée. & \ipa{ʒə vu suɛt yn bɔn swaʁe} \\
+9.162 & I wish you an enjoyable weekend. & Je vous souhaite un bon week-end. & \ipa{ʒə vu suɛt œ̃ bɔ̃ wikɛnd} \\
+9.17 & Enjoy your holiday. & Bonnes vacances. & \ipa{bɔn vakɑ̃s} \\
+9.18 & Happy New Year. & Bonne année.\newline Bonne année, bonne santé & \ipa{bɔ.n‿a.ne / bɔ.n‿a.ne bɔn sɑ̃te} \\
+\rowcolor{band} 10.0 & \textbf{Country} & \multicolumn{2}{l}{\textbf{Les Pays}} \\*
+10.1 & Albania & Albanie & \ipa{albani} \\
+10.2 & Austria & Autriche & \ipa{otʁiʃ} \\
+10.3 & Belgium & Belgique & \ipa{bɛlʒik} \\
+10.4 & Belorussia & Biélorussie & \ipa{bjelɔʁysi} \\
+10.5 & Bosnia \& Herzegovina & Bosnie-Herzégovine & \ipa{bɔsni ɛʁzeɡɔvin} \\
+10.6 & Bulgaria & Bulgarie & \ipa{bylɡaʁi} \\
+10.7 & Croatia & Croatie & \ipa{kʁɔasi} \\
+10.8 & Czech Republic & République Tchèque & \ipa{ʁepyblik tʃɛk} \\
+10.9 & Denmark & Danemark & \ipa{danmaʁk} \\
+10.11 & Eire & Irlande & \ipa{iʁlɑ̃d} \\
+10.12 & England & Angleterre & \ipa{ɑ̃ɡlətɛʁ} \\
+10.13 & Estonia & Estonie & \ipa{ɛstɔni} \\
+10.14 & Finland & Finlande & \ipa{fɛ̃lɑ̃d} \\
+10.15 & France & France & \ipa{fʁɑ̃s} \\
+10.16 & Germany & Allemagne & \ipa{almaɲ} \\
+10.17 & Gibraltar & Gibraltar & \ipa{ʒibʁaltaʁ} \\
+10.18 & Greece & Grèce & \ipa{ɡʁɛs} \\
+10.19 & Holland & Pays Bas / Hollande & \ipa{pe.i ba / ɔlɑ̃d} \\
+10.21 & Hungary & Hongrie & \ipa{ɔ̃ɡʁi} \\
+10.22 & Iceland & Islande & \ipa{islɑ̃d} \\
+10.23 & Northern Ireland & Irlande du Nord & \ipa{iʁlɑ̃d dy nɔʁ} \\
+10.24 & Isle of Man & Île de Man & \ipa{il də man} \\
+10.25 & Italy & Italie & \ipa{itali} \\
+10.26 & Latvia & Lettonie & \ipa{lɛtɔni} \\
+10.27 & Liechtenstein & Liechtenstein & \ipa{liʃtɛnʃtajn} \\
+10.28 & Lithuania & Lituanie & \ipa{litɥani} \\
+10.29 & Luxembourg & Luxembourg & \ipa{lyksɑ̃buʁ} \\
+10.31 & Macedonia & Macédoine & \ipa{masedwan} \\
+10.32 & Moldavia & Moldavie & \ipa{mɔldavi} \\
+10.33 & Netherlands & Pays Bas / Hollande & \ipa{pe.i ba / ɔlɑ̃d} \\
+10.34 & Norway & Norvège & \ipa{nɔʁvɛʒ} \\
+10.35 & Poland & Pologne & \ipa{pɔlɔɲ} \\
+10.36 & Portugal & Portugal & \ipa{pɔʁtyɡal} \\
+10.37 & Romania & Roumanie & \ipa{ʁumani} \\
+10.38 & Russian Federation & Fédération Russe & \ipa{fedeʁasjɔ̃ ʁys} \\
+10.39 & Scotland & Écosse & \ipa{ekɔs} \\
+10.41 & Slovakia & Slovaquie & \ipa{slɔvaki} \\
+10.42 & Slovenia & Slovénie & \ipa{slɔveni} \\
+10.43 & Spain & Espagne & \ipa{ɛspaɲ} \\
+10.44 & Svalbard & Svalbard (Spitzberg) & \ipa{svalbaʁ (spitsbɛʁɡ)} \\
+10.45 & Sweden & Suède & \ipa{sɥɛd} \\
+10.46 & Switzerland & Suisse & \ipa{sɥis} \\
+10.47 & Turkey & Turquie & \ipa{tyʁki} \\
+10.48 & Ukraine & Ukraine & \ipa{ykʁɛn} \\
+10.49 & Wales & Pays de Galles & \ipa{pe.i də ɡal} \\
+\end{longtable}
+\normalsize
+\section*{Hinweise zur Übertragung und Aussprache}
+\small
+\textbf{Vorlage und Umfang.} Grundlage ist „French v 1.0.doc“, mit den Credits
+Jean-Michael -- F5OQO und Pierre-Louis -- F5BTT. Alle 142 Phrasen und Ländernamen sind enthalten.
+Die ursprüngliche Gliederung einschließlich der Nummernsprünge und des fehlenden Abschnitts 7 bleibt erhalten.
+
+\medskip
+\textbf{Dokumentierte Korrekturen.} In 2.75 wurde das fehlende „de“ vor „l’Angleterre“ ergänzt,
+in 2.78 das doppelte „au“ entfernt und in 8.5 „Qu'elle“ zu „Quelle“ berichtigt.
+„Bosnie Herzégovie“ wurde zu „Bosnie-Herzégovine“ (10.5), „Ile de Man“ zu „Île de Man“ (10.24)
+und „Ecosse“ zu „Écosse“ (10.39). „plait“ wurde als „plaît“ geschrieben, „Mhz“ als „MHz“
+und „en Français“ als „en français“. Mehrfache Leerzeichen wurden vereinheitlicht;
+das kaufmännische Und zwischen den Varianten in 9.18 wurde durch einen Zeilenumbruch ersetzt.
+
+\medskip
+\textbf{Abweichungen in der Vorlage.} Bei 2.2 steht im Englischen 1960, im Französischen 1930;
+bei 4.6 stehen 3.558 MHz beziehungsweise 3,556 MHz. Beide Angaben bleiben jeweils unverändert.
+Die Lautschrift folgt ausdrücklich der französischen Spalte: „mille neuf cent trente“ und
+„trois virgule cinq cinq six mégahertz“. Peter / Pierre (2.1), „near mountains“ / „à la montagne“ (2.82)
+und „great fun“ / „très intéressant“ (9.5) bleiben ebenfalls wie in der Vorlage.
+Historische Ländernamen, Webadressen und die Formulierung „Ma carte QSL est sûre via bureau“
+wurden nicht inhaltlich modernisiert. „Hollande“ wird bei 10.19 und 10.33 entsprechend der Vorlage als Alternative aufgeführt.
+
+\medskip
+\textbf{Transkriptionskonvention.} Die IPA-Spalte ist eine breite, manuell erstellte Aussprachehilfe
+für Standardfranzösisch, keine enge Transkription einer Aufnahme. Nasalvokale sind mit einer Tilde markiert.
+Die Unterscheidung \ipa{œ̃} / \ipa{ɛ̃} bleibt erhalten, obwohl viele Sprecher beide zusammenfallen lassen.
+Unbetontes \ipa{ə} ist teilweise ausgeschrieben und kann im Gespräch entfallen. Französischer Wortgruppenakzent
+wird nicht gesondert markiert. Der Punkt zeigt an ausgewählten Stellen eine Silbengrenze;
+\ipa{‿} verdeutlicht Liaison oder eine Wortverbindung. Angegeben ist jeweils eine mögliche flüssige Aussprache;
+optionale Liaisons und regionale Varianten sind nicht vollständig aufgeführt.
+
+\medskip
+\textbf{Namen, Kürzel und Zahlen.} Sittingbourne ist mit englischer, Hellschreiber mit deutscher Aussprache
+wiedergegeben; sonst sind französische beziehungsweise französisch angepasste Formen verwendet.
+Bei Markennamen, Ortsnamen und Fachwörtern sind Varianten möglich. Zahlen werden ausgeschrieben;
+RST 599 wird als „R S T cinq neuf neuf“ gelesen. Rufzeichen und die meisten Kürzel werden mit französischen
+Buchstabennamen gesprochen, nicht im internationalen Buchstabieralphabet. FISTS wird als Wort gelesen;
+das e in eQSL und EHam als englisches \ipa{i}. Für CW steht „C double vé“, für RTTY „R T T i grec“.
+8 °C wird als „huit degrés Celsius“ gesprochen. Klammern geben die optionalen Wörter der Vorlage wieder;
+in 9.11 sind „souhaits“ und „vœux“ als zwei vollständige Varianten transkribiert.
+Platzhalter \texttt{<\#\#\#\#\#>} sind nicht mitzusprechen und erscheinen in der Lautschrift als Auslassung.
+
+\medskip
+\textbf{LaTeX.} UTF-8-Datei; zweimal mit XeLaTeX kompilieren. Benötigt werden DejaVu Sans sowie die
+üblichen LaTeX-Pakete der Präambel. Die IPA-Zeichen stehen direkt als Unicode im Quelltext.
+Es sind keine externen Bilder oder Datendateien erforderlich.
+\end{document}

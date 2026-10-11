@@ -1,0 +1,256 @@
+% !TeX program = xelatex
+% UTF-8; compile twice with XeLaTeX. No external images or data files needed.
+\documentclass[a4paper,landscape,10pt]{article}
+\usepackage[margin=14mm,headheight=14pt,headsep=5mm,footskip=7mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\newfontfamily\ipafont{DejaVu Sans}
+\usepackage[table]{xcolor}
+\usepackage{array,longtable,booktabs,fancyhdr}
+\definecolor{ink}{HTML}{18384D}
+\definecolor{band}{HTML}{E7EFF4}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{ink}Parlez Vous QSO?! · Magyar / Hungarian}
+\fancyhead[R]{\small Englische Phrase · Magyar fordítás · IPA}
+\fancyfoot[L]{\scriptsize Vorlage: Hungarian v 1.0 · Credits: Dallos -- HA7PL}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{3mm}
+\renewcommand{\arraystretch}{1.25}
+\newcommand{\ipa}[1]{{\ipafont[#1]}}
+\begin{document}
+{\LARGE\bfseries\color{ink}Parlez Vous QSO?!}\hfill{\large Magyar / Hungarian}
+
+\vspace{2mm}
+{\small QSO-Sprachführer mit ungarischer IPA-Lautschrift. Die Lautschrift bezieht sich auf die ungarische Spalte.}
+
+\vspace{2mm}
+{\footnotesize \textbf{Leseschlüssel:} \ipa{ˈ} Wortbetonung, \ipa{ː} langer Vokal oder Konsonant;
+\ipa{ɒ} ungarisches a, \ipa{aː} á, \ipa{ɛ} e, \ipa{eː} é; \ipa{ʃ} s, \ipa{s} sz, \ipa{ɲ} ny, \ipa{ɟ} gy, \ipa{c} ty.
+Ungarische Wörter sind grundsätzlich auf der ersten Silbe betont. Schrägstriche trennen Alternativen; \ipa{…} steht für einen Platzhalter.}
+
+\vspace{1mm}
+\fontsize{9}{11.8}\selectfont
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{13mm}>{\raggedright\arraybackslash}p{73mm}>{\raggedright\arraybackslash}p{75mm}>{\raggedright\arraybackslash}p{90mm}@{}}
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Magyar} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Magyar} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\scriptsize Fortsetzung auf der nächsten Seite}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\rowcolor{band} 1.0 & \textbf{Opening Greetings} & \multicolumn{2}{l}{\textbf{Nyitó üdvözletek.}} \\*
+1.1 & I am very pleased to meet you. & Nagyon örülök, hogy megismerhettem. & \ipa{ˈnɒɟon ˈøryløk hoɟ ˈmɛɡiʃmɛrhɛtːɛm} \\
+1.2 & Thank you for your call & Köszönöm hívását. & \ipa{ˈkøsønøm ˈhiːvaːʃaːt} \\
+1.3 & Good morning & Jó reggelt. & \ipa{ˈjoː ˈrɛɡːɛlt} \\
+1.31 & Good day & Jó napot. & \ipa{ˈjoː ˈnɒpot} \\
+1.32 & Good afternoon & Jó napot. \newline Jó délutánt & \ipa{ˈjoː ˈnɒpot / ˈjoː ˈdeːlutaːnt} \\
+1.33 & Good evening & Jó estét. & \ipa{ˈjoː ˈɛʃteːt} \\
+1.4 & I know only a little Hungarian but I enjoy QSOs in Hungarian. & Én csak keveset tudok magyarul, de örömmel QSO-zom magyarul & \ipa{ˈeːn ˈtʃɒk ˈkɛvɛʃɛt ˈtudok ˈmɒɟɒrul dɛ ˈørømːɛl ˈkuːɛʃoːzom ˈmɒɟɒrul} \\
+\rowcolor{band} 2.0 & \textbf{Operator} & \multicolumn{2}{l}{\textbf{Operátor}} \\*
+2.1 & My name is Peter. & Peter vagyok. \newline Az én nevem Péter & \ipa{ˈpiːtə ˈvɒɟok / ɒz ˈeːn ˈnɛvɛm ˈpeːtɛr} \\
+2.2 & I have been licensed since 1960. & Én 1960 óta vagyok engedélyes. & \ipa{ˈeːn ˈɛzɛrkilɛntsːaːshɒtvɒn ˈoːtɒ ˈvɒɟok ˈɛŋɡɛdeːjɛʃ} \\
+2.3 & I have been licensed for 43 years. & Én 43 éve vagyok engedélyes. & \ipa{ˈeːn ˈnɛɟvɛnhaːrom ˈeːvɛ ˈvɒɟok ˈɛŋɡɛdeːjɛʃ} \\
+2.4 & I live in Sittingbourne. & Én Sittingbourne-ben élek. & \ipa{ˈeːn ˈsɪtɪŋbɔːn bɛn ˈeːlɛk} \\
+2.5 & Sittingbourne is a village. & Sittingbourne egy falu. & \ipa{ˈsɪtɪŋbɔːn ɛɟː ˈfɒlu} \\
+2.51 & Sittingbourne is a town. & Sittingbourne egy város. & \ipa{ˈsɪtɪŋbɔːn ɛɟː ˈvaːroʃ} \\
+2.52 & Sittingbourne is a city. & Sittingbourne egy nagyváros. & \ipa{ˈsɪtɪŋbɔːn ɛɟː ˈnɒɟvaːroʃ} \\
+2.6 & Sittingbourne is between London and Dover. & Sittingbourne London és Dover között található. & \ipa{ˈsɪtɪŋbɔːn ˈlondon eːʃ ˈdəʊvə ˈkøzøtː ˈtɒlaːlhɒtoː} \\
+2.7 & I live in the South of England. & Én Anglia déli részén élek. & \ipa{ˈeːn ˈɒŋɡliɒ ˈdeːli ˈreːseːn ˈeːlɛk} \\
+2.71 & I live in the North of England. & Én Anglia északi részén élek. & \ipa{ˈeːn ˈɒŋɡliɒ ˈeːsɒki ˈreːseːn ˈeːlɛk} \\
+2.72 & I live in the East of England. & Én Anglia keleti részén élek. & \ipa{ˈeːn ˈɒŋɡliɒ ˈkɛlɛti ˈreːseːn ˈeːlɛk} \\
+2.73 & I live in West of England. & Én Anglia nyugati részén élek. & \ipa{ˈeːn ˈɒŋɡliɒ ˈɲuɡɒti ˈreːseːn ˈeːlɛk} \\
+2.74 & I live in South East England. & Én Dél-Kelet Angliában élek. & \ipa{ˈeːn ˈdeːlˌkɛlɛt ˈɒŋɡliaːbɒn ˈeːlɛk} \\
+2.75 & I live in South West England. & Én Dél-Nyugat Angliában élek. & \ipa{ˈeːn ˈdeːlˌɲuɡɒt ˈɒŋɡliaːbɒn ˈeːlɛk} \\
+2.76 & I live in North East England. & Én Észak-Kelet Angliában élek. & \ipa{ˈeːn ˈeːsɒkˌkɛlɛt ˈɒŋɡliaːbɒn ˈeːlɛk} \\
+2.77 & I live in North West England. & Én Észak-Nyugat Angliában élek. & \ipa{ˈeːn ˈeːsɒkˌɲuɡɒt ˈɒŋɡliaːbɒn ˈeːlɛk} \\
+2.78 & I live in central England. & Én Közép-Angliában élek. & \ipa{ˈeːn ˈkøzeːpˌɒŋɡliaːbɒn ˈeːlɛk} \\
+2.8 & I live in the country. & Én falun élek. & \ipa{ˈeːn ˈfɒlun ˈeːlɛk} \\
+2.81 & I live by the sea. & Én a tenger mellett élek. & \ipa{ˈeːn ɒ ˈtɛŋɡɛr ˈmɛlːɛtː ˈeːlɛk} \\
+2.82 & I live near mountains. & Én a hegyek közelében élek. & \ipa{ˈeːn ɒ ˈhɛɟɛk ˈkøzɛleːbɛn ˈeːlɛk} \\
+2.9 & Sittingbourne is 50Km from London. & Sittingbourne ötven kilométerre van Londontól. & \ipa{ˈsɪtɪŋbɔːn ˈøtvɛn ˈkilomeːtɛrːɛ vɒn ˈlondontoːl} \\
+2.11 & I am retired. & Nyugdíjas vagyok. & \ipa{ˈɲuɡdiːjɒʃ ˈvɒɟok} \\
+2.12 & My home call sign is M0ECS. & Az én otthoni hívójelem M0ECS. & \ipa{ɒz ˈeːn ˈotːhoni ˈhiːvoːjɛlɛm ɛm ˈnulːɒ eː tsɛː ɛʃ} \\
+\rowcolor{band} 3.0 & \textbf{Station} & \multicolumn{2}{l}{\textbf{Az állomás}} \\*
+3.1 & My radio is an Icom 706. & Az én rádióm egy Icom 706. & \ipa{ɒz ˈeːn ˈraːdioːm ɛɟː ˈaɪkɒm ˈheːtsːaːshɒt} \\
+3.2 & My station is all homebrew (homemade). & Az én állomásom teljesen saját készítésű. & \ipa{ɒz ˈeːn ˈaːlːomaːʃom ˈtɛjːɛʃɛn ˈʃɒjaːt ˈkeːsiːteːʃyː} \\
+3.3 & I am running 5 Watts. & Én 5 Wattal adok. & \ipa{ˈeːn ˈøt ˈvɒtːɒl ˈɒdok} \\
+3.4 & My antenna is a long wire. & Az én antennám egy hosszú drót. & \ipa{ɒz ˈeːn ˈɒntɛnːaːm ɛɟː ˈhosːuː ˈdroːt} \\
+3.41 & My antenna is a dipole. & Az én antennám egy dipól. & \ipa{ɒz ˈeːn ˈɒntɛnːaːm ɛɟː ˈdipoːl} \\
+3.42 & My antenna is a G5RV. & Az én antennám egy G5RV. & \ipa{ɒz ˈeːn ˈɒntɛnːaːm ɛɟː ɡeː øt ɛr veː} \\
+3.43 & My antenna is a doublet. & Az én antennám egy doublet. & \ipa{ɒz ˈeːn ˈɒntɛnːaːm ɛɟː ˈdʌblɪt} \\
+3.44 & My antenna is a delta loop. & Az én antennám egy delta loop. & \ipa{ɒz ˈeːn ˈɒntɛnːaːm ɛɟː ˈdɛltɒ luːp} \\
+3.45 & My antenna is a vertical. & Az én antennám egy vertikális antenna. & \ipa{ɒz ˈeːn ˈɒntɛnːaːm ɛɟː ˈvɛrtikaːliʃ ˈɒntɛnːɒ} \\
+3.46 & My antenna is a log periodic. & Az én antennám egy log periodikus antenna. & \ipa{ɒz ˈeːn ˈɒntɛnːaːm ɛɟː ˈloɡ ˈpɛriodikuʃ ˈɒntɛnːɒ} \\
+3.47 & My antenna is a Yagi beam. & Az én antennám egy Yagi beam. & \ipa{ɒz ˈeːn ˈɒntɛnːaːm ɛɟː ˈjɒɡi biːm} \\
+3.48 & My antenna is a 5 element beam. & Az én antennám egy öt elemes beam. & \ipa{ɒz ˈeːn ˈɒntɛnːaːm ɛɟː ˈøt ˈɛlɛmɛʃ biːm} \\
+\rowcolor{band} 4.0 & \textbf{Conditions} & \multicolumn{2}{l}{\textbf{Rádiózási feltételek}} \\*
+4.1 & Thank you for my 599 report. & Köszönöm az 599 riportot. & \ipa{ˈkøsønøm ɒz ˈøt ˈkilɛnts ˈkilɛnts ˈriportot} \\
+4.2 & The band conditions are good. & A sávkondíciók jók. & \ipa{ɒ ˈʃaːfkondiːtsioːk ˈjoːk} \\
+4.3 & The band conditions are bad. & A sávkondíciók rosszak. & \ipa{ɒ ˈʃaːfkondiːtsioːk ˈrosːɒk} \\
+4.4 & There is strong interference here. & Itt erős interferencia van. & \ipa{ˈitː ˈɛrøːʃ ˈintɛrfɛrɛntsijɒ vɒn} \\
+4.5 & Can you change to the 80m band? & Át tud váltani a 80 méteres sávra? & \ipa{ˈaːt ˈtud ˈvaːltɒni ɒ ˈɲoltsvɒn ˈmeːtɛrɛʃ ˈʃaːvrɒ} \\
+4.6 & Please change frequency to 3.558 MHz. & Kérem váltsunk frekvenciát 3.558 MHz. & \ipa{ˈkeːrɛm ˈvaːltʃuŋk ˈfrɛkvɛntsijaːt ˈhaːrom ˈɛɡeːs ˈøt ˈøt ˈɲolts ˈmɛɡɒhɛrts} \\
+\rowcolor{band} 5.0 & \textbf{General Queries and Comments} & \multicolumn{2}{l}{\textbf{Általános kérdések és megjegyzések}} \\*
+5.1 & What does <\#\#\#\#\#> mean please? & Mit jelent <\#\#\#\#\#> ez kérem? & \ipa{ˈmit ˈjɛlɛnt … ˈɛz ˈkeːrɛm} \\
+5.2 & Please wait a moment, I need to check my Hungarian dictionary. & Kérem várjon egy pillanatot, meg kell néznem a magyar szótáramat & \ipa{ˈkeːrɛm ˈvaːrjon ɛɟː ˈpilːɒnɒtot ˈmɛɡ ˈkɛlː ˈneːznɛm ɒ ˈmɒɟɒr ˈsoːtaːrɒmɒt} \\
+5.3 & How do you say, <\#\#\#\#\#> in Hungarian ? & Hogyan mondja <\#\#\#\#\#> magyarul? & \ipa{ˈhoɟɒn ˈmoɲɟːɒ … ˈmɒɟɒrul} \\
+5.5 & My favourite modes of operation are CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / Digital Modes / and SSB & Az én kedvenc üzemmódjaim: távíró, géptávíró / PSK / MT63 / Olívia,\newline Hellschreiber / digitális üzemmódok és az SSB (SSB=egyoldalsávos adás) & \ipa{ɒz ˈeːn ˈkɛdvɛnts ˈyzɛmːoːɟːɒim ˈtaːviːroː ˈɡeːptaːviːroː / peː ɛʃ kaː / ɛm teː ˈhɒtvɒnhaːrom / ˈoliːviɒ / ˈhɛlˌʃʁaɪbɐ / ˈdiɡitaːliʃ ˈyzɛmːoːdok eːʃ ɒz ɛʃ ɛʃ beː} \\
+5.6 & My best DX is Australia. & A legjobb DX-em Ausztrália. & \ipa{ɒ ˈlɛɡjobː ˈdeːiksɛm ˈɒustraːliɒ} \\
+5.7 & I enjoy working contests. & Szeretek versenyeken dolgozni. & \ipa{ˈsɛrɛtɛk ˈvɛrʃɛɲɛkɛn ˈdolɡozni} \\
+5.8 & I like working QRP. & Kedvelem a QRP munkát. & \ipa{ˈkɛdvɛlɛm ɒ kuː ɛr peː ˈmuŋkaːt} \\
+\rowcolor{band} 6.0 & \textbf{The Weather} & \multicolumn{2}{l}{\textbf{Az időjárás}} \\*
+6.1 & It is sunny. & Napos. & \ipa{ˈnɒpoʃ} \\
+6.2 & It is windy. & Szeles. & \ipa{ˈsɛlɛʃ} \\
+6.3 & It is raining. & Esik az eső. & \ipa{ˈɛʃik ɒz ˈɛʃøː} \\
+6.4 & It is snowing. & Havazik. & \ipa{ˈhɒvɒzik} \\
+6.5 & It is very hot. & Nagyon forró. & \ipa{ˈnɒɟon ˈforːoː} \\
+6.6 & It is very cold. & Nagyon hideg. & \ipa{ˈnɒɟon ˈhidɛɡ} \\
+6.7 & The temperature is 8C. & A hőmérséklet 8 Celsius fok. & \ipa{ɒ ˈhøːmeːrʃeːklɛt ˈɲolts ˈtsɛlzijus ˈfok} \\
+6.8 & It is overcast. & Borús. & \ipa{ˈboruːʃ} \\
+6.9 & It is foggy. & Ködös. & \ipa{ˈkødøʃ} \\
+6.11 & It has been raining all day. & Egész nap esett az eső. & \ipa{ˈɛɡeːs ˈnɒp ˈɛʃɛtː ɒz ˈɛʃøː} \\
+6.12 & There is 20cm of snow here. & 20 cm hó van itt. & \ipa{ˈhuːs ˈtsɛntimeːtɛr ˈhoː vɒn ˈitː} \\
+\rowcolor{band} 8.0 & \textbf{QSL} & \multicolumn{2}{l}{\textbf{QSL}} \\*
+8.1 & My QSL card is sure via the bureau & Az én QSL lapom biztosan megy az irodán keresztül. & \ipa{ɒz ˈeːn kuː ɛʃ ɛl ˈlɒpom ˈbistoʃɒn ˈmɛɟ ɒz ˈirodaːn ˈkɛrɛstyl} \\
+8.2 & QSL via eQSL & QSL lap e-QSL-en keresztül. & \ipa{kuː ɛʃ ɛl ˈlɒp iː kuː ɛʃ ɛlɛn ˈkɛrɛstyl} \\
+8.3 & No eQSL please & Az e-QSL-t nem kérem. & \ipa{ɒz iː kuː ɛʃ ɛlt ˈnɛm ˈkeːrɛm} \\
+8.4 & I will send you my card direct. & Én direkt fogom küldeni neked a lapomat. & \ipa{ˈeːn ˈdirɛkt ˈfoɡom ˈkyldɛni ˈnɛkɛd ɒ ˈlɒpomɒt} \\
+8.5 & What is your address? & Mi a címed? & \ipa{ˈmi ɒ ˈtsiːmɛd} \\
+8.6 & Please send your QSL card direct. & Kérlek, küldd a QSL lapodat direkt. & \ipa{ˈkeːrlɛk ˈkyldː ɒ kuː ɛʃ ɛl ˈlɒpodɒt ˈdirɛkt} \\
+8.7 & My address is... & Az én címem… & \ipa{ɒz ˈeːn ˈtsiːmɛm …} \\
+8.8 & My address is shown on QSL.com / EHam.net. & A címem látható a QSL.com / EHam.net. & \ipa{ɒ ˈtsiːmɛm ˈlaːthɒtoː ɒ kuː ɛʃ ɛl pont kom / iː hæm pont nɛt} \\
+8.9 & Sorry I do not send QSL cards. & Sajnos én nem küldök QSL lapokat. & \ipa{ˈʃɒjnoʃ ˈeːn ˈnɛm ˈkyldøk kuː ɛʃ ɛl ˈlɒpokɒt} \\
+8.11 & Please send QSL card via G1JQH. & Kérem, küldje a QSL lapot G1JQH-n keresztül. & \ipa{ˈkeːrɛm ˈkylɟːɛ ɒ kuː ɛʃ ɛl ˈlɒpot ɡeː ɛɟː jeː kuː haːn ˈkɛrɛstyl} \\
+8.12 & My WACRAL / GQRP / DXCC / FISTS number is 1234. & Az én WACRAL / GQRP / DXCC / FISTS számom 1234. & \ipa{ɒz ˈeːn ˈvɒkrɒl / ɡeː kuː ɛr peː / deː iks tsɛː tsɛː / fɪsts ˈsaːmom ˈɛzɛrkeːtsːaːzˌhɒrmintsneːɟ} \\
+\rowcolor{band} 9.0 & \textbf{Final Greetings} & \multicolumn{2}{l}{\textbf{Búcsúzó üdvözletek}} \\*
+9.1 & Thank you. & Köszönöm neked. & \ipa{ˈkøsønøm ˈnɛkɛd} \\
+9.2 & Thank you for a very enjoyable contact. & Köszönöm neked a nagyon kellemes összeköttetést. & \ipa{ˈkøsønøm ˈnɛkɛd ɒ ˈnɒɟon ˈkɛlːɛmɛʃ ˈøsːɛkøtːɛteːʃt} \\
+9.3 & I enjoyed our chat. & Élveztem a beszélgetésünket. & \ipa{ˈeːlvɛztɛm ɒ ˈbɛseːlɡɛteːʃyŋkɛt} \\
+9.4 & I enjoyed our QSO in Hungarian. & Élveztem a magyar nyelvű KUESÓNKAT. (QSO=összeköttetés) & \ipa{ˈeːlvɛztɛm ɒ ˈmɒɟɒr ˈɲɛlvyː ˈkuːɛʃoːŋkɒt} \\
+9.5 & It has been great fun. & Nagy öröm volt számomra. & \ipa{ˈnɒɟ ˈørøm ˈvolt ˈsaːmomrɒ} \\
+9.6 & If you would like a regular contact with me, you can contact me via email. & Ha rendszeres összeköttetést szeretnél velem, kapcsolatba léphetsz velem emailen keresztül. & \ipa{hɒ ˈrɛntsɛrɛʃ ˈøsːɛkøtːɛteːʃt ˈsɛrɛtneːl ˈvɛlɛm ˈkɒptʃolɒdbɒ ˈleːphɛts ˈvɛlɛm ˈiːmeːlɛn ˈkɛrɛstyl} \\
+9.7 & My email address is... & Az én email címem… & \ipa{ɒz ˈeːn ˈiːmeːl ˈtsiːmɛm …} \\
+9.8 & My email address is shown on QSL.com / EHam.net & Az email címem látható a QSL.com / EHam.net. & \ipa{ɒz ˈiːmeːl ˈtsiːmɛm ˈlaːthɒtoː ɒ kuː ɛʃ ɛl pont kom / iː hæm pont nɛt} \\
+9.9 & I look forward to meeting you again. & Várom a következő találkozást veled. & \ipa{ˈvaːrom ɒ ˈkøvɛtkɛzøː ˈtɒlaːlkozaːʃt ˈvɛlɛd} \\
+9.11 & My best wishes to you and your family. & Szívélyes üdvözletem neked és családodnak. & \ipa{ˈsiːveːjɛʃ ˈydvøzlɛtɛm ˈnɛkɛd eːʃ ˈtʃɒlaːdodnɒk} \\
+9.12 & Best wishes to your wife. & Szívélyes üdvözletem a feleségednek. & \ipa{ˈsiːveːjɛʃ ˈydvøzlɛtɛm ɒ ˈfɛlɛʃeːɡɛdnɛk} \\
+9.121 & Best wishes to your husband. & Szívélyes üdvözletem a férjednek. & \ipa{ˈsiːveːjɛʃ ˈydvøzlɛtɛm ɒ ˈfeːrjɛdnɛk} \\
+9.13 & Good luck. & Jó szerencsét. & \ipa{ˈjoː ˈsɛrɛntʃeːt} \\
+9.14 & Good health. & Jó egészséget. & \ipa{ˈjoː ˈɛɡeːʃːeːɡɛt} \\
+9.15 & Goodbye & Viszontlátásra.\newline Isten veled. & \ipa{ˈvisontlaːtaːʃrɒ / ˈiʃtɛn ˈvɛlɛd} \\
+9.16 & I wish you an enjoyable afternoon. & Kellemes délutánt kívánok neked. & \ipa{ˈkɛlːɛmɛʃ ˈdeːlutaːnt ˈkiːvaːnok ˈnɛkɛd} \\
+9.161 & I wish you an enjoyable evening. & Kellemes estét kívánok neked. & \ipa{ˈkɛlːɛmɛʃ ˈɛʃteːt ˈkiːvaːnok ˈnɛkɛd} \\
+9.162 & I wish you an enjoyable weekend. & Kellemes hétvégét kívánok neked. & \ipa{ˈkɛlːɛmɛʃ ˈheːtveːɡeːt ˈkiːvaːnok ˈnɛkɛd} \\
+9.17 & Enjoy your holiday. & Élvezd a szabadságodat. & \ipa{ˈeːlvɛzd ɒ ˈsɒbɒtʃːaːɡodɒt} \\
+9.18 & Happy New Year. & Boldog új évet. & \ipa{ˈboldoɡ ˈuːj ˈeːvɛt} \\
+\rowcolor{band} 10.0 & \textbf{Country} & \multicolumn{2}{l}{\textbf{Országok}} \\*
+10.1 & Albania & Albánia & \ipa{ˈɒlbaːniɒ} \\
+10.2 & Austria & Ausztria & \ipa{ˈɒustriɒ} \\
+10.3 & Belgium & Belgium & \ipa{ˈbɛlɡijum} \\
+10.4 & Belorussia & Belorusszia & \ipa{ˈbɛlorusːiɒ} \\
+10.5 & Bosnia \& Herzegovina & Bosznia és Hercegovina & \ipa{ˈbosniɒ eːʃ ˈhɛrtsɛɡovinɒ} \\
+10.6 & Bulgaria & Bulgária & \ipa{ˈbulɡaːriɒ} \\
+10.7 & Croatia & Horvátország & \ipa{ˈhorvaːtorsaːɡ} \\
+10.8 & Czech Republic & Cseh Köztársaság & \ipa{ˈtʃɛ ˈkøztaːrʃɒʃaːɡ} \\
+10.9 & Denmark & Dánia & \ipa{ˈdaːniɒ} \\
+10.11 & Eire & Írország & \ipa{ˈiːrorsaːɡ} \\
+10.12 & England & Anglia & \ipa{ˈɒŋɡliɒ} \\
+10.13 & Estonia & Észtország & \ipa{ˈeːstorsaːɡ} \\
+10.14 & Finland & Finnország & \ipa{ˈfinːorsaːɡ} \\
+10.15 & France & Franciaország & \ipa{ˈfrɒntsijɒorsaːɡ} \\
+10.16 & Germany & Németország & \ipa{ˈneːmɛtorsaːɡ} \\
+10.17 & Gibraltar & Gibraltár & \ipa{ˈɡibrɒltaːr} \\
+10.18 & Greece & Görögország & \ipa{ˈɡørøɡorsaːɡ} \\
+10.19 & Holland & Hollandia & \ipa{ˈholːɒndiɒ} \\
+10.21 & Hungary & Magyarország & \ipa{ˈmɒɟɒrorsaːɡ} \\
+10.22 & Iceland & Izland & \ipa{ˈizlɒnd} \\
+10.23 & Northern Ireland & Észak Írország & \ipa{ˈeːsɒk ˈiːrorsaːɡ} \\
+10.24 & Isle of Man & Man sziget & \ipa{ˈmɛn ˈsiɡɛt} \\
+10.25 & Italy & Olaszország & \ipa{ˈolɒsorsaːɡ} \\
+10.26 & Latvia & Lettország & \ipa{ˈlɛtːorsaːɡ} \\
+10.27 & Liechtenstein & Liechtenstein & \ipa{ˈlɪçtn̩ʃtaɪn} \\
+10.28 & Lithuania & Litvánia & \ipa{ˈlitvaːniɒ} \\
+10.29 & Luxembourg & Luxemburg & \ipa{ˈluksɛmburɡ} \\
+10.31 & Macedonia & Macedónia & \ipa{ˈmɒtsɛdoːniɒ} \\
+10.32 & Moldavia & Moldávia & \ipa{ˈmoldaːviɒ} \\
+10.33 & Netherlands & Hollandia & \ipa{ˈholːɒndiɒ} \\
+10.34 & Norway & Norvégia & \ipa{ˈnorveːɡiɒ} \\
+10.35 & Poland & Lengyelország & \ipa{ˈlɛɲɟɛlorsaːɡ} \\
+10.36 & Portugal & Portugália & \ipa{ˈportuɡaːliɒ} \\
+10.37 & Romania & Románia & \ipa{ˈromaːniɒ} \\
+10.38 & Russian Federation & Orosz Föderáció & \ipa{ˈoros ˈfødɛraːtsioː} \\
+10.39 & Scotland & Skócia & \ipa{ˈʃkoːtsiɒ} \\
+10.41 & Slovakia & Szlovákia & \ipa{ˈslovaːkiɒ} \\
+10.42 & Slovenia & Szlovénia & \ipa{ˈsloveːniɒ} \\
+10.43 & Spain & Spanyolország & \ipa{ˈʃpɒɲolorsaːɡ} \\
+10.44 & Svalbard & Szvalbard & \ipa{ˈsvɒlbɒrd} \\
+10.45 & Sweden & Svédország & \ipa{ˈʃveːdorsaːɡ} \\
+10.46 & Switzerland & Svájc & \ipa{ˈʃvaːjts} \\
+10.47 & Turkey & Törökország & \ipa{ˈtørøkorsaːɡ} \\
+10.48 & Ukraine & Ukrajna & \ipa{ˈukrɒjnɒ} \\
+10.49 & Wales & Wales & \ipa{ˈvɛls} \\
+\end{longtable}
+\normalsize
+\section*{Hinweise zur Übertragung und Aussprache}
+\fontsize{8.5}{10}\selectfont\raggedright
+\textbf{Vorlage und Umfang.} Grundlage ist „Hungarian v 1.0.doc“; Credit: Dallos, HA7PL.
+Alle 142 Phrasen und Ländernamen mit ihren Alternativen sind enthalten. Nummernsprünge und der fehlende Abschnitt 7 bleiben erhalten.
+
+\smallskip
+\textbf{Korrekturen.} Referenz „132“ wurde zu „1.32“. „belváros“ (Innenstadt) in 2.52 wurde gemäß „city“ zu
+„nagyváros“ (Großstadt), „angliában“ zu „Angliában“ (2.75), „dipol“ zu „dipól“ (3.41).
+Die Aufforderungen in 8.6 und 8.11 lauten nun „Kérlek, küldd“ und „Kérem, küldje“.
+„Liktenstein“ wurde zu „Liechtenstein“ (10.27), „Littvánia“ zu „Litvánia“ (10.28), „Welsz“ zu „Wales“ (10.49)
+und „Man Sziget“ zu „Man sziget“ (10.24). Und-Zeichen zwischen Alternativsätzen wurden durch Zeilenumbrüche ersetzt;
+Mehrfachleerzeichen wurden vereinheitlicht.
+
+\smallskip
+\textbf{Quellenbesonderheiten.} Die ungewöhnliche Wortstellung in 5.1, der fehlende Anschluss an die
+Frequenzangabe in 4.6 und „esett“ (es regnete) in 6.11 bleiben erhalten. Ländernamen und Webadressen wurden nicht modernisiert; Holland und Netherlands stehen beide als „Hollandia“.
+Die Klammererklärungen in 5.5 und 9.4 erläutern Bedeutungen und werden in der IPA-Spalte nicht mitgesprochen.
+
+\smallskip
+\textbf{Aussprache und Betonung.} Die IPA-Spalte ist eine breite Aussprachehilfe für Standardungarisch.
+Ungarische Wörter sind grundsätzlich auf der ersten Silbe betont; Artikel und einige Funktionswörter
+stehen ohne eigenes Betonungszeichen. \ipa{ˌ} zeigt ausgewählte Nebenbetonungen in Zusammensetzungen.
+Fremdnamen können anders betont sein; Satzmelodie ist nicht kodiert.
+
+\smallskip
+\textbf{Vokale.} \ipa{ː} markiert bedeutungsunterscheidende Länge, auch bei Konsonanten.
+a/á stehen als \ipa{ɒ/aː}, e/é als \ipa{ɛ/eː}; diese Paare unterscheiden sich auch in der Lautqualität.
+ö/ő = \ipa{ø/øː}, ü/ű = \ipa{y/yː}, i/í = \ipa{i/iː}, o/ó = \ipa{o/oː}, u/ú = \ipa{u/uː}.
+Unbetonte Vokale werden nicht generell zu Schwa reduziert.
+
+\smallskip
+\textbf{Konsonanten.} s = \ipa{ʃ}, sz = \ipa{s}, zs = \ipa{ʒ}, cs = \ipa{tʃ}, c = \ipa{ts};
+gy \ipa{ɟ}, ty \ipa{c} und ny \ipa{ɲ} sind palatale Laute. ly wird als \ipa{j} gesprochen.
+\ipa{ŋ} steht für n vor k/g. Ausgewählte Angleichungen sind berücksichtigt, etwa „mondja“ mit \ipa{ɟː},
+„egészséget“ mit \ipa{ʃː} und „szabadságodat“ mit \ipa{tʃː}. Das h in „Cseh“ ist stumm dargestellt.
+Weitere Angleichungen über Wortgrenzen, Kürzungen langer Konsonanten in Gruppen und feine h-Varianten sind nicht vollständig abgebildet.
+
+\smallskip
+\textbf{Namen und Kürzel.} Sittingbourne, Dover und Peter (erste Variante von 2.1) werden englisch gelesen,
+Péter (zweite Variante) ungarisch. Icom, Doublet, Loop und Beam verwenden englische, Hellschreiber und
+Liechtenstein deutsche Varianten. Andere Namen sind überwiegend ungarisch, auch Wales („velsz“).
+Kürzel und Rufzeichen verwenden ungarische Buchstabennamen: Q „kú“, S „es“, C „cé“, J „jé“, H „há“.
+WACRAL und FISTS stehen als Wörter. QSO-zom und KUESÓNKAT entsprechen QSO mit ungarischen Endungen.
+Das e in e-QSL/eHam ist \ipa{iː}; email wird als „ímél“, Webpunkte als „pont“, com und net als Wörter gelesen.
+
+\smallskip
+\textbf{Zahlen und Platzhalter.} 1960 = „ezerkilencszázhatvan“, 43 = „negyvenhárom“, 706 = „hétszázhat“,
+MT63 mit „hatvanhárom“, 599 = „öt kilenc kilenc“, 1234 = „ezerkétszáz-harmincnégy“.
+3.558 MHz wird als „három egész öt öt nyolc megahertz“ gelesen; 80 m und 20 cm mit „nyolcvan méter“ und „húsz centiméter“.
+\texttt{<\#\#\#\#\#>} und offene Adressangaben erscheinen als Auslassung.
+
+\smallskip
+\textbf{Fachhinweis.} Tamás Szende: „Hungarian“, Journal of the International Phonetic Association
+24(2), 1994, S. 91--94, DOI 10.1017/S0025100300005090 (bibliografischer Hinweis zur IPA-Beschreibung).
+Namens- und Kürzelvarianten sind möglich.
+\end{document}

@@ -1,0 +1,275 @@
+% !TeX program = xelatex
+% UTF-8; compile twice with XeLaTeX. No external images or data files needed.
+\documentclass[a4paper,landscape,10pt]{article}
+\usepackage[margin=14mm,headheight=14pt,headsep=5mm,footskip=7mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\newfontfamily\ipafont{DejaVu Sans}
+\usepackage[table]{xcolor}
+\usepackage{array,longtable,booktabs,fancyhdr}
+\definecolor{ink}{HTML}{18384D}
+\definecolor{band}{HTML}{E7EFF4}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{ink}Parlez Vous QSO?! · Srpski / Serbian}
+\fancyhead[R]{\small Englische Phrase · Serbische Übersetzung · IPA}
+\fancyfoot[L]{\scriptsize Vorlage: Serbian v 1.0 · Credits: Marko Milenković -- YT8CDC}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{3mm}
+\renewcommand{\arraystretch}{1.25}
+\newcommand{\ipa}[1]{{\ipafont[#1]}}
+\begin{document}
+{\LARGE\bfseries\color{ink}Parlez Vous QSO?!}\hfill{\large Srpski / Serbian}
+
+\vspace{2mm}
+{\small QSO-Sprachführer mit serbischer IPA-Lautschrift. Die Lautschrift bezieht sich auf die serbische Spalte.}
+
+\vspace{2mm}
+{\footnotesize \textbf{Leseschlüssel:} \ipa{ʃ} = š, \ipa{ʒ} = ž, \ipa{ts} = c, \ipa{tʃ} = č, \ipa{tɕ} = ć,
+\ipa{dʑ} = đ, \ipa{ɲ} = nj, \ipa{ʎ} = lj, \ipa{x} = h; \ipa{r̩} ist silbisches r.
+Vereinfachte Lautfolge für ekavisches Standardserbisch; Betonung, Tonakzente und Vokallängen sind nicht markiert.
+\ipa{…} steht für einen Platzhalter.}
+
+\vspace{1mm}
+\fontsize{9}{11.8}\selectfont
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{13mm}>{\raggedright\arraybackslash}p{73mm}>{\raggedright\arraybackslash}p{75mm}>{\raggedright\arraybackslash}p{90mm}@{}}
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Srpski} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Srpski} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\scriptsize Fortsetzung auf der nächsten Seite}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\rowcolor{band} 1.0 & \textbf{Opening Greetings} & \multicolumn{2}{l}{\textbf{Pozdrav na početku veze}} \\*
+1.1 & I am very pleased to meet you. & Drago mi je da se upoznajemo. & \ipa{draɡo mi je da se upoznajemo} \\
+1.2 & Thank you for your call & Hvala na pozivu. & \ipa{xvala na pozivu} \\
+1.3 & Good morning & Dobro jutro. & \ipa{dobro jutro} \\
+1.31 & Good day & Dobar dan. & \ipa{dobar dan} \\
+1.32 & Good afternoon & Dobro popodne. & \ipa{dobro popodne} \\
+1.33 & Good evening & Dobro veče. & \ipa{dobro vetʃe} \\
+1.4 & I know only a little Serbian but I enjoy QSOs in Serbian. & Znam samo malo srpskog, ali volim da radim veze na srpskom jeziku. & \ipa{znam samo malo sr̩pskoɡ ali volim da radim veze na sr̩pskom jeziku} \\
+\rowcolor{band} 2.0 & \textbf{Operator} & \multicolumn{2}{l}{\textbf{Operator}} \\*
+2.1 & My name is Marko. & Moje ime je Marko. & \ipa{moje ime je marko} \\
+2.2 & I have been licensed since 2005. & Posedujem licencu od 2005. & \ipa{posedujem litsentsu od dve xiʎade pete} \\
+2.3 & I have been licensed for 5 years. & Licenciran sam već pet godina. & \ipa{litsentsiran sam vetɕ pet ɡodina} \\
+2.4 & I live in Sittingbourne. & Živim u Sitingburnu. & \ipa{ʒivim u sitinɡburnu} \\
+2.5 & Sittingbourne is a village. & Sitingburn je selo. & \ipa{sitinɡburn je selo} \\
+2.51 & Sittingbourne is a town. & Sitingburn je gradić. & \ipa{sitinɡburn je ɡraditɕ} \\
+2.52 & Sittingbourne is a city. & Sitingburn je grad. & \ipa{sitinɡburn je ɡrad} \\
+2.6 & Sittingbourne is between London and Dover. & Sitingburn se nalazi između Londona i Dovera. & \ipa{sitinɡburn se nalazi izmedʑu londona i dovera} \\
+2.7 & I live in the South of England. & Živim na jugu Engleske. & \ipa{ʒivim na juɡu enɡleske} \\
+2.71 & I live in the North of England. & Živim na severu Engleske. & \ipa{ʒivim na severu enɡleske} \\
+2.72 & I live in the East of England. & Živim na istoku Engleske. & \ipa{ʒivim na istoku enɡleske} \\
+2.73 & I live in West of England. & Živim na zapadu Engleske. & \ipa{ʒivim na zapadu enɡleske} \\
+2.74 & I live in South East England. & Živim na jugoistoku Engleske. & \ipa{ʒivim na juɡoistoku enɡleske} \\
+2.75 & I live in South West England. & Živim na jugozapadu Engleske. & \ipa{ʒivim na juɡozapadu enɡleske} \\
+2.76 & I live in North East England. & Živim na severoistoku Engleske. & \ipa{ʒivim na severoistoku enɡleske} \\
+2.77 & I live in North West England. & Živim na severozapadu Engleske. & \ipa{ʒivim na severozapadu enɡleske} \\
+2.78 & I live in central England. & Živim u centralnoj Engleskoj. & \ipa{ʒivim u tsentralnoj enɡleskoj} \\
+2.8 & I live in the country. & Živim na selu. & \ipa{ʒivim na selu} \\
+2.81 & I live by the sea. & Živim pored mora. & \ipa{ʒivim pored mora} \\
+2.82 & I live near mountains. & Živim u planinskom delu. & \ipa{ʒivim u planinskom delu} \\
+2.9 & Sittingbourne is 50Km from London. & Sitingburn je 50 km od Londona. & \ipa{sitinɡburn je pedeset kilometara od londona} \\
+2.11 & I am retired. & U penziji sam. & \ipa{u penziji sam} \\
+2.12 & My home call sign is M0ECS. & Moj domaći pozivni znak je M0ECS. & \ipa{moj domatɕi pozivni znak je em nula e tse es} \\
+\rowcolor{band} 3.0 & \textbf{Station} & \multicolumn{2}{l}{\textbf{Stanica}} \\*
+3.1 & My radio is an Icom 706. & Moj primopredajnik je Icom 706. & \ipa{moj primopredajnik je aɪkɒm sedamsto ʃest} \\
+3.2 & My station is all homebrew (homemade). & Moj primopredajnik je kućne izrade. & \ipa{moj primopredajnik je kutɕne izrade} \\
+3.3 & I am running 5 Watts. & Radim sa 5 W snage. & \ipa{radim sa pet vati snaɡe} \\
+3.4 & My antenna is a long wire. & Moja antena je long wire. & \ipa{moja antena je lɒŋ waɪə} \\
+3.41 & My antenna is a dipole. & Moja antena je dipol. & \ipa{moja antena je dipol} \\
+3.42 & My antenna is a G5RV. & Moja antena je G5RV. & \ipa{moja antena je ɡe pet er ve} \\
+3.43 & My antenna is a doublet. & Moja antena je dublet. & \ipa{moja antena je dublet} \\
+3.44 & My antenna is a delta loop. & Moja antena je delta lup. & \ipa{moja antena je delta lup} \\
+3.45 & My antenna is a vertical. & Moja antena je vertikalka. & \ipa{moja antena je vertikalka} \\
+3.46 & My antenna is a log periodic. & Moja antena je log periodik. & \ipa{moja antena je loɡ periodik} \\
+3.47 & My antenna is a Yagi beam. & Moja antena je Yagi bim. & \ipa{moja antena je jaɡi bim} \\
+3.48 & My antenna is a 5 element beam. & Moja antena je petoelementni bim. & \ipa{moja antena je petoelementni bim} \\
+\rowcolor{band} 4.0 & \textbf{Conditions} & \multicolumn{2}{l}{\textbf{Uslovi}} \\*
+4.1 & Thank you for my 599 report. & Hvala za 599 raport. & \ipa{xvala za pet devet devet raport} \\
+4.2 & The band conditions are good. & Uslovi na bandu su dobri. & \ipa{uslovi na bandu su dobri} \\
+4.3 & The band conditions are bad. & Uslovi na bandu su loši. & \ipa{uslovi na bandu su loʃi} \\
+4.4 & There is strong interference here. & Imam jaku interferenciju ovde. & \ipa{imam jaku interferentsiju ovde} \\
+4.5 & Can you change to the 80m band? & Da li možeš da se prebaciš na 80 m band? & \ipa{da li moʒeʃ da se prebatsiʃ na osamdeset metara band} \\
+4.6 & Please change frequency to 3.558 MHz. & Molim te, promeni frekvenciju na 3,558 MHz. & \ipa{molim te promeni frekventsiju na tri zarez pet pet osam meɡaxertsa} \\
+\rowcolor{band} 5.0 & \textbf{General Queries and Comments} & \multicolumn{2}{l}{\textbf{Opšte informacije i komentari}} \\*
+5.1 & What does <\#\#\#\#\#> mean please? & Šta znači <\#\#\#\#\#>? & \ipa{ʃta znatʃi …} \\
+5.2 & Please wait a moment, I need to check my Serbian dictionary. & Molim te sačekaj, moram da proverim moj rečnik srpskog. & \ipa{molim te satʃekaj moram da proverim moj retʃnik sr̩pskoɡ} \\
+5.3 & How do you say, <\#\#\#\#\#> in Serbian ? & Kako se kaže <\#\#\#\#\#> na srpskom? & \ipa{kako se kaʒe … na sr̩pskom} \\
+5.5 & My favourite modes of operation are CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / Digital Modes / and SSB & Moji omiljeni modovi rada su CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / digitalni modovi i SSB. & \ipa{moji omiʎeni modovi rada su tse duplo ve / er te te ipsilon / pe es ka / em te ʃezdeset tri / olivija / hɛlʃraɪbɐ / diɡitalni modovi i es es be} \\
+5.6 & My best DX is Australia. & Moj najbolji DX je Australija. & \ipa{moj najboʎi de iks je australija} \\
+5.7 & I enjoy working contests. & Uživam da radim takmičenja. & \ipa{uʒivam da radim takmitʃeɲa} \\
+5.8 & I like working QRP. & Volim da radim QRP. & \ipa{volim da radim ku er pe} \\
+\rowcolor{band} 6.0 & \textbf{The Weather} & \multicolumn{2}{l}{\textbf{Vremenski uslovi}} \\*
+6.1 & It is sunny. & Sunčano je. & \ipa{suntʃano je} \\
+6.2 & It is windy. & Vetrovito je. & \ipa{vetrovito je} \\
+6.3 & It is raining. & Pada kiša. & \ipa{pada kiʃa} \\
+6.4 & It is snowing. & Pada sneg. & \ipa{pada sneɡ} \\
+6.5 & It is very hot. & Veoma je vruće. & \ipa{veoma je vrutɕe} \\
+6.6 & It is very cold. & Veoma je hladno. & \ipa{veoma je xladno} \\
+6.7 & The temperature is 8C. & Temperatura je 8 stepeni (C). & \ipa{temperatura je osam stepeni tselzijusa} \\
+6.8 & It is overcast. & Oblačno je. & \ipa{oblatʃno je} \\
+6.9 & It is foggy. & Maglovito je. & \ipa{maɡlovito je} \\
+6.11 & It has been raining all day. & Pada kiša celog dana. & \ipa{pada kiʃa tseloɡ dana} \\
+6.12 & There is 20cm of snow here. & Palo je 20 centimetara snega. & \ipa{palo je dvadeset tsentimetara sneɡa} \\
+\rowcolor{band} 8.0 & \textbf{QSL} & \multicolumn{2}{l}{\textbf{QSL}} \\*
+8.1 & My QSL card is sure via the bureau. & Moja QSL karta sigurno stiže preko biroa. & \ipa{moja ku es el karta siɡurno stiʒe preko biroa} \\
+8.2 & QSL via eQSL & QSL preko e-QSL. & \ipa{ku es el preko i ku es el} \\
+8.3 & No eQSL please & Ne primam eQSL. & \ipa{ne primam i ku es el} \\
+8.4 & I will send you my card direct. & Poslaću ti QSL direktno. & \ipa{poslatɕu ti ku es el direktno} \\
+8.5 & What is your address? & Koja je tvoja adresa? & \ipa{koja je tvoja adresa} \\
+8.6 & Please send your QSL card direct. & Molim te, pošalji tvoju QSL direktno. & \ipa{molim te poʃaʎi tvoju ku es el direktno} \\
+8.7 & My address is... & Moja adresa je… & \ipa{moja adresa je …} \\
+8.8 & My address is shown on QSL.com / EHam.net / ….. & Moja adresa je prikazana na: qsl.com / EHam.net / … & \ipa{moja adresa je prikazana na ku es el tatʃka kom / i hæm tatʃka net / …} \\
+8.9 & Sorry I do not send QSL cards. & Žao mi je, ne šaljem QSL. & \ipa{ʒao mi je ne ʃaʎem ku es el} \\
+8.11 & Please send QSL card via G1JQH. & Pošalji QSL preko G1JQH. & \ipa{poʃaʎi ku es el preko ɡe jedan jot ku xa} \\
+8.12 & My WACRAL / GQRP / DXCC / FISTS number is 1234. & Moj WACRAL / GQRP / DXCC / FISTS broj je 1234. & \ipa{moj wakral / ɡe ku er pe / de iks tse tse / fɪsts broj je xiʎadu dvesta trideset tʃetiri} \\
+\rowcolor{band} 9.0 & \textbf{Final Greetings} & \multicolumn{2}{l}{\textbf{Pozdravi}} \\*
+9.1 & Thank you. & Hvala. & \ipa{xvala} \\
+9.2 & Thank you for a very enjoyable contact. & Hvala na veoma prijatnom kontaktu. & \ipa{xvala na veoma prijatnom kontaktu} \\
+9.3 & I enjoyed our chat. & Uživao sam u našem razgovoru. & \ipa{uʒivao sam u naʃem razɡovoru} \\
+9.4 & I enjoyed our QSO in Serbian. & Uživao sam u našem QSO na srpskom. & \ipa{uʒivao sam u naʃem ku es o na sr̩pskom} \\
+9.5 & It has been great fun. & Bilo je veoma zabavno. & \ipa{bilo je veoma zabavno} \\
+9.6 & If you would like a regular contact with me, you can contact me via email. & Ako želiš redovan kontakt sa mnom, možeš me kontaktirati na e-mail. & \ipa{ako ʒeliʃ redovan kontakt sa mnom moʒeʃ me kontaktirati na imeɪl} \\
+9.7 & My email address is... & Moja e-mail adresa je... & \ipa{moja imeɪl adresa je …} \\
+9.8 & My email address is shown on QSL.com / EHam.net & Moja e-mail adresa je prikazana na qsl.com / EHam.net. & \ipa{moja imeɪl adresa je prikazana na ku es el tatʃka kom / i hæm tatʃka net} \\
+9.9 & I look forward to meeting you again. & Unapred se radujem ponovnom susretu. & \ipa{unapred se radujem ponovnom susretu} \\
+9.11 & My best wishes to you and your family. & Sve najbolje tebi i tvojoj porodici. & \ipa{sve najboʎe tebi i tvojoj poroditsi} \\
+9.12 & Best wishes to your wife. & Sve najbolje tvojoj supruzi. & \ipa{sve najboʎe tvojoj supruzi} \\
+9.121 & Best wishes to your husband. & Sve najbolje tvom suprugu. & \ipa{sve najboʎe tvom supruɡu} \\
+9.13 & Good luck. & Srećno. & \ipa{sretɕno} \\
+9.14 & Good health. & Dobro zdravlje. & \ipa{dobro zdravʎe} \\
+9.15 & Goodbye & Doviđenja. & \ipa{dovidʑeɲa} \\
+9.16 & I wish you an enjoyable afternoon. & Želim ti prijatno popodne. & \ipa{ʒelim ti prijatno popodne} \\
+9.161 & I wish you an enjoyable evening. & Želim ti prijatno veče. & \ipa{ʒelim ti prijatno vetʃe} \\
+9.162 & I wish you an enjoyable weekend. & Želim ti prijatan vikend. & \ipa{ʒelim ti prijatan vikend} \\
+9.17 & Enjoy your holiday. & Uživaj u praznicima. & \ipa{uʒivaj u praznitsima} \\
+9.18 & Happy New Year. & Srećna nova godina. & \ipa{sretɕna nova ɡodina} \\
+\rowcolor{band} 10.0 & \textbf{Country} & \multicolumn{2}{l}{\textbf{Države}} \\*
+10.1 & Albania & Albanija & \ipa{albanija} \\
+10.2 & Austria & Austrija & \ipa{austrija} \\
+10.3 & Belgium & Belgija & \ipa{belɡija} \\
+10.4 & Belorussia & Belorusija & \ipa{belorusija} \\
+10.5 & Bosnia \& Herzegovina & Bosna i Hercegovina & \ipa{bosna i xertseɡovina} \\
+10.6 & Bulgaria & Bugarska & \ipa{buɡarska} \\
+10.7 & Croatia & Hrvatska & \ipa{xr̩vatska} \\
+10.8 & Czech Republic & Češka Republika & \ipa{tʃeʃka republika} \\
+10.9 & Denmark & Danska & \ipa{danska} \\
+10.11 & Eire & Irska & \ipa{irska} \\
+10.12 & England & Engleska & \ipa{enɡleska} \\
+10.13 & Estonia & Estonija & \ipa{estonija} \\
+10.14 & Finland & Finska & \ipa{finska} \\
+10.15 & France & Francuska & \ipa{frantsuska} \\
+10.16 & Germany & Nemačka & \ipa{nematʃka} \\
+10.17 & Gibraltar & Gibraltar & \ipa{ɡibraltar} \\
+10.18 & Greece & Grčka & \ipa{ɡr̩tʃka} \\
+10.19 & Holland & Holandija & \ipa{xolandija} \\
+10.21 & Hungary & Mađarska & \ipa{madʑarska} \\
+10.22 & Iceland & Island & \ipa{island} \\
+10.23 & Northern Ireland & Severna Irska & \ipa{severna irska} \\
+10.24 & Isle of Man & Ostrvo Man & \ipa{ostr̩vo man} \\
+10.25 & Italy & Italija & \ipa{italija} \\
+10.26 & Latvia & Letonija & \ipa{letonija} \\
+10.27 & Liechtenstein & Lihtenštajn & \ipa{lixtenʃtajn} \\
+10.28 & Lithuania & Litvanija & \ipa{litvanija} \\
+10.29 & Luxembourg & Luksemburg & \ipa{luksemburɡ} \\
+10.31 & Macedonia & Makedonija & \ipa{makedonija} \\
+10.32 & Moldavia & Moldavija & \ipa{moldavija} \\
+10.33 & Netherlands & Holandija & \ipa{xolandija} \\
+10.34 & Norway & Norveška & \ipa{norveʃka} \\
+10.35 & Poland & Poljska & \ipa{poʎska} \\
+10.36 & Portugal & Portugal & \ipa{portuɡal} \\
+10.37 & Romania & Rumunija & \ipa{rumunija} \\
+10.38 & Russian Federation & Rusija & \ipa{rusija} \\
+10.39 & Scotland & Škotska & \ipa{ʃkotska} \\
+10.41 & Slovakia & Slovačka & \ipa{slovatʃka} \\
+10.42 & Slovenia & Slovenija & \ipa{slovenija} \\
+10.43 & Spain & Španija & \ipa{ʃpanija} \\
+10.44 & Svalbard & Svalbard & \ipa{svalbard} \\
+10.45 & Sweden & Švedska & \ipa{ʃvedska} \\
+10.46 & Switzerland & Švajcarska & \ipa{ʃvajtsarska} \\
+10.47 & Turkey & Turska & \ipa{turska} \\
+10.48 & Ukraine & Ukrajina & \ipa{ukrajina} \\
+10.49 & Wales & Vels & \ipa{vels} \\
+\end{longtable}
+\normalsize
+\section*{Hinweise zur Übertragung und Aussprache}
+\fontsize{8.5}{10}\selectfont\raggedright
+\textbf{Vorlage und Umfang.} Grundlage ist „Serbian v 1.0.doc“, Credit: Marko Milenkovic, YT8CDC
+(hier mit Diakritikum: Milenković). Alle 142 Phrasen und Ländernamen sind enthalten.
+Die Nummerierung und ihre Sprünge bleiben erhalten, einschließlich des fehlenden Abschnitts 7.
+Die Vorlage verwendet Lateinschrift; diese bleibt erhalten. Serbisch kann ebenso kyrillisch geschrieben werden.
+Der Titel steht als „Srpski“ statt „Srpskog“.
+
+\smallskip
+\textbf{Schreibungen und Namen.} Fehlende serbische Zeichen č, ć, š, ž und đ wurden wiederhergestellt;
+„izmedju“, „Madjarska“ und „Dovidjenja“ stehen als „između“, „Mađarska“ und „Doviđenja“.
+Sitingburn/Sitinburg wurde durchgehend zu „Sitingburn“ vereinheitlicht, mit „Sitingburnu“ nach u (2.4).
+„delat lup“ ist „delta lup“ (3.44), „inteferenciju“ ist „interferenciju“ (4.4),
+„Temeperatura“ ist „Temperatura“ (6.7), „Linhestajn“ ist „Lihtenštajn“ (10.27).
+Sprachbezeichnungen stehen klein; Abstände und Satzzeichen wurden vereinheitlicht.
+Der Platzhalter in 5.1 ist an die englische Spalte angeglichen.
+
+\smallskip
+\textbf{Inhaltliche Korrekturen.} „na kopnu“ (auf dem Festland) wurde gemäß „in the country“
+zu „na selu“ (auf dem Land, 2.8). Die doppelte Angabe MT63 in 5.5 wurde entsprechend der englischen Spalte
+zu Hellschreiber; „Digitalni mod“ steht im Plural als „digitalni modovi“.
+„Moja najbolji“ wurde zu „Moj najbolji“ (5.6); das überzählige „e’“ in 8.12 wurde entfernt.
+Der italienische Satz „Mi sono divertito molto“ wurde durch „Bilo je veoma zabavno“ ersetzt (9.5).
+„drugi kontakt samnom“ wurde gemäß dem regelmäßigen Kontakt der englischen Spalte zu
+„redovan kontakt sa mnom“ (9.6). „Srena Nova Godina“ wurde zu „Srećna nova godina“ (9.18).
+Die Frequenz in 4.6 verwendet ein Dezimalkomma: 3,558 MHz.
+
+\smallskip
+\textbf{Quellenbesonderheiten.} Name Marko, Lizenzjahr 2005 und Dauer fünf Jahre sind Beispiele der Vorlage.
+3.2 beschreibt den selbstgebauten Transceiver statt der gesamten Station.
+2.82 nennt einen gebirgigen Landesteil statt ausdrücklich die Nähe zu Bergen.
+9.17 wünscht Freude an Feiertagen (praznici) statt allgemein am Urlaub.
+Die männlichen Formen licenciran und uživao bleiben erhalten; Sprecherinnen verwenden licencirana/uživala.
+Historische Ländernamen wie Belorusija und Makedonija sowie die Adressen bleiben unverändert.
+
+\smallskip
+\textbf{Aussprachebasis und Umfang.} Die IPA-Spalte gibt die Lautfolge des ekavischen Standardserbisch
+vereinfacht wieder, passend zu sever, sneg und vreme in der Vorlage.
+Sie ist ausdrücklich keine vollständige prosodische Transkription: Wortbetonung, die vier traditionellen
+Tonakzente, betonte und nachtonige Vokallängen sowie Satzmelodie sind nicht markiert.
+Fehlende Akzentzeichen bedeuten daher nicht, dass die Wörter unbetont oder alle Vokale kurz wären.
+Diese Vereinfachung gilt auch für fremdsprachige Namen und Fachwörter.
+
+\smallskip
+\textbf{Laute.} \ipa{tʃ} (č) und \ipa{tɕ} (ć) sowie \ipa{dʒ} (dž) und \ipa{dʑ} (đ)
+sind unterschiedliche Affrikaten; c ist \ipa{ts}. Nj \ipa{ɲ} und lj \ipa{ʎ} sind jeweils ein Laut.
+R steht vereinfacht als \ipa{r}; in srpski, Hrvatska und Grčka ist es silbisch \ipa{r̩}.
+H entspricht \ipa{x}, etwa in hvala. Die Vokale stehen breit als \ipa{a, e, i, o, u}.
+Feine Vokalqualitäten, die variable Qualität von l sowie Assimilationen im zusammenhängenden Satz
+werden nicht durchgehend dargestellt.
+
+\smallskip
+\textbf{Namen und Kürzel.} Orts- und Ländernamen sind gemäß den serbischen Formen gelesen,
+auch Sitingburn, Dovera und Lihtenštajn. Long wire, Icom, Hellschreiber, WACRAL, FISTS, Ham und e-mail
+verwenden vereinfachte englische beziehungsweise deutsche Lesarten.
+Dublet, delta lup, log periodik und jagi bim sind serbisch gelesen.
+Buchstabennamen: Q „ku“, S „es“, L „el“, G „ge“, C „ce“, J „jot“, H „ha“, W „duplo ve“, Y „ipsilon“;
+andere Lesarten sind möglich. eQSL/eHam verwenden hier ein englisches \ipa{i} für e.
+Webpunkte werden als „tačka“ gesprochen, com/net als Wörter.
+
+\smallskip
+\textbf{Zahlen.} „od 2005“ = „od dve hiljade pete“, 706 = „sedamsto šest“,
+599 = „pet devet devet“, MT63 mit „šezdeset tri“, 1234 = „hiljadu dvesta trideset četiri“.
+3,558 MHz wird als „tri zarez pet pet osam megaherca“ gelesen.
+50 km, 5 W, 80 m, 8 °C und 20 cm stehen mit gesprochenen Einheiten;
+C in 6.7 wird als „Celzijusa“ aufgelöst. Offene Angaben und Platzhalter erscheinen als \ipa{…}.
+
+\smallskip
+\textbf{Fachhinweise.} Zum serbischen Akzentsystem: Robin Karlin,
+„Effects of syllable onset on the timing of pitch accent in Belgrade Serbian“,
+Proceedings of the Linguistic Society of America 3, 2018, 36:1--15, DOI 10.3765/plsa.v3i1.4324.
+Zum Kontrast l/lj: „The contrast and positional/contextual variation in Serbian laterals“,
+Journal of the International Phonetic Association, Cambridge Core.
+\end{document}

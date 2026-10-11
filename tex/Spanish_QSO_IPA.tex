@@ -1,0 +1,252 @@
+% !TeX program = xelatex
+% UTF-8; compile twice with XeLaTeX. No external images or data files needed.
+\documentclass[a4paper,landscape,10pt]{article}
+\usepackage[margin=14mm,headheight=14pt,headsep=5mm,footskip=7mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\newfontfamily\ipafont{DejaVu Sans}
+\usepackage[table]{xcolor}
+\usepackage{array,longtable,booktabs,fancyhdr}
+\definecolor{ink}{HTML}{18384D}
+\definecolor{band}{HTML}{E7EFF4}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{ink}Parlez Vous QSO?! · Español / Spanish}
+\fancyhead[R]{\small Englische Phrase · Traducción española · IPA}
+\fancyfoot[L]{\scriptsize Vorlage: Spanish v 1.1 · Credits: Vicente -- EA5OO; Colin Bass (ohne Rufzeichen)}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{3mm}
+\renewcommand{\arraystretch}{1.25}
+\newcommand{\ipa}[1]{{\ipafont[#1]}}
+\begin{document}
+{\LARGE\bfseries\color{ink}Parlez Vous QSO?!}\hfill{\large Español / Spanish}
+
+\vspace{2mm}
+{\small QSO-Sprachführer mit spanischer IPA-Lautschrift. Die Lautschrift bezieht sich auf die spanische Spalte.}
+
+\vspace{2mm}
+{\footnotesize \textbf{Leseschlüssel:} \ipa{ˈ} Hauptbetonung, \ipa{ˌ} Nebenbetonung;
+\ipa{θ} wie englisches „th“ in „think“, \ipa{x} wie deutsches „ch“ in „Bach“, \ipa{ɲ} wie spanisches „ñ“.
+\ipa{ɾ} ist ein kurzer, \ipa{r} ein gerollter r-Laut. Grundlage: Spanien mit Unterscheidung von s und z/c.}
+
+\vspace{1mm}
+\fontsize{9}{11.8}\selectfont
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{13mm}>{\raggedright\arraybackslash}p{73mm}>{\raggedright\arraybackslash}p{75mm}>{\raggedright\arraybackslash}p{90mm}@{}}
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Español} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Español} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\scriptsize Fortsetzung auf der nächsten Seite}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\rowcolor{band} 1.0 & \textbf{Opening Greetings} & \multicolumn{2}{l}{\textbf{Saludos de Comienzo}} \\*
+1.1 & I am very pleased to meet you. & Estoy muy contento de conocerte & \ipa{esˈtoj muj konˈtento de konoˈθeɾte} \\
+1.2 & Thank you for your call & Gracias por tu llamada. & \ipa{ˈɡɾaθjas poɾ tu ʝaˈmada} \\
+1.3 & Good morning & Buenos días. & \ipa{ˈbwenos ˈdi.as} \\
+1.31 & Good day & Buenos días. & \ipa{ˈbwenos ˈdi.as} \\
+1.32 & Good afternoon & Buenas tardes (de 12 a 18 horas). & \ipa{ˈbwenas ˈtaɾdes (de ˈdoθe a djeˈθotʃo ˈoɾas)} \\
+1.33 & Good evening & Buenas tardes (después de las 18 horas). & \ipa{ˈbwenas ˈtaɾdes (desˈpwes de las djeˈθotʃo ˈoɾas)} \\
+1.4 & I know only a little Spanish but I enjoy QSOs in Spanish. & Conozco solo un poco de español pero me gustan los QSOs en español. & \ipa{koˈnoθko ˈsolo un ˈpoko de espaˈɲol ˈpeɾo me ˈɡustan los ku ˈese os en espaˈɲol} \\
+\rowcolor{band} 2.0 & \textbf{Operator} & \multicolumn{2}{l}{\textbf{Operador}} \\*
+2.1 & My name is Peter. & Me llamo Peter. & \ipa{me ˈʝamo ˈpiːtə} \\
+2.2 & I have been licensed since 1960. & Tengo licencia desde el año 1960. & \ipa{ˈtenɡo liˈθenθja ˈdesde el ˈaɲo mil nobeˈθjentos seˈsenta} \\
+2.3 & I have been licensed for 43 years. & Tengo licencia desde hace 43 años. & \ipa{ˈtenɡo liˈθenθja ˈdesde ˈaθe kwaˌɾenta i ˈtɾes ˈaɲos} \\
+2.4 & I live in Sittingbourne. & Vivo en Sittingbourne. & \ipa{ˈbibo en ˈsɪtɪŋbɔːn} \\
+2.5 & Sittingbourne is a village. & Sittingbourne es una aldea. & \ipa{ˈsɪtɪŋbɔːn es ˈuna alˈde.a} \\
+2.51 & Sittingbourne is a town. & Sittingbourne es un pueblo. & \ipa{ˈsɪtɪŋbɔːn es un ˈpweblo} \\
+2.52 & Sittingbourne is a city. & Sittingbourne es una ciudad. & \ipa{ˈsɪtɪŋbɔːn es ˈuna θjuˈdad} \\
+2.6 & Sittingbourne is between London and Dover. & Sittingbourne está entre Londres y Dover. & \ipa{ˈsɪtɪŋbɔːn esˈta ˈentɾe ˈlondɾes i ˈdəʊvə} \\
+2.7 & I live in the South of England. & Vivo en el Sur de Inglaterra. & \ipa{ˈbibo en el suɾ de inɡlaˈtera} \\
+2.71 & I live in the North of England. & Vivo en el Norte de Inglaterra. & \ipa{ˈbibo en el ˈnoɾte de inɡlaˈtera} \\
+2.72 & I live in the East of England. & Vivo en el Este de Inglaterra. & \ipa{ˈbibo en el ˈeste de inɡlaˈtera} \\
+2.73 & I live in West of England. & Vivo en el Oeste de Inglaterra. & \ipa{ˈbibo en el oˈeste de inɡlaˈtera} \\
+2.74 & I live in South East England. & Vivo en el Sudeste de Inglaterra. & \ipa{ˈbibo en el suˈdeste de inɡlaˈtera} \\
+2.75 & I live in South West England. & Vivo en el Sudoeste de Inglaterra. & \ipa{ˈbibo en el sudoˈeste de inɡlaˈtera} \\
+2.76 & I live in North East England. & Vivo en el Noreste de Inglaterra. & \ipa{ˈbibo en el noˈɾeste de inɡlaˈtera} \\
+2.77 & I live in North West England. & Vivo en el Noroeste de Inglaterra. & \ipa{ˈbibo en el noɾoˈeste de inɡlaˈtera} \\
+2.78 & I live in central England. & Vivo en el Centro de Inglaterra. & \ipa{ˈbibo en el ˈθentɾo de inɡlaˈtera} \\
+2.8 & I live in the country. & Vivo en el campo. & \ipa{ˈbibo en el ˈkampo} \\
+2.81 & I live by the sea. & Vivo cerca del mar. & \ipa{ˈbibo ˈθeɾka del maɾ} \\
+2.82 & I live near mountains. & Vivo cerca de las montañas. & \ipa{ˈbibo ˈθeɾka de las monˈtaɲas} \\
+2.9 & Sittingbourne is 50Km from London. & Sittingbourne está a 50 Km. de Londres. & \ipa{ˈsɪtɪŋbɔːn esˈta a θinˈkwenta kiˈlometɾos de ˈlondɾes} \\
+2.11 & I am retired. & Estoy jubilado. & \ipa{esˈtoj xubiˈlado} \\
+2.12 & My home call sign is M0ECS & Mi indicativo es M0ECS. & \ipa{mi indikaˈtibo es ˈeme ˈθeɾo e θe ˈese} \\
+\rowcolor{band} 3.0 & \textbf{Station} & \multicolumn{2}{l}{\textbf{Estación}} \\*
+3.1 & My radio is an Icom 706. & Mi radio es un Icom 706. & \ipa{mi ˈradjo es un ˈaɪkɒm seteˈθjentos ˈsejs} \\
+3.2 & My station is all homebrew (homemade). & Mi estación de radio es toda autoconstruida. & \ipa{mi estaˈθjon de ˈradjo es ˈtoda autokonstɾuˈida} \\
+3.3 & I am running 5 Watts. & Estoy saliendo con 5 Watts. & \ipa{esˈtoj saˈljendo kon ˈθinko wats} \\
+3.4 & My antenna is a long wire. & Mi antena es de hilo largo. & \ipa{mi anˈtena es de ˈilo ˈlaɾɡo} \\
+3.41 & My antenna is a dipole. & Mi antena es de dipolo. & \ipa{mi anˈtena es de diˈpolo} \\
+3.42 & My antenna is a G5RV. & Mi antena es de G5RV. & \ipa{mi anˈtena es de xe ˈθinko ˈere ˈube} \\
+3.43 & My antenna is a doublet. & Mi antena es de doblete. & \ipa{mi anˈtena es de doˈblete} \\
+3.44 & My antenna is a delta loop. & Mi antena es de delta loop. & \ipa{mi anˈtena es de ˈdelta luːp} \\
+3.45 & My antenna is a vertical. & Mi antena es de vertical. & \ipa{mi anˈtena es de beɾtiˈkal} \\
+3.46 & My antenna is a log periodic. & Mi antena es de logarítmica periódica. & \ipa{mi anˈtena es de loɡaˈɾitmika peˈɾjodika} \\
+3.47 & My antenna is a Yagi beam. & Mi antena es de directiva Yagi. & \ipa{mi anˈtena es de diɾekˈtiba ˈʝaɡi} \\
+3.48 & My antenna is a 5 element beam. & Mi antena es de directiva de 5 elementos. & \ipa{mi anˈtena es de diɾekˈtiba de ˈθinko eleˈmentos} \\
+\rowcolor{band} 4.0 & \textbf{Conditions} & \multicolumn{2}{l}{\textbf{Condiciones}} \\*
+4.1 & Thank you for my 599 report. & Gracias por mi informe, 599. & \ipa{ˈɡɾaθjas poɾ mi inˈfoɾme ˈθinko ˈnwebe ˈnwebe} \\
+4.2 & The band conditions are good. & Las condiciones de propagación en la banda son buenas. & \ipa{las kondiˈθjones de pɾopaɡaˈθjon en la ˈbanda son ˈbwenas} \\
+4.3 & The band conditions are bad. & Las condiciones de propagación en la banda son malas. & \ipa{las kondiˈθjones de pɾopaɡaˈθjon en la ˈbanda son ˈmalas} \\
+4.4 & There is strong interference here. & Aquí tengo una fuerte interferencia. & \ipa{aˈki ˈtenɡo ˈuna ˈfweɾte inteɾfeˈɾenθja} \\
+4.5 & Can you change to the 80m band? & ¿Puedes cambiar a la banda de 80 m.? & \ipa{ˈpwedes kamˈbjaɾ a la ˈbanda de oˈtʃenta ˈmetɾos} \\
+4.6 & Please change frequency to 3.558 MHz. & Por favor cambia a la frecuencia de 3.558 MHz. & \ipa{poɾ faˈboɾ ˈkambja a la fɾeˈkwenθja de tɾes ˈkoma ˈθinko ˈθinko ˈotʃo ˌmeɡaˈeɾθjos} \\
+\rowcolor{band} 5.0 & \textbf{General Queries and Comments} & \multicolumn{2}{l}{\textbf{Preguntas y comentarios generales}} \\*
+5.1 & What does <\#\#\#\#\#> mean please? & ¿Qué significa <\#\#\#\#\#> ? & \ipa{ke siɡniˈfika …} \\
+5.2 & Please wait a moment, I need to check my Spanish dictionary. & Espera un momento por favor, necesito consultar mi diccionario de español. & \ipa{esˈpeɾa un moˈmento poɾ faˈboɾ neθeˈsito konsulˈtaɾ mi dikθjoˈnaɾjo de espaˈɲol} \\
+5.3 & How do you say, <\#\#\#\#\#> in Spanish ? & ¿Cómo dirías <\#\#\#\#\#> en español? & \ipa{ˈkomo diˈɾi.as … en espaˈɲol} \\
+5.5 & My favourite modes of operation are CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / Digital Modes / and SSB & Mis modos de operación favoritos son CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / Modos Digitales / y SSB. & \ipa{mis ˈmodos de opeɾaˈθjon faboˈɾitos son θe ˈdoble ˈube / ˈere te te i ˈɡɾjeɡa / pe ˈese ka / ˈeme te seˌsenta i ˈtɾes / oˈlibja / ˈhɛlˌʃʁaɪbɐ / ˈmodos dixiˈtales / i ˈese ˈese be} \\
+5.6 & My best DX is Australia. & Mi mejor DX es Australia. & \ipa{mi meˈxoɾ de ˈekis es awsˈtɾalja} \\
+5.7 & I enjoy working contests. & Me gusta participar en los concursos. & \ipa{me ˈɡusta paɾtiθiˈpaɾ en los konˈkuɾsos} \\
+5.8 & I like working QRP. & Me gusta transmitir en QRP. & \ipa{me ˈɡusta tɾansmiˈtiɾ en ku ˈere pe} \\
+\rowcolor{band} 6.0 & \textbf{The Weather} & \multicolumn{2}{l}{\textbf{El Tiempo}} \\*
+6.1 & It is sunny. & Hay mucho sol. & \ipa{aj ˈmutʃo sol} \\
+6.2 & It is windy. & Es ventoso. & \ipa{es benˈtoso} \\
+6.3 & It is raining. & Está lloviendo. & \ipa{esˈta ʝoˈbjendo} \\
+6.4 & It is snowing. & Está nevando. & \ipa{esˈta neˈbando} \\
+6.5 & It is very hot. & Hace mucho calor & \ipa{ˈaθe ˈmutʃo kaˈloɾ} \\
+6.6 & It is very cold. & Hace mucho frío. & \ipa{ˈaθe ˈmutʃo ˈfɾi.o} \\
+6.7 & The temperature is 8C. & La temperatura es 8º C. & \ipa{la tempeɾaˈtuɾa es ˈotʃo ˈɡɾados ˈθelsjus} \\
+6.8 & It is overcast. & Está nublado. & \ipa{esˈta nuˈblado} \\
+6.9 & It is foggy. & Hay niebla. & \ipa{aj ˈnjebla} \\
+6.11 & It has been raining all day. & Llovió durante todo el día & \ipa{ʝoˈbjo duˈɾante ˈtodo el ˈdi.a} \\
+6.12 & There is 20cm of snow here. & Aquí hay 20 cm. de nieve. & \ipa{aˈki aj ˈbejnte θenˈtimetɾos de ˈnjebe} \\
+\rowcolor{band} 8.0 & \textbf{QSL} & \multicolumn{2}{l}{\textbf{QSL}} \\*
+8.1 & My QSL card is sure via the bureau & Te envío mi tarjeta QSL con seguridad vía bureau (asociación). & \ipa{te enˈbi.o mi taɾˈxeta ku ˈese ˈele kon seɡuɾiˈdad ˈbi.a byˈʁo (asoθjaˈθjon)} \\
+8.2 & QSL via eQSL & QSL vía eQSL. & \ipa{ku ˈese ˈele ˈbi.a i ku ˈese ˈele} \\
+8.3 & No eQSL please & Por favor no envíe eQSL. & \ipa{poɾ faˈboɾ no enˈbi.e i ku ˈese ˈele} \\
+8.4 & I will send you my card direct. & Te enviaré mi tarjeta directamente. & \ipa{te embjaˈɾe mi taɾˈxeta diɾektaˈmente} \\
+8.5 & What is your address? & ¿Cuál es tu dirección? & \ipa{kwal es tu diɾekˈθjon} \\
+8.6 & Please send your QSL card direct. & Por favor, envíame directamente tu tarjeta QSL. & \ipa{poɾ faˈboɾ enˈbi.ame diɾektaˈmente tu taɾˈxeta ku ˈese ˈele} \\
+8.7 & My address is... & Mi dirección es… & \ipa{mi diɾekˈθjon es …} \\
+8.8 & My address is shown on QSL.com / EHam.net & Mi dirección está en QSL.com / EHam.net. & \ipa{mi diɾekˈθjon esˈta en ku ˈese ˈele ˈpunto kom / i hæm ˈpunto net} \\
+8.9 & Sorry I do not send QSL cards. & Lo siento, no envío tarjetas QSL. & \ipa{lo ˈsjento no enˈbi.o taɾˈxetas ku ˈese ˈele} \\
+8.11 & Please send QSL card via G1JQH. & Por favor, envía tu tarjeta QSL vía G1JQH. & \ipa{poɾ faˈboɾ enˈbi.a tu taɾˈxeta ku ˈese ˈele ˈbi.a xe ˈuno ˈxota ku ˈatʃe} \\
+8.12 & My WACRAL / GQRP / DXCC / FISTS number is 1234. & Mi número WACRAL / GQRP / DXCC / FISTS es 1224. & \ipa{mi ˈnumeɾo ˈdoble ˈube a θe ˈere ˈele / xe ku ˈere pe / de ˈekis θe θe / fɪsts es mil dosˈθjentos ˌbejntiˈkwatɾo} \\
+\rowcolor{band} 9.0 & \textbf{Final Greetings} & \multicolumn{2}{l}{\textbf{Saludos Finales}} \\*
+9.1 & Thank you. & Gracias. & \ipa{ˈɡɾaθjas} \\
+9.2 & Thank you for a very enjoyable contact. & Gracias por tu contacto muy agradable. & \ipa{ˈɡɾaθjas poɾ tu konˈtakto muj aɡɾaˈdable} \\
+9.3 & I enjoyed our chat. & Me gustó nuestra charla. & \ipa{me ɡusˈto ˈnwestɾa ˈtʃaɾla} \\
+9.4 & I enjoyed our QSO in Spanish. & Me gustó mucho nuestro QSO en español. & \ipa{me ɡusˈto ˈmutʃo ˈnwestɾo ku ˈese o en espaˈɲol} \\
+9.5 & It has been great fun. & Ha sido muy divertido. & \ipa{a ˈsido muj dibeɾˈtido} \\
+9.6 & If you would like a regular contact with me, you can contact me via email. & Si quieres mantener un contacto regular conmigo, puedes contactarme vía email. & \ipa{si ˈkjeɾes manteˈneɾ un konˈtakto reɡuˈlaɾ konˈmiɡo ˈpwedes kontakˈtaɾme ˈbi.a ˈiːmeɪl} \\
+9.7 & My email address is... & Mi dirección de email es… & \ipa{mi diɾekˈθjon de ˈiːmeɪl es …} \\
+9.8 & My email address is shown on QSL.com / EHam.net & Mi dirección de email está en QSL.com / EHam.net. & \ipa{mi diɾekˈθjon de ˈiːmeɪl esˈta en ku ˈese ˈele ˈpunto kom / i hæm ˈpunto net} \\
+9.9 & I look forward to meeting you again. & Espero encontrarte otra vez en el futuro. & \ipa{esˈpeɾo enkonˈtɾaɾte ˈotɾa beθ en el fuˈtuɾo} \\
+9.11 & My best wishes to you and your family. & Mis mejores deseos para ti y para tu familia. & \ipa{mis meˈxoɾes deˈse.os ˈpaɾa ti i ˈpaɾa tu faˈmilja} \\
+9.12 & Best wishes to your wife. & Los mejores deseos para tu esposa. & \ipa{los meˈxoɾes deˈse.os ˈpaɾa tu esˈposa} \\
+9.121 & Best wishes to your husband. & Los mejores deseos para tu marido. & \ipa{los meˈxoɾes deˈse.os ˈpaɾa tu maˈɾido} \\
+9.13 & Good luck. & Buena suerte. & \ipa{ˈbwena ˈsweɾte} \\
+9.14 & Good health. & Buena salud. & \ipa{ˈbwena saˈlud} \\
+9.15 & Goodbye & Adiós. & \ipa{aˈdjos} \\
+9.16 & I wish you an enjoyable afternoon. & Te deseo una agradable tarde (de 12 a 18 horas). & \ipa{te deˈse.o ˈuna aɡɾaˈdable ˈtaɾde (de ˈdoθe a djeˈθotʃo ˈoɾas)} \\
+9.161 & I wish you an enjoyable evening. & Te deseo una agradable tarde (después de las 18 horas). & \ipa{te deˈse.o ˈuna aɡɾaˈdable ˈtaɾde (desˈpwes de las djeˈθotʃo ˈoɾas)} \\
+9.162 & I wish you an enjoyable weekend. & Te deseo un agradable fin de semana. & \ipa{te deˈse.o un aɡɾaˈdable fin de seˈmana} \\
+9.17 & Enjoy your holiday. & Que te diviertas en tus vacaciones. & \ipa{ke te diˈbjeɾtas en tus bakaˈθjones} \\
+9.18 & Happy New Year. & Feliz Año Nuevo. & \ipa{feˈliθ ˈaɲo ˈnwebo} \\
+\rowcolor{band} 10.0 & \textbf{Country} & \multicolumn{2}{l}{\textbf{País}} \\*
+10.1 & Albania & Albania & \ipa{alˈbanja} \\
+10.2 & Austria & Austria & \ipa{ˈawstɾja} \\
+10.3 & Belgium & Bélgica & \ipa{ˈbelxika} \\
+10.4 & Belorussia & Bielorrusia & \ipa{bjeloˈrusja} \\
+10.5 & Bosnia \& Herzegovina & Bosnia y Herzegovina & \ipa{ˈbosnja i eɾθeɡoˈbina} \\
+10.6 & Bulgaria & Bulgaria & \ipa{bulˈɡaɾja} \\
+10.7 & Croatia & Croacia & \ipa{kɾoˈaθja} \\
+10.8 & Czech Republic & República Checa & \ipa{reˈpublika ˈtʃeka} \\
+10.9 & Denmark & Dinamarca & \ipa{dinaˈmaɾka} \\
+10.11 & Eire & Irlanda & \ipa{iɾˈlanda} \\
+10.12 & England & Inglaterra & \ipa{inɡlaˈtera} \\
+10.13 & Estonia & Estonia & \ipa{esˈtonja} \\
+10.14 & Finland & Finlandia & \ipa{finˈlandja} \\
+10.15 & France & Francia & \ipa{ˈfɾanθja} \\
+10.16 & Germany & Alemania & \ipa{aleˈmanja} \\
+10.17 & Gibraltar & Gibraltar & \ipa{xibɾalˈtaɾ} \\
+10.18 & Greece & Grecia & \ipa{ˈɡɾeθja} \\
+10.19 & Holland & Holanda & \ipa{oˈlanda} \\
+10.21 & Hungary & Hungría & \ipa{uŋˈɡɾi.a} \\
+10.22 & Iceland & Islandia & \ipa{isˈlandja} \\
+10.23 & Northern Ireland & Irlanda del Norte & \ipa{iɾˈlanda del ˈnoɾte} \\
+10.24 & Isle of Man & Isla de Man & \ipa{ˈisla de man} \\
+10.25 & Italy & Italia & \ipa{iˈtalja} \\
+10.26 & Latvia & Letonia & \ipa{leˈtonja} \\
+10.27 & Liechtenstein & Liechtenstein & \ipa{ˈliçtn̩ʃtaɪn} \\
+10.28 & Lithuania & Lituania & \ipa{liˈtwanja} \\
+10.29 & Luxembourg & Luxemburgo & \ipa{luksemˈbuɾɡo} \\
+10.31 & Macedonia & Macedonia & \ipa{maθeˈdonja} \\
+10.32 & Moldavia & Moldavia & \ipa{molˈdabja} \\
+10.33 & Netherlands & Países Bajos & \ipa{paˈises ˈbaxos} \\
+10.34 & Norway & Noruega & \ipa{noˈɾweɡa} \\
+10.35 & Poland & Polonia & \ipa{poˈlonja} \\
+10.36 & Portugal & Portugal & \ipa{poɾtuˈɡal} \\
+10.37 & Romania & Rumania & \ipa{ruˈmanja} \\
+10.38 & Russian Federation & Federación Rusa & \ipa{fedeɾaˈθjon ˈrusa} \\
+10.39 & Scotland & Escocia & \ipa{esˈkoθja} \\
+10.41 & Slovakia & Eslovaquia & \ipa{esloˈbakja} \\
+10.42 & Slovenia & Eslovenia & \ipa{esloˈbenja} \\
+10.43 & Spain & España & \ipa{esˈpaɲa} \\
+10.44 & Svalbard & Svalbard & \ipa{ˈsvalbard} \\
+10.45 & Sweden & Suecia & \ipa{ˈsweθja} \\
+10.46 & Switzerland & Suiza & \ipa{ˈswiθa} \\
+10.47 & Turkey & Turquía & \ipa{tuɾˈki.a} \\
+10.48 & Ukraine & Ucrania & \ipa{uˈkɾanja} \\
+10.49 & Wales & Gales & \ipa{ˈɡales} \\
+\end{longtable}
+\normalsize
+\section*{Hinweise zur Übertragung und Aussprache}
+\fontsize{8.5}{10.5}\selectfont\raggedright
+\textbf{Vorlage und Umfang.} Grundlage ist „Spanish v 1.1.doc“; Credits: Vicente -- EA5OO und
+Colin Bass (ohne Rufzeichen). Alle 142 Phrasen und Ländernamen sind enthalten. Die ursprüngliche Gliederung
+mit ihren Nummernsprüngen und dem fehlenden Abschnitt 7 bleibt erhalten.
+
+\smallskip
+\textbf{Dokumentierte Korrekturen.} „indicative“ wurde zu „indicativo“ (2.12), „antenna“ zu „antena“ (3.4--3.48),
+„much calor“ zu „mucho calor“ (6.5), „favour“ zu „favor“ (8.6), „enviae“ zu „envía“ (8.11)
+und „My dirección“ zu „Mi dirección“ (9.7). In 9.17 wurde „Que te diviertes“ zu „Que te diviertas“ berichtigt.
+Fehlende Akzente wurden ergänzt: días, Qué, Cómo, frío, envío, envíe, Cuál, envíame, está, Adiós, Hungría
+und Países. „Necesito“ nach dem Komma (5.2) und „Hay“ (6.12) wurden kleingeschrieben; mehrfache Leerzeichen
+vereinheitlicht. Die fehlerhaften Webschreibweisen „QSLcon“ (8.8) und „QSLcom“ (9.8) wurden entsprechend
+der englischen Spalte als „QSL.com“ wiedergegeben. Die IPA-Spalte folgt jeweils dem korrigierten spanischen Text.
+
+\smallskip
+\textbf{Abweichungen und Eigenheiten der Quelle.} In 8.12 steht englisch die Mitgliedsnummer 1234,
+spanisch 1224. Beide Zahlen bleiben unverändert; die spanische Lautschrift liest „mil doscientos veinticuatro“.
+„Rumania“ bleibt in 10.37 als gültige spanische Variante erhalten. Die Zeitangaben in Klammern bei 1.32,
+1.33, 9.16 und 9.161 werden übernommen und ebenfalls transkribiert; sie können beim Funkgespräch entfallen.
+Auch „Good evening“ wird in der Vorlage mit „Buenas tardes“ übersetzt; diese Zuordnung bleibt erhalten. Überwiegend steht die vertraute Anrede „tú“; „envíe“ in 8.3 entspricht der höflichen
+Anrede „usted“. Für eine Sprecherin lauten „contento“ und „jubilado“: „contenta“ und „jubilada“.
+
+\smallskip
+\textbf{Transkriptionskonvention.} Die IPA-Spalte ist eine breite, manuell erstellte Aussprachehilfe
+für eine gebräuchliche Aussprache Spaniens mit distinción und yeísmo, keine enge Transkription einer Aufnahme.
+\ipa{θ} steht für z sowie c vor e/i; \ipa{s} für s. ll und konsonantisches y sind als \ipa{ʝ} wiedergegeben.
+\ipa{ɾ} bezeichnet den einfachen Zungenschlag, \ipa{r} das gerollte r. b und v sind beide als \ipa{b}
+transkribiert. Die kontextabhängigen weicheren Varianten von b, d und g (\ipa{β, ð, ɣ}) werden nicht eigens
+markiert. \ipa{ˈ} zeigt die Hauptbetonung; \ipa{ˌ} kann in längeren Zahlen und Wörtern eine Nebenbetonung markieren.
+Der Punkt markiert ausgewählte Vokalsilben. Satzmelodie und Wortverbindungen sind nicht dargestellt.
+
+\smallskip
+\textbf{Lateinamerikanische Aussprache.} In den meisten lateinamerikanischen Varianten sowie in Teilen Spaniens
+werden z und c vor e/i wie s gesprochen (seseo): Ersetzen Sie dann in spanischen Wörtern \ipa{θ} durch \ipa{s}.
+So wird „gracias“ zu \ipa{ˈɡɾasjas} und „cinco“ zu \ipa{ˈsinko}. Weitere regionale Unterschiede sind nicht dargestellt.
+
+\smallskip
+\textbf{Namen, Kürzel und Zahlen.} Peter, Sittingbourne und Dover sind mit englischer Aussprache wiedergegeben,
+Hellschreiber und Liechtenstein mit deutscher. Icom ist mit einer englischen Aussprachevariante angegeben,
+Loop und E-Mail ebenfalls englisch; „bureau“ französisch. Rufzeichen und die meisten Kürzel werden mit
+spanischen Buchstabennamen gesprochen, nicht im internationalen Buchstabieralphabet: W „doble uve“,
+Y hier „i griega“, V „uve“. FISTS wird als Wort, das e in eQSL und EHam als englisches \ipa{i} gelesen.
+Zahlen: 706 „setecientos seis“, 599 „cinco nueve nueve“, 3.558 MHz
+„tres coma cinco cinco ocho megahercios“, 8º C „ocho grados Celsius“.
+Schrägstriche trennen Alternativen oder Listenelemente; Platzhalter \texttt{<\#\#\#\#\#>}
+erscheinen in der Lautschrift als Auslassung und werden nicht mitgesprochen.
+
+\smallskip
+\textbf{LaTeX.} UTF-8-Datei; zweimal mit XeLaTeX kompilieren. Benötigt werden DejaVu Sans und die
+üblichen LaTeX-Pakete der Präambel. IPA ist direkt als Unicode eingegeben; keine externen Dateien erforderlich.
+\end{document}

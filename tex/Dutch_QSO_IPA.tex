@@ -1,0 +1,262 @@
+% !TeX program = xelatex
+% UTF-8; compile twice with XeLaTeX. No external images or data files needed.
+\documentclass[a4paper,landscape,10pt]{article}
+\usepackage[margin=14mm,headheight=14pt,headsep=5mm,footskip=7mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\newfontfamily\ipafont{DejaVu Sans}
+\usepackage[table]{xcolor}
+\usepackage{array,longtable,booktabs,fancyhdr}
+\definecolor{ink}{HTML}{18384D}
+\definecolor{band}{HTML}{E7EFF4}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{ink}Parlez Vous QSO?! · Nederlands / Dutch}
+\fancyhead[R]{\small Englische Phrase · Nederlandse vertaling · IPA}
+\fancyfoot[L]{\scriptsize Vorlage: Dutch v 1.0 · Credits: Shanondoa Bonifacio und Papi -- PE1MWO}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{3mm}
+\renewcommand{\arraystretch}{1.25}
+\newcommand{\ipa}[1]{{\ipafont[#1]}}
+\begin{document}
+{\LARGE\bfseries\color{ink}Parlez Vous QSO?!}\hfill{\large Nederlands / Dutch}
+
+\vspace{2mm}
+{\small QSO-Sprachführer mit niederländischer IPA-Lautschrift. Die Lautschrift bezieht sich auf die niederländische Spalte.}
+
+\vspace{2mm}
+{\footnotesize \textbf{Leseschlüssel:} \ipa{ˈ} Hauptbetonung, \ipa{ˌ} Nebenbetonung, \ipa{ː} langer Vokal;
+\ipa{ɛi} ei/ij, \ipa{œy} ui, \ipa{ʌu} au/ou; \ipa{ɣ, x} g/ch, \ipa{ʋ} niederländisches w.
+Grundlage: Standardniederländisch der Niederlande. Schrägstriche trennen Alternativen; \ipa{…} steht für einen Platzhalter.}
+
+\vspace{1mm}
+\fontsize{9}{11.8}\selectfont
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{13mm}>{\raggedright\arraybackslash}p{73mm}>{\raggedright\arraybackslash}p{75mm}>{\raggedright\arraybackslash}p{90mm}@{}}
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Nederlands} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Nederlands} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\scriptsize Fortsetzung auf der nächsten Seite}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\rowcolor{band} 1.0 & \textbf{Opening Greetings} & \multicolumn{2}{l}{\textbf{Openingszinnen}} \\*
+1.1 & I am very pleased to meet you. & Aangenaam kennis te maken.\newline Leuk je te ontmoeten.\newline Ik vind het leuk je te ontmoeten. & \ipa{ˈaːŋɣənaːm ˈkɛnɪs tə ˈmaːkən / løːk jə tə ɔntˈmutən / ɪk vɪnt ət løːk jə tə ɔntˈmutən} \\
+1.2 & Thank you for your call. & Bedankt voor je oproep. & \ipa{bəˈdɑŋkt voːr jə ˈɔprup} \\
+1.3 & Good morning. & Goede morgen. & \ipa{ˈɣudə ˈmɔrɣən} \\
+1.31 & Good day. & Goedendag & \ipa{ˌɣudənˈdɑx} \\
+1.32 & Good afternoon. & Goede middag. & \ipa{ˈɣudə ˈmɪdɑx} \\
+1.33 & Good evening. & Goede avond. & \ipa{ˈɣudə ˈaːvɔnt} \\
+1.4 & I know only a little Dutch but I enjoy QSOs in Dutch. & Ik spreek maar een beetje Nederlands, maar ik vind het leuk te QSO’en in het Nederlands. & \ipa{ɪk spreːk maːr ən ˈbeːtjə ˈneːdərlɑnts maːr ɪk vɪnt ət løːk tə ky ɛs oːən ɪn ət ˈneːdərlɑnts} \\
+\rowcolor{band} 2.0 & \textbf{Operator} & \multicolumn{2}{l}{\textbf{Operator}} \\*
+2.1 & My name is Peter. & Mijn naam is Peter. & \ipa{mɛin naːm ɪs ˈpeːtər} \\
+2.2 & I have been licensed since 1960. & Ik heb mijn vergunning sinds 1960. & \ipa{ɪk ɦɛp mɛin vərˈɣʏnɪŋ sɪnts ˈneːɣəntinɦɔndərtˌzɛstəx} \\
+2.3 & I have been licensed for 43 years. & Ik heb mijn vergunning al 43 jaar. & \ipa{ɪk ɦɛp mɛin vərˈɣʏnɪŋ ɑl ˌdriːənˈveːrtəx jaːr} \\
+2.4 & I live in Sittingbourne. & Ik woon in Sittingbourne. & \ipa{ɪk ʋoːn ɪn ˈsɪtɪŋbɔːn} \\
+2.5 & Sittingbourne is a village. & Sittingbourne is een dorp. & \ipa{ˈsɪtɪŋbɔːn ɪs ən dɔrp} \\
+2.51 & Sittingbourne is a town. & Sittingbourne is een stad. & \ipa{ˈsɪtɪŋbɔːn ɪs ən stɑt} \\
+2.52 & Sittingbourne is a city. & Sittingbourne is een grote stad. & \ipa{ˈsɪtɪŋbɔːn ɪs ən ˈɣroːtə stɑt} \\
+2.6 & Sittingbourne is between London and Dover. & Sittingbourne ligt tussen Londen en Dover. & \ipa{ˈsɪtɪŋbɔːn lɪxt ˈtʏsən ˈlɔndən ɛn ˈdəʊvə} \\
+2.7 & I live in the South of England. & Ik woon in het Zuiden van Engeland. & \ipa{ɪk ʋoːn ɪn ət ˈzœydən vɑn ˈɛŋəlɑnt} \\
+2.71 & I live in the North of England. & Ik woon in het Noorden van Engeland. & \ipa{ɪk ʋoːn ɪn ət ˈnoːrdən vɑn ˈɛŋəlɑnt} \\
+2.72 & I live in the East of England. & Ik woon in het Oosten van Engeland. & \ipa{ɪk ʋoːn ɪn ət ˈoːstən vɑn ˈɛŋəlɑnt} \\
+2.73 & I live in West of England. & Ik woon in het Westen van Engeland. & \ipa{ɪk ʋoːn ɪn ət ˈʋɛstən vɑn ˈɛŋəlɑnt} \\
+2.74 & I live in South East England. & Ik woon in het Zuidoosten van Engeland. & \ipa{ɪk ʋoːn ɪn ət ˌzœytˈoːstən vɑn ˈɛŋəlɑnt} \\
+2.75 & I live in South West England. & Ik woon in het Zuidwesten van Engeland. & \ipa{ɪk ʋoːn ɪn ət ˌzœytˈʋɛstən vɑn ˈɛŋəlɑnt} \\
+2.76 & I live in North East England. & Ik woon in het Noordoosten van Engeland. & \ipa{ɪk ʋoːn ɪn ət ˌnoːrtˈoːstən vɑn ˈɛŋəlɑnt} \\
+2.77 & I live in North West England. & Ik woon in het Noordwesten van Engeland. & \ipa{ɪk ʋoːn ɪn ət ˌnoːrtˈʋɛstən vɑn ˈɛŋəlɑnt} \\
+2.78 & I live in central England. & Ik woon in het midden van Engeland. & \ipa{ɪk ʋoːn ɪn ət ˈmɪdən vɑn ˈɛŋəlɑnt} \\
+2.8 & I live in the country. & Ik woon op het platteland. & \ipa{ɪk ʋoːn ɔp ət ˈplɑtəlɑnt} \\
+2.81 & I live by the sea. & Ik woon aan de zee. & \ipa{ɪk ʋoːn aːn də zeː} \\
+2.82 & I live near mountains. & Ik woon bij de bergen. & \ipa{ɪk ʋoːn bɛi də ˈbɛrɣən} \\
+2.9 & Sittingbourne is 50Km from London. & Sittingbourne ligt 50 km van Londen. & \ipa{ˈsɪtɪŋbɔːn lɪxt ˈvɛiftəx ˌkiloːˈmeːtər vɑn ˈlɔndən} \\
+2.11 & I am retired. & Ik ben gepensioeneerd.\newline Ik ben met pensioen. & \ipa{ɪk bɛn ɣəpɛnʃoːˈneːrt / ɪk bɛn mɛt pɛnˈʃun} \\
+2.12 & My home call sign is M0ECS. & Mijn Call Sign thuis is M0ECS. & \ipa{mɛin kɔːl saɪn tœys ɪs ɛm nʏl eː seː ɛs} \\
+\rowcolor{band} 3.0 & \textbf{Station} & \multicolumn{2}{l}{\textbf{Station}} \\*
+3.1 & My radio is an Icom 706. & Mijn radiozender is een Icom 706.\newline Mijn radio is een Icom 706. & \ipa{mɛin ˈraːdijoːˌzɛndər ɪs ən ˈaɪkɒm ˌzeːvənɦɔndərtˈzɛs / mɛin ˈraːdijoː ɪs ən ˈaɪkɒm ˌzeːvənɦɔndərtˈzɛs} \\
+3.2 & My station is all homebrew (homemade). & Mijn zender is helemaal zelfgemaakt.\newline Mijn station is zelfbouw. & \ipa{mɛin ˈzɛndər ɪs ˈɦeːləmaːl ˈzɛlfɣəmaːkt / mɛin staˈʃɔn ɪs ˈzɛlfbʌu} \\
+3.3 & I am running 5 Watts. & Mijn vermogen is 5 Watt.\newline Ik gebruik 5 Watt. & \ipa{mɛin vərˈmoːɣən ɪs vɛif ʋɑt / ɪk ɣəˈbrœyk vɛif ʋɑt} \\
+3.4 & My antenna is a long wire. & Mijn antenne is een draadantenne. & \ipa{mɛin ɑnˈtɛnə ɪs ən ˈdraːtɑnˌtɛnə} \\
+3.41 & My antenna is a dipole. & Mijn antenne is een dipool. & \ipa{mɛin ɑnˈtɛnə ɪs ən diˈpoːl} \\
+3.42 & My antenna is a G5RV. & Mijn antenne is een G5RV. & \ipa{mɛin ɑnˈtɛnə ɪs ən ɣeː vɛif ɛr veː} \\
+3.43 & My antenna is a doublet. & Mijn antenne is een dubbel. & \ipa{mɛin ɑnˈtɛnə ɪs ən ˈdʏbəl} \\
+3.44 & My antenna is a delta loop. & Mijn antenne is een delta loop. & \ipa{mɛin ɑnˈtɛnə ɪs ən ˈdɛltaː luːp} \\
+3.45 & My antenna is a vertical. & Mijn antenne is een verticaal. & \ipa{mɛin ɑnˈtɛnə ɪs ən vɛrtiˈkaːl} \\
+3.46 & My antenna is a log periodic. & Mijn antenne is een log periodiek. & \ipa{mɛin ɑnˈtɛnə ɪs ən lɔx peːriˈoːdik} \\
+3.47 & My antenna is a Yagi beam. & Mijn antenne is een yagi beam. & \ipa{mɛin ɑnˈtɛnə ɪs ən ˈjaːɣi biːm} \\
+3.48 & My antenna is a 5 element beam. & Mijn antenne is een 5 element beam. & \ipa{mɛin ɑnˈtɛnə ɪs ən vɛif eːləˈmɛnt biːm} \\
+\rowcolor{band} 4.0 & \textbf{Conditions} & \multicolumn{2}{l}{\textbf{Condities}} \\*
+4.1 & Thank you for my 599 report. & Bedankt voor mijn 599 rapport.\newline Dank u voor mijn 599 rapport. & \ipa{bəˈdɑŋkt voːr mɛin vɛif neːɣən neːɣən rɑˈpɔrt / dɑŋk y voːr mɛin vɛif neːɣən neːɣən rɑˈpɔrt} \\
+4.2 & The band conditions are good. & De zendcondities zijn goed.\newline De band condities zijn goed. & \ipa{də ˈzɛntkɔnˌdisis zɛin ɣut / də bɑnt kɔnˈdisis zɛin ɣut} \\
+4.3 & The band conditions are bad. & De zendcondities zijn slecht.\newline De band condities zijn slecht. & \ipa{də ˈzɛntkɔnˌdisis zɛin slɛxt / də bɑnt kɔnˈdisis zɛin slɛxt} \\
+4.4 & There is strong interference here. & Er is sterke interferentie / storing hier.\newline Er is een sterke storing hier. & \ipa{ɛr ɪs ˈstɛrkə ˌɪntərfəˈrɛn(t)si / ˈstoːrɪŋ ɦiːr / ɛr ɪs ən ˈstɛrkə ˈstoːrɪŋ ɦiːr} \\
+4.5 & Can you change to the 80m band? & Kun jij veranderen naar de 80m band?\newline Kun je overgaan naar 80m band? & \ipa{kʏn jɛi vərˈɑndərən naːr də ˈtɑxtəx meːtər bɑnt / kʏn jə ˈoːvərɣaːn naːr ˈtɑxtəx meːtər bɑnt} \\
+4.6 & Please change frequency to 3.558 MHz. & Kun je de frequentie veranderen naar 3.558 MHz.\newline Alstublieft veranderen van frequentie naar 3.558 MHz. & \ipa{kʏn jə də freːˈkʋɛn(t)si vərˈɑndərən naːr driː ˈkɔmaː vɛif vɛif ɑxt ˈmeːɣaˌɦɛrts / ɑlstyˈblift vərˈɑndərən vɑn freːˈkʋɛn(t)si naːr driː ˈkɔmaː vɛif vɛif ɑxt ˈmeːɣaˌɦɛrts} \\
+\rowcolor{band} 5.0 & \textbf{General Queries and Comments} & \multicolumn{2}{l}{\textbf{Algemene Vragen en Commentaren}} \\*
+5.1 & What does <\#\#\#\#\#> mean please? & Wat betekent <\#\#\#\#\#> ? & \ipa{ʋɑt bəˈteːkənt …} \\
+5.2 & Please wait a moment, I need to check my dictionary. & Wacht even a.u.b., ik kijk even in het woordenboek.\newline Wilt u even wachten, ik moet even in mijn woordenboek kijken. & \ipa{ʋɑxt ˈeːvən ˌɑlstyˈblift ɪk kɛik ˈeːvən ɪn ət ˈʋoːrdənˌbuk / ʋɪlt y ˈeːvən ˈʋɑxtən ɪk mut ˈeːvən ɪn mɛin ˈʋoːrdənˌbuk ˈkɛikən} \\
+5.3 & How do you say, <\#\#\#\#\#> in Dutch? & Hoe zeg je <\#\#\#\#\#> in het Nederlands. & \ipa{ɦu zɛx jə … ɪn ət ˈneːdərlɑnts} \\
+5.5 & My favourite modes of operation are CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / Digital Modes / and SSB & Mijn favoriete gebruiksinstellingen zijn CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / digitaal modes / en SSB. & \ipa{mɛin ˌfaːvoːˈritə ɣəˈbrœyksɪnˌstɛlɪŋən zɛin seː ˈdʏbəlveː / ɛr teː teː ɛi / peː ɛs kaː / ɛm teː ˌdriːənˈzɛstəx / oːˈliviˌaː / ˈhɛlˌʃʁaɪbɐ / diɣiˈtaːl ˈmoːdəs / ɛn ɛs ɛs beː} \\
+5.6 & My best DX is Australia. & Mijn beste contact is Australië. & \ipa{mɛin ˈbɛstə kɔnˈtɑkt ɪs ʌusˈtraːliə} \\
+5.7 & I enjoy working contests. & Ik houd van wedstrijden.\newline Ik vind het leuk om met wedstrijden mee te doen. & \ipa{ɪk ɦʌut vɑn ˈʋɛtstrɛidən / ɪk vɪnt ət løːk ɔm mɛt ˈʋɛtstrɛidən meː tə dun} \\
+5.8 & I like working QRP. & Ik houd van werken met QRP. & \ipa{ɪk ɦʌut vɑn ˈʋɛrkən mɛt ky ɛr peː} \\
+\rowcolor{band} 6.0 & \textbf{The Weather} & \multicolumn{2}{l}{\textbf{Het Weer}} \\*
+6.1 & It is sunny. & Het is zonnig. & \ipa{ət ɪs ˈzɔnəx} \\
+6.2 & It is windy. & Het waait. & \ipa{ət ʋaːit} \\
+6.3 & It is raining. & Het regent. & \ipa{ət ˈreːɣənt} \\
+6.4 & It is snowing. & Het sneeuwt. & \ipa{ət sneːʋt} \\
+6.5 & It is very hot. & Het is erg warm. & \ipa{ət ɪs ɛrx ʋɑrm} \\
+6.6 & It is very cold. & Het is erg koud. & \ipa{ət ɪs ɛrx kʌut} \\
+6.7 & The temperature is 8C. & De temperatuur is 8 graden Celsius. & \ipa{də tɛmpəraːˈtyːr ɪs ɑxt ˈɣraːdən ˈsɛlsiʏs} \\
+6.8 & It is overcast. & Het is bewolkt. & \ipa{ət ɪs bəˈʋɔlkt} \\
+6.9 & It is foggy. & Het is mistig. & \ipa{ət ɪs ˈmɪstəx} \\
+6.11 & It has been raining all day. & Het regent al de hele dag. & \ipa{ət ˈreːɣənt ɑl də ˈɦeːlə dɑx} \\
+6.12 & There is 20cm of snow here. & Er ligt hier 20cm sneeuw. & \ipa{ɛr lɪxt ɦiːr ˈtʋɪntəx ˌsɛntiˈmeːtər sneːʋ} \\
+\rowcolor{band} 8.0 & \textbf{QSL} & \multicolumn{2}{l}{\textbf{QSL}} \\*
+8.1 & My QSL card is sure via the bureau. & Ik stuur mijn QSL kaart zeker via het bureau. & \ipa{ɪk styːr mɛin ky ɛs ɛl kaːrt ˈzeːkər ˈviːaː ət byˈroː} \\
+8.2 & QSL via eQSL. & QSL via eQSL. & \ipa{ky ɛs ɛl ˈviːaː iː ky ɛs ɛl} \\
+8.3 & No eQSL please. & Geen eQSL alstublieft. & \ipa{ɣeːn iː ky ɛs ɛl ɑlstyˈblift} \\
+8.4 & I will send you my card direct. & Ik zal je mijn kaart direct sturen.\newline Ik stuur u mijn kaart direct. & \ipa{ɪk zɑl jə mɛin kaːrt diˈrɛkt ˈstyːrən / ɪk styːr y mɛin kaːrt diˈrɛkt} \\
+8.5 & What is your address? & Wat is je adres?\newline Wat is uw adres? & \ipa{ʋɑt ɪs jə aːˈdrɛs / ʋɑt ɪs yʋ aːˈdrɛs} \\
+8.6 & Please send your QSL card direct. & Kun je meteen je QSL kaart sturen, alsjeblieft.\newline Alstublieft stuur uw QSL kaart direct. & \ipa{kʏn jə məˈteːn jə ky ɛs ɛl kaːrt ˈstyːrən ɑlʃəˈblift / ɑlstyˈblift styːr yʋ ky ɛs ɛl kaːrt diˈrɛkt} \\
+8.7 & My address is... & Mijn adres is: & \ipa{mɛin aːˈdrɛs ɪs …} \\
+8.8 & My address is shown on QSL.com / EHam.net. & Mijn adres staat op QSL.com / Eham.net.\newline Mijn adres is te zien op QSL.com of op EHam.net. & \ipa{mɛin aːˈdrɛs staːt ɔp ky ɛs ɛl pʏnt kɔm / iː ɦɛm pʏnt nɛt / mɛin aːˈdrɛs ɪs tə zin ɔp ky ɛs ɛl pʏnt kɔm ɔf ɔp iː ɦɛm pʏnt nɛt} \\
+8.9 & Sorry I do not send QSL cards. & Sorry, ik stuur geen QSL kaarten.\newline Sorry maar ik stuur geen QSL kaarten. & \ipa{ˈsɔri ɪk styːr ɣeːn ky ɛs ɛl ˈkaːrtən / ˈsɔri maːr ɪk styːr ɣeːn ky ɛs ɛl ˈkaːrtən} \\
+8.11 & Please send QSL card via G1JQH. & Kunt u mij de QSL kaart via G1JQH sturen, alstublieft.\newline Alstublieft stuur de QSL kaart naar G1JQH. & \ipa{kʏnt y mɛi də ky ɛs ɛl kaːrt ˈviːaː ɣeː eːn jeː ky ɦaː ˈstyːrən ɑlstyˈblift / ɑlstyˈblift styːr də ky ɛs ɛl kaːrt naːr ɣeː eːn jeː ky ɦaː} \\
+8.12 & My WACRAL / GQRP / DXCC / FISTS number is 1234. & Mijn WACRAL nummer is 1234.\newline Mijn WACRAL (registratienummer) van de groep / DXCC / FISTS nummer is 1234. & \ipa{mɛin ˈʋɑkraːl ˈnʏmər ɪs ˌdœyzənt ˌtʋeːɦɔndərt ˌviːrənˈdɛrtəx / mɛin ˈʋɑkraːl reːɣɪsˈtraːtsiˌnʏmər vɑn də ɣrup / deː ɪks seː seː / fɪsts ˈnʏmər ɪs ˌdœyzənt ˌtʋeːɦɔndərt ˌviːrənˈdɛrtəx} \\
+\rowcolor{band} 9.0 & \textbf{Final Greetings} & \multicolumn{2}{l}{\textbf{Afsluitende groeten}} \\*
+9.1 & Thank you. & Bedankt.\newline Dank u.\newline Dank u wel. & \ipa{bəˈdɑŋkt / dɑŋk y / dɑŋk y ʋɛl} \\
+9.2 & Thank you for a very enjoyable contact. & Bedankt voor het aangename contact.\newline Dank je voor het plezierige contact. & \ipa{bəˈdɑŋkt voːr ət ˈaːŋɣənaːmə kɔnˈtɑkt / dɑŋk jə voːr ət pləˈzirəɣə kɔnˈtɑkt} \\
+9.3 & I enjoyed our chat. & Ik vond het gesprek aangenaam / leuk / plezierig.\newline Ik vond het leuk om met je te chatten. & \ipa{ɪk vɔnt ət ɣəˈsprɛk ˈaːŋɣənaːm / løːk / pləˈzirəx / ɪk vɔnt ət løːk ɔm mɛt jə tə ˈtʃɛtən} \\
+9.4 & I enjoyed our QSO in Dutch. & Ik vond het QSO in het Nederlands leuk.\newline Dank je wel voor je QSO in het Nederlands. & \ipa{ɪk vɔnt ət ky ɛs oː ɪn ət ˈneːdərlɑnts løːk / dɑŋk jə ʋɛl voːr jə ky ɛs oː ɪn ət ˈneːdərlɑnts} \\
+9.5 & It has been great fun. & Het was erg leuk. & \ipa{ət ʋɑs ɛrx løːk} \\
+9.6 & If you would like a regular contact with me, you can contact me via email. & Als je me vaker wilt spreken, kun je contact met me opnemen via e-mail.\newline Als je regelmatig contact met mij wilt, dan kun je mij bereiken via mijn e-mail. & \ipa{ɑls jə mə ˈvaːkər ʋɪlt ˈspreːkən kʏn jə kɔnˈtɑkt mɛt mə ˈɔpneːmən ˈviːaː ˈiːmeːl / ɑls jə ˈreːɣəlmaːtəx kɔnˈtɑkt mɛt mɛi ʋɪlt dɑn kʏn jə mɛi bəˈrɛikən ˈviːaː mɛin ˈiːmeːl} \\
+9.7 & My email address is... & Mijn e-mail adres is… & \ipa{mɛin ˈiːmeːl aːˈdrɛs ɪs …} \\
+9.8 & My email address is shown on QSL.com / EHam.net & Mijn e-mail adres kun je vinden op QSL.com / Eham.net.\newline Mijn e-mail adres is op de site QSL.com / EHam.net. & \ipa{mɛin ˈiːmeːl aːˈdrɛs kʏn jə ˈvɪndən ɔp ky ɛs ɛl pʏnt kɔm / iː ɦɛm pʏnt nɛt / mɛin ˈiːmeːl aːˈdrɛs ɪs ɔp də sɑit ky ɛs ɛl pʏnt kɔm / iː ɦɛm pʏnt nɛt} \\
+9.9 & I look forward to meeting you again. & Ik hoop je snel weer te zien.\newline Ik verheug me je weer te ontmoeten. & \ipa{ɪk ɦoːp jə snɛl ʋeːr tə zin / ɪk vərˈɦøːx mə jə ʋeːr tə ɔntˈmutən} \\
+9.11 & My best wishes to you and your family. & Ik wens jou en je familie het beste.\newline De groeten voor jou en je familie. & \ipa{ɪk ʋɛns jʌu ɛn jə faːˈmili ət ˈbɛstə / də ˈɣrutən voːr jʌu ɛn jə faːˈmili} \\
+9.12 & Best wishes to your wife. & Groeten aan je vrouw. & \ipa{ˈɣrutən aːn jə vrʌu} \\
+9.121 & Best wishes to your husband. & Groeten aan je man. & \ipa{ˈɣrutən aːn jə mɑn} \\
+9.13 & Good luck. & Veel geluk.\newline Veel succes. & \ipa{veːl ɣəˈlʏk / veːl sʏkˈsɛs} \\
+9.14 & Good health. & Gezondheid.\newline Goede gezondheid. & \ipa{ɣəˈzɔntɦɛit / ˈɣudə ɣəˈzɔntɦɛit} \\
+9.15 & Goodbye. & Tot ziens. & \ipa{tɔt zins} \\
+9.16 & I wish you an enjoyable afternoon. & Nog een prettige middag.\newline Ik wens je een prettige middag. & \ipa{nɔx ən ˈprɛtəɣə ˈmɪdɑx / ɪk ʋɛns jə ən ˈprɛtəɣə ˈmɪdɑx} \\
+9.161 & I wish you an enjoyable evening. & Nog een prettige avond.\newline Ik wens je een prettige avond. & \ipa{nɔx ən ˈprɛtəɣə ˈaːvɔnt / ɪk ʋɛns jə ən ˈprɛtəɣə ˈaːvɔnt} \\
+9.162 & I wish you an enjoyable weekend. & Nog een prettig weekend.\newline Ik wens je een prettig weekend. & \ipa{nɔx ən ˈprɛtəx ˈʋikɛnt / ɪk ʋɛns jə ən ˈprɛtəx ˈʋikɛnt} \\
+9.17 & Enjoy your holiday. & Geniet van je vakantie. & \ipa{ɣəˈnit vɑn jə vaːˈkɑn(t)si} \\
+9.18 & Happy New Year. & Gelukkig Nieuwjaar. & \ipa{ɣəˈlʏkəx ˈniʋjaːr} \\
+\rowcolor{band} 10.0 & \textbf{Country} & \multicolumn{2}{l}{\textbf{Land}} \\*
+10.1 & Albania & Albanië & \ipa{ɑlˈbaːniə} \\
+10.2 & Austria & Oostenrijk & \ipa{ˈoːstənrɛik} \\
+10.3 & Belgium & België & \ipa{ˈbɛlɣiə} \\
+10.4 & Belorussia & Wit-Rusland & \ipa{ˈʋɪtˌrʏslɑnt} \\
+10.5 & Bosnia \& Herzegovina & Bosnië Herzegovina & \ipa{ˈbɔsniə ɦɛrtseːˈɣoːvinaː} \\
+10.6 & Bulgaria & Bulgarije & \ipa{bʏlˈɣaːriə} \\
+10.7 & Croatia & Kroatië & \ipa{kroːˈaːtsiə} \\
+10.8 & Czech Republic & Tsjechië & \ipa{ˈtʃɛxiə} \\
+10.9 & Denmark & Denemarken & \ipa{ˈdeːnəˌmɑrkən} \\
+10.11 & Eire & Ierland & \ipa{ˈiːrlɑnt} \\
+10.12 & England & Engeland & \ipa{ˈɛŋəlɑnt} \\
+10.13 & Estonia & Estonië & \ipa{ˈɛstoːniə} \\
+10.14 & Finland & Finland & \ipa{ˈfɪnlɑnt} \\
+10.15 & France & Frankrijk & \ipa{ˈfrɑŋkrɛik} \\
+10.16 & Germany & Duitsland & \ipa{ˈdœytslɑnt} \\
+10.17 & Gibraltar & Gibraltar & \ipa{ʒiˈbrɑltɑr} \\
+10.18 & Greece & Griekenland & \ipa{ˈɣrikənlɑnt} \\
+10.19 & Holland & Nederland & \ipa{ˈneːdərlɑnt} \\
+10.21 & Hungary & Hongarije & \ipa{ɦɔŋˈɣaːriə} \\
+10.22 & Iceland & IJsland & \ipa{ˈɛislɑnt} \\
+10.23 & Northern Ireland & Noord-Ierland & \ipa{ˌnoːrtˈiːrlɑnt} \\
+10.24 & Isle of Man & Isle of Man & \ipa{ˌaɪl əv ˈmæn} \\
+10.25 & Italy & Italië & \ipa{iˈtaːliə} \\
+10.26 & Latvia & Letland & \ipa{ˈlɛtlɑnt} \\
+10.27 & Liechtenstein & Liechtenstein & \ipa{ˈlɪçtn̩ʃtaɪn} \\
+10.28 & Lithuania & Litouwen & \ipa{ˈlitʌuən} \\
+10.29 & Luxembourg & Luxemburg & \ipa{ˈlʏksəmˌbʏrx} \\
+10.31 & Macedonia & Macedonië & \ipa{maːseːˈdoːniə} \\
+10.32 & Moldavia & Moldavië & \ipa{mɔlˈdaːviə} \\
+10.33 & Netherlands & Nederland & \ipa{ˈneːdərlɑnt} \\
+10.34 & Norway & Noorwegen & \ipa{ˈnoːrʋeːɣən} \\
+10.35 & Poland & Polen & \ipa{ˈpoːlən} \\
+10.36 & Portugal & Portugal & \ipa{ˈpɔrtyɣɑl} \\
+10.37 & Romania & Roemenië & \ipa{ruˈmeːniə} \\
+10.38 & Russian Federation & Rusland & \ipa{ˈrʏslɑnt} \\
+10.39 & Scotland & Schotland & \ipa{ˈsxɔtlɑnt} \\
+10.41 & Slovakia & Slowakije & \ipa{sloːˈʋaːkiə} \\
+10.42 & Slovenia & Slovenië & \ipa{sloːˈveːniə} \\
+10.43 & Spain & Spanje & \ipa{ˈspɑnjə} \\
+10.44 & Svalbard & Svalbard & \ipa{ˈsvɑlbɑrt} \\
+10.45 & Sweden & Zweden & \ipa{ˈzʋeːdən} \\
+10.46 & Switzerland & Zwitserland & \ipa{ˈzʋɪtsərlɑnt} \\
+10.47 & Turkey & Turkije & \ipa{ˈtʏrkiə} \\
+10.48 & Ukraine & Oekraïne & \ipa{ukraːˈinə} \\
+10.49 & Wales & Wales & \ipa{weɪlz} \\
+\end{longtable}
+\normalsize
+\section*{Hinweise zur Übertragung und Aussprache}
+\fontsize{8.5}{10.5}\selectfont\raggedright
+\textbf{Vorlage und Umfang.} Grundlage ist „Dutch v 1.0.doc“. Credits der Quelle: Shanondoa Bonifacio
+(ohne Rufzeichen) und Papi, PE1MWO. Alle 142 Phrasen und Ländernamen sowie die unterschiedlichen
+Formulierungsvarianten sind enthalten. Nummernsprünge und der fehlende Abschnitt 7 bleiben erhalten.
+
+\smallskip
+\textbf{Dokumentierte Korrekturen.} „pension“ wurde zu „pensioen“ (2.11), „alsublieft“ zu „alstublieft“ (8.11),
+„WALCRAL“ zu „WACRAL“ (8.12), „contakt“ zu „contact“ (9.6), „Mij e-mail“ zu „Mijn e-mail“ und „side“ zu „site“ (9.8),
+„success“ zu „succes“ (9.13) sowie „Ukraïne“ zu „Oekraïne“ (10.48). In 10.2 wurde das falsche „Australië“
+bei Austria durch „Oostenrijk“ ersetzt. Die drei mit einer Tilde markierten Lücken wurden ergänzt:
+Wit-Rusland (10.4), Isle of Man (10.24), Svalbard (10.44). Australien in 5.6 bleibt korrekt als „Australië“ stehen.
+In 8.2 wurde das fehlende e in eQSL ergänzt; 8.3 wurde gemäß „No eQSL please“ als „Geen eQSL alstublieft“ berichtigt.
+Die kaufmännischen Und-Zeichen zwischen alternativen Sätzen wurden durch Zeilenumbrüche ersetzt,
+Mehrfachleerzeichen entfernt und die Webadressen in 8.8 einheitlich geschrieben.
+
+\smallskip
+\textbf{Inhaltliche Eigenheiten.} Andere ungewöhnliche Formulierungen bleiben erkennbar erhalten,
+etwa „dubbel“ für Doublet (3.43), „digitaal modes“ (5.5) und die unvollständige zweite Variante in 8.12.
+Dort fehlt GQRP in der niederländischen Quelle; es wurde nicht stillschweigend eingesetzt.
+Die Betriebsartenbezeichnung und die unterschiedliche Bedeutung mancher Alternativsätze wurden nicht umgeschrieben.
+Historische Ländernamen und Webadressen entsprechen weiterhin der Vorlage. Holland und Netherlands stehen beide als „Nederland“.
+
+\smallskip
+\textbf{Aussprachebasis.} Die IPA-Spalte ist eine breite, manuell erstellte Aussprachehilfe für das
+Standardniederländische der Niederlande, keine enge Transkription einer Aufnahme. \ipa{ˈ} markiert Haupt-,
+\ipa{ˌ} ausgewählte Nebenbetonungen. Bei \ipa{eː, oː, øː} ist eine einfache lange Vokalschreibung gewählt;
+in vielen niederländischen Aussprachen werden diese Vokale leicht diphthongiert.
+\ipa{ɛi, œy, ʌu} sind die Diphthonge von ei/ij, ui und au/ou. Kurze \ipa{ɪ, ʏ, ɑ} unterscheiden sich von
+\ipa{i, y, aː}; i, u und y sind nicht automatisch lang. Vor r sind hier häufig längere Varianten angegeben.
+
+\smallskip
+\textbf{Konsonanten und Reduktionen.} g ist überwiegend als \ipa{ɣ}, ch beziehungsweise auslautendes g als
+\ipa{x} dargestellt; nördliche Sprecher können auch \ipa{ɣ} stimmlos und weiter hinten sprechen.
+Das w steht als \ipa{ʋ}, r als vereinfachtes \ipa{r}; regionale r-Varianten und flämische Lautvarianten sind nicht einzeln markiert.
+Auslautverhärtung ist berücksichtigt. Unbetonte Wörter stehen häufig reduziert: „het“ \ipa{ət}, „een“ \ipa{ən},
+„je“ \ipa{jə}, „me“ \ipa{mə}. Das n in Endungen auf -en ist zur Orientierung meist beibehalten,
+obwohl es im Gespräch oft entfällt. Die Klammer in \ipa{n(t)si} kennzeichnet ein optionales t.
+Assimilation und weitere Reduktionen im zusammenhängenden Sprechen sind nicht vollständig dargestellt.
+
+\smallskip
+\textbf{Namen, Rufzeichen und Fachwörter.} Sittingbourne, Dover, Isle of Man, Wales, Call Sign,
+Icom, Beam und Loop sind mit einer gebräuchlichen englischen Aussprache dargestellt; Hellschreiber und
+Liechtenstein mit deutscher Aussprache. Londen, Engeland und die meisten anderen Namen werden niederländisch gelesen.
+Rufzeichen und die meisten Kürzel stehen mit niederländischen Buchstabennamen: G „gee“, J „jee“, Q „kuu“, W „dubbel-wee“, Y „ij“;
+das internationale Buchstabieralphabet ist nicht ausgeschrieben. WACRAL und FISTS werden als Wörter gelesen.
+QSO’en steht für die Buchstaben Q S O plus die Endung -en. Das e in eQSL und eHam wird als \ipa{iː} gelesen;
+Webpunkte als „punt“, com und net als Wörter. „a.u.b.“ ist als „alstublieft“ ausgeschrieben.
+
+\smallskip
+\textbf{Zahlen und Platzhalter.} 1960 wird als „negentienhonderdzestig“, 43 als „drieënveertig“,
+706 als „zevenhonderdzes“, MT63 mit „drieënzestig“, 599 als „vijf negen negen“ und
+1234 als „duizend tweehonderd vierendertig“ gelesen. 3.558 MHz ist im QSO-Kontext „drie komma vijf vijf acht megahertz“;
+80 m, 50 km und 20 cm stehen mit „tachtig meter“, „vijftig kilometer“ und „twintig centimeter“.
+Die Platzhalter \texttt{<\#\#\#\#\#>} und offene Adressangaben erscheinen in der Lautschrift als Auslassung.
+
+\smallskip
+\textbf{Fachhinweise.} Carlos Gussenhoven: „Dutch“, Journal of the International Phonetic Association
+22(1--2), 1992, S. 45--47, DOI 10.1017/S002510030000459X (bibliografischer Hinweis zur IPA-Beschreibung).
+Ländernamen: Nederlandse Taalunie, „Buitenlandse Aardrijkskundige Namen“, namen.taalunie.org.
+Die einzelnen Phrasen wurden manuell transkribiert; bei Eigennamen, Marken und Kürzeln sind Varianten möglich.
+\end{document}

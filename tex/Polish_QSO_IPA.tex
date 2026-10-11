@@ -1,0 +1,271 @@
+% !TeX program = xelatex
+% UTF-8; compile twice with XeLaTeX. No external images or data files needed.
+\documentclass[a4paper,landscape,10pt]{article}
+\usepackage[margin=14mm,headheight=14pt,headsep=5mm,footskip=7mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\newfontfamily\ipafont{DejaVu Sans}
+\usepackage[table]{xcolor}
+\usepackage{array,longtable,booktabs,fancyhdr}
+\definecolor{ink}{HTML}{18384D}
+\definecolor{band}{HTML}{E7EFF4}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{ink}Parlez Vous QSO?! · Po polsku / Polish}
+\fancyhead[R]{\small Englische Phrase · Polskie tłumaczenie · IPA}
+\fancyfoot[L]{\scriptsize Vorlage: Polish v 1.0 · Credits: Chris -- SP3ELD}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{3mm}
+\renewcommand{\arraystretch}{1.25}
+\newcommand{\ipa}[1]{{\ipafont[#1]}}
+\begin{document}
+{\LARGE\bfseries\color{ink}Parlez Vous QSO?!}\hfill{\large Po polsku / Polish}
+
+\vspace{2mm}
+{\small QSO-Sprachführer mit polnischer IPA-Lautschrift. Die Lautschrift bezieht sich auf die polnische Spalte.}
+
+\vspace{2mm}
+{\footnotesize \textbf{Leseschlüssel:} \ipa{ˈ} Hauptbetonung, \ipa{ˌ} Nebenbetonung;
+\ipa{ɨ} polnisches y; \ipa{w} entspricht ł, \ipa{v} entspricht w;
+\ipa{ɕ, ʑ, tɕ, dʑ} stehen für ś, ź, ć, dź; \ipa{ʂ, ʐ, tʂ, dʐ} für sz, ż/rz, cz, dż;
+\ipa{ɛ̃, ɔ̃} markieren Nasalvokale.}
+
+\vspace{1mm}
+\fontsize{9}{11.8}\selectfont
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{13mm}>{\raggedright\arraybackslash}p{73mm}>{\raggedright\arraybackslash}p{75mm}>{\raggedright\arraybackslash}p{90mm}@{}}
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Po polsku} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Po polsku} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\scriptsize Fortsetzung auf der nächsten Seite}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\rowcolor{band} 1.0 & \textbf{Opening Greetings} & \multicolumn{2}{l}{\textbf{Powitanie}} \\*
+1.1 & I am very pleased to meet you. & Miło mi cię spotkać. & \ipa{ˈmiwɔ mi tɕɛ ˈspɔtkatɕ} \\
+1.2 & Thank you for your call & Dziękuję za twoje zawołanie. & \ipa{dʑɛŋˈkujɛ za ˈtfɔjɛ zavɔˈwaɲɛ} \\
+1.3 & Good morning & Dzień dobry & \ipa{dʑɛɲ ˈdɔbrɨ} \\
+1.31 & Good day & Dzień dobry & \ipa{dʑɛɲ ˈdɔbrɨ} \\
+1.32 & Good afternoon & Dzień dobry & \ipa{dʑɛɲ ˈdɔbrɨ} \\
+1.33 & Good evening & Dobry wieczór & \ipa{ˈdɔbrɨ ˈvjɛtʂur} \\
+1.4 & I know only a little Polish but I enjoy QSOs in Polish. & Mówię słabo po polsku, ale chciałbym spróbować QSO w tym języku. & \ipa{ˈmuvjɛ ˈswabɔ pɔ ˈpɔlsku ˈalɛ ˈxtɕawbɨm spruˈbɔvatɕ ku ɛs ɔ f tɨm jɛ̃ˈzɨku} \\
+\rowcolor{band} 2.0 & \textbf{Operator} & \multicolumn{2}{l}{\textbf{Operator}} \\*
+2.1 & My name is Peter. & Mam na imię Piotr. & \ipa{mam na ˈimjɛ pjɔtr} \\
+2.2 & I have been licensed since 1960. & Licencję mam od roku 1960. & \ipa{liˈtsɛntsje mam ɔt ˈrɔku ˈtɨɕɔnts dʑɛˈvjɛɲtɕsɛt ʂɛɕtɕdʑɛˈɕɔntɛɡɔ} \\
+2.3 & I have been licensed for 43 years. & Licencję mam od 43 lat. & \ipa{liˈtsɛntsje mam ɔt tʂtɛrˈdʑɛstu ˈtʂɛx lat} \\
+2.4 & I live in Sittingbourne. & Mieszkam w Sittingbourne. & \ipa{ˈmjɛʂkam f ˈsɪtɪŋbɔːn} \\
+2.5 & Sittingbourne is a village. & Sittingbourne to wioska. & \ipa{ˈsɪtɪŋbɔːn tɔ ˈvjɔska} \\
+2.51 & Sittingbourne is a town. & Sittingbourne to miasteczko. & \ipa{ˈsɪtɪŋbɔːn tɔ mjaˈstɛtʂkɔ} \\
+2.52 & Sittingbourne is a city. & Sittingbourne to miasto. & \ipa{ˈsɪtɪŋbɔːn tɔ ˈmjastɔ} \\
+2.6 & Sittingbourne is between London and Dover. & Sittingbourne leży między Londynem a Dover. & \ipa{ˈsɪtɪŋbɔːn ˈlɛʐɨ ˈmjɛndzɨ lɔnˈdɨnɛm a ˈdəʊvə} \\
+2.7 & I live in the South of England. & Mieszkam w południowej Anglii. & \ipa{ˈmjɛʂkam f pɔwudˈɲɔvɛj ˈaŋɡlji} \\
+2.71 & I live in the North of England. & Mieszkam w północnej Anglii. & \ipa{ˈmjɛʂkam f puwˈnɔtsnɛj ˈaŋɡlji} \\
+2.72 & I live in the East of England. & Mieszkam we wschodniej Anglii. & \ipa{ˈmjɛʂkam vɛ ˈfsxɔdɲɛj ˈaŋɡlji} \\
+2.73 & I live in West of England. & Mieszkam w zachodniej Anglii. & \ipa{ˈmjɛʂkam v zaˈxɔdɲɛj ˈaŋɡlji} \\
+2.74 & I live in South East England. & Mieszkam w południowo-wschodniej Anglii. & \ipa{ˈmjɛʂkam f pɔwudˌɲɔvɔ ˈfsxɔdɲɛj ˈaŋɡlji} \\
+2.75 & I live in South West England. & Mieszkam w południowo-zachodniej Anglii. & \ipa{ˈmjɛʂkam f pɔwudˌɲɔvɔ zaˈxɔdɲɛj ˈaŋɡlji} \\
+2.76 & I live in North East England. & Mieszkam w północno-wschodniej Anglii. & \ipa{ˈmjɛʂkam f puwˌnɔtsnɔ ˈfsxɔdɲɛj ˈaŋɡlji} \\
+2.77 & I live in North West England. & Mieszkam w północno-zachodniej Anglii. & \ipa{ˈmjɛʂkam f puwˌnɔtsnɔ zaˈxɔdɲɛj ˈaŋɡlji} \\
+2.78 & I live in central England. & Mieszkam w środkowej Anglii. & \ipa{ˈmjɛʂkam f ɕrɔtˈkɔvɛj ˈaŋɡlji} \\
+2.8 & I live in the country. & Mieszkam na wsi. & \ipa{ˈmjɛʂkam na fɕi} \\
+2.81 & I live by the sea. & Mieszkam nad morzem. & \ipa{ˈmjɛʂkam nad ˈmɔʐɛm} \\
+2.82 & I live near mountains. & Mieszkam w górach. & \ipa{ˈmjɛʂkam v ˈɡurax} \\
+2.9 & Sittingbourne is 50Km from London. & Sittingbourne leży 50 km od Londynu. & \ipa{ˈsɪtɪŋbɔːn ˈlɛʐɨ pjɛɲˈdʑɛɕɔnt kilɔˈmɛtruf ɔd lɔnˈdɨnu} \\
+2.11 & I am retired. & Jestem emerytem. & \ipa{ˈjɛstɛm ɛmɛˈrɨtɛm} \\
+2.12 & My home call sign is M0ECS. & Mój prywatny znak wywoławczy to M0ECS. & \ipa{muj prɨˈvatnɨ znak vɨvɔˈwaftʂɨ tɔ ɛm ˈzɛrɔ ɛ tsɛ ɛs} \\
+\rowcolor{band} 3.0 & \textbf{Station} & \multicolumn{2}{l}{\textbf{Stacja}} \\*
+3.1 & My radio is an Icom 706. & Moje radio to Icom 706. & \ipa{ˈmɔjɛ ˈradjɔ tɔ ˈaɪkɒm ˈɕɛdɛmsɛt ʂɛɕtɕ} \\
+3.2 & My station is all homebrew (homemade). & Moja stacja w całości jest typu homemade. & \ipa{ˈmɔja ˈstatsja f tsaˈwɔɕtɕi jɛst ˈtɨpu ˌhəʊmˈmeɪd} \\
+3.3 & I am running 5 Watts. & Nadaję z mocą 5 watów. & \ipa{naˈdajɛ z ˈmɔtsɔ̃ ˈpjɛɲtɕu ˈvatuf} \\
+3.4 & My antenna is a long wire. & Moja antena to long wire. & \ipa{ˈmɔja anˈtɛna tɔ ˈlɒŋ waɪə} \\
+3.41 & My antenna is a dipole. & Moja antena to dipol. & \ipa{ˈmɔja anˈtɛna tɔ ˈdipɔl} \\
+3.42 & My antenna is a G5RV. & Moja antena to G5RV. & \ipa{ˈmɔja anˈtɛna tɔ ɡjɛ pjɛɲtɕ ɛr faw} \\
+3.43 & My antenna is a doublet. & Moja antena to doublet. & \ipa{ˈmɔja anˈtɛna tɔ ˈdʌblət} \\
+3.44 & My antenna is a delta loop. & Moja antena to delta. & \ipa{ˈmɔja anˈtɛna tɔ ˈdɛlta} \\
+3.45 & My antenna is a vertical. & Moja antena to wertikal. & \ipa{ˈmɔja anˈtɛna tɔ vɛrˈtikal} \\
+3.46 & My antenna is a log periodic. & Moja antena jest logarytmiczno-periodyczna. & \ipa{ˈmɔja anˈtɛna jɛst lɔɡarɨtˌmitʂnɔ pɛrjɔˈdɨtʂna} \\
+3.47 & My antenna is a Yagi beam. & Moja antena to beam. & \ipa{ˈmɔja anˈtɛna tɔ biːm} \\
+3.48 & My antenna is a 5 element beam. & Moja antena to beam 5-elementowy. & \ipa{ˈmɔja anˈtɛna tɔ biːm ˌpjɛɲtɕɔɛlɛmɛnˈtɔvɨ} \\
+\rowcolor{band} 4.0 & \textbf{Conditions} & \multicolumn{2}{l}{\textbf{Warunki}} \\*
+4.1 & Thank you for my 599 report. & Dziękuję za mój raport 599. & \ipa{dʑɛŋˈkujɛ za muj ˈrapɔrt pjɛɲtɕ ˈdʑɛvjɛɲtɕ ˈdʑɛvjɛɲtɕ} \\
+4.2 & The band conditions are good. & Warunki na paśmie są dobre. & \ipa{vaˈruŋki na ˈpaɕmjɛ sɔ̃ ˈdɔbrɛ} \\
+4.3 & The band conditions are bad. & Warunki na paśmie są złe. & \ipa{vaˈruŋki na ˈpaɕmjɛ sɔ̃ zwɛ} \\
+4.4 & There is strong interference here. & Mam tutaj duże zakłócenia. & \ipa{mam ˈtutaj ˈduʐɛ zakwuˈtsɛɲa} \\
+4.5 & Can you change to the 80m band? & Możesz przejść na pasmo 80 m? & \ipa{ˈmɔʐɛʂ pʂɛjɕtɕ na ˈpasmɔ ɔɕɛmˈdʑɛɕɔnt ˈmɛtruf} \\
+4.6 & Please change frequency to 3.558 MHz. & Przejdź na częstotliwość 3,558 MHz. & \ipa{pʂɛjtɕ na tʂɛ̃stɔˈtlivɔɕtɕ tʂɨ ˈpʂɛtɕinɛk pjɛɲtɕ pjɛɲtɕ ˈɔɕɛm mɛɡaˈxɛrtsuf} \\
+\rowcolor{band} 5.0 & \textbf{General Queries and Comments} & \multicolumn{2}{l}{\textbf{Ogólne pytania i komentarze}} \\*
+5.1 & What does <\#\#\#\#\#> mean please? & Co znaczy <\#\#\#\#\#> ? & \ipa{tsɔ ˈznatʂɨ …} \\
+5.2 & Please wait a moment, I need to check my Polish dictionary. & Zaczekaj proszę chwilę, muszę sprawdzić w słowniku polskim. & \ipa{zaˈtʂɛkaj ˈprɔʂɛ ˈxfʲilɛ ˈmuʂɛ ˈspravdʑitɕ f swɔvˈɲiku ˈpɔlskim} \\
+5.3 & How do you say, <\#\#\#\#\#> in Polish? & Jak się mówi <\#\#\#\#\#> po polsku? & \ipa{jak ɕɛ ˈmuvi … pɔ ˈpɔlsku} \\
+5.5 & My favourite modes of operation are CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / Digital Modes / and SSB & Najchętniej nadaję na telegrafii / RTTY / PSK / MT63 / Olivia / Hellschreiber / emisjami cyfrowymi / na SSB. & \ipa{najˈxɛntɲɛj naˈdajɛ na tɛlɛˈɡrafji / ɛr tɛ tɛ ˈiɡrɛk / pɛ ɛs ka / ɛm tɛ ʂɛɕtɕˈdʑɛɕɔnt tʂɨ / ɔˈlivja / ˈhɛlˌʃʁaɪbɐ / ɛmiˈsjami tsɨfrɔˈvɨmi / na ɛs ɛs bɛ} \\
+5.6 & My best DX is Australia. & Moim największym DX-em jest Australia. & \ipa{ˈmɔim najˈvjɛŋkʂɨm dɛ ˈiksɛm jɛst awsˈtralja} \\
+5.7 & I enjoy working contests. & Lubię pracować w zawodach. & \ipa{ˈlubjɛ praˈtsɔvatɕ v zaˈvɔdax} \\
+5.8 & I like working QRP. & Lubię nadawać QRP. & \ipa{ˈlubjɛ naˈdavatɕ ku ɛr pɛ} \\
+\rowcolor{band} 6.0 & \textbf{The Weather} & \multicolumn{2}{l}{\textbf{Pogoda}} \\*
+6.1 & It is sunny. & Jest słonecznie. & \ipa{jɛst swɔˈnɛtʂɲɛ} \\
+6.2 & It is windy. & Jest wietrznie. & \ipa{jɛst ˈvjɛtʂɲɛ} \\
+6.3 & It is raining. & Pada deszcz. & \ipa{ˈpada dɛʂtʂ} \\
+6.4 & It is snowing. & Pada śnieg. & \ipa{ˈpada ɕɲɛk} \\
+6.5 & It is very hot. & Jest bardzo gorąco. & \ipa{jɛst ˈbardzɔ ɡɔˈrɔntsɔ} \\
+6.6 & It is very cold. & Jest bardzo zimno. & \ipa{jɛst ˈbardzɔ ˈʑimnɔ} \\
+6.7 & The temperature is 8C. & Temperatura wynosi 8 stopni Celsjusza. & \ipa{tɛmpɛraˈtura vɨˈnɔɕi ˈɔɕɛm ˈstɔpɲi tsɛlˈsjuʂa} \\
+6.8 & It is overcast. & Niebo jest zachmurzone. & \ipa{ˈɲɛbɔ jɛst zaxmuˈʐɔnɛ} \\
+6.9 & It is foggy. & Jest mgliście. & \ipa{jɛst ˈmɡliɕtɕɛ} \\
+6.11 & It has been raining all day. & Pada cały dzień. & \ipa{ˈpada ˈtsawɨ dʑɛɲ} \\
+6.12 & There is 20cm of snow here. & Leży 20 cm śniegu. & \ipa{ˈlɛʐɨ ˈdvadʑɛɕtɕa tsɛntɨˈmɛtruf ˈɕɲɛɡu} \\
+\rowcolor{band} 8.0 & \textbf{QSL} & \multicolumn{2}{l}{\textbf{Karta QSL}} \\*
+8.1 & My QSL card is sure via the bureau & Kartę wyślę na pewno przez biuro. & \ipa{ˈkartɛ ˈvɨɕlɛ na ˈpɛvnɔ pʂɛz ˈbjurɔ} \\
+8.2 & QSL via eQSL & Potwierdzę QSO kartą eQSL. & \ipa{pɔtˈfjɛrdzɛ ku ɛs ɔ ˈkartɔ̃ i ku ɛs ɛl} \\
+8.3 & No eQSL please & Nie chcę eQSL. & \ipa{ɲɛ xtsɛ i ku ɛs ɛl} \\
+8.4 & I will send you my card direct. & Wyślę ci moją kartę QSL direktem. & \ipa{ˈvɨɕlɛ tɕi ˈmɔjɔ̃ ˈkartɛ ku ɛs ɛl diˈrɛktɛm} \\
+8.5 & What is your address? & Jaki jest twój adres? & \ipa{ˈjaki jɛst tfuj ˈadrɛs} \\
+8.6 & Please send your QSL card direct. & Wyślij twą kartę QSL direktem. & \ipa{ˈvɨɕlij tfɔ̃ ˈkartɛ ku ɛs ɛl diˈrɛktɛm} \\
+8.7 & My address is... & Mój adres jest następujący... & \ipa{muj ˈadrɛs jɛst nastɛmpuˈjɔntsɨ …} \\
+8.8 & My address is shown on QSL.com / EHam.net & Mój adres jest dostępny na QSL.com / na eHam.net. & \ipa{muj ˈadrɛs jɛst dɔˈstɛmpnɨ na ku ɛs ɛl ˈkrɔpka kɔm / na i hæm ˈkrɔpka nɛt} \\
+8.9 & Sorry I do not send QSL cards. & Przykro mi, ale nie wysyłam kart QSL. & \ipa{ˈpʂɨkrɔ mi ˈalɛ ɲɛ vɨˈsɨwam kart ku ɛs ɛl} \\
+8.11 & Please send QSL card via G1JQH. & Wyślij proszę kartę via G1JQH. & \ipa{ˈvɨɕlij ˈprɔʂɛ ˈkartɛ ˈvja ɡjɛ ˈjɛdɛn jɔt ku xa} \\
+8.12 & My WACRAL / GQRP / DXCC / FISTS number is 1234. & Mój numer WACRAL / GQRP / DXCC / FISTS jest 1234. & \ipa{muj ˈnumɛr ˈpɔdvujnɛ vu a tsɛ ɛr ɛl / ɡjɛ ku ɛr pɛ / dɛ iks tsɛ tsɛ / fɪsts jɛst ˈtɨɕɔnts ˈdvjɛɕtɕɛ ˈtʂɨdʑɛɕtɕi ˈtʂtɛrɨ} \\
+\rowcolor{band} 9.0 & \textbf{Final Greetings} & \multicolumn{2}{l}{\textbf{Pożegnanie}} \\*
+9.1 & Thank you. & Dziękuję. & \ipa{dʑɛŋˈkujɛ} \\
+9.2 & Thank you for a very enjoyable contact. & Dziękuję ci za miłą łączność. & \ipa{dʑɛŋˈkujɛ tɕi za ˈmiwɔ̃ ˈwɔntʂnɔɕtɕ} \\
+9.3 & I enjoyed our chat. & Jestem zadowolony z naszego chatu. & \ipa{ˈjɛstɛm zadɔvɔˈlɔnɨ z naˈʂɛɡɔ ˈtʂatu} \\
+9.4 & I enjoyed our QSO in Polish. & Jestem zadowolony z naszej łączności po polsku. & \ipa{ˈjɛstɛm zadɔvɔˈlɔnɨ z ˈnaʂɛj wɔntʂˈnɔɕtɕi pɔ ˈpɔlsku} \\
+9.5 & It has been great fun. & To była wielka przyjemność. & \ipa{tɔ ˈbɨwa ˈvjɛlka pʂɨˈjɛmnɔɕtɕ} \\
+9.6 & If you would like a regular contact with me, you can contact me via email. & Jeśli chcesz się kontaktować ze mną regularnie, skontaktuj się ze mną e-mailem. & \ipa{ˈjɛɕli xtsɛʂ ɕɛ kɔntakˈtɔvatɕ zɛ mnɔ̃ rɛɡuˈlarɲɛ skɔnˈtaktuj ɕɛ zɛ mnɔ̃ iˈmɛjlɛm} \\
+9.7 & My email address is... & Mój adres e-mailowy jest... & \ipa{muj ˈadrɛs imɛjˈlɔvɨ jɛst …} \\
+9.8 & My email address is shown on QSL.com / EHam.net & Mój adres jest dostępny na QSL.com / na eHam.net. & \ipa{muj ˈadrɛs jɛst dɔˈstɛmpnɨ na ku ɛs ɛl ˈkrɔpka kɔm / na i hæm ˈkrɔpka nɛt} \\
+9.9 & I look forward to meeting you again. & Mam nadzieję na następne spotkanie w przyszłości. & \ipa{mam naˈdʑɛjɛ na naˈstɛmpnɛ spɔtˈkaɲɛ f pʂɨˈʂwɔɕtɕi} \\
+9.11 & My best wishes to you and your family. & Najlepsze życzenia dla ciebie i twojej rodziny. & \ipa{najˈlɛpʂɛ ʐɨˈtʂɛɲa dla ˈtɕɛbjɛ i ˈtfɔjɛj rɔˈdʑinɨ} \\
+9.12 & Best wishes to your wife. & Najlepsze życzenia dla twej żony. & \ipa{najˈlɛpʂɛ ʐɨˈtʂɛɲa dla tfɛj ˈʐɔnɨ} \\
+9.121 & Best wishes to your husband. & Najlepsze życzenia dla twego męża. & \ipa{najˈlɛpʂɛ ʐɨˈtʂɛɲa dla ˈtfɛɡɔ ˈmɛ̃ʐa} \\
+9.13 & Good luck. & Życzę szczęścia! & \ipa{ˈʐɨtʂɛ ˈʂtʂɛ̃ɕtɕa} \\
+9.14 & Good health. & Życzę zdrowia! & \ipa{ˈʐɨtʂɛ ˈzdrɔvja} \\
+9.15 & Goodbye & Do widzenia! & \ipa{dɔ viˈdʑɛɲa} \\
+9.16 & I wish you an enjoyable afternoon. & Miłego popołudnia. & \ipa{miˈwɛɡɔ pɔpɔˈwudɲa} \\
+9.161 & I wish you an enjoyable evening. & Miłego wieczoru. & \ipa{miˈwɛɡɔ vjɛˈtʂɔru} \\
+9.162 & I wish you an enjoyable weekend. & Miłego weekendu. & \ipa{miˈwɛɡɔ viˈkɛndu} \\
+9.17 & Enjoy your holiday. & Przyjemnych wakacji! & \ipa{pʂɨˈjɛmnɨx vaˈkatsji} \\
+9.18 & Happy New Year. & Szczęśliwego Nowego Roku! & \ipa{ʂtʂɛ̃ɕˈlivɛɡɔ nɔˈvɛɡɔ ˈrɔku} \\
+\rowcolor{band} 10.0 & \textbf{Country} & \multicolumn{2}{l}{\textbf{Kraj}} \\*
+10.1 & Albania & Albania & \ipa{alˈbaɲja} \\
+10.2 & Austria & Austria & \ipa{ˈawstrja} \\
+10.3 & Belgium & Belgia & \ipa{ˈbɛlɡja} \\
+10.4 & Belorussia & Białoruś & \ipa{bjaˈwɔruɕ} \\
+10.5 & Bosnia \& Herzegovina & Bośnia i Hercegowina & \ipa{ˈbɔɕɲa i xɛrtsɛɡɔˈvina} \\
+10.6 & Bulgaria & Bułgaria & \ipa{buwˈɡarja} \\
+10.7 & Croatia & Chorwacja & \ipa{xɔrˈvatsja} \\
+10.8 & Czech Republic & Czechy & \ipa{ˈtʂɛxɨ} \\
+10.9 & Denmark & Dania & \ipa{ˈdaɲja} \\
+10.11 & Eire & Irlandia & \ipa{irˈlandja} \\
+10.12 & England & Anglia & \ipa{ˈaŋɡlja} \\
+10.13 & Estonia & Estonia & \ipa{ɛsˈtɔɲja} \\
+10.14 & Finland & Finlandia & \ipa{finˈlandja} \\
+10.15 & France & Francja & \ipa{ˈfrantsja} \\
+10.16 & Germany & Niemcy & \ipa{ˈɲɛmtsɨ} \\
+10.17 & Gibraltar & Gibraltar & \ipa{dʑiˈbraltar} \\
+10.18 & Greece & Grecja & \ipa{ˈɡrɛtsja} \\
+10.19 & Holland & Holandia & \ipa{xɔˈlandja} \\
+10.21 & Hungary & Węgry & \ipa{ˈvɛŋɡrɨ} \\
+10.22 & Iceland & Islandia & \ipa{isˈlandja} \\
+10.23 & Northern Ireland & Irlandia Północna & \ipa{irˈlandja puwˈnɔtsna} \\
+10.24 & Isle of Man & Wyspa Man & \ipa{ˈvɨspa man} \\
+10.25 & Italy & Włochy & \ipa{ˈvwɔxɨ} \\
+10.26 & Latvia & Łotwa & \ipa{ˈwɔtfa} \\
+10.27 & Liechtenstein & Liechtenstein & \ipa{ˈliçtn̩ʃtaɪn} \\
+10.28 & Lithuania & Litwa & \ipa{ˈlitfa} \\
+10.29 & Luxembourg & Luksemburg & \ipa{lukˈsɛmburk} \\
+10.31 & Macedonia & Macedonia & \ipa{matʂɛˈdɔɲja} \\
+10.32 & Moldavia & Mołdawia & \ipa{mɔwˈdavja} \\
+10.33 & Netherlands & Holandia & \ipa{xɔˈlandja} \\
+10.34 & Norway & Norwegia & \ipa{nɔrˈvɛɡja} \\
+10.35 & Poland & Polska & \ipa{ˈpɔlska} \\
+10.36 & Portugal & Portugalia & \ipa{pɔrtuˈɡalja} \\
+10.37 & Romania & Rumunia & \ipa{ruˈmuɲja} \\
+10.38 & Russian Federation & Federacja Rosyjska & \ipa{fɛdɛˈratsja rɔˈsɨjska} \\
+10.39 & Scotland & Szkocja & \ipa{ˈʂkɔtsja} \\
+10.41 & Slovakia & Słowacja & \ipa{swɔˈvatsja} \\
+10.42 & Slovenia & Słowenia & \ipa{swɔˈvɛɲja} \\
+10.43 & Spain & Hiszpania & \ipa{xiʂˈpaɲja} \\
+10.44 & Svalbard & Svalbard & \ipa{ˈsvalbart} \\
+10.45 & Sweden & Szwecja & \ipa{ˈʂfɛtsja} \\
+10.46 & Switzerland & Szwajcaria & \ipa{ʂfajˈtsarja} \\
+10.47 & Turkey & Turcja & \ipa{ˈturtsja} \\
+10.48 & Ukraine & Ukraina & \ipa{uˈkraina} \\
+10.49 & Wales & Walia & \ipa{ˈvalja} \\
+\end{longtable}
+\normalsize
+\section*{Hinweise zur Übertragung und Aussprache}
+\fontsize{8.5}{10.5}\selectfont\raggedright
+\textbf{Vorlage und Umfang.} Grundlage ist „Polish v 1.0.doc“; Credit: Chris -- SP3ELD.
+Alle 142 Phrasen und Ländernamen sind enthalten. Die ursprüngliche Gliederung mit ihren Nummernsprüngen
+und dem fehlenden Abschnitt 7 bleibt erhalten. Zwei vollständig leere Zusatzspalten der Vorlage wurden
+entfernt; statt ihrer steht hier die IPA-Spalte.
+
+\smallskip
+\textbf{Dokumentierte Korrekturen.} „w wschodniej“ wurde zu „we wschodniej“ (2.72),
+„Lichtenstein“ zu „Liechtenstein“ (10.27), „Luksemurg“ zu „Luksemburg“ (10.29) und
+„Swalbard“ zu „Svalbard“ (10.44). Die Ländernamen entsprechen damit den Schreibweisen in polnischen
+amtlichen Verzeichnissen. Mehrfache Leerzeichen wurden vereinheitlicht. Alle übrigen polnischen
+Formulierungen bleiben wie in der Vorlage; die Lautschrift folgt dem korrigierten Text.
+
+\smallskip
+\textbf{Inhaltliche Eigenheiten.} Peter wird in 2.1 als Piotr übersetzt. In 1.4 steht sinngemäß
+„Ich spreche schlecht Polnisch, möchte aber ein QSO in dieser Sprache versuchen“; diese Formulierung
+bleibt erhalten. „near mountains“ wird in 2.82 mit „w górach“ wiedergegeben. Bei 3.47 fehlt Yagi in der
+polnischen Spalte; dort steht nur „beam“. In 9.8 nennt der polnische Satz die Adresse ohne den ausdrücklichen
+Zusatz „E-Mail“. Holland und Netherlands stehen beide als „Holandia“ (10.19 und 10.33).
+Historische Ländernamen, Webadressen und englische Fachwörter der Vorlage wurden nicht modernisiert.
+„chciałbym“, „emerytem“ und „zadowolony“ sind männliche Sprecherformen; für eine Sprecherin passen
+„chciałabym“, „emerytką“ und „zadowolona“.
+
+\smallskip
+\textbf{Transkriptionskonvention.} Die IPA-Spalte ist eine breite, manuell erstellte Aussprachehilfe
+für Standardpolnisch, keine enge Transkription einer Aufnahme. Hauptbetonung ist mit \ipa{ˈ}, ausgewählte
+Nebenbetonung mit \ipa{ˌ} markiert. Polnische Wörter sind überwiegend auf der vorletzten Silbe betont;
+bei Zahlen und längeren Wörtern können Ausnahmen auftreten. Polnisch hat keine bedeutungsunterscheidende Vokallänge; \ipa{ː} steht hier nur in fremdsprachigen Formen.
+
+\smallskip
+\textbf{Besondere Laute.} y ist \ipa{ɨ}, i ist \ipa{i}; ł ist \ipa{w} wie englisches w,
+w ist \ipa{v} wie deutsches w. Die weichen Zischlaute \ipa{ɕ, ʑ} und Affrikaten \ipa{tɕ, dʑ}
+unterscheiden sich von den härteren Lauten \ipa{ʂ, ʐ, tʂ, dʐ}. Affrikaten sind platzsparend ohne Bindebögen
+geschrieben. j bezeichnet den Gleitlaut; vor i können Lippen- und andere Konsonanten zusätzlich palatalisiert
+sein. Auslautverhärtung und Angleichungen sind berücksichtigt; feinere Details nur teilweise.
+
+\smallskip
+\textbf{Nasalvokale.} ą und ę haben je nach Umgebung verschiedene Aussprachen. Vor Verschlusslauten
+und Affrikaten stehen häufig Vokal plus Nasalkonsonant, beispielsweise \ipa{ɛŋ} in „dziękuję“ und
+\ipa{ɔntʂ} in „łączność“. Vor Frikativen und bei auslautendem ą wird hier breit mit \ipa{ɛ̃, ɔ̃}
+transkribiert; die natürliche Aussprache enthält oft einen nasalen Gleitlaut. Auslautendes ę erscheint
+in der häufigen Aussprache ohne deutliche Nasalierung, etwa „dziękuję“ als \ipa{dʑɛŋˈkujɛ}.
+
+
+\smallskip
+\textbf{Namen, Zahlen und Kürzel.} Sittingbourne und Dover sind englisch transkribiert;
+Icom verwendet eine englische Aussprachevariante. Homemade, Long Wire, Doublet und Beam sind ebenfalls
+englisch, Hellschreiber und Liechtenstein deutsch wiedergegeben. E-Mail und seine polnischen Endungen
+werden polnisch angepasst gelesen. Rufzeichen und die meisten Kürzel stehen mit polnischen Buchstabennamen,
+nicht im internationalen Buchstabieralphabet: Q „ku“, W „podwójne wu“, J „jot“, V hier „fał“.
+FISTS wird als Wort gelesen; das e in eQSL und eHam als englisches \ipa{i}.
+Zahlen stehen mit den zur Phrase passenden Formen: 43 nach „od“ als „czterdziestu trzech“,
+5 watów als „pięciu watów“, 5-elementowy als „pięcioelementowy“. 706 wird als „siedemset sześć“,
+599 als „pięć dziewięć dziewięć“, 1234 als „tysiąc dwieście trzydzieści cztery“ und
+3,558 MHz als „trzy przecinek pięć pięć osiem megaherców“ gelesen.
+Schrägstriche trennen Alternativen beziehungsweise Listenelemente; Platzhalter \texttt{<\#\#\#\#\#>}
+erscheinen in der Lautschrift als Auslassung und werden nicht mitgesprochen.
+
+\smallskip
+\textbf{Fachquellen.} Katarzyna Dziubalska-Kołaczyk und Bogdan Walczak: „Polish“ (2011),
+Universitätsrepositorium der Adam-Mickiewicz-Universität, Abschnitt 1.3.1 zur Phonologie;
+Wiktor Jassem: „Polish“, Journal of the International Phonetic Association 33(1), 2003, S. 103--107.
+Länderschreibweisen: polnisches Außenministerium / amtliche geografische Namensverzeichnisse.
+Diese Quellen stützen die allgemeinen Konventionen; die einzelnen Phrasen wurden hier manuell transkribiert.
+
+\smallskip
+\textbf{LaTeX.} UTF-8-Datei; zweimal mit XeLaTeX kompilieren. Benötigt werden DejaVu Sans und die
+üblichen LaTeX-Pakete der Präambel. IPA ist direkt als Unicode eingegeben; keine externen Dateien erforderlich.
+\end{document}

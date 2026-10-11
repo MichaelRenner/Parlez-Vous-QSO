@@ -1,0 +1,283 @@
+% !TeX program = xelatex
+% UTF-8; compile twice with XeLaTeX. No external images or data files needed.
+\documentclass[a4paper,landscape,10pt]{article}
+\usepackage[margin=14mm,headheight=14pt,headsep=5mm,footskip=7mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\newfontfamily\ipafont{DejaVu Sans}
+\newfontfamily\arabicfont[Script=Arabic]{DejaVu Sans}
+\TeXXeTstate=1
+\newcommand{\LR}[1]{\beginL#1\endL}
+\newcommand{\AR}[1]{\leavevmode\beginR{\arabicfont\fontsize{11}{15}\selectfont #1}\endR}
+\usepackage[table]{xcolor}
+\usepackage{array,longtable,booktabs,fancyhdr}
+\definecolor{ink}{HTML}{18384D}
+\definecolor{band}{HTML}{E7EFF4}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{ink}Parlez Vous QSO?! · Arabic / Arabisch}
+\fancyhead[R]{\small Englische Phrase · Arabische Übersetzung · IPA}
+\fancyfoot[L]{\scriptsize Vorlage: Arabic v 1.0 · Credits: Cpt. Mustapha Landoulsi -- DL1BDF}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{3mm}
+\renewcommand{\arraystretch}{1.25}
+\newcommand{\ipa}[1]{{\ipafont[#1]}}
+\begin{document}
+{\LARGE\bfseries\color{ink}Parlez Vous QSO?!}\hfill{\large Arabic / Arabisch}
+
+\vspace{2mm}
+{\small QSO-Sprachführer mit hocharabischer IPA-Lautschrift. Die Lautschrift bezieht sich auf die arabische Spalte.}
+
+\vspace{2mm}
+{\footnotesize \textbf{Leseschlüssel:} \ipa{ˈ} Betonung, \ipa{ː} langer Vokal; \ipa{ʔ} Stimmabsatz,
+\ipa{ʕ} ʿAin, \ipa{ħ} stimmloser Rachenlaut, \ipa{x, ɣ} wie ch beziehungsweise dessen stimmhaftes Gegenstück;
+\ipa{sˤ, dˤ, tˤ, ðˤ} emphatische Laute. Arabisch rechts nach links; IPA und lateinische Kürzel links nach rechts.}
+
+\vspace{1mm}
+\fontsize{9}{11.8}\selectfont
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{13mm}>{\raggedright\arraybackslash}p{73mm}>{\raggedleft\arraybackslash}p{75mm}>{\raggedright\arraybackslash}p{90mm}@{}}
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Arabisch} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Arabisch} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\scriptsize Fortsetzung auf der nächsten Seite}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\rowcolor{band} 1.0 & \textbf{Opening Greetings} & \multicolumn{2}{r}{\AR{بدء الاتصال}} \\*
+1.1 & I am very pleased to meet you. & \AR{يسعدني أن أتواصل معك.} & \ipa{ˈjusʕiduni ʔan ʔataˈwaːsˤal ˈmaʕak} \\
+1.2 & Thank you for your call & \AR{شكرا لك على ندائك.} & \ipa{ˈʃukran lak ʕalaː niˈdaːʔik} \\
+1.3 & Good morning & \AR{صباح الخير.} & \ipa{sˤaˈbaːħ alˈxajr} \\
+1.31 & Good day & \AR{نهارك سعيد.} & \ipa{naˈhaːrak saˈʕiːd} \\
+1.32 & Good afternoon & \AR{طاب عصرُك.} & \ipa{tˤaːb ˈʕasˤruk} \\
+1.33 & Good evening & \AR{مساء الخير.} & \ipa{maˈsaːʔ alˈxajr} \\
+1.4 & I know only a little Arabic but I enjoy QSOs in Arabic. & \AR{أتحدث العربية قليلا، لكنني أستمتع بإجراء الاتصالات بالعربية.} & \ipa{ʔataˈħaddaθ alʕaraˈbijja qaˈliːlan ˈlaːkinnani ʔasˈtamtiʕ biʔidʒˈraːʔ alittiˈsˤaːlaːt bilʕaraˈbijja} \\
+\rowcolor{band} 2.0 & \textbf{Operator} & \multicolumn{2}{r}{\AR{المشغّل}} \\*
+2.1 & My name is Peter. & \AR{اسمي بيتر.} & \ipa{ˈʔismi ˈbiːtar} \\
+2.2 & I have been licensed since 1960. & \AR{أنا مرخّص منذ عام \LR{1960}.} & \ipa{ˈʔanaː muˈraxxasˤ munð ʕaːm ʔalf waˈtisʕ miˈʔa wa sitˈtiːn} \\
+2.3 & I have been licensed for 43 years. & \AR{أنا مرخّص منذ \LR{43} سنة.} & \ipa{ˈʔanaː muˈraxxasˤ munð θaˈlaːθ waʔarbaˈʕiːn ˈsana} \\
+2.4 & I live in Sittingbourne. & \AR{أسكن في سيتنغبورن.} & \ipa{ˈʔaskun fiː ˈsitiŋbuːrn} \\
+2.5 & Sittingbourne is a village. & \AR{سيتنغبورن قرية.} & \ipa{ˈsitiŋbuːrn ˈqarja} \\
+2.51 & Sittingbourne is a town. & \AR{سيتنغبورن بلدة.} & \ipa{ˈsitiŋbuːrn ˈbalda} \\
+2.52 & Sittingbourne is a city. & \AR{سيتنغبورن مدينة.} & \ipa{ˈsitiŋbuːrn maˈdiːna} \\
+2.6 & Sittingbourne is between London and Dover. & \AR{تقع سيتنغبورن بين لندن ودوفر.} & \ipa{ˈtaqaʕ ˈsitiŋbuːrn bajn ˈlandan waˈduːfar} \\
+2.7 & I live in the South of England. & \AR{أسكن في جنوب إنجلترا.} & \ipa{ˈʔaskun fiː dʒaˈnuːb ʔinˈdʒiltiraː} \\
+2.71 & I live in the North of England. & \AR{أسكن في شمال إنجلترا.} & \ipa{ˈʔaskun fiː ʃaˈmaːl ʔinˈdʒiltiraː} \\
+2.72 & I live in the East of England. & \AR{أسكن في شرق إنجلترا.} & \ipa{ˈʔaskun fiː ʃarq ʔinˈdʒiltiraː} \\
+2.73 & I live in West of England. & \AR{أسكن في غرب إنجلترا.} & \ipa{ˈʔaskun fiː ɣarb ʔinˈdʒiltiraː} \\
+2.74 & I live in South East England. & \AR{أسكن في جنوب شرق إنجلترا.} & \ipa{ˈʔaskun fiː dʒaˈnuːb ʃarq ʔinˈdʒiltiraː} \\
+2.75 & I live in South West England. & \AR{أسكن في جنوب غرب إنجلترا.} & \ipa{ˈʔaskun fiː dʒaˈnuːb ɣarb ʔinˈdʒiltiraː} \\
+2.76 & I live in North East England. & \AR{أسكن في شمال شرق إنجلترا.} & \ipa{ˈʔaskun fiː ʃaˈmaːl ʃarq ʔinˈdʒiltiraː} \\
+2.77 & I live in North West England. & \AR{أسكن في شمال غرب إنجلترا.} & \ipa{ˈʔaskun fiː ʃaˈmaːl ɣarb ʔinˈdʒiltiraː} \\
+2.78 & I live in central England. & \AR{أسكن في وسط إنجلترا.} & \ipa{ˈʔaskun fiː ˈwasatˤ ʔinˈdʒiltiraː} \\
+2.8 & I live in the country. & \AR{أسكن في الريف.} & \ipa{ˈʔaskun firˈriːf} \\
+2.81 & I live by the sea. & \AR{أسكن قرب البحر.} & \ipa{ˈʔaskun qurb alˈbaħr} \\
+2.82 & I live near mountains. & \AR{أسكن قرب الجبال.} & \ipa{ˈʔaskun qurb aldʒiˈbaːl} \\
+2.9 & Sittingbourne is 50Km from London. & \AR{تبعد سيتنغبورن \LR{50} كيلومترا عن لندن.} & \ipa{ˈtabʕud ˈsitiŋbuːrn xamˈsiːn kiːluˈmitran ʕan ˈlandan} \\
+2.11 & I am retired. & \AR{أنا متقاعد.} & \ipa{ˈʔanaː mutaˈqaːʕid} \\
+2.12 & My home call sign is M0ECS. & \AR{علامة ندائي في بلدي هي \LR{M0ECS}.} & \ipa{ʕaˈlaːmat niˈdaːʔi fiː ˈbaladi hiˈja em ˈsˤifr iː siː es} \\
+\rowcolor{band} 3.0 & \textbf{Station} & \multicolumn{2}{r}{\AR{المحطة}} \\*
+3.1 & My radio is an Icom 706. & \AR{جهاز اللاسلكي لديّ هو \LR{Icom} \LR{706}.} & \ipa{dʒiˈhaːz allaːˈsilki laˈdajja ˈhuwa ˈaɪkɒm sabʕ miˈʔa waˈsitta} \\
+3.2 & My station is all homebrew (homemade). & \AR{صنعت جميع أجهزة محطتي بنفسي.} & \ipa{sˤaˈnaʕt dʒaˈmiːʕ ˈʔadʒhizat maˈħatˤtˤati biˈnafsi} \\
+3.3 & I am running 5 Watts. & \AR{أرسل بقدرة خمسة واط.} & \ipa{ˈʔursil biˈqudrat ˈxamsat waːtˤ} \\
+3.4 & My antenna is a long wire. & \AR{الهوائي لديّ سلك طويل.} & \ipa{alhawaːˈʔi laˈdajja silk tˤaˈwiːl} \\
+3.41 & My antenna is a dipole. & \AR{الهوائي لديّ ثنائي القطب.} & \ipa{alhawaːˈʔi laˈdajja θuˈnaːʔi alˈqutˤb} \\
+3.42 & My antenna is a G5RV. & \AR{الهوائي لديّ من نوع \LR{G5RV}.} & \ipa{alhawaːˈʔi laˈdajja min nawʕ dʒiː ˈxamsa ɑːr viː} \\
+3.43 & My antenna is a doublet. & \AR{الهوائي لديّ ثنائي القطب من نوع \LR{Doublet}.} & \ipa{alhawaːˈʔi laˈdajja θuˈnaːʔi alˈqutˤb min nawʕ ˈdʌblɪt} \\
+3.44 & My antenna is a delta loop. & \AR{الهوائي لديّ حلقي مثلّث.} & \ipa{alhawaːˈʔi laˈdajja ˈħalqi muˈθallaθ} \\
+3.45 & My antenna is a vertical. & \AR{الهوائي لديّ عمودي.} & \ipa{alhawaːˈʔi laˈdajja ʕaˈmuːdi} \\
+3.46 & My antenna is a log periodic. & \AR{الهوائي لديّ لوغاريتمي دوري.} & \ipa{alhawaːˈʔi laˈdajja luɣaːˈriːtmi ˈdawri} \\
+3.47 & My antenna is a Yagi beam. & \AR{الهوائي لديّ ياغي اتجاهي.} & \ipa{alhawaːˈʔi laˈdajja ˈjaːɣi ittiˈdʒaːhi} \\
+3.48 & My antenna is a 5 element beam. & \AR{الهوائي لديّ اتجاهي ذو خمسة عناصر.} & \ipa{alhawaːˈʔi laˈdajja ittiˈdʒaːhi ðuː ˈxamsat ʕaˈnaːsˤir} \\
+\rowcolor{band} 4.0 & \textbf{Conditions} & \multicolumn{2}{r}{\AR{ظروف الانتشار}} \\*
+4.1 & Thank you for my 599 report. & \AR{شكرا على تقرير الإشارة \LR{599}.} & \ipa{ˈʃukran ʕalaː taqˈriːr alʔiˈʃaːra ˈxamsa ˈtisʕa ˈtisʕa} \\
+4.2 & The band conditions are good. & \AR{ظروف الانتشار على النطاق جيدة.} & \ipa{ðˤuˈruːf alintiˈʃaːr ʕalanˈnitˤaːq ˈdʒajjida} \\
+4.3 & The band conditions are bad. & \AR{ظروف الانتشار على النطاق سيئة.} & \ipa{ðˤuˈruːf alintiˈʃaːr ʕalanˈnitˤaːq ˈsajjiʔa} \\
+4.4 & There is strong interference here. & \AR{يوجد تداخل قوي هنا.} & \ipa{ˈjuːdʒad taˈdaːxul qaˈwij ˈhunaː} \\
+4.5 & Can you change to the 80m band? & \AR{هل يمكنك الانتقال إلى نطاق \LR{80} مترا؟} & \ipa{hal ˈjumkinuk alintiˈqaːl ʔilaː niˈtˤaːq θamaˈniːn ˈmitran} \\
+4.6 & Please change frequency to 3.558 MHz. & \AR{يرجى تغيير التردد إلى \LR{3.558} \LR{MHz}.} & \ipa{ˈjurdʒaː taɣˈjiːr attaˈraddud ʔilaː θaˈlaːθa ˈfaːsˤila ˈxamsa ˈxamsa θaˈmaːnija ˈmiːɣaˌhirts} \\
+\rowcolor{band} 5.0 & \textbf{General Queries and Comments} & \multicolumn{2}{r}{\AR{أسئلة وتعليقات عامة}} \\*
+5.1 & What does <\#\#\#\#\#> mean please? & \AR{ما معنى \LR{<\#\#\#\#\#>}، من فضلك؟} & \ipa{maː ˈmaʕnaː … min ˈfadˤlik} \\
+5.2 & Please wait a moment, I need to check my Arabic dictionary. & \AR{انتظر لحظة من فضلك، سأراجع القاموس العربي.} & \ipa{ˈʔintaðˤir ˈlaħðˤa min ˈfadˤlik saʔuˈraːdʒiʕ alqaːˈmuːs alʕaˈrabi} \\
+5.3 & How do you say, <\#\#\#\#\#> in Arabic ? & \AR{كيف تقول \LR{<\#\#\#\#\#>} بالعربية؟} & \ipa{kajf taˈquːl … bilʕaraˈbijja} \\
+5.5 & My favourite modes of operation are CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / Digital Modes / and SSB & \AR{أنماط التشغيل المفضلة لديّ هي: \LR{CW} / \LR{RTTY} / \LR{PSK} / \LR{MT63} / \LR{Olivia} / \LR{Hellschreiber} / الأنماط الرقمية / \LR{SSB}.} & \ipa{ʔanˈmaːtˤ attaʃˈɣiːl almufadˤˈdˤala laˈdajja hiˈja siː ˈdʌbljuː / ɑːr tiː tiː waɪ / piː es keɪ / em tiː ˈsitta wa sitˈtiːn / oˈlivia / ˈhɛlʃraɪbɐ / alʔanˈmaːtˤ arraˈqamijja / es es biː} \\
+5.6 & My best DX is Australia. & \AR{أبعد اتصال لي كان مع أستراليا.} & \ipa{ˈʔabʕad ittiˈsˤaːl liː kaːn maʕ ʔusˈtraːljaː} \\
+5.7 & I enjoy working contests. & \AR{أستمتع بالمشاركة في المسابقات.} & \ipa{ʔasˈtamtiʕ bilmuˈʃaːraka fiː almusaːbaˈqaːt} \\
+5.8 & I like working QRP. & \AR{أحب العمل بقدرة منخفضة، أي \LR{QRP}.} & \ipa{ʔuˈħibb alˈʕamal biˈqudra munˈxafidˤa ʔaj kjuː ɑːr piː} \\
+\rowcolor{band} 6.0 & \textbf{The Weather} & \multicolumn{2}{r}{\AR{الطقس}} \\*
+6.1 & It is sunny. & \AR{الجو مشمس.} & \ipa{alˈdʒaww ˈmuʃmis} \\
+6.2 & It is windy. & \AR{الرياح قوية.} & \ipa{arˈrijaːħ qaˈwijja} \\
+6.3 & It is raining. & \AR{تمطر الآن.} & \ipa{ˈtumtˤir alˈʔaːn} \\
+6.4 & It is snowing. & \AR{يتساقط الثلج.} & \ipa{jataˈsaːqatˤ aθˈθaldʒ} \\
+6.5 & It is very hot. & \AR{الجو حار جدا.} & \ipa{alˈdʒaww ħaːr ˈdʒiddan} \\
+6.6 & It is very cold. & \AR{الجو بارد جدا.} & \ipa{alˈdʒaww ˈbaːrid ˈdʒiddan} \\
+6.7 & The temperature is 8C. & \AR{درجة الحرارة ثماني درجات مئوية.} & \ipa{ˈdaradʒat alħaˈraːra θaˈmaːni daraˈdʒaːt miʔaˈwijja} \\
+6.8 & It is overcast. & \AR{السماء ملبّدة بالغيوم.} & \ipa{assaˈmaːʔ muˈlabbada bilɣuˈjuːm} \\
+6.9 & It is foggy. & \AR{يوجد ضباب.} & \ipa{ˈjuːdʒad dˤaˈbaːb} \\
+6.11 & It has been raining all day. & \AR{استمر المطر طوال اليوم.} & \ipa{ʔistaˈmarr alˈmatˤar tˤaˈwaːl alˈjawm} \\
+6.12 & There is 20cm of snow here. & \AR{يوجد هنا ثلج بسمك \LR{20} سنتيمترا.} & \ipa{ˈjuːdʒad ˈhunaː θaldʒ biˈsumk ʕiʃˈriːn santiˈmitran} \\
+\rowcolor{band} 8.0 & \textbf{QSL} & \multicolumn{2}{r}{\AR{بطاقات \LR{QSL}}} \\*
+8.1 & My QSL card is sure via the bureau & \AR{سأرسل لك بطاقة \LR{QSL} بالتأكيد عبر المكتب.} & \ipa{saˈʔursil lak biˈtˤaːqat kjuː es el bittaʔˈkiːd ʕabr alˈmaktab} \\
+8.2 & QSL via eQSL & \AR{أرسل بطاقة \LR{QSL} عبر \LR{eQSL}.} & \ipa{ˈʔursil biˈtˤaːqat kjuː es el ʕabr iː kjuː es el} \\
+8.3 & No eQSL please & \AR{لا ترسل \LR{eQSL} من فضلك.} & \ipa{laː ˈtursil iː kjuː es el min ˈfadˤlik} \\
+8.4 & I will send you my card direct. & \AR{سأرسل لك بطاقتي مباشرة.} & \ipa{saˈʔursil lak biˈtˤaːqati muˈbaːʃara} \\
+8.5 & What is your address? & \AR{ما عنوانك؟} & \ipa{maː ʕunˈwaːnuk} \\
+8.6 & Please send your QSL card direct. & \AR{أرسل بطاقة \LR{QSL} مباشرة من فضلك.} & \ipa{ˈʔarsil biˈtˤaːqat kjuː es el muˈbaːʃara min ˈfadˤlik} \\
+8.7 & My address is... & \AR{عنواني هو…} & \ipa{ʕunˈwaːni ˈhuwa …} \\
+8.8 & My address is shown on QSL.com / EHam.net & \AR{عنواني موجود على \LR{QSL.com} / \LR{EHam.net}.} & \ipa{ʕunˈwaːni mawˈdʒuːd ʕalaː kjuː es el nuqˈtˤa kɒm / iː hæm nuqˈtˤa net} \\
+8.9 & Sorry I do not send QSL cards. & \AR{آسف، لا أرسل بطاقات \LR{QSL}.} & \ipa{ˈʔaːsif laː ˈʔursil bitˤaːˈqaːt kjuː es el} \\
+8.11 & Please send QSL card via G1JQH. & \AR{أرسل بطاقة \LR{QSL} عبر \LR{G1JQH} من فضلك.} & \ipa{ˈʔarsil biˈtˤaːqat kjuː es el ʕabr dʒiː ˈwaːħid dʒeɪ kjuː eɪtʃ min ˈfadˤlik} \\
+8.12 & My WACRAL / GQRP / DXCC / FISTS number is 1234. & \AR{رقمي في \LR{WACRAL} / \LR{GQRP} / \LR{DXCC} / \LR{FISTS} هو \LR{1234}.} & \ipa{ˈraqami fiː ˈwakral / dʒiː kjuː ɑːr piː / diː eks siː siː / fɪsts ˈhuwa ʔalf wa miʔaˈtaːn waˈʔarbaʕ waθalaˈθuːn} \\
+\rowcolor{band} 9.0 & \textbf{Final Greetings} & \multicolumn{2}{r}{\AR{ختام الاتصال}} \\*
+9.1 & Thank you. & \AR{شكرا.} & \ipa{ˈʃukran} \\
+9.2 & Thank you for a very enjoyable contact. & \AR{شكرا على هذا الاتصال الممتع.} & \ipa{ˈʃukran ʕalaː ˈhaːðaː alittiˈsˤaːl alˈmumtiʕ} \\
+9.3 & I enjoyed our chat. & \AR{استمتعت بحديثنا.} & \ipa{ʔistamˈtaʕt biħaˈdiːθinaː} \\
+9.4 & I enjoyed our QSO in Arabic. & \AR{استمتعت باتصالنا بالعربية.} & \ipa{ʔistamˈtaʕt biittiˈsˤaːlinaː bilʕaraˈbijja} \\
+9.5 & It has been great fun. & \AR{كان ذلك ممتعا جدا.} & \ipa{kaːn ˈðaːlik ˈmumtiʕan ˈdʒiddan} \\
+9.6 & If you would like a regular contact with me, you can contact me via email. & \AR{إذا أردت التواصل معي بانتظام، يمكنك مراسلتي بالبريد الإلكتروني.} & \ipa{ʔiˈðaː ʔaˈradt attaˈwaːsˤul ˈmaʕiː bintiˈðˤaːm ˈjumkinuk muraːˈsalati bilbaˈriːd alʔilikˈtroːni} \\
+9.7 & My email address is... & \AR{عنوان بريدي الإلكتروني هو…} & \ipa{ʕunˈwaːn baˈriːdi alʔilikˈtroːni ˈhuwa …} \\
+9.8 & My email address is shown on QSL.com / EHam.net & \AR{عنوان بريدي الإلكتروني موجود على \LR{QSL.com} / \LR{EHam.net}.} & \ipa{ʕunˈwaːn baˈriːdi alʔilikˈtroːni mawˈdʒuːd ʕalaː kjuː es el nuqˈtˤa kɒm / iː hæm nuqˈtˤa net} \\
+9.9 & I look forward to meeting you again. & \AR{أتطلع إلى لقائك مرة أخرى.} & \ipa{ʔataˈtˤallaʕ ʔilaː liˈqaːʔik ˈmarra ˈʔuxraː} \\
+9.11 & My best wishes to you and your family. & \AR{أطيب تمنياتي لك ولأسرتك.} & \ipa{ˈʔatˤjab tamanˈnjaːti lak waliˈʔusratik} \\
+9.12 & Best wishes to your wife. & \AR{أطيب تمنياتي لزوجتك.} & \ipa{ˈʔatˤjab tamanˈnjaːti liˈzawdʒatik} \\
+9.121 & Best wishes to your husband. & \AR{أطيب تمنياتي لزوجك.} & \ipa{ˈʔatˤjab tamanˈnjaːti liˈzawdʒik} \\
+9.13 & Good luck. & \AR{حظا سعيدا.} & \ipa{ˈħaðˤðˤan saˈʕiːdan} \\
+9.14 & Good health. & \AR{أتمنى لك دوام الصحة.} & \ipa{ʔataˈmannaː lak daˈwaːm asˈsˤiħħa} \\
+9.15 & Goodbye & \AR{إلى اللقاء.} & \ipa{ʔilaː alliˈqaːʔ} \\
+9.16 & I wish you an enjoyable afternoon. & \AR{أتمنى لك فترة ما بعد الظهر ممتعة.} & \ipa{ʔataˈmannaː lak ˈfatrat maː baʕd aðˤˈðˤuhr ˈmumtiʕa} \\
+9.161 & I wish you an enjoyable evening. & \AR{أتمنى لك مساء ممتعا.} & \ipa{ʔataˈmannaː lak maˈsaːʔan ˈmumtiʕan} \\
+9.162 & I wish you an enjoyable weekend. & \AR{أتمنى لك عطلة نهاية أسبوع ممتعة.} & \ipa{ʔataˈmannaː lak ˈʕutˤlat niˈhaːjat ʔusˈbuːʕ ˈmumtiʕa} \\
+9.17 & Enjoy your holiday. & \AR{استمتع بإجازتك.} & \ipa{ʔisˈtamtiʕ biʔiˈdʒaːzatik} \\
+9.18 & Happy New Year. & \AR{سنة جديدة سعيدة!} & \ipa{ˈsana dʒaˈdiːda saˈʕiːda} \\
+\rowcolor{band} 10.0 & \textbf{Country} & \multicolumn{2}{r}{\AR{البلد}} \\*
+10.1 & Albania & \AR{ألبانيا} & \ipa{ʔalˈbaːnjaː} \\
+10.2 & Austria & \AR{النمسا} & \ipa{anˈnimsaː} \\
+10.3 & Belgium & \AR{بلجيكا} & \ipa{balˈdʒiːkaː} \\
+10.4 & Belorussia & \AR{بيلاروس} & \ipa{biːlaˈruːs} \\
+10.5 & Bosnia \& Herzegovina & \AR{البوسنة والهرسك} & \ipa{alˈbuːsna walˈhirsik} \\
+10.6 & Bulgaria & \AR{بلغاريا} & \ipa{bulˈɣaːrjaː} \\
+10.7 & Croatia & \AR{كرواتيا} & \ipa{kuruˈwaːtjaː} \\
+10.8 & Czech Republic & \AR{جمهورية التشيك} & \ipa{dʒumhuˈrijjat atˈtʃiːk} \\
+10.9 & Denmark & \AR{الدنمارك} & \ipa{adˈdinmaːrk} \\
+10.11 & Eire & \AR{أيرلندا} & \ipa{ʔajrˈlandaː} \\
+10.12 & England & \AR{إنجلترا} & \ipa{ʔinˈdʒiltiraː} \\
+10.13 & Estonia & \AR{إستونيا} & \ipa{ʔisˈtuːnjaː} \\
+10.14 & Finland & \AR{فنلندا} & \ipa{finˈlandaː} \\
+10.15 & France & \AR{فرنسا} & \ipa{faˈransaː} \\
+10.16 & Germany & \AR{ألمانيا} & \ipa{ʔalˈmaːnjaː} \\
+10.17 & Gibraltar & \AR{جبل طارق} & \ipa{ˈdʒabal ˈtˤaːriq} \\
+10.18 & Greece & \AR{اليونان} & \ipa{aljuːˈnaːn} \\
+10.19 & Holland & \AR{هولندا} & \ipa{huːˈlandaː} \\
+10.21 & Hungary & \AR{المجر} & \ipa{alˈmadʒar} \\
+10.22 & Iceland & \AR{آيسلندا} & \ipa{ʔajsˈlandaː} \\
+10.23 & Northern Ireland & \AR{أيرلندا الشمالية} & \ipa{ʔajrˈlandaː aʃʃamaːˈlijja} \\
+10.24 & Isle of Man & \AR{جزيرة مان} & \ipa{dʒaˈziːrat maːn} \\
+10.25 & Italy & \AR{إيطاليا} & \ipa{ʔiːˈtˤaːljaː} \\
+10.26 & Latvia & \AR{لاتفيا} & \ipa{ˈlaːtfjaː} \\
+10.27 & Liechtenstein & \AR{ليختنشتاين} & \ipa{liːxtinˈʃtaːjn} \\
+10.28 & Lithuania & \AR{ليتوانيا} & \ipa{liːtuˈwaːnjaː} \\
+10.29 & Luxembourg & \AR{لوكسمبورغ} & \ipa{luːksamˈbuːrɣ} \\
+10.31 & Macedonia & \AR{مقدونيا} & \ipa{maqˈduːnjaː} \\
+10.32 & Moldavia & \AR{مولدوفا} & \ipa{muːlˈduːfaː} \\
+10.33 & Netherlands & \AR{هولندا} & \ipa{huːˈlandaː} \\
+10.34 & Norway & \AR{النرويج} & \ipa{annarˈwiːdʒ} \\
+10.35 & Poland & \AR{بولندا} & \ipa{buːˈlandaː} \\
+10.36 & Portugal & \AR{البرتغال} & \ipa{alburtuˈɣaːl} \\
+10.37 & Romania & \AR{رومانيا} & \ipa{ruːˈmaːnjaː} \\
+10.38 & Russian Federation & \AR{الاتحاد الروسي} & \ipa{alittiˈħaːd arˈruːsi} \\
+10.39 & Scotland & \AR{إسكتلندا} & \ipa{ʔiskutˈlandaː} \\
+10.41 & Slovakia & \AR{سلوفاكيا} & \ipa{sluːˈfaːkjaː} \\
+10.42 & Slovenia & \AR{سلوفينيا} & \ipa{sluːˈfiːnjaː} \\
+10.43 & Spain & \AR{إسبانيا} & \ipa{ʔisˈbaːnjaː} \\
+10.44 & Svalbard & \AR{سفالبارد} & \ipa{sfaːlˈbaːrd} \\
+10.45 & Sweden & \AR{السويد} & \ipa{assuˈwajd} \\
+10.46 & Switzerland & \AR{سويسرا} & \ipa{suˈwajsraː} \\
+10.47 & Turkey & \AR{تركيا} & \ipa{ˈturkjaː} \\
+10.48 & Ukraine & \AR{أوكرانيا} & \ipa{ʔuːˈkraːnjaː} \\
+10.49 & Wales & \AR{ويلز} & \ipa{wajlz} \\
+\end{longtable}
+\normalsize
+\clearpage
+\section*{Hinweise zur Überarbeitung und Aussprache}
+\fontsize{8.5}{10}\selectfont\raggedright
+\textbf{Grundlage.} „Arabic v 1.0.doc“, Credit: Cpt. Mustapha Landoulsi, DL1BDF.
+Alle 142 englischen Phrasen und Ländernamen sind enthalten. Nummernsprünge und der fehlende Abschnitt 7
+bleiben erhalten; 132 wurde zu 1.32. Die arabische Spalte ist redaktionell überarbeitet und ergänzt.
+Die alte lateinische Umschrift wurde durch IPA ersetzt, da sie stellenweise nicht zum arabischen Text passte.
+
+\smallskip
+\textbf{Schrift und Leserichtung.} Arabische Wörter werden mit verbundenen Buchstaben von rechts nach links
+gesetzt und rechtsbündig ausgerichtet. Zahlen, Modellnamen, Rufzeichen, Webadressen und lateinische Kürzel
+behalten innerhalb dieser Spalte ihre Richtung von links nach rechts.
+Die gesamte Vergleichstabelle bleibt in der bisherigen Spaltenfolge Ref. / Englisch / Arabisch / IPA.
+Der Quelltext enthält arabische Unicode-Zeichen in logischer Schreibreihenfolge, nicht manuell umgedreht.
+
+\smallskip
+\textbf{Sprachform.} Grundlage der neuen Spalte ist allgemein verständliches modernes Hocharabisch.
+Die Vorlage mischte Dialektformen wie eisch, misch, kuwayyis und mabsut mit Hocharabisch.
+Die neue Fassung vereinheitlicht Ausdruck und Grammatik; die IPA-Spalte beschreibt diese neue Fassung.
+Sie ist keine Wiedergabe eines bestimmten regionalen Dialekts.
+
+\smallskip
+\textbf{Wichtige Berichtigungen.} Ahmed wurde gemäß der englischen Spalte zu Peter (2.1);
+Sittingbourne wurde in 2.4 ergänzt. Ost/West waren im arabischen Text als Nord/Ost wiedergegeben (2.72/2.73).
+Die fehlerhaften und doppelten Mischtexte in 2.9 und 3.2 wurden neu formuliert.
+4.1 enthält jetzt tatsächlich 599; 4.6 enthält 3.558 MHz statt der ausgeschriebenen falschen 3.553.
+5.3 fragt nun, wie man etwas auf Arabisch sagt, statt nur nach seiner Bedeutung.
+Alle Betriebsarten in 5.5 sind enthalten, einschließlich MT63.
+6.3 bedeutet jetzt Regen, 6.8 bedeckten Himmel, 6.11 Regen während des ganzen Tages.
+Unvollständige Temperaturformulierungen in 6.5/6.6 wurden bereinigt.
+
+\smallskip
+\textbf{Fehlende Angaben und Abschiedsformeln.} Die Überschriften 4.0, 5.0, 8.0 und 10.0 sowie der Eintrag
+8.12 wurden ergänzt. Rufzeichen und Webadressen wurden in den arabischen Sätzen vervollständigt.
+9.12 bezieht sich nun auf die Ehefrau statt die ganze Familie; 9.121 auf den Ehemann.
+9.162 wünscht ausdrücklich ein schönes Wochenende statt allgemein eine freie Zeit.
+Die Ausdrücke für Nachmittag und Abend sind getrennt: 1.32 verwendet einen möglichen Nachmittagswunsch
+(„Möge dein Nachmittag angenehm sein“); 9.16 einen ausdrücklich auf die Zeit nach Mittag bezogenen Wunsch.
+Es gibt mehrere regionale Grußkonventionen; die Behauptung, ein Nachmittagswunsch sei auf Arabisch unmöglich,
+wurde entfernt. 9.18 wünscht ausdrücklich ein glückliches neues Jahr.
+
+\smallskip
+\textbf{Antennenbegriffe.} Die Hinweise „kein arabischer Ausdruck“ wurden durch sinnvolle Bezeichnungen ersetzt:
+langer Draht, Dipol, dreieckige Schleife, vertikales, logarithmisch-periodisches und gerichtetes Yagi-Antennensystem.
+Doublet wird als Dipol mit beibehaltener englischer Typbezeichnung beschrieben; G5RV bleibt ein Modellname.
+Ein Doublet kann je nach Ausführung, Länge und Speisung unterschiedliche Eigenschaften haben;
+die Beschreibung legt keine bestimmte Resonanzlänge fest. Betriebsartenkürzel und Eigennamen bleiben unverändert.
+
+\smallskip
+\textbf{Ländernamen.} Irland und Deutschland fehlten und wurden ergänzt.
+Griechenland stand fälschlich als „die Augen“, Portugal als „die Orangen“; beides ist berichtigt.
+Nordirland, Isle of Man, Lettland/Litauen, Norwegen, Slowenien, Svalbard und Wales wurden korrigiert oder präzisiert.
+Wales ist nicht Schottland. Svalbard wird als Eigenname wiedergegeben, ohne den Kommentar „kenne dieses Land nicht“;
+es ist eine norwegische Inselgruppe. Belarus, Moldau und Russische Föderation verwenden gebräuchliche moderne
+arabische Namen. „Macedonia“ bleibt als historischer englischer Eintrag unverändert.
+
+\smallskip
+\textbf{Aussprache und Anrede.} Die breite IPA-Hilfe markiert Betonung, Vokallänge, Verdopplung und wichtige
+arabische Konsonanten. \ipa{ʕ, ħ} sind Rachenlaute, \ipa{q} ein weiter hinten artikulierter k-artiger Laut;
+\ipa{ˤ} kennzeichnet Emphase. \ipa{dʒ} ist hier die Lesart von ج; regionale \ipa{ʒ} oder \ipa{ɡ} sind möglich.
+Der Artikel al- ist vor Sonnenbuchstaben assimiliert, etwa in ar-riyāḥ.
+Kurze Kasus- und Modusendungen werden überwiegend weggelassen; feste Formen wie shukran bleiben erhalten.
+Die Anrede folgt meist der männlichen Einzahl; für eine weibliche Gesprächspartnerin ändern sich insbesondere
+Suffixe und Imperative. Satzintonation, vollständige Vokalfärbung und regionale Varianten sind nicht kodiert.
+
+\smallskip
+\textbf{Namen und Zahlen.} Arabische Orts- und Ländernamen werden nach der hier gewählten arabischen Form gelesen.
+Icom, Doublet, Olivia, Hellschreiber, WACRAL und FISTS verwenden fremdsprachige Lesarten.
+Rufzeichen und Kürzel verwenden englische Buchstabennamen; Zahlen darin werden arabisch gelesen.
+599 wird ziffernweise gelesen; die Dezimalstellen von 3.558 ebenfalls.
+1234 wird als tausend plus zweihundert plus vierunddreißig gesprochen.
+Offene Angaben und Platzhalter erscheinen als \ipa{…}. MHz wird mit der arabischen Lesart von Megahertz ausgesprochen.
+
+\smallskip
+\textbf{Fachhinweise.} Robin Thelwall und M. Akram Sa'adeddin: „Arabic“, Journal of the International
+Phonetic Association 20(2), 1990, S. 37--41, DOI 10.1017/S0025100300004266.
+Arabische Antennenbezeichnungen wurden mit dem arabischen
+ITU-R-Bericht SM.2303-1 (2015) und einem Herstellertext von Tesswave zur logarithmisch-periodischen Antenne abgeglichen. Die Neufassung ist eine redaktionelle Sprach- und Aussprachehilfe.
+\end{document}

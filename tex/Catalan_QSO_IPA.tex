@@ -1,0 +1,261 @@
+% !TeX program = xelatex
+% UTF-8; compile twice with XeLaTeX. No external images or data files needed.
+\documentclass[a4paper,landscape,10pt]{article}
+\usepackage[margin=14mm,headheight=14pt,headsep=5mm,footskip=7mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\newfontfamily\ipafont{DejaVu Sans}
+\usepackage[table]{xcolor}
+\usepackage{array,longtable,booktabs,fancyhdr}
+\definecolor{ink}{HTML}{18384D}
+\definecolor{band}{HTML}{E7EFF4}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{ink}Parlez Vous QSO?! · Català / Catalan}
+\fancyhead[R]{\small Englische Phrase · Traducció catalana · IPA}
+\fancyfoot[L]{\scriptsize Vorlage: Catalan v 1.0 · Credits: Jaume -- EA3FRB}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{3mm}
+\renewcommand{\arraystretch}{1.25}
+\newcommand{\ipa}[1]{{\ipafont[#1]}}
+\begin{document}
+{\LARGE\bfseries\color{ink}Parlez Vous QSO?!}\hfill{\large Català / Catalan}
+
+\vspace{2mm}
+{\small QSO-Sprachführer mit katalanischer IPA-Lautschrift. Die Lautschrift bezieht sich auf die katalanische Spalte.}
+
+\vspace{2mm}
+{\footnotesize \textbf{Leseschlüssel:} \ipa{ˈ} Hauptbetonung, \ipa{ˌ} Nebenbetonung; \ipa{ə} unbetonter Zentralvokal;
+\ipa{ɛ, ɔ} offene e/o, \ipa{ʎ} ll, \ipa{ɲ} ny, \ipa{ʃ} ix/x, \ipa{ʒ} j/g vor e/i.
+Grundlage: Zentralkatalanisch (Raum Barcelona). Schrägstriche trennen Alternativen; \ipa{…} steht für einen Platzhalter.}
+
+\vspace{1mm}
+\fontsize{9}{11.8}\selectfont
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{13mm}>{\raggedright\arraybackslash}p{73mm}>{\raggedright\arraybackslash}p{75mm}>{\raggedright\arraybackslash}p{90mm}@{}}
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Català} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Català} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\scriptsize Fortsetzung auf der nächsten Seite}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\rowcolor{band} 1.0 & \textbf{Opening Greetings} & \multicolumn{2}{l}{\textbf{Salutacions inicials}} \\*
+1.1 & I am very pleased to meet you. & Estic content de conèixer-lo. & \ipa{əsˈtik kunˈtɛn də kuˈnɛʃəlu} \\
+1.2 & Thank you for your call & Gràcies per la seva crida. & \ipa{ˈɡɾasiəs pəɾ lə ˈsebə ˈkɾidə} \\
+1.3 & Good morning & Bon dia. & \ipa{ˈbɔn ˈdiə} \\
+1.31 & Good day & Bon dia. & \ipa{ˈbɔn ˈdiə} \\
+1.32 & Good afternoon & Bona tarda (12–18 h). & \ipa{ˈbɔnə ˈtaɾdə} \\
+1.33 & Good evening & Bon vespre & \ipa{ˈbɔn ˈbɛspɾə} \\
+1.4 & I know only a little Catalan but I enjoy QSOs in Catalan. & Sols parlo un xic de català però gaudeixo dels QSO en català. & \ipa{ˈsɔls ˈpaɾlu un ˈʃik də kətəˈla pəˈɾɔ ɡəwˈdɛʃu dəls ku ˈɛsə o ən kətəˈla} \\
+\rowcolor{band} 2.0 & \textbf{Operator} & \multicolumn{2}{l}{\textbf{Operador}} \\*
+2.1 & My name is Peter. & El meu nom és Pere. & \ipa{əl ˈmɛw ˈnɔm ˈes ˈpeɾə} \\
+2.2 & I have been licensed since 1960. & Tinc la llicència des de l’any 1960. & \ipa{ˈtiŋ lə ʎiˈsɛnsiə ˈdez də ˈlaɲ ˈmil ˌnɔwˈsens ʃəˈʃantə} \\
+2.3 & I have been licensed for 43 years. & Tinc la llicència de fa 43 anys. & \ipa{ˈtiŋ lə ʎiˈsɛnsiə də ˈfa kuˈɾantə ˈtɾɛs ˈaɲs} \\
+2.4 & I live in Sittingbourne. & Visc a Sittingbourne. & \ipa{ˈbisk ə ˈsɪtɪŋbɔːn} \\
+2.5 & Sittingbourne is a village. & Sittingbourne és un llogaret. & \ipa{ˈsɪtɪŋbɔːn ˈes un ʎuɡəˈɾɛt} \\
+2.51 & Sittingbourne is a town. & Sittingbourne és un poble. & \ipa{ˈsɪtɪŋbɔːn ˈes un ˈpɔblə} \\
+2.52 & Sittingbourne is a city. & Sittingbourne és una ciutat. & \ipa{ˈsɪtɪŋbɔːn ˈes ˈunə siwˈtat} \\
+2.6 & Sittingbourne is between London and Dover. & Sittingbourne està entre Londres i Dover. & \ipa{ˈsɪtɪŋbɔːn əsˈta ˈɛntɾə ˈlondɾəs i ˈdəʊvə} \\
+2.7 & I live in the South of England. & Visc al sud d’Anglaterra. & \ipa{ˈbisk əl ˈsut dəŋɡləˈtɛrə} \\
+2.71 & I live in the North of England. & Visc al nord d’Anglaterra. & \ipa{ˈbisk əl ˈnɔɾt dəŋɡləˈtɛrə} \\
+2.72 & I live in the East of England. & Visc a l’est d’Anglaterra. & \ipa{ˈbisk ə ˈlɛst dəŋɡləˈtɛrə} \\
+2.73 & I live in West of England. & Visc a l’oest d’Anglaterra. & \ipa{ˈbisk ə luˈɛst dəŋɡləˈtɛrə} \\
+2.74 & I live in South East England. & Visc al sud-est d’Anglaterra. & \ipa{ˈbisk əl ˌsudˈɛst dəŋɡləˈtɛrə} \\
+2.75 & I live in South West England. & Visc al sud-oest d’Anglaterra. & \ipa{ˈbisk əl ˌsuduˈɛst dəŋɡləˈtɛrə} \\
+2.76 & I live in North East England. & Visc al nord-est d’Anglaterra. & \ipa{ˈbisk əl ˌnɔɾdˈɛst dəŋɡləˈtɛrə} \\
+2.77 & I live in North West England. & Visc al nord-oest d’Anglaterra. & \ipa{ˈbisk əl ˌnɔɾduˈɛst dəŋɡləˈtɛrə} \\
+2.78 & I live in central England. & Visc al centre d’Anglaterra. & \ipa{ˈbisk əl ˈsɛntɾə dəŋɡləˈtɛrə} \\
+2.8 & I live in the country. & Visc a l’interior. & \ipa{ˈbisk ə lintəɾiˈo} \\
+2.81 & I live by the sea. & Visc vora el mar. & \ipa{ˈbisk ˈbɔɾə əl ˈmaɾ} \\
+2.82 & I live near mountains. & Visc a muntanya. & \ipa{ˈbisk ə munˈtaɲə} \\
+2.9 & Sittingbourne is 50Km from London. & Sittingbourne és a 50 Km. de Londres. & \ipa{ˈsɪtɪŋbɔːn ˈes ə siŋˈkwantə kiluˈmɛtɾəs də ˈlondɾəs} \\
+2.11 & I am retired. & Estic jubilat. & \ipa{əsˈtik ʒubiˈlat} \\
+2.12 & My home call sign is M0ECS & El meu indicatiu és M0ECS. & \ipa{əl ˈmɛw indikəˈtiw ˈes ˈɛmə ˈzɛɾu e se ˈɛsə} \\
+\rowcolor{band} 3.0 & \textbf{Station} & \multicolumn{2}{l}{\textbf{Estació}} \\*
+3.1 & My radio is an Icom 706. & La meva ràdio és una Icom 706. & \ipa{lə ˈmɛbə ˈradiu ˈes ˈunə ˈaɪkɒm ˌsɛtˈsens ˈsis} \\
+3.2 & My station is all homebrew (homemade). & La meva estació és autoconstruïda. & \ipa{lə ˈmɛbə əstəsiˈo ˈes ˌawtukunstɾuˈidə} \\
+3.3 & I am running 5 Watts. & Transmeto amb 5 Watt. & \ipa{tɾənzˈmɛtu əm ˈsiŋ ˈwats} \\
+3.4 & My antenna is a long wire. & La meva antena és de fil llarg. & \ipa{lə ˈmɛbə ənˈtɛnə ˈes də ˈfil ˈʎaɾk} \\
+3.41 & My antenna is a dipole. & La meva antena és un dipol. & \ipa{lə ˈmɛbə ənˈtɛnə ˈes un diˈpɔl} \\
+3.42 & My antenna is a G5RV. & La meva antena és una G5RV. & \ipa{lə ˈmɛbə ənˈtɛnə ˈes ˈunə ʒe ˈsiŋ ˈɛrə ˈbe ˈbaʃə} \\
+3.43 & My antenna is a doublet. & La meva antena és de doblet. & \ipa{lə ˈmɛbə ənˈtɛnə ˈes də duˈblɛt} \\
+3.44 & My antenna is a delta loop. & La meva antena és una delta loop. & \ipa{lə ˈmɛbə ənˈtɛnə ˈes ˈunə ˈdɛltə luːp} \\
+3.45 & My antenna is a vertical. & La meva antena és una vertical. & \ipa{lə ˈmɛbə ənˈtɛnə ˈes ˈunə bəɾtiˈkal} \\
+3.46 & My antenna is a log periodic. & La meva antena és una periòdica logarítmica. & \ipa{lə ˈmɛbə ənˈtɛnə ˈes ˈunə pəɾiˈɔdikə luɡəˈɾitmikə} \\
+3.47 & My antenna is a Yagi beam. & La meva antena és una Yagi directiva. & \ipa{lə ˈmɛbə ənˈtɛnə ˈes ˈunə ˈjaɡi diɾəkˈtibə} \\
+3.48 & My antenna is a 5 element beam. & La meva antena és una directiva de 5 elements. & \ipa{lə ˈmɛbə ənˈtɛnə ˈes ˈunə diɾəkˈtibə də ˈsiŋ ələˈmens} \\
+\rowcolor{band} 4.0 & \textbf{Conditions} & \multicolumn{2}{l}{\textbf{Condicions}} \\*
+4.1 & Thank you for my 599 report. & Gràcies per l’informe 599. & \ipa{ˈɡɾasiəs pəɾ linˈfɔɾmə ˈsiŋ ˈnɔw ˈnɔw} \\
+4.2 & The band conditions are good. & Les condicions a la banda són bones. & \ipa{ləs kundisiˈons ə lə ˈbandə ˈson ˈbɔnəs} \\
+4.3 & The band conditions are bad. & Les condicions a la banda són dolentes. & \ipa{ləs kundisiˈons ə lə ˈbandə ˈson duˈlentəs} \\
+4.4 & There is strong interference here. & Hi ha una interferència forta aquí. & \ipa{i ˈa ˈunə intəɾfəˈɾɛnsiə ˈfɔɾtə əˈki} \\
+4.5 & Can you change to the 80m band? & Pot canviar a la banda de 80 m.? & \ipa{ˈpɔt kəmˈbja ə lə ˈbandə də bujˈtantə ˈmɛtɾəs} \\
+4.6 & Please change frequency to 3.558 MHz. & Si us plau, canviï a la freqüència de 3.558 MHz. & \ipa{si us ˈplaw kəmˈbii ə lə fɾəˈkwɛnsiə də ˈtɾɛs ˈkɔmə ˈsiŋ ˈsiŋ ˈbujt ˈmɛɡəˌhɛɾts} \\
+\rowcolor{band} 5.0 & \textbf{General Queries and Comments} & \multicolumn{2}{l}{\textbf{Preguntes i comentaris generals}} \\*
+5.1 & What does <\#\#\#\#\#> mean please? & Què significa <\#\#\#\#\#>? & \ipa{ˈkɛ siɡniˈfikə …} \\
+5.2 & Please wait a moment, I need to check my Catalan dictionary. & Esperi un moment si us plau. Necessito consultar el diccionari de català. & \ipa{əsˈpɛɾi un muˈmen si us ˈplaw nəsəˈsitu kunsulˈta əl diksiuˈnaɾi də kətəˈla} \\
+5.3 & How do you say, <\#\#\#\#\#> in Catalan ? & Com es diu <\#\#\#\#\#> en català? & \ipa{ˈkɔm əs ˈdiw … ən kətəˈla} \\
+5.5 & My favourite modes of operation are CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / Digital Modes / and SSB & Les meves modalitats d’operació favorites són CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / modes digitals / i SSB. & \ipa{ləs ˈmɛbəs mudəliˈtats dupəɾəsiˈo fəbuˈɾitəs ˈson se ˈbe ˈdɔblə / ˈɛrə te te i ˈɡɾɛɡə / pe ˈɛsə ˈka / ˈɛmə te ʃəˈʃantə ˈtɾɛs / uˈlibiə / ˈhɛlˌʃʁaɪbɐ / ˈmɔdəs diʒiˈtals / i ˈɛsə ˈɛsə be} \\
+5.6 & My best DX is Australia. & El meu millor DX és Austràlia. & \ipa{əl ˈmɛw miˈʎo de ˈiks ˈes əwsˈtɾaliə} \\
+5.7 & I enjoy working contests. & Frueixo participant en concursos. & \ipa{fɾuˈɛʃu pəɾtisiˈpan ən kuŋˈkuɾsus} \\
+5.8 & I like working QRP. & M’agrada transmetre en QRP. & \ipa{məˈɡɾadə tɾənzˈmetɾə ən ku ˈɛrə pe} \\
+\rowcolor{band} 6.0 & \textbf{The Weather} & \multicolumn{2}{l}{\textbf{El temps}} \\*
+6.1 & It is sunny. & Dia assolellat. & \ipa{ˈdiə əsuʎəˈʎat} \\
+6.2 & It is windy. & Dia ventós. & \ipa{ˈdiə bənˈtos} \\
+6.3 & It is raining. & Plou. & \ipa{ˈplɔw} \\
+6.4 & It is snowing. & Neva. & \ipa{ˈnɛbə} \\
+6.5 & It is very hot. & Fa molta calor. & \ipa{ˈfa ˈmɔltə kəˈlo} \\
+6.6 & It is very cold. & Fa molt fred. & \ipa{ˈfa ˈmol ˈfɾɛt} \\
+6.7 & The temperature is 8C. & La temperatura és 8º C. & \ipa{lə təmpəɾəˈtuɾə ˈes ˈbujt ˈɡɾaws ˈsɛlsiws} \\
+6.8 & It is overcast. & Està núvol. & \ipa{əsˈta ˈnubul} \\
+6.9 & It is foggy. & Hi ha boira. & \ipa{i ˈa ˈbɔjɾə} \\
+6.11 & It has been raining all day. & Ha estat plovent tot el dia. & \ipa{ə əsˈtat pluˈben ˈtot əl ˈdiə} \\
+6.12 & There is 20cm of snow here. & Hi ha 20 cm. de neu aquí. & \ipa{i ˈa ˈbin sənˈtimətɾəs də ˈnɛw əˈki} \\
+\rowcolor{band} 8.0 & \textbf{QSL} & \multicolumn{2}{l}{\textbf{QSL}} \\*
+8.1 & My QSL card is sure via the bureau & La meva targeta QSL amb tota seguretat via bureau (associació). & \ipa{lə ˈmɛbə təɾˈʒɛtə ku ˈɛsə ˈɛlə əm ˈtotə səɡuɾəˈtat ˈbiə byˈʁo} \\
+8.2 & QSL via eQSL & QSL via eQSL. & \ipa{ku ˈɛsə ˈɛlə ˈbiə i ku ˈɛsə ˈɛlə} \\
+8.3 & No eQSL please & No eQSL, si us plau. & \ipa{ˈno i ku ˈɛsə ˈɛlə si us ˈplaw} \\
+8.4 & I will send you my card direct. & Li enviaré la meva targeta directament. & \ipa{li əmbiəˈɾe lə ˈmɛbə təɾˈʒɛtə diˌɾɛktəˈmen} \\
+8.5 & What is your address? & Quina és la seva adreça? & \ipa{ˈkinə ˈes lə ˈsebə əˈdɾɛsə} \\
+8.6 & Please send your QSL card direct. & Si us plau, enviï la seva QSL directament. & \ipa{si us ˈplaw əmˈbii lə ˈsebə ku ˈɛsə ˈɛlə diˌɾɛktəˈmen} \\
+8.7 & My address is... & La meva adreça és… & \ipa{lə ˈmɛbə əˈdɾɛsə ˈes …} \\
+8.8 & My address is shown on QSL.com / EHam.net & La meva adreça està disponible a QSL.com / EHam.net. & \ipa{lə ˈmɛbə əˈdɾɛsə əsˈta dispuˈniblə ə ku ˈɛsə ˈɛlə ˈpun ˈkom / i hæm ˈpun ˈnɛt} \\
+8.9 & Sorry I do not send QSL cards. & Ho sento. No envio targetes QSL. & \ipa{u ˈsɛntu ˈno əmˈbiu təɾˈʒɛtəs ku ˈɛsə ˈɛlə} \\
+8.11 & Please send QSL card via G1JQH. & Si us plau, targeta QSL via G1JQH. & \ipa{si us ˈplaw təɾˈʒɛtə ku ˈɛsə ˈɛlə ˈbiə ʒe ˈun ˈʒɔtə ku ˈak} \\
+8.12 & My WACRAL / GQRP / DXCC / FISTS number is 1234. & El meu número WACRAL / GQRP / DXCC / FISTS és 1234. & \ipa{əl ˈmɛw ˈnuməɾu ˈwakɾəl / ʒe ku ˈɛrə pe / de ˈiks se se / fɪsts ˈes ˈmil dusˈsens ˈtɾɛntə ˈkwatɾə} \\
+\rowcolor{band} 9.0 & \textbf{Final Greetings} & \multicolumn{2}{l}{\textbf{Acomiadament}} \\*
+9.1 & Thank you. & Gràcies. & \ipa{ˈɡɾasiəs} \\
+9.2 & Thank you for a very enjoyable contact. & Gràcies per un contacte tan agradable. & \ipa{ˈɡɾasiəs pəɾ un kunˈtaktə ˈtan əɡɾəˈdablə} \\
+9.3 & I enjoyed our chat. & He gaudit de la conversa. & \ipa{e ɡəwˈdit də lə kumˈbɛɾsə} \\
+9.4 & I enjoyed our QSO in Catalan. & M’ha agradat el nostre QSO en català. & \ipa{mə əɡɾəˈdat əl ˈnɔstɾə ku ˈɛsə o ən kətəˈla} \\
+9.5 & It has been great fun. & Ha sigut divertit. & \ipa{ə siˈɡut dibəɾˈtit} \\
+9.6 & If you would like a regular contact with me, you can contact me via email. & Si li agradés un contacte regular amb mi, pot contactar-me via correu electrònic. & \ipa{si li əɡɾəˈdes un kunˈtaktə rəɡuˈla əm ˈmi ˈpɔt kuntəkˈtaɾmə ˈbiə kuˈrɛw ələkˈtɾɔnik} \\
+9.7 & My email address is... & La meva adreça de correu electrònic és… & \ipa{lə ˈmɛbə əˈdɾɛsə də kuˈrɛw ələkˈtɾɔnik ˈes …} \\
+9.8 & My email address is shown on QSL.com / EHam.net & La meva adreça de correu electrònic està disponible a QSL.com / EHam.net. & \ipa{lə ˈmɛbə əˈdɾɛsə də kuˈrɛw ələkˈtɾɔnik əsˈta dispuˈniblə ə ku ˈɛsə ˈɛlə ˈpun ˈkom / i hæm ˈpun ˈnɛt} \\
+9.9 & I look forward to meeting you again. & Espero retrobar-te novament. & \ipa{əsˈpɛɾu rətɾuˈbaɾtə ˌnɔbəˈmen} \\
+9.11 & My best wishes to you and your family. & Els meus millors desitjos per a vostè i la seva família. & \ipa{əls ˈmɛws miˈʎos dəˈzidʒus pəɾ ə busˈtɛ i lə ˈsebə fəˈmiliə} \\
+9.12 & Best wishes to your wife. & Els millors desitjos per a la seva esposa. & \ipa{əls miˈʎos dəˈzidʒus pəɾ ə lə ˈsebə əsˈpɔzə} \\
+9.121 & Best wishes to your husband. & Els millors desitjos per al seu marit. & \ipa{əls miˈʎos dəˈzidʒus pəɾ əl ˈsɛw məˈɾit} \\
+9.13 & Good luck. & Bona sort. & \ipa{ˈbɔnə ˈsɔɾt} \\
+9.14 & Good health. & Estigui bonet. & \ipa{əsˈtiɡi buˈnɛt} \\
+9.15 & Goodbye & Adéu. & \ipa{əˈdɛw} \\
+9.16 & I wish you an enjoyable afternoon. & Li desitjo una bona tarda. (12–18 h) & \ipa{li dəˈzidʒu ˈunə ˈbɔnə ˈtaɾdə} \\
+9.161 & I wish you an enjoyable evening. & Li desitjo un bon vespre. & \ipa{li dəˈzidʒu un ˈbɔn ˈbɛspɾə} \\
+9.162 & I wish you an enjoyable weekend. & Li desitjo un bon cap de setmana. & \ipa{li dəˈzidʒu un ˈbɔn ˈkab də səmˈmanə} \\
+9.17 & Enjoy your holiday. & Frueixi de les vacances. & \ipa{fɾuˈɛʃi də ləs bəˈkansəs} \\
+9.18 & Happy New Year. & Bon any nou. & \ipa{ˈbɔn ˈaɲ ˈnɔw} \\
+\rowcolor{band} 10.0 & \textbf{Country} & \multicolumn{2}{l}{\textbf{País}} \\*
+10.1 & Albania & Albània & \ipa{əlˈbaniə} \\
+10.2 & Andorra & Andorra & \ipa{ənˈdɔrə} \\
+10.3 & Austria & Àustria & \ipa{ˈawstɾiə} \\
+10.4 & Belgium & Bèlgica & \ipa{ˈbɛlʒikə} \\
+10.5 & Belorussia & Bielorússia & \ipa{biəluˈrusiə} \\
+10.6 & Bosnia \& Herzegovina & Bòsnia i Herzegovina & \ipa{ˈbɔzniə i əɾzəɡuˈbinə} \\
+10.7 & Bulgaria & Bulgària & \ipa{bulˈɡaɾiə} \\
+10.8 & Catalonia & Catalunya & \ipa{kətəˈluɲə} \\
+10.9 & Croatia & Croàcia & \ipa{kɾuˈasiə} \\
+10.11 & Czech Republic & República Txeca & \ipa{rəˈpublikə ˈtʃɛkə} \\
+10.12 & Denmark & Dinamarca & \ipa{dinəˈmaɾkə} \\
+10.13 & Eire & Irlanda & \ipa{iɾˈlandə} \\
+10.14 & England & Anglaterra & \ipa{əŋɡləˈtɛrə} \\
+10.15 & Estonia & Estònia & \ipa{əsˈtɔniə} \\
+10.16 & Finland & Finlàndia & \ipa{finˈlandiə} \\
+10.17 & France & França & \ipa{ˈfɾansə} \\
+10.18 & Germany & Alemanya & \ipa{ələˈmaɲə} \\
+10.19 & Gibraltar & Gibraltar & \ipa{ʒibɾəlˈta} \\
+10.21 & Greece & Grècia & \ipa{ˈɡɾɛsiə} \\
+10.22 & Holland & Holanda & \ipa{uˈlandə} \\
+10.23 & Hungary & Hongria & \ipa{uŋˈɡɾiə} \\
+10.24 & Iceland & Islàndia & \ipa{izˈlandiə} \\
+10.25 & Northern Ireland & Irlanda del Nord & \ipa{iɾˈlandə dəl ˈnɔɾt} \\
+10.26 & Isle of Man & Illa de Man & \ipa{ˈiʎə də ˈman} \\
+10.27 & Italy & Itàlia & \ipa{iˈtaliə} \\
+10.28 & Latvia & Letònia & \ipa{ləˈtɔniə} \\
+10.29 & Liechtenstein & Liechtenstein & \ipa{ˈlɪçtn̩ʃtaɪn} \\
+10.31 & Lithuania & Lituània & \ipa{lituˈaniə} \\
+10.32 & Luxembourg & Luxemburg & \ipa{luksəmˈbuɾk} \\
+10.33 & Macedonia & Macedònia & \ipa{məsəˈdɔniə} \\
+10.34 & Moldavia & Moldàvia & \ipa{mulˈdabiə} \\
+10.35 & Netherlands & Països Baixos & \ipa{pəˈizus ˈbaʃus} \\
+10.36 & Norway & Noruega & \ipa{nuˈɾwɛɡə} \\
+10.37 & Poland & Polònia & \ipa{puˈlɔniə} \\
+10.38 & Portugal & Portugal & \ipa{puɾtuˈɡal} \\
+10.39 & Romania & Romania & \ipa{ruməˈniə} \\
+10.41 & Russian Federation & Federació Russa & \ipa{fədəɾəsiˈo ˈrusə} \\
+10.42 & Scotland & Escòcia & \ipa{əsˈkɔsiə} \\
+10.43 & Slovakia & Eslovàquia & \ipa{əzluˈbakiə} \\
+10.44 & Slovenia & Eslovènia & \ipa{əzluˈbɛniə} \\
+10.45 & Spain & Espanya & \ipa{əsˈpaɲə} \\
+10.46 & Svalbard & Svalbard & \ipa{ˈsvɑːlbɑr} \\
+10.47 & Sweden & Suècia & \ipa{suˈɛsiə} \\
+10.48 & Switzerland & Suïssa & \ipa{suˈisə} \\
+10.49 & Turkey & Turquia & \ipa{tuɾˈkiə} \\
+10.50 & Ukraine & Ucraïna & \ipa{ukɾəˈinə} \\
+10.51 & Wales & Gales & \ipa{ˈɡaləs} \\
+\end{longtable}
+\normalsize
+\section*{Hinweise zur Übertragung und Aussprache}
+\fontsize{8.5}{10}\selectfont\raggedright
+\textbf{Vorlage und Umfang.} Grundlage ist „Catalan v 1 0.doc“; Credit: Jaume, EA3FRB.
+Alle 144 Phrasen und Ländernamen sind enthalten, einschließlich Andorra und Catalunya.
+Die ursprünglichen Referenzen, Nummernsprünge und der fehlende Abschnitt 7 bleiben erhalten.
+
+\smallskip
+\textbf{Korrekturen.} „Bonic dia“ in 1.31 wurde gemäß „Good day“ zu „Bon dia“; „llicencia“ zu „llicència“
+(2.2/2.3), „es“ zu „és“ (2.5/2.51/2.52/3.1), „radio“ zu „ràdio“ (3.1), „son“ zu „són“ (4.2/4.3).
+„tarja/targes“ wurde bei den QSL-Karten zu „targeta/targetes“ (8.1/8.4/8.9/8.11).
+Die Zahl 1224 in 8.12 wurde entsprechend der englischen Spalte zu 1234 berichtigt.
+„tant agradable“ wurde zu „tan agradable“ (9.2), „per a el“ zu „per al“ (9.121),
+„Bielorrusia“ zu „Bielorússia“ (10.5), „Bosnia“ zu „Bòsnia“ (10.6).
+Sprachbezeichnung català und modes digitals stehen klein; Leerzeichen und doppelte Punkte wurden vereinheitlicht.
+
+\smallskip
+\textbf{Quellenbesonderheiten.} „Estigui bonet“ (9.14) ist eine ältere Abschiedsformel mit einem
+Gesundheitswunsch und bleibt erhalten. Die knappen Formulierungen in 8.1 und 8.11 wurden nicht zu vollständigen
+Sätzen ergänzt. „l’interior“ (2.8) und „muntanya“ (2.82) entsprechen nicht wortwörtlich der englischen Spalte.
+Historische Ländernamen und Webadressen bleiben erhalten. Zeitangaben in Klammern (1.32/9.16) und die
+Erklärung „associació“ (8.1) werden in der IPA-Spalte nicht mitgesprochen.
+
+\smallskip
+\textbf{Aussprachebasis.} Die manuelle IPA-Spalte ist eine breite Aussprachehilfe für Zentralkatalanisch
+im Raum Barcelona. Unbetontes a/e wird überwiegend als \ipa{ə}, o als \ipa{u} dargestellt; betonte offene
+\ipa{ɛ, ɔ} unterscheiden sich von \ipa{e, o}. Valencia, Balearen und andere katalanische Regionen können anders klingen.
+\ipa{ˈ} markiert Wortbetonung, \ipa{ˌ} ausgewählte Nebenbetonungen, etwa bei Adverbien auf -ment.
+Satzmelodie und individuelle Sprechermerkmale sind nicht kodiert.
+
+\smallskip
+\textbf{Konsonanten und Reduktionen.} \ipa{ʎ} ist ll, \ipa{ɲ} ny, \ipa{ʃ} der Laut von ix beziehungsweise vielen x;
+\ipa{ʒ} steht für j/g vor e/i, \ipa{dʒ} für tj/tg. \ipa{ɾ} ist ein einfacher r-Schlag, \ipa{r} ein gerolltes r.
+Schriftliches v wird hier wie b gelesen. Zur Übersicht stehen überwiegend \ipa{b, d, ɡ}; im Satz werden sie häufig
+als weichere Approximanten \ipa{β, ð, ɣ} gesprochen. Endverhärtung und einige Ausfälle sind berücksichtigt:
+„content“, „moment“, „vint“ und viele Infinitive ohne auslautenden Verschlusslaut beziehungsweise r.
+„setmana“ steht mit \ipa{mː}. Weitere Wortverbindungen, Vokalausfälle und Assimilationen sind nicht vollständig dargestellt.
+
+\smallskip
+\textbf{Namen und Kürzel.} Sittingbourne, Dover, Icom und Loop stehen mit englischer Aussprache;
+Hellschreiber und Liechtenstein deutsch, bureau französisch, Svalbard norwegisch.
+Andere Namen sind überwiegend katalanisch gelesen, auch Pere und Gales.
+Rufzeichen und Kürzel verwenden katalanische Buchstabennamen: Q „cu“, S „essa“, C „ce“ (\ipa{se}),
+G „ge“, J „jota“, H „hac“; W „ve doble“, V „ve baixa“, Y „i grega“.
+WACRAL und FISTS werden als Wörter gelesen. Das e in eQSL/eHam ist \ipa{i}; Ham verwendet eine englische Variante,
+Webpunkte stehen als „punt“, com und net als Wörter. Namens- und Kürzelvarianten sind möglich.
+
+\smallskip
+\textbf{Zahlen und Platzhalter.} 1960 = „mil nou-cents seixanta“, 43 = „quaranta-tres“,
+706 = „set-cents sis“, MT63 mit „seixanta-tres“, 599 = „cinc nou nou“,
+1234 = „mil dos-cents trenta-quatre“. 3.558 MHz wird im QSO-Kontext als „tres coma cinc cinc vuit megahertz“
+gelesen; 80 m, 50 km, 20 cm und 8 °C mit ausgeschriebenen Einheiten.
+\texttt{<\#\#\#\#\#>} und offene Adressangaben erscheinen als Auslassung.
+
+\smallskip
+\textbf{Fachhinweise.} Joan F. Carbonell und Joaquim Llisterri: „Catalan“, Journal of the International
+Phonetic Association 22(1--2), 1992, S. 53--56, DOI 10.1017/S0025100300004618.
+J. Llisterri: „Descripció fonètica i fonològica del català oriental central: consonants“, joaquimllisterri.cat.
+Optimot: „Tarja, targetó o targeta?“; RodaMots: „estigui bo“ (zur älteren Abschiedsformel).
+\end{document}
