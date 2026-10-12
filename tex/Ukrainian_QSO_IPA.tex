@@ -1,0 +1,288 @@
+% !TeX program = xelatex
+% UTF-8; compile twice with XeLaTeX. No external images or data files needed.
+\documentclass[a4paper,landscape,10pt]{article}
+\usepackage[margin=14mm,headheight=14pt,headsep=5mm,footskip=7mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\newfontfamily\ipafont{DejaVu Sans}
+\usepackage[table]{xcolor}
+\usepackage{array,longtable,booktabs,fancyhdr}
+\definecolor{ink}{HTML}{18384D}
+\definecolor{band}{HTML}{E7EFF4}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{ink}Parlez Vous QSO?! · Українська / Ukrainian}
+\fancyhead[R]{\small Englische Phrase · Ukrainische Übersetzung · IPA}
+\fancyfoot[L]{\scriptsize Neufassung: Ukrainisch · Projektidee und historische Dokumente: Steve -- M0ECS}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{3mm}
+\renewcommand{\arraystretch}{1.25}
+\newcommand{\ipa}[1]{{\ipafont[#1]}}
+\begin{document}
+{\LARGE\bfseries\color{ink}Parlez Vous QSO?!}\hfill{\large Українська / Ukrainian}
+
+\vspace{2mm}
+{\small QSO-Sprachführer mit ukrainischer IPA-Lautschrift. Die Lautschrift bezieht sich auf die ukrainische Spalte.}
+
+\vspace{2mm}
+{\footnotesize \textbf{Leseschlüssel:} \ipa{ˈ} Hauptbetonung; \ipa{ʲ} bezeichnet einen weichen (palatalisierten) Konsonanten.
+\ipa{ɦ} ist ein stimmhafter h-Laut, \ipa{ɡ} wie deutsches g; \ipa{x} wie „ch“ in „Bach“, \ipa{ʃ} wie „sch“.
+\ipa{ɪ} entspricht ukrainischem и, \ipa{i} ukrainischem і. Grundlage: ukrainische Standardsprache.}
+
+\vspace{1mm}
+\fontsize{9}{11.8}\selectfont
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{13mm}>{\raggedright\arraybackslash}p{73mm}>{\raggedright\arraybackslash}p{75mm}>{\raggedright\arraybackslash}p{90mm}@{}}
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Українська} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ref.} & \textbf{English phrase} & \textbf{Українська} & \textbf{Lautschrift (IPA)}\\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\scriptsize Fortsetzung auf der nächsten Seite}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\rowcolor{band} 1.0 & \textbf{Opening Greetings} & \multicolumn{2}{l}{\textbf{Початкові привітання}} \\*
+1.1 & I am very pleased to meet you. & Дуже радий нашому знайомству. & \ipa{ˈduʒɛ ˈradɪj ˈnaʃɔmu znaˈjɔmstʋu} \\
+1.2 & Thank you for your call & Дякую за Ваш виклик. & \ipa{ˈdʲakuju za ʋaʃ ˈʋɪklɪk} \\
+1.3 & Good morning & Доброго ранку. & \ipa{ˈdɔbrɔɦɔ ˈranku} \\
+1.31 & Good day & Добрий день. & \ipa{ˈdɔbrɪj dɛnʲ} \\
+1.32 & Good afternoon & Добрий день. & \ipa{ˈdɔbrɪj dɛnʲ} \\
+1.33 & Good evening & Добрий вечір. & \ipa{ˈdɔbrɪj ˈʋɛtʃʲir} \\
+1.4 & I know only a little Ukrainian but I enjoy QSOs in Ukrainian. & Я знаю українську лише трохи, але люблю проводити QSO українською. & \ipa{ja ˈznaju ukraˈjinʲsʲku lɪˈʃɛ ˈtrɔxɪ aˈlɛ lʲubˈlʲu prɔˈʋɔdɪtɪ kjuː ɛs oʊ ukraˈjinʲsʲkɔju} \\
+\rowcolor{band} 2.0 & \textbf{Operator} & \multicolumn{2}{l}{\textbf{Оператор}} \\*
+2.1 & My name is Peter. & Мене звати Пітер. & \ipa{mɛˈnɛ ˈzʋatɪ ˈpʲitɛr} \\
+2.2 & I have been licensed since 1960. & Маю ліцензію з 1960 року. & \ipa{ˈmaju lʲiˈt͡sɛnzʲiju z ˈtɪsʲatʃa dɛʋjatʲˈsɔt ʃizdɛˈsʲatɔɦɔ ˈrɔku} \\
+2.3 & I have been licensed for 43 years. & Маю ліцензію вже 43 роки. & \ipa{ˈmaju lʲiˈt͡sɛnzʲiju ʋʒɛ ˈsɔrɔk trɪ ˈrɔkɪ} \\
+2.4 & I live in Sittingbourne. & Я живу в Сіттінгборні. & \ipa{ja ʒɪˈʋu ʋ ˈsʲitʲinɦbɔrnʲi} \\
+2.5 & Sittingbourne is a village. & Сіттінгборн - це село. & \ipa{ˈsʲitʲinɦbɔrn t͡sɛ sɛˈlɔ} \\
+2.51 & Sittingbourne is a town. & Сіттінгборн - це містечко. & \ipa{ˈsʲitʲinɦbɔrn t͡sɛ mʲiˈstɛtʃkɔ} \\
+2.52 & Sittingbourne is a city. & Сіттінгборн - це місто. & \ipa{ˈsʲitʲinɦbɔrn t͡sɛ ˈmʲistɔ} \\
+2.6 & Sittingbourne is between London and Dover. & Сіттінгборн розташований між Лондоном і Дувром. & \ipa{ˈsʲitʲinɦbɔrn rɔztaˈʃɔʋanɪj mʲiʒ ˈlɔndɔnɔm i ˈduʋrɔm} \\
+2.7 & I live in the South of England. & Я живу на півдні Англії. & \ipa{ja ʒɪˈʋu na pʲiʋˈdnʲi ˈanɦlʲiji} \\
+2.71 & I live in the North of England. & Я живу на півночі Англії. & \ipa{ja ʒɪˈʋu na ˈpʲiʋnɔtʃʲi ˈanɦlʲiji} \\
+2.72 & I live in the East of England. & Я живу на сході Англії. & \ipa{ja ʒɪˈʋu na ˈsxɔdʲi ˈanɦlʲiji} \\
+2.73 & I live in West of England. & Я живу на заході Англії. & \ipa{ja ʒɪˈʋu na ˈzaxɔdʲi ˈanɦlʲiji} \\
+2.74 & I live in South East England. & Я живу на південному сході Англії. & \ipa{ja ʒɪˈʋu na pʲiʋˈdɛnnɔmu ˈsxɔdʲi ˈanɦlʲiji} \\
+2.75 & I live in South West England. & Я живу на південному заході Англії. & \ipa{ja ʒɪˈʋu na pʲiʋˈdɛnnɔmu ˈzaxɔdʲi ˈanɦlʲiji} \\
+2.76 & I live in North East England. & Я живу на північному сході Англії. & \ipa{ja ʒɪˈʋu na pʲiʋˈnʲitʃnɔmu ˈsxɔdʲi ˈanɦlʲiji} \\
+2.77 & I live in North West England. & Я живу на північному заході Англії. & \ipa{ja ʒɪˈʋu na pʲiʋˈnʲitʃnɔmu ˈzaxɔdʲi ˈanɦlʲiji} \\
+2.78 & I live in central England. & Я живу в центральній Англії. & \ipa{ja ʒɪˈʋu ʋ t͡sɛnˈtralʲnʲij ˈanɦlʲiji} \\
+2.8 & I live in the country. & Я живу в сільській місцевості. & \ipa{ja ʒɪˈʋu ʋ ˈsʲilʲsʲkʲij mʲisˈt͡sɛʋɔstʲi} \\
+2.81 & I live by the sea. & Я живу біля моря. & \ipa{ja ʒɪˈʋu ˈbʲilʲa ˈmɔrʲa} \\
+2.82 & I live near mountains. & Я живу біля гір. & \ipa{ja ʒɪˈʋu ˈbʲilʲa ɦʲir} \\
+2.9 & Sittingbourne is 50Km from London. & Сіттінгборн розташований за 50 км від Лондона. & \ipa{ˈsʲitʲinɦbɔrn rɔztaˈʃɔʋanɪj za pjatdɛˈsʲat kʲilɔˈmɛtrʲiʋ ʋʲid ˈlɔndɔna} \\
+2.11 & I am retired. & Я на пенсії. & \ipa{ja na ˈpɛnsʲiji} \\
+2.12 & My home call sign is M0ECS & Мій домашній позивний - M0ECS. & \ipa{mʲij dɔˈmaʃnʲij pɔzɪʋˈnɪj ɛm nulʲ iː siː ɛs} \\
+\rowcolor{band} 3.0 & \textbf{Station} & \multicolumn{2}{l}{\textbf{Радіостанція}} \\*
+3.1 & My radio is an Icom 706. & Мій трансивер - Icom 706. & \ipa{mʲij tranˈsɪʋɛr ˈaɪkɒm sʲimˈsɔt ʃʲistʲ} \\
+3.2 & My station is all homebrew (homemade). & Уся моя радіостанція саморобна. & \ipa{uˈsʲa mɔˈja radʲiɔˈstant͡sʲija samɔˈrɔbna} \\
+3.3 & I am running 5 Watts. & Я працюю з потужністю 5 ват. & \ipa{ja praˈt͡sʲuju z pɔˈtuʒnʲistʲu pjatʲ ʋat} \\
+3.4 & My antenna is a long wire. & Моя антена - довгий дріт. & \ipa{mɔˈja anˈtɛna ˈdɔʋɦɪj drʲit} \\
+3.41 & My antenna is a dipole. & Моя антена - диполь. & \ipa{mɔˈja anˈtɛna dɪˈpɔlʲ} \\
+3.42 & My antenna is a G5RV. & Моя антена - G5RV. & \ipa{mɔˈja anˈtɛna dʒiː pjatʲ ɑː viː} \\
+3.43 & My antenna is a doublet. & Моя антена - диполь типу doublet. & \ipa{mɔˈja anˈtɛna dɪˈpɔlʲ ˈtɪpu ˈdʌblɪt} \\
+3.44 & My antenna is a delta loop. & Моя антена - трикутна рамка. & \ipa{mɔˈja anˈtɛna trɪˈkutna ˈramka} \\
+3.45 & My antenna is a vertical. & Моя антена вертикальна. & \ipa{mɔˈja anˈtɛna ʋɛrtɪˈkalʲna} \\
+3.46 & My antenna is a log periodic. & Моя антена логоперіодична. & \ipa{mɔˈja anˈtɛna lɔɦɔpɛrʲiɔˈdɪtʃna} \\
+3.47 & My antenna is a Yagi beam. & Моя антена - спрямована Яґі. & \ipa{mɔˈja anˈtɛna sprʲaˈmɔʋana ˈjaɡʲi} \\
+3.48 & My antenna is a 5 element beam. & Моя антена спрямована, з 5 елементами. & \ipa{mɔˈja anˈtɛna sprʲaˈmɔʋana z pjatʲˈma ɛlɛˈmɛntamɪ} \\
+\rowcolor{band} 4.0 & \textbf{Conditions} & \multicolumn{2}{l}{\textbf{Умови поширення радіохвиль}} \\*
+4.1 & Thank you for my 599 report. & Дякую за рапорт 599. & \ipa{ˈdʲakuju za ˈrapɔrt pjatʲ ˈdɛʋjatʲ ˈdɛʋjatʲ} \\
+4.2 & The band conditions are good. & Умови проходження на діапазоні хороші. & \ipa{uˈmɔʋɪ prɔˈxɔdʒɛnnʲa na dʲiapaˈzɔnʲi xɔˈrɔʃʲi} \\
+4.3 & The band conditions are bad. & Умови проходження на діапазоні погані. & \ipa{uˈmɔʋɪ prɔˈxɔdʒɛnnʲa na dʲiapaˈzɔnʲi pɔˈɦanʲi} \\
+4.4 & There is strong interference here. & Тут сильні завади. & \ipa{tut ˈsɪlʲnʲi zaˈʋadɪ} \\
+4.5 & Can you change to the 80m band? & Чи можете перейти на діапазон 80 метрів? & \ipa{tʃɪ ˈmɔʒɛtɛ pɛrɛjˈtɪ na dʲiapaˈzɔn ʋʲisʲimdɛˈsʲat ˈmɛtrʲiʋ} \\
+4.6 & Please change frequency to 3.558 MHz. & Будь ласка, перейдіть на частоту 3,558 МГц. & \ipa{budʲ ˈlaska pɛrɛjˈdʲitʲ na tʃastɔˈtu trɪ ˈkɔma pjatʲ pjatʲ ˈʋʲisʲim mɛɦaˈɦɛrt͡s} \\
+\rowcolor{band} 5.0 & \textbf{General Queries and Comments} & \multicolumn{2}{l}{\textbf{Загальні запитання та коментарі}} \\*
+5.1 & What does <\#\#\#\#\#> mean please? & Що означає <\#\#\#\#\#>, будь ласка? & \ipa{ʃtʃɔ ɔznaˈtʃajɛ … budʲ ˈlaska} \\
+5.2 & Please wait a moment, I need to check my Ukrainian dictionary. & Зачекайте, будь ласка. Мені треба заглянути в український словник. & \ipa{zatʃɛˈkajtɛ budʲ ˈlaska mɛˈnʲi ˈtrɛba zaˈɦlʲanutɪ ʋ ukraˈjinʲsʲkɪj slɔʋˈnɪk} \\
+5.3 & How do you say, <\#\#\#\#\#> in Ukrainian ? & Як сказати <\#\#\#\#\#> українською? & \ipa{jak skaˈzatɪ … ukraˈjinʲsʲkɔju} \\
+5.5 & My favourite modes of operation are CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / Digital Modes / and SSB & Мої улюблені види роботи - CW / RTTY / PSK / MT63 / Olivia / Hellschreiber / цифрові види / та SSB. & \ipa{mɔˈji uˈlʲublɛnʲi ˈʋɪdɪ rɔˈbɔtɪ siː ˈdʌbljuː / ɑː tiː tiː waɪ / piː ɛs keɪ / ɛm tiː ʃizdɛˈsʲat trɪ / ɔˈlʲiʋʲija / ˈhɛlˌʃʁaɪbɐ / t͡sɪfrɔˈʋʲi ˈʋɪdɪ / ta ɛs ɛs biː} \\
+5.6 & My best DX is Australia. & Мій найкращий DX - Австралія. & \ipa{mʲij najˈkraʃtʃɪj diː ɛks aʋˈstralʲija} \\
+5.7 & I enjoy working contests. & Люблю брати участь у змаганнях. & \ipa{lʲubˈlʲu ˈbratɪ ˈutʃastʲ u zmaˈɦannʲax} \\
+5.8 & I like working QRP. & Люблю працювати в режимі QRP. & \ipa{lʲubˈlʲu prat͡sʲuˈʋatɪ ʋ rɛˈʒɪmʲi kjuː ɑː piː} \\
+\rowcolor{band} 6.0 & \textbf{The Weather} & \multicolumn{2}{l}{\textbf{Погода}} \\*
+6.1 & It is sunny. & Сонячно. & \ipa{ˈsɔnʲatʃnɔ} \\
+6.2 & It is windy. & Вітряно. & \ipa{ˈʋʲitrʲanɔ} \\
+6.3 & It is raining. & Іде дощ. & \ipa{iˈdɛ dɔʃtʃ} \\
+6.4 & It is snowing. & Іде сніг. & \ipa{iˈdɛ sʲnʲiɦ} \\
+6.5 & It is very hot. & Дуже спекотно. & \ipa{ˈduʒɛ spɛˈkɔtnɔ} \\
+6.6 & It is very cold. & Дуже холодно. & \ipa{ˈduʒɛ ˈxɔlɔdnɔ} \\
+6.7 & The temperature is 8C. & Температура - 8 °C. & \ipa{tɛmpɛraˈtura ˈʋʲisʲim ˈɦradusʲiʋ ˈt͡sɛlʲsʲija} \\
+6.8 & It is overcast. & Небо вкрите хмарами. & \ipa{ˈnɛbɔ ˈʋkrɪtɛ ˈxmaramɪ} \\
+6.9 & It is foggy. & Туманно. & \ipa{tuˈmannɔ} \\
+6.11 & It has been raining all day. & Дощ іде вже весь день. & \ipa{dɔʃtʃ iˈdɛ ʋʒɛ ʋɛsʲ dɛnʲ} \\
+6.12 & There is 20cm of snow here. & Тут 20 см снігу. & \ipa{tut ˈdʋad͡zʲt͡sʲatʲ santɪˈmɛtrʲiʋ ˈsʲnʲiɦu} \\
+\rowcolor{band} 8.0 & \textbf{QSL} & \multicolumn{2}{l}{\textbf{Картки QSL}} \\*
+8.1 & My QSL card is sure via the bureau & Обов'язково надішлю свою картку QSL через бюро. & \ipa{ɔbɔʋjazˈkɔʋɔ nadʲiˈʃlʲu sʋɔˈju ˈkartku kjuː ɛs ɛl ˈtʃɛrɛz bʲuˈrɔ} \\
+8.2 & QSL via eQSL & QSL через eQSL. & \ipa{kjuː ɛs ɛl ˈtʃɛrɛz iː kjuː ɛs ɛl} \\
+8.3 & No eQSL please & Будь ласка, не надсилайте eQSL. & \ipa{budʲ ˈlaska nɛ nadsɪˈlajtɛ iː kjuː ɛs ɛl} \\
+8.4 & I will send you my card direct. & Надішлю Вам свою картку безпосередньо. & \ipa{nadʲiˈʃlʲu ʋam sʋɔˈju ˈkartku bɛzpɔsɛˈrɛdʲnʲɔ} \\
+8.5 & What is your address? & Яка Ваша адреса? & \ipa{jaˈka ˈʋaʃa aˈdrɛsa} \\
+8.6 & Please send your QSL card direct. & Будь ласка, надішліть свою картку QSL безпосередньо. & \ipa{budʲ ˈlaska nadʲiʃˈlʲitʲ sʋɔˈju ˈkartku kjuː ɛs ɛl bɛzpɔsɛˈrɛdʲnʲɔ} \\
+8.7 & My address is... & Моя адреса... & \ipa{mɔˈja aˈdrɛsa …} \\
+8.8 & My address is shown on QSL.com / EHam.net & Моя адреса є на QSL.com / EHam.net. & \ipa{mɔˈja aˈdrɛsa jɛ na kjuː ɛs ɛl ˈkrapka kɔm / iː hæm ˈkrapka nɛt} \\
+8.9 & Sorry I do not send QSL cards. & Вибачте, я не надсилаю карток QSL. & \ipa{ˈʋɪbatʃtɛ ja nɛ nadsɪˈlaju karˈtɔk kjuː ɛs ɛl} \\
+8.11 & Please send QSL card via G1JQH. & Будь ласка, надішліть картку QSL через G1JQH. & \ipa{budʲ ˈlaska nadʲiʃˈlʲitʲ ˈkartku kjuː ɛs ɛl ˈtʃɛrɛz dʒiː ɔˈdɪn dʒeɪ kjuː eɪtʃ} \\
+8.12 & My WACRAL / GQRP / DXCC / FISTS number is 1234. & Мій номер WACRAL / GQRP / DXCC / FISTS - 1234. & \ipa{mʲij ˈnɔmɛr ˈdʌbljuː eɪ siː ɑː eɪ ɛl / dʒiː kjuː ɑː piː / diː ɛks siː siː / fɪsts ˈtɪsʲatʃa ˈdʋistʲi ˈtrɪd͡zʲt͡sʲatʲ tʃɔˈtɪrɪ} \\
+\rowcolor{band} 9.0 & \textbf{Final Greetings} & \multicolumn{2}{l}{\textbf{Завершальні привітання}} \\*
+9.1 & Thank you. & Дякую. & \ipa{ˈdʲakuju} \\
+9.2 & Thank you for a very enjoyable contact. & Дякую за дуже приємний зв'язок. & \ipa{ˈdʲakuju za ˈduʒɛ prɪˈjɛmnɪj zʋjaˈzɔk} \\
+9.3 & I enjoyed our chat. & Мені сподобалася наша розмова. & \ipa{mɛˈnʲi spɔˈdɔbalasʲa ˈnaʃa rɔzˈmɔʋa} \\
+9.4 & I enjoyed our QSO in Ukrainian. & Мені сподобалося наше QSO українською. & \ipa{mɛˈnʲi spɔˈdɔbalɔsʲa ˈnaʃɛ kjuː ɛs oʊ ukraˈjinʲsʲkɔju} \\
+9.5 & It has been great fun. & Було дуже весело. & \ipa{buˈlɔ ˈduʒɛ ˈʋɛsɛlɔ} \\
+9.6 & If you would like a regular contact with me, you can contact me via email. & Якщо хочете підтримувати регулярний зв'язок зі мною, можете писати мені електронною поштою. & \ipa{jakˈʃtʃɔ ˈxɔtʃɛtɛ pʲidˈtrɪmuʋatɪ rɛɦuˈlʲarnɪj zʋjaˈzɔk zʲi ˈmnɔju ˈmɔʒɛtɛ pɪˈsatɪ mɛˈnʲi ɛlɛkˈtrɔnnɔju ˈpɔʃtɔju} \\
+9.7 & My email address is... & Моя електронна адреса... & \ipa{mɔˈja ɛlɛkˈtrɔnna aˈdrɛsa …} \\
+9.8 & My email address is shown on QSL.com / EHam.net & Моя електронна адреса є на QSL.com / EHam.net. & \ipa{mɔˈja ɛlɛkˈtrɔnna aˈdrɛsa jɛ na kjuː ɛs ɛl ˈkrapka kɔm / iː hæm ˈkrapka nɛt} \\
+9.9 & I look forward to meeting you again. & Сподіваюся знову зустрітися з Вами. & \ipa{spɔdʲiˈʋajusʲa ˈznɔʋu zuˈstrʲitɪsʲa z ˈʋamɪ} \\
+9.11 & My best wishes to you and your family. & Найкращі побажання Вам і Вашій родині. & \ipa{najˈkraʃtʃʲi pɔbaˈʒannʲa ʋam i ˈʋaʃʲij rɔˈdɪnʲi} \\
+9.12 & Best wishes to your wife. & Найкращі побажання Вашій дружині. & \ipa{najˈkraʃtʃʲi pɔbaˈʒannʲa ˈʋaʃʲij druˈʒɪnʲi} \\
+9.121 & Best wishes to your husband. & Найкращі побажання Вашому чоловікові. & \ipa{najˈkraʃtʃʲi pɔbaˈʒannʲa ˈʋaʃɔmu tʃɔlɔˈʋʲikɔʋʲi} \\
+9.13 & Good luck. & Успіхів. & \ipa{uˈspʲixʲiʋ} \\
+9.14 & Good health. & Міцного здоров'я. & \ipa{mʲit͡sˈnɔɦɔ zdɔˈrɔʋja} \\
+9.15 & Goodbye & До побачення. & \ipa{dɔ pɔˈbatʃɛnnʲa} \\
+9.16 & I wish you an enjoyable afternoon. & Бажаю Вам гарного дня. & \ipa{baˈʒaju ʋam ˈɦarnɔɦɔ dnʲa} \\
+9.161 & I wish you an enjoyable evening. & Бажаю Вам гарного вечора. & \ipa{baˈʒaju ʋam ˈɦarnɔɦɔ ˈʋɛtʃɔra} \\
+9.162 & I wish you an enjoyable weekend. & Бажаю Вам гарних вихідних. & \ipa{baˈʒaju ʋam ˈɦarnɪx ʋɪxʲidˈnɪx} \\
+9.17 & Enjoy your holiday. & Гарної відпустки. & \ipa{ˈɦarnɔji ʋʲidˈpustkɪ} \\
+9.18 & Happy New Year. & З Новим роком. & \ipa{z nɔˈʋɪm ˈrɔkɔm} \\
+\rowcolor{band} 10.0 & \textbf{Country} & \multicolumn{2}{l}{\textbf{Країни та території}} \\*
+10.1 & Albania & Албанія & \ipa{alˈbanʲija} \\
+10.2 & Austria & Австрія & \ipa{ˈaʋstrʲija} \\
+10.3 & Belgium & Бельгія & \ipa{ˈbɛlʲɦʲija} \\
+10.4 & Belorussia & Білорусь & \ipa{bʲilɔˈrusʲ} \\
+10.5 & Bosnia \& Herzegovina & Боснія і Герцеговина & \ipa{ˈbɔsnʲija i ɦɛrt͡sɛɦɔˈʋɪna} \\
+10.6 & Bulgaria & Болгарія & \ipa{bɔlˈɦarʲija} \\
+10.7 & Croatia & Хорватія & \ipa{xɔrˈʋatʲija} \\
+10.8 & Czech Republic & Чехія & \ipa{ˈtʃɛxʲija} \\
+10.9 & Denmark & Данія & \ipa{ˈdanʲija} \\
+10.11 & Eire & Ірландія & \ipa{irˈlandʲija} \\
+10.12 & England & Англія & \ipa{ˈanɦlʲija} \\
+10.13 & Estonia & Естонія & \ipa{ɛsˈtɔnʲija} \\
+10.14 & Finland & Фінляндія & \ipa{fʲinˈlʲandʲija} \\
+10.15 & France & Франція & \ipa{ˈfrant͡sʲija} \\
+10.16 & Germany & Німеччина & \ipa{nʲiˈmɛtʃtʃɪna} \\
+10.17 & Gibraltar & Гібралтар & \ipa{ɦʲibralˈtar} \\
+10.18 & Greece & Греція & \ipa{ˈɦrɛt͡sʲija} \\
+10.19 & Holland & Голландія & \ipa{ɦɔlˈlandʲija} \\
+10.21 & Hungary & Угорщина & \ipa{ˈuɦɔrʃtʃɪna} \\
+10.22 & Iceland & Ісландія & \ipa{isˈlandʲija} \\
+10.23 & Northern Ireland & Північна Ірландія & \ipa{pʲiʋˈnʲitʃna irˈlandʲija} \\
+10.24 & Isle of Man & Острів Мен & \ipa{ˈɔstrʲiʋ mɛn} \\
+10.25 & Italy & Італія & \ipa{iˈtalʲija} \\
+10.26 & Latvia & Латвія & \ipa{ˈlatʋʲija} \\
+10.27 & Liechtenstein & Ліхтенштейн & \ipa{lʲixtɛnˈʃtɛjn} \\
+10.28 & Lithuania & Литва & \ipa{lɪtˈʋa} \\
+10.29 & Luxembourg & Люксембург & \ipa{lʲuksɛmˈburɦ} \\
+10.31 & Macedonia & Північна Македонія & \ipa{pʲiʋˈnʲitʃna makɛˈdɔnʲija} \\
+10.32 & Moldavia & Молдова & \ipa{mɔlˈdɔʋa} \\
+10.33 & Netherlands & Нідерланди & \ipa{nʲidɛrˈlandɪ} \\
+10.34 & Norway & Норвегія & \ipa{nɔrˈʋɛɦʲija} \\
+10.35 & Poland & Польща & \ipa{ˈpɔlʲʃtʃa} \\
+10.36 & Portugal & Португалія & \ipa{pɔrtuˈɦalʲija} \\
+10.37 & Romania & Румунія & \ipa{ruˈmunʲija} \\
+10.38 & Russian Federation & Російська Федерація & \ipa{rɔˈsʲijsʲka fɛdɛˈrat͡sʲija} \\
+10.39 & Scotland & Шотландія & \ipa{ʃɔtˈlandʲija} \\
+10.41 & Slovakia & Словаччина & \ipa{slɔˈʋatʃtʃɪna} \\
+10.42 & Slovenia & Словенія & \ipa{slɔˈʋɛnʲija} \\
+10.43 & Spain & Іспанія & \ipa{isˈpanʲija} \\
+10.44 & Svalbard & Шпіцберген & \ipa{ʃpʲit͡sˈbɛrɦɛn} \\
+10.45 & Sweden & Швеція & \ipa{ˈʃʋɛt͡sʲija} \\
+10.46 & Switzerland & Швейцарія & \ipa{ʃʋɛjˈt͡sarʲija} \\
+10.47 & Turkey & Туреччина & \ipa{tuˈrɛtʃtʃɪna} \\
+10.48 & Ukraine & Україна & \ipa{ukraˈjina} \\
+10.49 & Wales & Уельс & \ipa{uˈɛlʲs} \\
+\end{longtable}
+\clearpage
+\normalsize
+\section*{Hinweise zur Neufassung und Aussprache}
+\fontsize{8.5}{10.5}\selectfont\raggedright
+\textbf{Herkunft und Umfang.} Die ursprüngliche Idee zu „Parlez Vous QSO“ und die wesentlichen
+historischen DOC-Dokumente stammen von Steve -- M0ECS. Michael Renner hat das Projekt mit Steves
+Einverständnis übernommen und führt es fort. Diese ukrainische Fassung wurde neu erstellt;
+eine ukrainische Originaldatei lag nicht vor. Die Gliederung und die englischen Ausgangsphrasen
+folgen der bereits übertragenen spanischen Version. Alle 142 Phrasen und Ländernamen mit ihren
+Referenzen sind enthalten; Nummernsprünge und der fehlende Abschnitt 7 bleiben erhalten.
+Die vier sprachbezogenen englischen Einträge nennen jetzt „Ukrainian“ statt „Spanish“.
+
+\medskip
+\textbf{Sprache und Anrede.} Verwendet wird ukrainische Standardsprache in kyrillischer Schrift,
+keine russische Übersetzung oder Umschrift. Die Anrede ist durchgehend höflich: „Ви“, „Вам“,
+„Ваша“. Die Großschreibung kennzeichnet die persönliche höfliche Anrede.
+„радий“ in 1.1 gilt für einen männlichen Sprecher; eine Sprecherin sagt „рада“.
+„Я на пенсії“ in 2.11 ist unabhängig vom Geschlecht.
+Die Formulierungen sind als praktische Sätze fürs Funkgespräch gedacht. Die Übersetzung und
+Lautschrift wurden mit KI-Unterstützung erstellt; die Prüfung durch ukrainische Muttersprachlerinnen
+und Muttersprachler, besonders mit Amateurfunkerfahrung, ist ausdrücklich erwünscht.
+
+\medskip
+\textbf{Bewusste Anpassungen.} „Добрий день“ ist sowohl die übliche Tagesbegrüßung als auch
+am Nachmittag passend; eine wörtliche Nachmittagsbegrüßung wird nicht konstruiert.
+Entsprechend wünscht 9.16 einen schönen Tag; „Добрий вечір“ und „гарного вечора“ beziehen sich auf den Abend.
+Die starren Uhrzeitangaben der spanischen Vorlage entfallen. In 6.11 bedeutet „вже весь день“,
+dass es bereits den ganzen Tag regnet. Die Mitgliedsnummer in 8.12 lautet einheitlich 1234,
+wie in der englischen Ausgangsphrase; die spanische Übersetzung enthält dort abweichend 1224.
+Die Frequenz wird als 3,558 МГц mit Dezimalkomma geschrieben; der Wert entspricht 3.558 MHz.
+„село“, „містечко“ und „місто“ sind alternative Ortsbeschreibungen, keine drei gleichzeitigen
+Behauptungen über Sittingbourne. Namen, Orte, Rufzeichen und Zahlen sind austauschbare Beispiele.
+
+\medskip
+\textbf{Fachbegriffe.} „позивний“ bezeichnet das Rufzeichen, „рапорт“ den Signalrapport,
+„завади“ die Störungen und „діапазон“ das Frequenzband. „саморобна“ steht für Eigenbau.
+„довгий дріт“ bezeichnet die Langdrahtantenne, „диполь“ den Dipol, „трикутна рамка“ die Delta-Loop,
+„логоперіодична“ die logarithmisch-periodische und „спрямована“ die Richtantenne.
+„Doublet“ bleibt in 3.43 als Dipol-Typbezeichnung erhalten. G5RV und Яґі bleiben Bauartnamen;
+das ґ in Яґі steht für \ipa{ɡ}. „через бюро“ meint den Versand über das QSL-Büro,
+„безпосередньо“ den direkten Versand. Der Abgleich mit ukrainischen Amateurfunktexten dient der
+Terminologie; die neue Fassung ist keine von der Liga der Funkamateure der Ukraine bestätigte Übersetzung.
+
+\medskip
+\textbf{Kyrillisch und Lautschrift.} Die IPA-Spalte ist eine breite, manuell erstellte Aussprachehilfe,
+keine enge Transkription einer Aufnahme. Die sechs Vokalqualitäten werden als \ipa{i, ɪ, ɛ, a, ɔ, u}
+wiedergegeben. Unbetonte Vokale bleiben weitgehend in ihrer Grundqualität; regionale und
+kontextabhängige Annäherungen sowie Satzmelodie werden nicht abgebildet.
+\ipa{ʲ} bezeichnet Erweichung beziehungsweise Palatalisierung; vor і werden auch entsprechende
+leichte Palatalisierungen von Lippen- und Hinterzungenlauten markiert. Ь ist kein eigener Vokal.
+Г entspricht \ipa{ɦ}, ґ entspricht \ipa{ɡ}, х entspricht \ipa{x}, ж entspricht \ipa{ʒ},
+ч entspricht \ipa{tʃ} und щ der Folge \ipa{ʃtʃ}. Ein Bindebogen in \ipa{t͡s, d͡z}
+fasst die beiden Bestandteile einer Affrikate zusammen. В wird vereinfachend durchgehend als \ipa{ʋ}
+notiert; seine kontextabhängigen w- beziehungsweise u-artigen Varianten werden nicht eigens markiert.
+Doppelkonsonanten werden als doppelte Zeichen geschrieben, zum Beispiel \ipa{nnʲ}.
+Die Transkription berücksichtigt einige gebräuchliche Angleichungen in Zahlwörtern,
+aber nicht sämtliche Lautverbindungen über Wortgrenzen hinweg.
+
+\medskip
+\textbf{Eigennamen, Kürzel und Zahlen.} Пітер, Сіттінгборн und Дувр sind ukrainische
+Namenswiedergaben; die Lautschrift folgt diesen Formen, einschließlich ihrer ukrainischen Endungen.
+Icom, doublet und die lateinischen Rufzeichen und Kürzel werden hier mit englischer Aussprache
+beziehungsweise englischen Buchstabennamen gelesen; die Ziffern darin werden ukrainisch gesprochen.
+Das ist eine gewählte Lesekonvention, keine Vorgabe zum internationalen Buchstabieralphabet.
+Hellschreiber ist deutsch wiedergegeben; Olivia hat eine ukrainisch angepasste Aussprache.
+Die Webadressen behalten ihre originale Schreibweise; „крапка“ steht für den Punkt.
+599 wird ziffernweise „п'ять дев'ять дев'ять“ gelesen; 3,558 „три кома п'ять п'ять вісім“;
+1234 „тисяча двісті тридцять чотири“, 706 „сімсот шість“.
+In 2.2 wird 1960 als Jahreszahl mit der passenden Form „шістдесятого року“ gesprochen.
+Schrägstriche trennen Alternativen oder Listenelemente. \texttt{<\#\#\#\#\#>} ist ein Platzhalter
+und erscheint in der Lautschrift als Auslassung.
+
+\medskip
+\textbf{Ländernamen.} Die historischen englischen Quellnamen bleiben zur Orientierung erhalten.
+Ukrainisch werden gebräuchliche heutige Namen verwendet: „Чехія“ für Czech Republic,
+„Північна Македонія“ für Macedonia, „Молдова“ für Moldavia und „Білорусь“ für Belorussia.
+„Голландія“ steht für Holland, „Нідерланди“ für das gesamte Land Netherlands.
+„Шпіцберген“ ist die gebräuchliche ukrainische Bezeichnung für den Archipel Svalbard.
+Die Liste enthält Staaten, Gebiete und Landesteile; die Überschrift lautet daher „Країни та території“.
+
+\medskip
+\textbf{Quellen und Kompilierung.} Phonetische Grundlage: Bernd Pompino-Marschall, Elena Steriopolo
+und Marzena Żygis, „Ukrainian“, Journal of the International Phonetic Association 47(3), 2017,
+S. 349--357; DOI: 10.1017/S0025100316000372. Fachsprachlicher Abgleich: Liga der Funkamateure
+ der Ukraine, uarl.org.ua, unter anderem „Multiband UKRAINE“ AWARD (MBUA).
+Einzelne Wortbetonungen wurden mit dem Wörterbuch СЛОВНИК.ua (slovnyk.ua) abgeglichen.
+UTF-8-Datei, zweimal mit XeLaTeX kompilieren; benötigt werden DejaVu Sans und die üblichen
+LaTeX-Pakete der Präambel. Keine externen Bild- oder Datendateien erforderlich.
+\end{document}
