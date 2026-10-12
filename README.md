@@ -41,8 +41,9 @@ The historical Word documents are being converted into editable **LaTeX files**.
 | Serbian | [TeX](tex/Serbian_QSO_IPA.tex) | [PDF](pdf/Serbian_QSO_IPA.pdf) |
 | Spanish | [TeX](tex/Spanish_QSO_IPA.tex) | [PDF](pdf/Spanish_QSO_IPA.pdf) |
 | Swedish | [TeX](tex/Swedish_QSO_IPA.tex) | [PDF](pdf/Swedish_QSO_IPA.pdf) |
+| Ukrainian | [TeX](tex/Ukrainian_QSO_IPA.tex) | [PDF](pdf/Ukrainian_QSO_IPA.pdf) |
 
-English is the common source language for all versions. The Portuguese version was newly drafted using the structure of the Spanish version; its pronunciation guide describes European Portuguese. Arabic text is set from right to left, while call signs, numbers and web addresses remain readable in their appropriate direction.
+English is the common source language for all versions. The Portuguese and Ukrainian versions were newly drafted using the structure of the Spanish version. The Portuguese pronunciation guide describes European Portuguese; the Ukrainian version uses Cyrillic script and an IPA guide to standard Ukrainian. Arabic text is set from right to left, while call signs, numbers and web addresses remain readable in their appropriate direction.
 
 ## Files and usage
 

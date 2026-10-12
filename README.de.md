@@ -40,9 +40,10 @@ Die historischen Word-Vorlagen werden in bearbeitbare **LaTeX-Dateien** übertra
 | Serbisch | [TeX](tex/Serbian_QSO_IPA.tex) | [PDF](pdf/Serbian_QSO_IPA.pdf) |
 | Spanisch | [TeX](tex/Spanish_QSO_IPA.tex) | [PDF](pdf/Spanish_QSO_IPA.pdf) |
 | Tschechisch | [TeX](tex/Czech_QSO_IPA.tex) | [PDF](pdf/Czech_QSO_IPA.pdf) |
+| Ukrainisch | [TeX](tex/Ukrainian_QSO_IPA.tex) | [PDF](pdf/Ukrainian_QSO_IPA.pdf) |
 | Ungarisch | [TeX](tex/Hungarian_QSO_IPA.tex) | [PDF](pdf/Hungarian_QSO_IPA.pdf) |
 
-Englisch dient allen Fassungen als gemeinsame Ausgangssprache. Die portugiesische Fassung wurde auf Grundlage der Gliederung der spanischen Version neu entworfen. Ihre Aussprachehilfe bezieht sich auf europäisches Portugiesisch. Arabischer Text wird von rechts nach links gesetzt; Rufzeichen, Zahlen und Webadressen bleiben entsprechend ihrer Schreibweise lesbar.
+Englisch dient allen Fassungen als gemeinsame Ausgangssprache. Die portugiesische und die ukrainische Fassung wurden auf Grundlage der Gliederung der spanischen Version neu entworfen. Die portugiesische Aussprachehilfe bezieht sich auf europäisches Portugiesisch; die ukrainische Version enthält kyrillischen Text und IPA-Lautschrift für die ukrainische Standardsprache. Arabischer Text wird von rechts nach links gesetzt; Rufzeichen, Zahlen und Webadressen bleiben entsprechend ihrer Schreibweise lesbar.
 
 ## Dateien und Nutzung
 
