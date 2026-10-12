@@ -82,6 +82,12 @@ The translations and IPA columns were prepared or created with AI assistance. Re
 
 ## Origins and acknowledgements
 
-This project builds on the historical **“Parlez Vous QSO?!”** phrase lists. The authors and call signs credited in the source documents are acknowledged in the corresponding phrasebooks. Thank you to everyone who started this collection and continues to improve it through translations, corrections and experience on the air.
+**Steve, M0ECS, had the original idea for “Parlez Vous QSO” and developed all the essential source documents - the historical files in Word `.doc` format that form the foundation of this collection.**
+
+I, Michael Renner, have taken over the project from Steve and am continuing and developing it **with his agreement**. The conversion to LaTeX and PDF, the addition of IPA pronunciation guides and further language versions build on his work.
+
+**A heartfelt thank you to Steve for his idea, the work he put into the original documents and his trust in allowing me to carry the project forward.**
+
+The other authors and call signs credited in the source documents are acknowledged in the corresponding phrasebooks. Thank you also to everyone who helps improve the collection through translations, corrections and experience on the air.
 
 **Many languages, one shared hobby. 73!**

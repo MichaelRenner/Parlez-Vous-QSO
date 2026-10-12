@@ -82,6 +82,12 @@ Die Übersetzungen und die IPA-Spalten wurden mit KI-Unterstützung aufbereitet 
 
 ## Herkunft und Dank
 
-Das Projekt baut auf den historischen Sprachlisten **„Parlez Vous QSO?!“** auf. Die in den Vorlagen genannten Autorinnen, Autoren und Rufzeichen werden in den jeweiligen Sprachführern gewürdigt. Danke an alle, die diese Sammlung begonnen haben und durch Übersetzungen, Korrekturen oder Erfahrungen aus dem Funkbetrieb weiterentwickeln.
+**Die ursprüngliche Idee für „Parlez Vous QSO“ stammt von Steve, M0ECS. Er erarbeitete alle wesentlichen Ausgangsdokumente - die historischen Dateien im Word-Format `.doc`, auf denen diese Sammlung aufbaut.**
+
+Ich, Michael Renner, habe das Projekt von Steve übernommen und führe es **mit seinem Einverständnis** fort. Die Übertragung nach LaTeX und PDF, die Ergänzung der IPA-Lautschrift und weitere Sprachfassungen bauen auf seiner Arbeit auf.
+
+**Ein herzlicher Dank gilt Steve für seine Idee, seine Arbeit an den ursprünglichen Dokumenten und sein Vertrauen, dass ich das Projekt fortführen und weiterentwickeln darf.**
+
+Die weiteren in den Vorlagen genannten Autorinnen, Autoren und Rufzeichen werden in den jeweiligen Sprachführern gewürdigt. Danke auch an alle, die diese Sammlung durch Übersetzungen, Korrekturen oder Erfahrungen aus dem Funkbetrieb weiter verbessern.
 
 **Viele Sprachen, ein gemeinsames Hobby. 73!**
