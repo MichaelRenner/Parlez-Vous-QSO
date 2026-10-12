@@ -1,85 +1,87 @@
 # Parlez-Vous-QSO?!
 
-![Eine Person am Amateurfunkgerät, umgeben von Begrüßungen in verschiedenen Sprachen](images/parlez-vous-qso.png)
+**English** | [Deutsch](README.de.md)
 
-**Amateurfunk verbindet Menschen. Dieser Sprachführer hilft dabei, auch über Sprachgrenzen hinweg ins Gespräch zu kommen.**
+![An amateur radio operator surrounded by greetings in several languages](images/parlez-vous-qso.png)
 
-Für ein persönliches QSO braucht es nicht immer perfekte Sprachkenntnisse. Eine Begrüßung, eine kurze Vorstellung, Angaben zur Station und ein freundlicher Abschied machen oft schon den Unterschied. **Parlez-Vous-QSO?!** bietet dafür gebräuchliche Wendungen in verschiedenen Sprachen - ergänzt um Lautschrift, damit die Aussprache leichter fällt.
+**Amateur radio brings people together. This phrasebook helps you start a conversation across language barriers.**
 
-## Was enthält das Projekt?
+You do not need perfect language skills to make a QSO more personal. A greeting, a brief introduction, a few details about your station and a friendly goodbye can go a long way. **Parlez-Vous-QSO?!** provides useful phrases in several languages, with phonetic transcriptions to help you pronounce them.
 
-Die Sprachführer enthalten jeweils 142 Phrasen und Ländernamen in einer einheitlichen Tabelle:
+## What is included?
 
-- eine Referenznummer zur Orientierung zwischen den Sprachversionen;
-- die englische Ausgangsphrase;
-- die Übersetzung in die jeweilige Sprache;
-- eine Aussprachehilfe im Internationalen Phonetischen Alphabet (**IPA**).
+Each phrasebook contains 142 phrases and country names in a consistent table:
 
-Die Themen reichen von Begrüßung und Vorstellung über Funkgerät, Antennen, Ausbreitungsbedingungen und Wetter bis zu QSL-Karten und Abschiedswünschen. Namen, Rufzeichen, Ortsangaben und Zahlen sind Beispiele und können durch die eigenen Angaben ersetzt werden.
+- a reference number to match entries across language versions;
+- the original English phrase;
+- its translation into the target language;
+- a pronunciation guide using the International Phonetic Alphabet (**IPA**).
 
-Die historischen Word-Vorlagen werden in bearbeitbare **LaTeX-Dateien** übertragen. Die fertigen **PDFs** eignen sich zum Nachschlagen am Funkplatz oder zum Ausdrucken. Erkannte Fehler, sprachliche Anpassungen und Aussprachekonventionen werden im Anhang der jeweiligen Fassung erläutert. Die ursprünglichen Referenznummern bleiben erhalten, einschließlich der Nummernsprünge.
+Topics range from greetings and introductions to radio equipment, antennas, propagation conditions, weather, QSL cards and farewell wishes. Names, call signs, locations and numbers are examples that you can replace with your own details.
 
-## Sprachen
+The historical Word documents are being converted into editable **LaTeX files**. The finished **PDFs** are suitable for use at the radio desk or for printing. Identified errors, language adaptations and pronunciation conventions are explained in the appendix of each version. The original reference numbers are retained, including gaps in the numbering.
 
-| Sprache | LaTeX | PDF |
+## Languages
+
+| Language | LaTeX | PDF |
 | --- | --- | --- |
-| Arabisch | [TeX](tex/Arabic_QSO_IPA.tex) | [PDF](pdf/Arabic_QSO_IPA.pdf) |
-| Deutsch | [TeX](tex/German_QSO_IPA.tex) | [PDF](pdf/German_QSO_IPA.pdf) |
-| Estnisch | [TeX](tex/Estonian_QSO_IPA.tex) | [PDF](pdf/Estonian_QSO_IPA.pdf) |
-| Französisch | [TeX](tex/French_QSO_IPA.tex) | [PDF](pdf/French_QSO_IPA.pdf) |
-| Italienisch | [TeX](tex/Italian_QSO_IPA.tex) | [PDF](pdf/Italian_QSO_IPA.pdf) |
-| Katalanisch | [TeX](tex/Catalan_QSO_IPA.tex) | [PDF](pdf/Catalan_QSO_IPA.pdf) |
-| Lettisch | [TeX](tex/Latvian_QSO_IPA.tex) | [PDF](pdf/Latvian_QSO_IPA.pdf) |
-| Niederländisch | [TeX](tex/Dutch_QSO_IPA.tex) | [PDF](pdf/Dutch_QSO_IPA.pdf) |
-| Polnisch | [TeX](tex/Polish_QSO_IPA.tex) | [PDF](pdf/Polish_QSO_IPA.pdf) |
-| Portugiesisch | [TeX](tex/Portuguese_QSO_IPA.tex) | [PDF](pdf/Portuguese_QSO_IPA.pdf) |
-| Rumänisch | [TeX](tex/Romanian_QSO_IPA.tex) | [PDF](pdf/Romanian_QSO_IPA.pdf) |
-| Schwedisch | [TeX](tex/Swedish_QSO_IPA.tex) | [PDF](pdf/Swedish_QSO_IPA.pdf) |
-| Serbisch | [TeX](tex/Serbian_QSO_IPA.tex) | [PDF](pdf/Serbian_QSO_IPA.pdf) |
-| Spanisch | [TeX](tex/Spanish_QSO_IPA.tex) | [PDF](pdf/Spanish_QSO_IPA.pdf) |
-| Tschechisch | [TeX](tex/Czech_QSO_IPA.tex) | [PDF](pdf/Czech_QSO_IPA.pdf) |
-| Ungarisch | [TeX](tex/Hungarian_QSO_IPA.tex) | [PDF](pdf/Hungarian_QSO_IPA.pdf) |
+| Arabic | [TeX](tex/Arabic_QSO_IPA.tex) | [PDF](pdf/Arabic_QSO_IPA.pdf) |
+| Catalan | [TeX](tex/Catalan_QSO_IPA.tex) | [PDF](pdf/Catalan_QSO_IPA.pdf) |
+| Czech | [TeX](tex/Czech_QSO_IPA.tex) | [PDF](pdf/Czech_QSO_IPA.pdf) |
+| Dutch | [TeX](tex/Dutch_QSO_IPA.tex) | [PDF](pdf/Dutch_QSO_IPA.pdf) |
+| Estonian | [TeX](tex/Estonian_QSO_IPA.tex) | [PDF](pdf/Estonian_QSO_IPA.pdf) |
+| French | [TeX](tex/French_QSO_IPA.tex) | [PDF](pdf/French_QSO_IPA.pdf) |
+| German | [TeX](tex/German_QSO_IPA.tex) | [PDF](pdf/German_QSO_IPA.pdf) |
+| Hungarian | [TeX](tex/Hungarian_QSO_IPA.tex) | [PDF](pdf/Hungarian_QSO_IPA.pdf) |
+| Italian | [TeX](tex/Italian_QSO_IPA.tex) | [PDF](pdf/Italian_QSO_IPA.pdf) |
+| Latvian | [TeX](tex/Latvian_QSO_IPA.tex) | [PDF](pdf/Latvian_QSO_IPA.pdf) |
+| Polish | [TeX](tex/Polish_QSO_IPA.tex) | [PDF](pdf/Polish_QSO_IPA.pdf) |
+| Portuguese | [TeX](tex/Portuguese_QSO_IPA.tex) | [PDF](pdf/Portuguese_QSO_IPA.pdf) |
+| Romanian | [TeX](tex/Romanian_QSO_IPA.tex) | [PDF](pdf/Romanian_QSO_IPA.pdf) |
+| Serbian | [TeX](tex/Serbian_QSO_IPA.tex) | [PDF](pdf/Serbian_QSO_IPA.pdf) |
+| Spanish | [TeX](tex/Spanish_QSO_IPA.tex) | [PDF](pdf/Spanish_QSO_IPA.pdf) |
+| Swedish | [TeX](tex/Swedish_QSO_IPA.tex) | [PDF](pdf/Swedish_QSO_IPA.pdf) |
 
-Englisch dient allen Fassungen als gemeinsame Ausgangssprache. Die portugiesische Fassung wurde auf Grundlage der Gliederung der spanischen Version neu entworfen. Ihre Aussprachehilfe bezieht sich auf europäisches Portugiesisch. Arabischer Text wird von rechts nach links gesetzt; Rufzeichen, Zahlen und Webadressen bleiben entsprechend ihrer Schreibweise lesbar.
+English is the common source language for all versions. The Portuguese version was newly drafted using the structure of the Spanish version; its pronunciation guide describes European Portuguese. Arabic text is set from right to left, while call signs, numbers and web addresses remain readable in their appropriate direction.
 
-## Dateien und Nutzung
+## Files and usage
 
 ```text
-doc/       Historische Ausgangsdokumente
-tex/       Bearbeitbare LaTeX-Sprachführer mit IPA
-pdf/       Fertige Sprachführer zum Lesen und Drucken
-images/    Bilder für die Projektbeschreibung
+doc/       Historical source documents
+tex/       Editable LaTeX phrasebooks with IPA
+pdf/       Finished phrasebooks for reading and printing
+images/    Images for the project description
 ```
 
-Zum Lesen genügt ein PDF-Betrachter. Wer eine Fassung ändern möchte, bearbeitet die entsprechende `.tex`-Datei und erstellt anschließend das PDF neu. Die LaTeX-Dateien verwenden UTF-8 und die Schrift **DejaVu Sans**. Die IPA-Zeichen sind direkt als Unicode enthalten.
+A PDF viewer is all you need to read the phrasebooks. To make changes, edit the relevant `.tex` file and regenerate the PDF. The LaTeX files use UTF-8 and the **DejaVu Sans** font. IPA symbols are included directly as Unicode characters.
 
-Beispiel für die portugiesische Version, im Hauptverzeichnis des Repositorys:
+For example, to build the Portuguese version from the repository's root directory:
 
 ```bash
 xelatex -interaction=nonstopmode -halt-on-error -output-directory=pdf tex/Portuguese_QSO_IPA.tex
 xelatex -interaction=nonstopmode -halt-on-error -output-directory=pdf tex/Portuguese_QSO_IPA.tex
 ```
 
-Die zwei Durchläufe sorgen dafür, dass die mehrseitigen Tabellen korrekt gesetzt werden. Benötigt werden XeLaTeX, DejaVu Sans und die in der Präambel genannten LaTeX-Pakete. Erzeugte Zwischendateien wie `.aux` und `.log` sind für die Nutzung der Sprachführer nicht erforderlich.
+Two runs allow the multipage tables to settle into their correct layout. You will need XeLaTeX, DejaVu Sans and the LaTeX packages listed in the preamble. Generated intermediate files such as `.aux` and `.log` are not needed to use the phrasebooks.
 
-## Mach mit!
+## Get involved!
 
-**Muttersprachlerinnen und Muttersprachler, Funkamateure und Menschen mit Interesse an Sprachen sind herzlich zur Mitarbeit eingeladen.** Besonders hilfreich sind:
+**Native speakers, radio amateurs and anyone interested in languages are warmly invited to contribute.** Particularly useful contributions include:
 
-- **Sprachliche Prüfung:** Sind die Wendungen natürlich, freundlich und beim Funkbetrieb gebräuchlich?
-- **Aussprache und IPA:** Stimmen die Lautschrift, Betonung und gewählte regionale Variante?
-- **Fachbegriffe:** Passen die Bezeichnungen für Antennen, Betriebsarten, Signalrapporte und QSL-Versand?
-- **Neue Sprachen und Varianten:** Weitere Sprachführer oder ergänzende Fassungen, etwa für brasilianisches Portugiesisch.
-- **Praxis und Gestaltung:** Rückmeldungen vom Funkplatz, Verbesserungen der Lesbarkeit und barriereärmere Ausgaben.
+- **Language review:** Are the phrases natural, friendly and commonly used on the air?
+- **Pronunciation and IPA:** Are the transcriptions, stress marks and chosen regional variety accurate?
+- **Technical terminology:** Are the terms for antennas, operating modes, signal reports and QSL delivery appropriate?
+- **New languages and varieties:** Additional phrasebooks or versions for other varieties, such as Brazilian Portuguese.
+- **Practical feedback and design:** Experiences from the radio desk, readability improvements and more accessible editions.
 
-Du hast einen Fehler gefunden oder eine Idee? [Eröffne ein Issue](https://github.com/MichaelRenner/Parlez-Vous-QSO/issues) und nenne möglichst die **Sprache, die Referenznummer und deinen Verbesserungsvorschlag**. Für Aussprachekorrekturen hilft auch eine Angabe zur Region oder Sprachvariante.
+Found an error or have an idea? [Open an issue](https://github.com/MichaelRenner/Parlez-Vous-QSO/issues) and, where possible, include the **language, reference number and suggested improvement**. For pronunciation corrections, please also mention the region or language variety.
 
-Wenn du die Änderung direkt einarbeiten möchtest, erstelle einen Fork und reiche einen Pull Request ein. Behalte bestehende Referenznummern bei, passe die IPA-Spalte an die korrigierte Phrase an und dokumentiere wesentliche Änderungen im Anhang. Bei Änderungen an der LaTeX-Datei bitte auch das PDF neu erzeugen und das Layout prüfen.
+To contribute a change directly, fork the repository and submit a pull request. Keep the existing reference numbers, update the IPA transcription to match the corrected phrase and document significant changes in the appendix. When editing a LaTeX file, please regenerate its PDF and check the layout as well.
 
-Die Übersetzungen und die IPA-Spalten wurden mit KI-Unterstützung aufbereitet beziehungsweise erstellt. Eine Prüfung durch sprachkundige Menschen ist ausdrücklich erwünscht. Die Lautschrift ist eine breite Aussprachehilfe; sie bildet nicht jede regionale Besonderheit oder jede Lautverbindung im flüssigen Gespräch ab.
+The translations and IPA columns were prepared or created with AI assistance. Review by people familiar with the languages is expressly encouraged. The phonetic transcriptions are broad pronunciation guides; they do not represent every regional feature or every sound change in connected speech.
 
-## Herkunft und Dank
+## Origins and acknowledgements
 
-Das Projekt baut auf den historischen Sprachlisten **„Parlez Vous QSO?!“** auf. Die in den Vorlagen genannten Autorinnen, Autoren und Rufzeichen werden in den jeweiligen Sprachführern gewürdigt. Danke an alle, die diese Sammlung begonnen haben und durch Übersetzungen, Korrekturen oder Erfahrungen aus dem Funkbetrieb weiterentwickeln.
+This project builds on the historical **“Parlez Vous QSO?!”** phrase lists. The authors and call signs credited in the source documents are acknowledged in the corresponding phrasebooks. Thank you to everyone who started this collection and continues to improve it through translations, corrections and experience on the air.
 
-**Viele Sprachen, ein gemeinsames Hobby. 73!**
+**Many languages, one shared hobby. 73!**
