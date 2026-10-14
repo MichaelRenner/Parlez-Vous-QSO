@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parlez-Vous-QSO?! – QSO-Sprachführer</title>
+  <meta name="description" content="Durchsuchbarer QSO-Sprachführer für Funkamateure mit IPA-Lautschrift und Sprachausgabe in 17 Sprachen.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <div>
+        <h1>Parlez-Vous-QSO?!</h1>
+        <p class="tagline" data-i18n="tagline"></p>
+      </div>
+      <div class="ui-lang" role="group" aria-label="Sprache der Oberfläche / Interface language">
+        <button type="button" data-ui-lang="de" lang="de">DE</button>
+        <button type="button" data-ui-lang="en" lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <noscript><p class="banner warn">Diese Seite benötigt JavaScript. / This page requires JavaScript.</p></noscript>
+    <p id="tts-banner" class="banner warn" hidden></p>
+
+    <section class="panel" aria-labelledby="call-h">
+      <h2 id="call-h" data-i18n="callTitle"></h2>
+      <form id="call-form" class="call-form" autocomplete="off">
+        <label for="call-input" class="sr-only" data-i18n="callTitle"></label>
+        <input id="call-input" type="text" inputmode="text" autocapitalize="characters" spellcheck="false"
+               data-i18n-placeholder="callPlaceholder">
+        <button type="submit" data-i18n="callApply"></button>
+      </form>
+      <div id="call-result" class="call-result" aria-live="polite"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="lang-h">
+      <div class="panel-head">
+        <h2 id="lang-h" data-i18n="langTitle"></h2>
+        <div class="small-actions">
+          <button type="button" class="link" id="lang-all" data-i18n="all"></button>
+          <button type="button" class="link" id="lang-none" data-i18n="none"></button>
+        </div>
+      </div>
+      <div id="lang-list" class="lang-list"></div>
+      <p class="legend">
+        <span class="tts-dot piper"></span> <span data-i18n="ttsPiper"></span>
+        <span class="tts-dot ok"></span> <span data-i18n="ttsOk"></span>
+        <span class="tts-dot fallback"></span> <span data-i18n="ttsFallback"></span>
+        <span class="tts-dot none"></span> <span data-i18n="ttsNone"></span>
+      </p>
+    </section>
+
+    <section class="panel filters" aria-label="Filter">
+      <div class="field grow">
+        <label for="search" data-i18n="search"></label>
+        <input id="search" type="search" data-i18n-placeholder="searchPlaceholder">
+      </div>
+      <div class="field">
+        <label for="section" data-i18n="section"></label>
+        <select id="section"></select>
+      </div>
+      <div class="field checks">
+        <label><input type="checkbox" id="show-ipa"> <span data-i18n="showIpa"></span></label>
+        <label><input type="checkbox" id="show-en"> <span data-i18n="showEn"></span></label>
+      </div>
+    </section>
+
+    <details class="panel" id="personal">
+      <summary data-i18n="personalTitle"></summary>
+      <p class="hint" data-i18n="personalHint"></p>
+      <div class="personal-grid">
+        <div class="field"><label for="p-name" data-i18n="pName"></label><input id="p-name" data-field="name" placeholder="Peter"></div>
+        <div class="field"><label for="p-qth" data-i18n="pQth"></label><input id="p-qth" data-field="qth" placeholder="Sittingbourne"></div>
+        <div class="field"><label for="p-call" data-i18n="pCall"></label><input id="p-call" data-field="call" placeholder="M0ECS" autocapitalize="characters"></div>
+        <div class="field"><label for="p-rig" data-i18n="pRig"></label><input id="p-rig" data-field="rig" placeholder="Icom 706"></div>
+      </div>
+      <button type="button" class="link" id="p-clear" data-i18n="pClear"></button>
+    </details>
+
+    <details class="panel" id="voice-settings">
+      <summary data-i18n="voiceTitle"></summary>
+      <div class="field rate">
+        <label for="rate"><span data-i18n="rate"></span> <output id="rate-out"></output></label>
+        <input id="rate" type="range" min="0.5" max="1.5" step="0.05">
+      </div>
+      <div id="voice-list" class="voice-list"></div>
+      <div class="hint" data-i18n-html="voiceHelp"></div>
+    </details>
+
+    <p id="count" class="count" aria-live="polite"></p>
+    <div id="results"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap" data-i18n-html="footer"></div>
+  </footer>
+
+  <dialog id="info-dialog">
+    <form method="dialog" class="dialog-close"><button aria-label="close">×</button></form>
+    <div id="info-body"></div>
+  </dialog>
+
+  <script src="data.js"></script>
+  <script src="audio/manifest.js"></script>
+  <script src="callsign.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

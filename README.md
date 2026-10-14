@@ -52,6 +52,7 @@ doc/       Historical source documents
 tex/       Editable LaTeX phrasebooks with IPA
 pdf/       Finished phrasebooks for reading and printing
 images/    Images for the project description
+web/       Searchable web interface with speech output (see web/README.md)
 ```
 
 A PDF viewer is all you need to read the phrasebooks. To make changes, edit the relevant `.tex` file and regenerate the PDF. The LaTeX files use UTF-8 and the **DejaVu Sans** font. IPA symbols are included directly as Unicode characters.
