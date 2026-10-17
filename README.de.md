@@ -52,6 +52,7 @@ doc/       Historische Ausgangsdokumente
 tex/       Bearbeitbare LaTeX-Sprachführer mit IPA
 pdf/       Fertige Sprachführer zum Lesen und Drucken
 images/    Bilder für die Projektbeschreibung
+web/       Durchsuchbare Weboberfläche mit Sprachausgabe (siehe web/README.md)
 ```
 
 Zum Lesen genügt ein PDF-Betrachter. Wer eine Fassung ändern möchte, bearbeitet die entsprechende `.tex`-Datei und erstellt anschließend das PDF neu. Die LaTeX-Dateien verwenden UTF-8 und die Schrift **DejaVu Sans**. Die IPA-Zeichen sind direkt als Unicode enthalten.
